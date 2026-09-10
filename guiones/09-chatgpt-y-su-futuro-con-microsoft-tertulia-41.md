@@ -1,0 +1,286 @@
+# ChatGPT y su futuro con Microsoft - Tertulia #41
+
+*138 intervenciones · 5 interlocutores: SPEAKER_00, SPEAKER_01, SPEAKER_02, SPEAKER_03, SPEAKER_04*
+
+> **Canal** Itnig · **Vídeo** [`ByUPHrcSoEA`](https://www.youtube.com/watch?v=ByUPHrcSoEA) · **Publicado** 2023-01-13 · **Duración** 43 min
+>
+> Transcripción automática con WhisperX (`large-v2`) + alineación por palabra +
+> diarización con `pyannote/speaker-diarization-3.1`. `SPEAKER_XX` son etiquetas
+> automáticas, no nombres: la diarización agrupa voces, no las identifica.
+> Ni el texto ni el reparto de turnos están revisados a mano.
+
+`00:00:00` **SPEAKER_01** — La información es el motor del progreso. Los medios son nuestra ventana al mundo para analizar el presente y entender el futuro. Los sectores más relevantes de la actualidad en un espacio de debate y opinión.
+
+`00:00:25` **SPEAKER_03** — Bienvenidos a todos a una nueva tertulia, la primera del 2023. ¿Ya se nos olvida? Hemos pasado semanas desconectados. Y volvemos, como siempre, los jueves, donde dedicamos un rato a hablar un poco de la actualidad, como lo entendemos nosotros, y también a contestar preguntas a gente sobre las fases iniciales de los proyectos. ¿Está bien esto? ¿Está muy fuerte? Vale. ¿Cómo ir de cero a un millón de euros? Que es una etapa muy difícil. A veces lleva años, a veces lleva meses. Y nosotros hemos sufrido, hemos vivido.
+
+`00:01:04` **SPEAKER_02** — César está en ella.
+
+`00:01:05` **SPEAKER_03** — Y entonces aprovechamos los jueves para hablar de este tema. Bueno, novedades. Tenemos una lista. Hoy Dani no está. Pero tenemos una lista igualmente de temas.
+
+`00:01:17` **SPEAKER_04** — La primera novedad es que es su cumpleaños de César, ¿no? ¿Me han dicho? Es verdad.
+
+`00:01:22` **SPEAKER_03** — Un aplauso, va. Felicidades. Gracias, gracias. No te lo había dicho. Me lo estaba guardando yo para la tertulia. Bueno, oye, el cierre de Latitude 2022, ¿cómo ha sido?
+
+`00:01:36` **SPEAKER_02** — Pues aún no lo sabemos. ¿No tenéis el cierre hecho? No, que va, tío.
+
+`00:01:40` **SPEAKER_03** — —Nosotros tampoco, ¿eh? —¿En serio? —Pero me imagino que hay menos operaciones. —Sí, pero no es muy priorizable. —Las tres facturas ya se han procesado, ¿no?
+
+`00:01:50` **SPEAKER_02** — —Es algo que tampoco estamos priorizando mucho ahora mismo. El último que tenemos, de hecho, es de noviembre, obviamente, y nos costó dos semanas cerrar. Es algo que queremos mirar este año para tener métricas más actualizadas, pero es un absoluto drama realmente.
+
+`00:02:11` **SPEAKER_03** — Otro absoluto drama es el proceso de planificación del siguiente año. No sé en vuestro caso, nosotros llevamos casi dos meses planificando el 2023 en Factorial y yo creo que esta semana ya es la última. De hecho, mañana vamos a hacer un All Hands y vamos a presentar a toda la compañía el plan. Pero es un proceso painful, y más cuando no es tanta gente. ¿Vosotros cómo ha sido el proceso de planificación? ¿Del año? El mes que viene no sé ni lo que vamos a hacer.
+
+`00:02:44` **SPEAKER_02** — Ese es el nivel. Es imposible que hagamos una planificación anual ahora mismo. En el estadio en el que estamos son todo incógnitas. No tenemos ni una certeza. Decirte que en Q3 vamos a trabajar en estos ítems es imposible.
+
+`00:02:59` **SPEAKER_04** — ¿Tenéis dinero para todo el año?
+
+`00:03:01` **SPEAKER_03** — Sí, sí, sí. Este va al siguiente
+
+`00:03:03` **SPEAKER_04** — y va al siguiente. Primer paso. Sí, sí, claro, claro.
+
+`00:03:05` **SPEAKER_03** — Bueno, depende de las decisiones que toméis.
+
+`00:03:08` **SPEAKER_02** — A ver… Podemos comprar… ¿Cuánta gente sois? Un par de Lamborghinis y… Y queda algo todavía.
+
+`00:03:14` **SPEAKER_04** — ¿Qué cuesta un Lamborghini?
+
+`00:03:17` **SPEAKER_02** — Depende. Segunda mano, primera mano... Me preocupa que lo sepas, la verdad. Como inversor en Latitude, me
+
+`00:03:22` **SPEAKER_03** — preocupa que lo sepas. Tranqui, tranqui.
+
+`00:03:24` **SPEAKER_02** — Como son los Ferraris. ¿Hacéis el ejercicio de hacer un plan o no? Directamente. Anual, no. Estamos muy lejos. Ahora se trata de ir probando cosas. Nos sentamos cada mes, más o menos, y decimos, vale, ¿qué tenemos encima de la mesa? ¿Qué señales hemos escuchado? Al final, lo que queremos es separar la señal del ruido. Tenemos, por ejemplo, el producto que es lo que llamamos el end-to-end, que lo que permitimos ahora en Latitude, que de hecho no lo hemos anunciado aún, pero está en producción, es conectarte directamente a tus fuentes de datos y hacer cruces de esos datos directamente en la plataforma sin preocuparte de todas las tuberías que hay por debajo.
+
+`00:04:04` **SPEAKER_04** — Que eso es lo del Modern Data Stack as a Service, ¿no? Sí, correcto. O sea, una empresa que no tiene Modern Data Stack, que significa que no tiene Data Lake o Data Warehouse, pero tiene fuentes de datos, no tiene ETLs, no tiene transformadores, no tiene definición de catálogo de datos, no tiene nada, básicamente, tiene datos.
+
+`00:04:18` **SPEAKER_02** — No tiene el conocimiento de cómo hacerlo. Solo tiene datos.
+
+`00:04:20` **SPEAKER_04** — Correcto. Y vosotros le dais una cosa más o menos plug and play, que dices, enséñame dónde están los datos y yo te doy herramientas básicas y un poquito de todo.
+
+`00:04:28` **SPEAKER_02** — Sí, al final nosotros lo que hemos hecho ha sido decir, mira, te vamos a montar el stack nosotros, pero tú no vas a ver nada de esto porque va a ser muy opinionado y va a funcionar.
+
+`00:04:39` **SPEAKER_04** — ¿Pero lo montáis a mano o está montado as-a-service? No, as-a-service. Vale. ¿Y alguien lo usa esto ya?
+
+`00:04:45` **SPEAKER_02** — Sí. Y este producto precisamente es donde estamos escuchando bastante señal. Entonces, el plan… Nos hemos sentado literalmente esta semana y hemos dicho, vale, ¿qué hacemos? Pues por un lado vamos a hacer el double down en este producto, vamos a añadir más adaptadores, vamos a pulir la interfaz, el onboarding, etcétera, etcétera. ¿Ves a cobrar por esto?
+
+`00:05:05` **SPEAKER_04** — La gente lo está usando, todavía no.
+
+`00:05:08` **SPEAKER_02** — Pero bueno, sí que vamos a invertir más en este producto porque hemos visto buena recepción y a la vez guardamos una parte del roadmap para experimentos. Por ejemplo, ahora vamos a empezar a experimentar bastante con la API de OpenAI. Tenemos bastantes ideas que queremos ver cómo implementar. Y esto es lo que hacemos. No sabemos lo que vamos a hacer en febrero aún.
+
+`00:05:33` **SPEAKER_04** — La gente que nos escuche, que tenga datos y no sepa qué hacer con ellos, que pruebe lo nuevo que acabáis de lanzar y que juegue con ello, que es gratis ahora. Sí, correcto.
+
+`00:05:41` **SPEAKER_02** — Si tenéis, pues, aunque no te caigas una base de datos, si tenéis un Google Sheet, por ejemplo, ahora tenemos el adaptador ya construido y nada, nosotros hacemos toda la ingesta de los datos, lo ponemos en un warehouse, pero el usuario no se tiene que preocupar de nada de esto, simplemente de hacer las queries y visualizar los datos.
+
+`00:05:55` **SPEAKER_04** — ¿Y cuántos sois ahora? Somos 6. No está mal. Habéis doblado el equipo en poco tiempo, ¿no?
+
+`00:06:00` **SPEAKER_02** — Bueno, doblado… No, realmente no. La última incorporación ha sido este lunes, de hecho. Ferran, como Growth Manager. Ferran, que es ex equipo. Todo bien en casa, ¿eh? Sí, sí. Pero antes de eso, la última contratación fue en septiembre o octubre.
+
+`00:06:16` **SPEAKER_04** — O sea, no habéis salido del edificio para contratar a una persona, ¿no? Habéis salido del edificio para contratar a una persona.
+
+`00:06:20` **SPEAKER_03** — Oye, Jordi, ¿quieres hacer un quick update del cierre y plan 2023 de Factorio? Pre-compañía y pre-board. Hombre, no, sin detalles, obviamente.
+
+`00:06:32` **SPEAKER_04** — Pero bueno, o sea, hemos cerrado el año bien. Diciembre fue un pelín más flojo de lo que esperábamos, que era muy agresivo, ha acabado siendo OK, pero el año ha ido muy bien. Hemos hecho, a grandes rasgos, todo lo que habíamos dicho que haríamos, que me sorprende. No me sorprende, pero es un cambio respecto al pasado, porque en los años anteriores todavía nos equivocábamos de mucho y ahora nos equivocamos de poco. El equipo está más maduro, el producto, el negocio…
+
+`00:07:07` **SPEAKER_02** — ¿Esto es por mejores predicciones o mejor ejecución? Las dos cosas.
+
+`00:07:13` **SPEAKER_04** — Y la buena señal es que estamos exactamente un pelín mejor de donde creíamos que estaríamos hacia un año. Y el año que viene seguimos siendo muy optimistas. La verdad es que oímos mucho ruido, mucho miedo, mucho conservadurismo a crecer poquito, a mantener un perfil bajo, a no tocar la caja... Pero lo que nosotros tenemos en mente es seguir creciendo mucho, crecer más eficientemente. Este año vamos a crecer El plan es crecer al mismo ritmo, que es triplicar básicamente, pero con bastante más eficiencia. Porcentualmente vamos a seguir quemando caja, con lo cual vamos a seguir usando el capital que tenemos para crecer. pero porcentualmente de manera muy eficiente. Y la verdad es que tiene muy buena pinta. Ya lo sabía, pero es que el SaaS es la hostia. Cuando realmente empiezas a tener una maquinita de crecimiento y de retención, de recurrencia de clientes, buenos márgenes y tal, es un negocio que permite escalar muy bien y tenemos un equipo brutal que consigue hacer las cosas que nosotros hablamos. pasan, ¿no? Entonces, bueno, el plan de este año es muy agresivo, pero bastante más eficiente y será divertido. Más o menos tenemos ya casi todo lo que necesitamos. No vamos a triplicar el equipo. Así como el año pasado fuimos de 300 a casi 900 personas, este año, porcentualmente, vamos a crecer muchísimo menos. Vamos a incorporar bastante gente, en número absoluto, pero en porcentual no seremos 3.000, ni de lejos. Con lo cual...
+
+`00:08:47` **SPEAKER_02** — ¿En qué áreas vais a crecer el equipo?
+
+`00:08:49` **SPEAKER_04** — ¿Áreas? Todas. GoToMarket escala bastante con el tamaño de negocio. No con el tamaño de negocio, sino con el tamaño de negocio nuevo. El número de millones que añadimos en un año correlaciona bastante uno a uno con el número de personas. Con lo cual, si queremos añadir 10 o 50 o 100 millones de euros en un año, el número de gente es bastante proporcional a esto. Con más overheads, pero más o menos así. Y luego en Producto e Ingeniería crecemos bastante. Y luego Customer Experience sí que escala con el negocio, con la cartera recurrente de clientes. Overhead intentamos crecer poco, aunque crecen. Y al final un poquito en todas partes.
+
+`00:09:27` **SPEAKER_03** — Sí, los overheads cuando vas creciendo van apareciendo debajo de las piedras. Invertimos mucho en producto. Este año vamos a hacer una apuesta especialmente fuerte de inversión en producto. Vamos muy horizontal, como ya hemos ido contando. Vamos a sacar nuevas líneas de producto. Y los países, nos vamos a quedar en los que estamos. Nueve países, nueve mercados, la mitad de la economía mundial. O sea, mucha gente viene, oye, ¿por qué no abrir Singapur? Estamos en la mitad de la economía mundial. O sea, no nos movemos de geografía. Y sí que experimentamos con nuevos canales, nuevas formas de crecimiento. Esto siempre. Pero bueno, básicamente es esto. O sea, tenemos ahora 30 equipos de producto.
+
+`00:10:06` **SPEAKER_02** — 30. 30 equipos de producto.
+
+`00:10:09` **SPEAKER_04** — 36. 36 equipos de producto. Cada uno con su manager, sus ingenieros, sus designers. ¿Qué tamaño de equipo son ahora? Pues serán unas 300 personas en total.
+
+`00:10:17` **SPEAKER_02** — No, pero por equipo. Bueno, pues difícil. Entre 8 y 10, depende del equipo.
+
+`00:10:30` **SPEAKER_04** — Bueno, nos acabamos de mudar, otro cambio, justo antes de Navidad. No sé si llegamos a hacer podcast antes o después de la mudanza, pero acabamos de mudar todo el equipo de ventas al otro lado de la calle, ahí detrás de donde estamos ahora. que tenemos un espacio de más de 2.000 metros cuadrados y nos hemos repartido el resto. Teníamos un equipo en un coworking a tres calles de aquí, han vuelto y ahora estamos todos otra vez en esta esquina, la esquina dorada. Tenemos ya tres esquinas, nos falta la cuarta donde está el bar y el consolado marroquí, ese no lo podemos tocar, pero las
+
+`00:11:00` **SPEAKER_03** — otras tres ya las tenemos medio conquistadas. Una cosa que ha dicho Jordi que es interesante es cómo es de agradecido el SaaS de cuando vas consiguiendo volumen, mejoras en eficiencia, tiene un impacto brutal. Y nunca nos habíamos preocupado tanto por la eficiencia como en este plan, donde empezamos a ver grandes impactos y sobre todo tampoco nos habíamos preocupado por la base de clientes, digamos, para invertir más en la base de clientes, hasta que ahora tenemos ya muchos clientes y tiene mucho impacto invertir en la base de clientes. Se ha convertido en una parte importante de nuestro foco.
+
+`00:11:34` **SPEAKER_02** — Cuando habláis de mejoras de eficiencia, ¿qué tres iniciativas top son para mejorar la eficiencia? Me imagino, por ejemplo, aumentar pricing. Es una buena forma de mejorar la eficiencia.
+
+`00:11:47` **SPEAKER_03** — Pero no en ese sentido. Es más en cómo hacemos el go-to-market. ¿Cómo hacemos el go-to-market? A medida que vamos mejorando nuestro playbook y vamos entendiendo cómo mejorar la eficiencia en captación, en canales, en radios de SDR, con executive, en mix por país, ¿sabes? A medida que vamos aprendiendo esto, vamos tomando decisiones importantes, hacer double down en lo que funciona, y eso significa hacer mucho más con mucha menos gente. O sea, resumiendo, ¿no? Luego, por otro lado, estamos haciendo mucho esfuerzo, y de paso aprovecho para llamar a posibles partners que quieren revender Factorian, Estamos haciendo mucho esfuerzo en abrir todo un ecosistema de partners que quieren revender Factory. Entonces, esto es básicamente nuestro aprendizaje de venta y de atención al cliente lo encapsulamos y lo vendemos a terceras empresas para que ellos puedan ofrecer este servicio generando muy buen margen para ellos y nosotros poder seguir creciendo con menos margen pero sin incrementar nuestro headcount. Como este, te puedo contar muchas más iniciativas.
+
+`00:12:48` **SPEAKER_04** — Y automatización, por ejemplo, en la parte de self-service. Y precios. Realmente, si subes el arco con las mismas personas, eres más eficiente. Nosotros, Payback Period, que lo hemos hablado varias veces, ya es una de las métricas más importantes en Factorial, que son los meses que tardamos en recuperar la inversión en captar clientes. Crecer lo máximo que podamos mejorando el payback periodo. Este es el límite donde no queremos que se rompa. Una cosa interesante que hemos hecho hoy es un ejercicio con el equipo de finanzas de escenarios. Tenemos un business plan, que es el que vamos a hacer, queremos hacer, y luego a partir de ahí hemos empezado a meter como un Godzilla que llega al negocio. De repente, esta línea de negocio fracasa estrepitosamente. De repente, estos clientes empiezan a ir. De repente, esto tarda más de lo que pensábamos. Empezamos a meter caos dentro del business plan y ver qué pasa. Y obviamente tiene consecuencias, pero vuelvo a lo de el SaaS es maravilloso. Tela lo resiliente que es el modelo de negocio. O sea, incluso metiendo mucha destrucción en nuestros planes, no salía ningún escenario que fuera malo. Serían menos buenos, pero no salía ninguno que dijeras que esto es malo. Obviamente, tampoco el tema de Cisne Negro. No sé si una guerra aquí o algo, ya no sé qué pasa, pero no hemos llegado a este nivel de Black Swan, pero sí que hemos sido muy pesimistas en cada una de las cosas y luego todas sumadas, y bueno, aguanta. El negocio tiene cierta resiliencia, que ya veremos. Espero no agafarlo, pero muchos planes para este año.
+
+`00:14:17` **SPEAKER_03** — Oye, vamos a novedades. Has hablado de OpenAI. Dices que estáis investigando mucho OpenAI, ¿no? Sí. Últimamente se está hablando de OpenAI porque parece ser que Microsoft quiere invertir 10 billion. Y se han filtrado unas condiciones, yo lo estaba viendo antes, unas condiciones que no sé si es verdad o no, porque se ve que es alguien que no revela su nombre, que habla de detalles del deal. en el que dice que de estos 10 billion que Microsoft supuestamente tiene que invertir a 29 billion de valoración, hay un acuerdo en el cual el 75% del beneficio futuro se va a repartir a Microsoft hasta recuperar el 10 billion. A partir de este momento pasará a ser el 49% del cap table.
+
+`00:15:09` **SPEAKER_04** — Falta, asterisco, con un cap a 100 veces… ¿También has leído lo mismo? Sí, con un límite a 100 veces su retorno. O sea, después de esto… No lo sabemos porque nadie lo ha leído. No tenemos ni idea. Nadie ha leído el contrato, pero lo que se ha filtrado y luego se ha corregido y tal, es que parece ser que 10 billion… Valoración es imposible decirla porque con estos términos no hay valoración, es demasiado compleja la fórmula.
+
+`00:15:29` **SPEAKER_03** — Bueno, es 29 billion.
+
+`00:15:31` **SPEAKER_04** — Lo que han publicado es 29 billones, pero con esos términos... Sí, pero no tiene sentido una valoración si hay unos royalties de por medio y estos capstats. Pero bueno, 10 billion a cambio de quedarse el 75% de los royalties hasta recuperar los 10 billion, luego capitalizar un 49% de la entidad que quede, pero limitar su upside, su retorno máximo, a 100 veces. Con lo cual, son números muy grandes. Empezamos con un billion. Pero el cálculo que he leído es que, después de haber generado OpenAI, que casi no ingresa nada hoy, esta empresa, después de generar 190 billion de beneficios, luego ya Microsoft se va echando para atrás y va recuperando OpenAI la fundación, que es la entidad sin ánimo de lucro que empezó siendo OpenAI y estaba ganando. Pero antes por el camino tienen que generar 190 billion de beneficio, que muy pocas empresas generan 190 billones de beneficio.
+
+`00:16:24` **SPEAKER_02** — Me pregunto cómo funciona porque Microsoft también será, seguramente, el principal cliente de OpenAI. Y proveedor. Y proveedor.
+
+`00:16:35` **SPEAKER_03** — Aquí hay un tema que dices, oye, esto es principalmente computación y el cost of good sold en este caso es Microsoft, con lo cual Microsoft, aparte de este beneficio, le está facturando por el Azure
+
+`00:16:48` **SPEAKER_04** — Bueno, es que estos 10 billion se entiende que no son cash, que muchos de ellos son créditos de computación. Eso no será una transferencia de 10 billion. Muchos de estos es derecho a… Están quemando 3 millones al
+
+`00:16:58` **SPEAKER_02** — día o algo así. 3 millones solo por el chat GPT. Es una locura. Es verdad que el chat GPT es probablemente el mejor ejemplo de product marketing que hemos visto en la última década.
+
+`00:17:10` **SPEAKER_03** — Bueno, no lo sé, ya veremos. ¿Por ahora?
+
+`00:17:12` **SPEAKER_02** — Bueno, lo que ha pasado las últimas dos semanas es una locura. Yo, marketing sin price, me falta algo. No, pero price hay. Ahora hay. Lo que te venden es la API, que es cara de cojones.
+
+`00:17:21` **SPEAKER_03** — Pero esto no monetiza todavía, ¿o sí?
+
+`00:17:23` **SPEAKER_02** — Sí monetiza, pero son cacahuetes de momento. Sí, pero porque los casos de uso no están ahí aún. O sea, la gente aún no ha experimentado suficiente con esto.
+
+`00:17:30` **SPEAKER_04** — A ver, cacahuetes que seguramente serán millones de euros en nada. Pero claro, comparado con los cientos o casi miles de millones que llevan invertidos, de momento cientos, son cacahuetes. Pero sí, ya están facturando millones. con consumidores de API. De hecho, hay varias aplicaciones de avatares y de sumarización de e-mails, de traducción, que ya se están proyectizando hoy encima de las diferentes APIs de OpenAI y pagan OpenAI.
+
+`00:17:56` **SPEAKER_02** — Sí, pasa que muchas de estas acaban entrenando sus propios modelos. Se van a OpenSource o se van a
+
+`00:18:01` **SPEAKER_04** — MidJourney o a StableFusion. Es que es muy caro ahora mismo
+
+`00:18:04` **SPEAKER_02** — la API de OpenAI. Tiene sentido para el MVP, que es lo que nosotros vamos a hacer. Pero ya nos hemos encontrado haciendo cálculos de servilleta limitaciones puramente por el pricing.
+
+`00:18:14` **SPEAKER_04** — ¿Qué habéis hecho? ¿Qué hemos hecho?
+
+`00:18:17` **SPEAKER_02** — ¿Con OpenAI? Bueno, hemos hecho varios experimentos, ¿vale? Tampoco sé si quiero entrar mucho en detalles técnicos. Cuenta, cuenta, porque son aburridos. No por otra cosa. Empezamos experimentando hacer... Bueno, al final nuestros clientes enchufan todos sus datos a Latitude, ¿no? Pero nosotros no sabemos esos datos cómo se relacionan entre sí. Entonces se puede utilizar GPT-3 para hacer inferencias de relaciones entre tablas, por ejemplo. Eso es algo que estuve probando y funciona relativamente bien. Lo puede hacer al nivel de un humano, básicamente. Si ve que una tabla de users tiene el campo ID, puede entender que otra tabla que tiene el campo user ID se relaciona con la tabla de users a través del ID. Esto no hace falta inteligencia artificial. Esto no, pero cuando entras en nombres un poco más complejos o que están abreviados, también funciona bien. Al final puede hacer la misma inferencia que puede hacer un humano mirando las tablas. Pero esto no lo vamos a implementar. Este es el primer experimento que hicimos. Luego, estoy experimentando bastante, que esto aún lo sigo haciendo, hacer generación de código SQL directamente con GPT-3. Que esto funciona relativamente bien y hay algunos productos que lo integran. ¿Esto es GitHub Copilot?
+
+`00:19:28` **SPEAKER_04** — Sí. ¿Dentro de la actitud?
+
+`00:19:29` **SPEAKER_02** — Correcto. Y solo para SQL.
+
+`00:19:31` **SPEAKER_04** — ¿Copilot está hecho con GPT-3?
+
+`00:19:33` **SPEAKER_02** — Sí, con el modelo de Codex, que a su vez tiene un montón de limitaciones, que ahora si queréis entramos en las limitaciones que tienen estos sistemas. Copilot, que también es de Microsoft, es de GitHub, es de Microsoft. Sí, claro.
+
+`00:19:46` **SPEAKER_03** — Todo queda en casa. Es increíble.
+
+`00:19:49` **SPEAKER_04** — No sé si la gente conoce lo que es Copilot. ¿Quieres explicarlo rápidamente? Sí. A ver, muy fácil. Es un plugin al final que conectas con tu editor de código y en lugar de tener que programar todo el código, escribes lo que quieres hacer y te hace el código. Y te lo hace bastante bien. De hecho, en Factorial muchos desarrolladores lo usan. Y al final... ¿Entonces por qué crecemos tanto el headcount de programadores? Y cuesta como... Ahora me lo invento. 15 dólares al mes o algo así. Sí, por ahí. Nosotros lo hacemos... Más Copilot y menos programadores.
+
+`00:20:19` **SPEAKER_02** — Nosotros lo ofrecemos a todos los developers porque es una mejora en productividad. A todos. A todos. Me voy a arreglar cuántos. Son menos de seis. Total, pruebas de generación de código, más o menos bien. Cosas más complejas, si no le pasas el propio...
+
+`00:20:35` **SPEAKER_04** — Perdona, ¿qué le dices? Dices, oye, quiero ver el revenue promedio por cliente por talla de camiseta.
+
+`00:20:41` **SPEAKER_02** — Te puedo decir, por ejemplo, uno que estaba probando. Es el ejemplo más sencillo y vamos a ir construyendo complejidad a partir de aquí. Bueno, no sé si es lo que le he dicho. Básicamente le puedes pasar el nombre de una tabla, le dices el tipo de base de datos que es, todo esto en inglés. En inglés. Directamente. Le pasas el listado de campos que tiene y luego le dices, vale, génerame una query en SQL para conseguir el número total de eventos agregados por Workspace con la fecha del evento más reciente. Y esto te genera una query que funciona y está bien. Y tiene sentido.
+
+`00:21:12` **SPEAKER_04** — Esto te ahorra... A mí me ahorraría media horita mínimo.
+
+`00:21:14` **SPEAKER_02** — Bueno, esa query concretamente son cuatro líneas, entonces igual te ahorra medio minuto. Ya, pero la documentación... Bueno, yo estoy un poco...
+
+`00:21:20` **SPEAKER_03** — Ya, si estás un poco oxidado en
+
+`00:21:21` **SPEAKER_02** — SQL, eso sí que te ayuda. Pregunta, César, ¿esto no te ahorra latitud? No, para nada. Es que realmente no son modelos inteligentes tal y como entenderíamos la inteligencia humana. Y esto es la principal limitación que tienen estas aplicaciones. Son muy buenos predictores de texto. En el teclado de iPhone, en Android seguramente que también exista, Cuando tú estás escribiendo una frase, es capaz de predecirte las siguientes palabras, ¿no? Pues GPT-3 es esto, llevado al extremo y con todo el texto disponible en internet, prácticamente. Entonces, es muy bueno cuando tú le haces un prompt de este tipo, ¿no? Donde le dices, vale, pues tengo esta tabla, estas columnas, no sé qué. Es capaz de predecir y, de hecho, puedes activar en el Playground la probabilidad de la siguiente palabra. Lo hace por tokens. Y te dice, vale, pues lo probable es que la primera palabra que quieras ver es un select. Lo más probable es que la siguiente que quieras ver es Workspace ID y va componiendo de esa forma. Pero no es capaz de entender cosas complejas como, o sea, le pasas el modelo de datos tal cual y le pides que te diga los Active Users. ¿Por qué no te puede decir los Active Users? Porque la definición de Active Users es algo que solamente puede hacer un humano. ¿Sabes? O sea, los active users son para tu empresa. Y tú eres el que sabe el business case de tu empresa. Yo me gustaría que los humanos sabemos los active users y tenemos 900 humanos. Pues eso, entonces. Es importante entender este software como que es útil para ciertos casos de uso, pero no para otros. El otro día hice la prueba. Calcula 50 más 10 dividido por 4. Y me decían un número que no tenía ningún sentido.
+
+`00:23:06` **SPEAKER_04** — Hace una aproximación rara de cosas que ha visto por internet, pero no razona.
+
+`00:23:10` **SPEAKER_02** — Predice que esta es la respuesta, pero no la ha calculado. Entonces, para muchos casos de uso, la gente se confunde bastante. No tiene lógica.
+
+`00:23:18` **SPEAKER_04** — Curiosamente, porque la lógica es una cosa muy computacional, pero no tiene lógica. Dispara ahí desde la cintura, aproxima, y dice eso quizá te vale.
+
+`00:23:26` **SPEAKER_02** — Funciona muy bien en muchos casos. Pero dice barbaridades. Muchas barbaridades. y aquí está la habilidad del que escribe el prompt para llevarle por donde tú quieres, ¿no? Te sirve mucho para hacer generación de texto, pues le das un outline y te escribe un mail entero. Te puede hacer un resumen de un texto largo. Te puede, pues yo qué sé, ahora estamos haciendo pruebas, por ejemplo, para pasarle grandes cantidades de datos, ¿vale? Porque otra limitación que tiene Es que el número de caracteres, tokens, que puedes tú escribirle y que te dé una respuesta está muy limitado. Son 4000 tokens si no me equivoco. ¿Token es palabra o carácter? No, es como un grupo de 4 caracteres aproximadamente de media. Es una historia. Tiene una librería para calcular cuántos tokens tiene tu texto. Pero básicamente son 4.000 tokens, que son unos 16.000 caracteres, ¿no? Más o menos. ¿Qué pasa? Si tú le quieres enchufar toda tu base de datos, es imposible. Eso es como un blog post.
+
+`00:24:26` **SPEAKER_04** — 16.000
+
+`00:24:27` **SPEAKER_02** — caracteres es más o menos como un blog post. Sí, sí. No es un libro, para que la gente se haga la idea. Correcto. Entonces ahora lo que estamos haciendo es una forma... Porque nosotros ya tenemos los datos de toda la empresa. Entonces estamos haciendo una forma para que ellos puedan lanzárselos programáticamente a la API de OpenAI y poder hacer completions en grandes volúmenes de datos. Por ejemplo, yo tengo una tabla con todos los votos del NPS de todos mis usuarios. Y yo quiero hacer un clustering por categoría. Quiero saber cuánta de esta gente me está hablando de bugs. ¿Vale? Y bugs pueden ser cosas en varios idiomas, pueden ser palabras como errores, problemas, no sé qué. Es muy bueno entendiendo el intent del texto. Es decir, entendiendo el significado semántico de ese texto. Entonces tú puedes hacer ese clustering, ¿no? Tú puedes decir, vale, pues dentro de estas categorías asigna una de ellas a este texto. Y lo puedes hacer por tantas rows como tengas. Entonces, con esto lo que puedes hacer es alimentar ese dataset que le has pasado con algo que podría hacer un humano, pero te lo hace la API en cuestión de minutos o horas, dependiendo de lo que le pases. ¿Y qué te cuesta? Muchísimo, es carísimo. ¿En euros? El cálculo que hicimos con un prompt que funciona bien, o sea que con este caso de uso concreto de predecir el intent o el sentimiento del NPS, son unos 300 tokens, si no me equivoco, y podías hacer mil predicciones por unos 10 euros, más o menos, es el cálculo que hicimos. ¿Mil predicciones? Sí. Por ejemplo, tú tienes una row por cada cliente tuyo con todos sus votos del NPS y puedes hacer mil de esas con la predicción.
+
+`00:26:11` **SPEAKER_04** — O sea, mil clientes, diez euros. Si tienes diez mil clientes y quieres ver qué pinta tienen los mil clientes, No mil clientes, no. Mil predicciones. Ya, pues es lo que estoy intentando traducir a mundo real. Pero no son mil predicciones. Depende de cómo hagas la query. Un cliente puede hacer mil predicciones. Si tienes un arrow por cliente, son mil clientes. Por eso. En el ejemplo que decías tú de NPS, por ejemplo, si tienes mil clientes con su NPS y otros datos, esos mil clientes con su dato serían unos 100 euros.
+
+`00:26:37` **SPEAKER_02** — 10 euros mil clientes.
+
+`00:26:38` **SPEAKER_03** — Ah, 10 euros mil clientes. Es pasta, ¿eh? Es caro. Entiendo que la gente lo va a usar para hacer pruebas de concepto y luego va a entrar en un modelo, que es lo que decías antes.
+
+`00:26:49` **SPEAKER_02** — Eso es lo que estamos explorando. Al final, nosotros No sé, es muy rápido construir esto con la API de OpenAI y las ventajas que tiene versus entrenar tu propio modelo es que lo puedes hacer con muy pocos datos. Es decir, yo tengo 100 votos.
+
+`00:27:05` **SPEAKER_04** — ¿Tú no necesitas todo conocimiento de OpenAI de internet?
+
+`00:27:09` **SPEAKER_02** — No, pero te es muy útil el análisis de sentimiento que puede hacer. Perdón, el análisis de intención que puede hacer.
+
+`00:27:15` **SPEAKER_04** — ¿Sabes? O sea, puedes combinar el... Porque al final OpenAI, ¿qué tiene? Como Google, ¿no? ¿Google qué tiene? Que ha indexado toda Internet. El valor de Google, aparte del algoritmo, es el índice. OpenAI ha indexado toda Internet. Y eso es un valor brutal que tiene que cuesta cientos de millones de euros. Y tú no quieres, no puedes hacer.
+
+`00:27:33` **SPEAKER_02** — En muchos casos no lo necesitas. Exacto. Te pongo un ejemplo para que se entienda. Tú puedes utilizar una plataforma de entrenamiento de modelos de Machine Learning para tu caso de uso, que puede ser exactamente este. O sea, yo quiero agrupar las respuestas de una encuesta de feedback que hice a mis clientes. Las quiero agrupar en distintas categorías. Si tienes cierto número de datos y alguien que los haya etiquetado manualmente, tú puedes entrenar un modelo tuyo donde entiende que este voto de empíes corresponde a esta categoría, este a otra, etc. Y pasarle nuevos feedbacks y que te los vaya categorizando. Y funciona bien. El problema es que necesitas un montón y necesitan estar taggeados para poder entrenar el modelo. ¿Qué te permite GPT-3? Esto es una de las mejores ventajas que tiene. Es lo que se llama el few-shot training o zero-shot training. Tú le puedes pedir que haga algo sobre un texto le das instrucciones concretas en inglés y es capaz de hacerlo. Sin calentamiento. Sin calentamiento de ningún tipo. Es decir, yo le puedo pasar una única row con un feedback, le puedo decir, categorízalo en una de estas cinco categorías y lo hace. Y lo hace porque tiene todo el conocimiento de internet.
+
+`00:28:57` **SPEAKER_04** — que con poco, porque hasta ahora el AI es, vale, si soy Amazon, tengo años y años de transacciones o soy Netflix y te recomiendo una peli y no es una muy buena recomendación. Pero claro, lo brutal de CheckGPT es que no sabe nada de ti, le preguntas una cosa y te da una cosa bastante flipante. Una cosa usable. Que esto es un breakthrough. Nosotros lo vemos así medio en broma y tal, jugando con cosas mucho más aburridas que lo que dices tú, pero hemos sustituido el trabajo que a veces daría un becario si lo tuviéramos. Tipo, tengo unos datos medio mal hechos y un compañero mío el otro día dice, oye, tengo aquí como cuatro datos con la información a medias y tal y quiero hacer un report guay. Digo, vale, tengo esto. Quiero esto, se ha inventado así, así, así, así. Y te lo ordena, te lo autocompleta, te lo sumariza. Te va a quitar el trabajo. Un segundo.
+
+`00:29:46` **SPEAKER_02** — Nosotros queremos hacer esto, pero con más volumen. Porque... ¿Te dedicas a los datos? Sí. Al final, el Playground está bien para casos de uso personales o pequeños, pero si tienes 100 votos que quieres categorizar que no te caben en un prompt, tienes que copiarlos y pegarlos a mano en el Playground. Entonces, nosotros lo que automatizamos es las llamadas a la API con esos prompts y la devolución de las predicciones.
+
+`00:30:12` **SPEAKER_03** — Para salir un poco de la parte técnica... Sí, perdón. Y ir un poco al deal, a mí una de las cosas que me sorprende, todo el mundo está hablando del deal del año, 2023 OpenAI, ¿no? Hoy va al 29 billion, si esta transacción pasa, y se estima que igual acabará el año en 100 billion, que será la empresa del 2023. Yo me pregunto, ¿cómo esto empezó siendo una non-profit, una fundación para salvar la humanidad de ley AI? Y ha acabado en manos de la compañía más... bueno, a ver...
+
+`00:30:43` **SPEAKER_04** — En los 90 eran los malvados. Ahora han lavado la cara bien, pero en los 90 Microsoft, cuando nosotros éramos jovencitos programadores, bueno, tú estabas en... Pobre tu madre. Pero eran unos malvados, Microsoft. Y ahora son los dueños.
+
+`00:30:58` **SPEAKER_02** — Microsoft con el símbolo de dólar, ¿no?
+
+`00:30:59` **SPEAKER_04** — Correcto, el Evil Corp.
+
+`00:31:01` **SPEAKER_03** — ¿Alguien sabe qué pasó en el año 2018-19 que esto pasó de ser una non-profit que estaban Elon Musk y otras personalidades?
+
+`00:31:11` **SPEAKER_02** — que les preocupaba muchísimo
+
+`00:31:15` **SPEAKER_03** — la conquista del mundo por parte de la inteligencia artificial, y de golpe ahora es una empresa en manos de Microsoft.
+
+`00:31:21` **SPEAKER_04** — ¿Qué pasó ahí? Y con capitalismo extremo, ¿no? Muchos billion... Muchos billion. Es curioso. De hecho, nosotros en el chat interno que tenemos, el otro día os escribí y dije, what the fuck, me acabo de enterar que OpenAI ya no es una non-profit. Muy tarde. Muy tarde. Pero claro, yo me acuerdo mucho del discurso del principio de que el AI es muy peligroso. Tenemos que investigarlo sin ataduras, ¿no? Por la ciencia, por el conocimiento. No debemos nada a nadie, lo hacemos por nuestro intelecto, queremos proteger la humanidad, con lo cual no debemos nada a nadie. Si tenemos patronos que nos hacen donaciones, hacemos research. Pasan un par de años y dicen, coño, esto de la AI es muy caro. Hay que comprar muchas GPUs, hay que procesar muchos datos, cuesta mucha electricidad, hay que contratar ingenieros buenos. Los ingenieros se los podían permitir, pero las GPUs no. Entonces necesitamos pasta. Y claro, ¿qué pasa? Que a la gente no le gusta tirar billions a cambio de nada. Entonces, vieron que tenían que capitalizar. Me estuve leyendo la semana pasada o principio de esta semana todos los blog posts donde hablaban de estos cambios de OpenAI. El de primero, somos open source, non-profit. Primero, no somos open source porque es peligroso. Luego, no somos open source porque lo peligroso es que solo tengamos nosotros. Luego, somos non-profit porque lo peligroso son los cíntimes económicos. Luego, no. Necesitamos profit porque necesitamos capital. Y de repente dicen, necesitamos capital, necesitamos ofrecer algo, pero tranquilos que pasamos de una non-profit a una cap-profit. Claro, cap de 100x de un billón… Yo también puedo ser cap profit. O sea, cap de 20 trillón, lo que es sobre lo repartimos. Pero hasta 20 trillón me lo quedo yo. Hicieron el papelito de cap profit, que básicamente es privatizarse, y Microsoft acudió. Yo creo que Microsoft fue brillante, porque a Microsoft le consumen infraestructura, con lo cual no tiene coste un euro, tiene un coste por debajo, potencialmente Microsoft Word recupera Clippy y gana la batalla, Clippy 2022 o 2023, y gana la batalla Google Docs y compañía, Bing indexa mejor y responde mejor que Google y Bing Ads targetiza mejor que Google y que YouTube, etc. O sea que potencialmente Microsoft revoluciona todo su negocio con poco dinero comparado con su capitalización de trillones. Tiene sentido lo que ha pasado. Es raro, pero tiene sentido lo que ha pasado.
+
+`00:33:45` **SPEAKER_03** — Y también me pregunto, ¿cómo se protege esta propiedad intelectual? Porque una de las cosas que siempre decimos es que, hostia, el software es muy difícil de proteger la propiedad intelectual. O sea, no tiene sentido. ¿Cómo se protege? ¿Por qué no lo copian otra gente? ¿Por qué está ahí metido y nadie más lo hace?
+
+`00:34:01` **SPEAKER_02** — No, pero sí que hay mucha gente haciéndolo.
+
+`00:34:03` **SPEAKER_03** — Pero no a este nivel.
+
+`00:34:04` **SPEAKER_02** — No a este nivel, pero yo creo porque no tiene el capital para pagar la infraestructura y está pagando OpenAI.
+
+`00:34:09` **SPEAKER_03** — O sea, ¿tú crees que en un tema de infraestructura hay punto?
+
+`00:34:11` **SPEAKER_04** — Totalmente. Sí, pero mira Meet Journey, o sea, Dali concretamente, mira Meet Journey y Stable Diffusion en muy poco tiempo. el wow lo hicieron. El wow que te hacía Dali lo hacían gratis, open source.
+
+`00:34:23` **SPEAKER_02** — Sí, pasa que es un poco contraintuitivo, pero hacer imágenes es más fácil que hacer texto. Y parece, ya veo, contraintuitivo, pero realmente las imágenes al final son píxeles individuales con unos valores numéricos Y predecir números es lo que mejor saben hacer estos modelos.
+
+`00:34:44` **SPEAKER_04** — Pero las frases son píxeles con un valor alfanumérico y son también…
+
+`00:34:50` **SPEAKER_02** — ¿Es lo mismo?
+
+`00:34:52` **SPEAKER_04** — Todo son bytes. Imágenes y texto son bytes. O sea, esta frase que has dicho no sirve de nada.
+
+`00:34:56` **SPEAKER_02** — Sí, pero cuando tú entrenas un modelo… Yo entiendo lo que quieres decir. La densidad de información que tiene una imagen es mucho mayor que la densidad de información que puedes conseguir con texto. Porque son píxeles. Yo no creo que vaya por ahí. Me parece haber leído que los modelos… Perdón. El entrenamiento de modelos de imágenes son muchos menos gigas que… Eso sí. … que todo el contenido que han tenido que meter. Yo creo que por donde va…
+
+`00:35:21` **SPEAKER_04** — El otro día vi una imagen que era muy educativa, que te enseñaba los steps que hacía… No sé si era mi Journal of Stable Diffusion, pero que hacía para llegar a la respuesta de un prompt. Y nunca se me hubiera ocurrido que era así. Era una imagen llena de ruido, O sea, cosas arbitrarias. Le das a un mono un pincel y te hace eso, ¿no? Y a partir de ahí dice, ¿esto es un perro mirando por la ventana? No, ¿vale? Hace otra pasada y va intentando cambiar cosas un poquito a lo loco hasta que dice, se parece un poco más que un perro. Entonces va haciendo iteraciones. Con el texto no puedes hacer esto. O sea, yo creo que la aleatoriedad en una imagen es más útil que la aleatoriedad en un texto, donde las cosas tienen que ser coherentes. Una imagen no tiene por qué ser coherente. Un texto tiene que ser coherente. De hecho, en Stable Diffusion te salen muchas imágenes con seis dedos, con tres ojos, ¿no? Porque va un poco a lo loco. Y dices, ¿se parece a un chico? Sí, pa'lante. ¿Tiene tres ojos?
+
+`00:36:16` **SPEAKER_02** — Da igual. Ya, voy a investigarlo y la semana que viene os cuento. Pero la verdad que en modelos de imagen no está investigando mucho, está mirando más GPT-3.
+
+`00:36:24` **SPEAKER_03** — Bueno, hemos dedicado mucho tiempo a hablar de OpenAI. Otras novedades de esta semana Layoffs siguen habiendo. De hecho, cada vez más bestias. El que se está produciendo ahora es 7.000 personas en Salesforce. Que, por cierto, una de las cosas que se ha publicado es en un orján de Slack, unas diferencias brutales entre las culturas y los equipos de Salesforce y Slack. Vaya sorpresa, ¿no? Vaya sorpresa. Pero, aparte, vaya sorpresa también por la performance de Slack. Porque desde hace tiempo se sabe que no está dando la talla. Vaya buena venta. Vaya buena venta. No lo sabían, obviamente. Justamente el mes pasado salió el Founder. 29 Billion, ¿no? Es un número clave. Y bueno, lo que está pasando ahora es que no da la altura y que Microsoft, otra vez, está bandleando, metiendo en el office el Teams y que es difícil competir con eso. Es un poco lo que siempre ha pasado con Microsoft. Microsoft parece que apunta a ser la empresa de la década en tecnología. No paran. Están metiendo hostias a todo Gizky. Sí, sí. Y lo que no sabía yo es que realmente Bill Gates no Pinchan y cortan Microsoft ya.
+
+`00:37:40` **SPEAKER_02** — Pero desde hace un montón de años.
+
+`00:37:41` **SPEAKER_03** — Pero desde hace mucho, pero tienen menos de un 1%. O no, ha vendido mucho. Ha vendido mucho. Y Balmer un 4%.
+
+`00:37:48` **SPEAKER_04** — Esto también lo hablamos en el chat privado.
+
+`00:37:51` **SPEAKER_03** — Divorcio y filantropía. Se decía esto. Eso decía yo. Estoy aquí recuperando todas nuestras conversaciones. Los WhatsApps, cuidado. ¿Qué más? ¿Qué más tenemos? Bueno, están a punto de ilegalizar TikTok. No sé si tenéis opinión de eso. ¿En serio? Sí, bueno, en Estados Unidos. Está en debate en el comité de Foreign Investment y puede ser que lo cierre. Es una cosa que amenazaba Trump, pero amenazaba y Biden, todo lo que Trump amenazaba, Biden lo hace. Lo criticaba antes, pero ahora lo hace.
+
+`00:38:23` **SPEAKER_04** — No sé si habéis visto el nuevo Substack de Sam Bankman Freed, el fundador de FTX. Hoy ha abierto un Substack hace cuatro horas, cinco horas ahora. es donde va explicando su versión de los hechos. No para de explicar su versión de los hechos. Es increíble lo loquísimo que está o lo descontrolado que está. Lo arrestaron, lo extraditaron de las Bahamas a Estados Unidos. S.B.F., fundador de FTX, que es, aparentemente, uno de los fraudes más grandes desde Enron y Lehman Brothers. Muchos billions desaparecidos, entre 10 y 30 billions que nos encuentran. mucho dinero. Sus padres le pagaron, ¿cómo se llama la fianza? Bueno, pagaron un depósito de una proporción de eso, dicen con 10%, o sea,
+
+`00:39:17` **SPEAKER_03** — 25 millones de euros y pusieron su casa e inversiones.
+
+`00:39:22` **SPEAKER_04** — No, su casa, la de los padres en California. No, la de los babos en propiedad de los que están ahí con las espadas. Total, que entró en una cárcel y salió y está en arresto domiciliario en casa de sus padres, abogados, profesores de Derecho de Stanford, los dos en California, y está desde ahí como un loco tuiteando y ha quedado en Substack, que es una newsletter, donde explica Dice FTX Primortem Overview, con dos narices, empieza a explicar todos los datos. No es que FTX Estados Unidos es solamente rentable, el dinero está ahí, no sé por qué no lo devuelven a la gente, es que la verdad es que esta gente no lo entiendo. Dice esta otra, dice bueno yo creo que le faltan ahí un par de billions, pero si vendemos este activo los encontramos y está todo bien. El tío dice que está todo bien. Y bueno, es bastante gracioso. La verdad es que se había parado un poco por Navidad, nos habíamos puesto todos a hablar de OpenAI, pero ahora está volviendo Samama Freed. Y la verdad es que es divertida la saga, si no has perdido millones de euros.
+
+`00:40:21` **SPEAKER_02** — ¿Cuál creéis que es el incentivo que tiene para publicar estas cosas? Yo creo que está loquísimo, yo creo que está loquísimo, que está... random. Sí, sí, sí.
+
+`00:40:27` **SPEAKER_04** — No tiene ningún sentido. Nada tiene ningún sentido. Nada tiene ningún sentido.
+
+`00:40:30` **SPEAKER_03** — Bueno, necesitamos un nuevo drama. Llevamos acumulando el drama de FTX, Twitter… Bueno, un nuevo drama
+
+`00:40:36` **SPEAKER_04** — más pequeñito que yo he leído hoy, que es JP Morgan, uno de los grandes bancos norteamericanos, que había comprado, si no me equivoco, el año pasado una startup que se llamaba Frank, como el perro de César, por 175 millones de dólares. Y, de repente, han visto que no había nada. 175 millones de dólares. Me pasa algún día. Hablamos de billions aquí como si lo regalaran, pero 175 millones de dólares es mucho dinero. De repente, JP Morgan dice que la han comprado, que hicieron la due diligence un poquito rápido. y que han empezado a mirar bien los datos, han cerrado la web, eso sí que está confirmado, y han denunciado a la founder, que era una chica que no recuerdo cómo se llamaba, Charly Javis, que es la fundadora que, según su acusación, había mandado Excel report con cuatro millones de clientes inventados. Fue a OpenAI y le dijo, haz una lista de 4 millones de clientes que parezcan reales. Y eso lo mandó como due diligence y JP Morgan dijo, mhm, todo bien, aquí tienes tu dinero.
+
+`00:41:39` **SPEAKER_02** — ¿Cuántos clientes totales decían que tenían?
+
+`00:41:44` **SPEAKER_04** — Según JP Morgan, solo tenía decenas o centenares de miles, o sea, menos del 10%. Menos de 10%… Sí, sí, no era un redondeo aquello. Dice, se me ha colado. O sea…
+
+`00:41:58` **SPEAKER_03** — Aléjate de todo, según CNBC.
+
+`00:42:00` **SPEAKER_04** — Pero otro drama, otro fraude, due diligence… Un poco se están saliendo todas las malas prácticas.
+
+`00:42:06` **SPEAKER_02** — ¿La fecha en la que compraron la empresa? Junio 2021, ¿no?
+
+`00:42:10` **SPEAKER_04** — Avísame antes. Septiembre de 2021. Perfecto. Justo antes de caer todo.
+
+`00:42:16` **SPEAKER_02** — Bueno, justo medio año antes. Ah, no, de 2021. Ahí estaba la gente regando dinero. Sí, era el pic.
+
+`00:42:24` **SPEAKER_03** — Una de las cosas que yo preveo para este 2023 es publicación de muchos deals que han salido en 2022 que nunca fueron. Porque, ostras, muchos fondos que compran Private Equity, Hedge Funds, Hybrid Funds, lo que sea, cae el 70% de sus activos y no tienen capacidad de pago. Y están en proceso de litigación y eventualmente irán saliendo.
+
+`00:42:48` **SPEAKER_04** — Como cuando vamos tú y yo a cenar con un vici, que hacemos así, cuando acabamos de cenar, buscando la cartera que no la encontramos, a ver si nos invitan, está nuestra BT Equity haciendo lo mismo. Lo mismo. Ay, espera, sí, ahora…
+
+`00:43:01` **SPEAKER_00** — Ahora pillo el cheque.

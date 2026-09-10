@@ -1,0 +1,22 @@
+# 1) PyTorch con CUDA (GPU NVIDIA). El sufijo +cu126 es obligatorio: sin el,
+#    pip da por buena la rueda CPU y torch.cuda.is_available() sera False.
+#      pip install torch==2.8.0+cu126 torchaudio==2.8.0+cu126 torchvision==0.23.0+cu126 \
+#          --index-url https://download.pytorch.org/whl/cu126
+#    Sin GPU:  pip install torch torchaudio torchvision
+#
+# 2) pip install -r requirements.txt
+
+whisperx==3.8.6
+# yt-dlp hay que mantenerlo al dia: con 2026.7.4 YouTube devolvia 403 en
+# *cualquier* descarga completa (todos los player_client y todas las
+# cadenas de formato). Actualizar a 2026.8.19 lo arreglo sin tocar nada mas.
+yt-dlp>=2026.8.19
+
+# ctranslate2 4.8.1 (la que arrastra faster-whisper) crashea con SIGSEGV en
+# este equipo al cargar cualquier modelo, en CPU y en GPU. 4.5.0 funciona.
+ctranslate2==4.5.0
+
+# DLLs de cuDNN 9 / cuBLAS 12 que CTranslate2 necesita en Windows
+# (el script las registra en tiempo de ejecucion). Solo para GPU.
+nvidia-cublas-cu12==12.6.4.1
+nvidia-cudnn-cu12==9.5.1.17

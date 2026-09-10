@@ -1,0 +1,1052 @@
+[
+  {
+    "text": "La información es el motor del progreso.",
+    "speaker": "SPEAKER_00",
+    "start": 0.411,
+    "end": 3.014
+  },
+  {
+    "text": "Los medios son nuestra ventana al mundo para analizar el presente y entender el futuro. Los sectores más relevantes de la actualidad en un espacio de debate y opinión.",
+    "speaker": "SPEAKER_01",
+    "start": 6.197,
+    "end": 18.089
+  },
+  {
+    "text": "Bueno, bienvenidos a todos a una nueva tertulia de Ethnic. Esta semana, además, estamos en todos los medios. Por si alguien no nos ha visto con el podcast de Juana Roch, ha salido el podcast de Ethnic en todas partes. Bueno, aquí estamos con Ronan Bardet. ¿Qué tal, Ronan?",
+    "speaker": "SPEAKER_05",
+    "start": 26.689,
+    "end": 41.626
+  },
+  {
+    "text": "Muy bien, gracias por invitarme. ¿Te hemos liado? Sí, un poquito, sí. ¿Te hemos liado mucho? Gracias por la trampa absoluta.",
+    "speaker": "SPEAKER_02",
+    "start": 41.987,
+    "end": 47.999
+  },
+  {
+    "text": "Ahora te preguntaremos, bueno, Jordi. Esto lo hacemos siempre, ¿eh?",
+    "speaker": "SPEAKER_05",
+    "start": 48.079,
+    "end": 51.301
+  },
+  {
+    "text": "Bueno. Decimos, vente un jueves. Eso, para asistir a una... Cuando decimos que es improvisada... Y aquí estoy. Bueno, sí, muy bien.",
+    "speaker": "SPEAKER_03",
+    "start": 51.321,
+    "end": 57.984
+  },
+  {
+    "text": "Es literalmente improvisada la tertulia. Oye, cuéntanos, ¿quién es Ronald Barbet?",
+    "speaker": "SPEAKER_05",
+    "start": 58.444,
+    "end": 61.826
+  },
+  {
+    "text": "Pues mira, es un recién papá. Acabo de ser papá hace tres meses. ¡Carabuena! Soy francés. ¿Y aquí estás haciendo podcast? Bueno, aquí estoy. Mi mujer me ha autorizado la salida de la semana. Muy bien. Pues eso, soy francés, como podéis notar con mi acento encantador, espero. Y llevo más o menos 20 años trabajando en e-commerce aquí en España. Conectando un poco lo que es la innovación del sector retail con los retailers, las marcas y los e-commerce, con diferentes formatos de actividad.",
+    "speaker": "SPEAKER_02",
+    "start": 62.406,
+    "end": 97.636
+  },
+  {
+    "text": "Cuando alguien pregunta quién sabe de e-commerce en Barcelona, la gente dice Ronan Barret.",
+    "speaker": "SPEAKER_05",
+    "start": 98.437,
+    "end": 102.579
+  },
+  {
+    "text": "Puede que mi nombre salga un poquito, sí, sí.",
+    "speaker": "SPEAKER_02",
+    "start": 102.599,
+    "end": 105.421
+  },
+  {
+    "text": "Y cuando alguien habla de la mafia francesa de startups en Barcelona, también sale Ronan Barret. También puede, sí, sí, es posible. ¿Cómo es la mafia en Barcelona francesa? Hay bastante de startups, ¿no?",
+    "speaker": "SPEAKER_05",
+    "start": 105.461,
+    "end": 116.067
+  },
+  {
+    "text": "Sí. Y son su propio ecosistema.",
+    "speaker": "SPEAKER_02",
+    "start": 116.487,
+    "end": 118.387
+  },
+  {
+    "text": "Van a su bola y tú estás ahí.",
+    "speaker": "SPEAKER_03",
+    "start": 118.587,
+    "end": 119.868
+  },
+  {
+    "text": "Es verdad. Lo que sí es cierto es que más y más se ven a emprendedores franceses que han hecho éxito en Francia y que vienen aquí y lanzan su proyecto nuevo para el mercado francés, pero desde aquí. ¿Y por qué vienen aquí?",
+    "speaker": "SPEAKER_02",
+    "start": 120.428,
+    "end": 136.734
+  },
+  {
+    "text": "Queremos que vengan. Están bienvenidos.",
+    "speaker": "SPEAKER_03",
+    "start": 136.815,
+    "end": 138.275
+  },
+  {
+    "text": "El Poder Atractivo de Barcelona, claramente, es que no hay color entre montar tu empresa en París o estar aquí con la playa, la montaña y el buen tiempo. Y además de encontrar recursos a nivel de talento, que son a costes que no tienen nada que ver con lo que encuentras en París, claramente.",
+    "speaker": "SPEAKER_02",
+    "start": 138.295,
+    "end": 160.527
+  },
+  {
+    "text": "¿En Francia no hay un Tier 2? ¿Es todo París?",
+    "speaker": "SPEAKER_05",
+    "start": 160.587,
+    "end": 163.288
+  },
+  {
+    "text": "Todo París. Para startup, todo París. Es curioso. Todo París. Es un país muy centralizado a nivel político, pero también a nivel económico.",
+    "speaker": "SPEAKER_02",
+    "start": 164.332,
+    "end": 172.531
+  },
+  {
+    "text": "Y, de hecho, hay muchos VCs en París, pero que invierten mucho en startups de París. O sea, hay un ecosistema bastante cerrado francés, concretamente en París, de startups. Muy potente.",
+    "speaker": "SPEAKER_03",
+    "start": 173.569,
+    "end": 185.72
+  },
+  {
+    "text": "Es verdad, pero esto también está cambiando. Es decir, justamente esta semana, el martes, he comido con un chico que trabaja en Brega, un fondo francés, que ahora están lanzando su actividad en España buscando deals.",
+    "speaker": "SPEAKER_02",
+    "start": 185.9,
+    "end": 202.395
+  },
+  {
+    "text": "¿Está basado aquí? Sí, basado aquí.",
+    "speaker": "SPEAKER_03",
+    "start": 202.976,
+    "end": 205.958
+  },
+  {
+    "text": "Y me han contactado en el último mes entre 3 y 4 OVC o club de deals de Business Angels que quieren lanzar actividad en España desde Barcelona, por lo cual hay mucha atractividad.",
+    "speaker": "SPEAKER_02",
+    "start": 206.239,
+    "end": 218.509
+  },
+  {
+    "text": "Muy bien. Oye, ¿habéis visto por casualidad el podcast de Mercadona Online? Sí, sí, sí.",
+    "speaker": "SPEAKER_05",
+    "start": 220.115,
+    "end": 229.259
+  },
+  {
+    "text": "Lo vi, lo escuché, sí, sí, sí. Y la verdad, enhorabuena por conseguir a Juanabox, porque no es que no lo hayamos intentado nosotros y de momento lo hemos conseguido. A ver si me pasas el teléfono. Fue bastante fácil, ¿no, Jordi?",
+    "speaker": "SPEAKER_02",
+    "start": 229.379,
+    "end": 243.245
+  },
+  {
+    "text": "Sí, sí, la verdad es que sí. Se animaron muy rápido. Mercadona Tech es cliente de Factorial, entonces tenemos ahí muy buena relación con el equipo de People, que si nos escucha, saludos a Joana, que nos ayudó. Joana, no Juana, que también le mandamos saludos. Pero Joana, que es responsable de Recursos Humanos de Mercadona Tech, nos estábamos escribiendo con temas de relaciones de factorio y dije que teníamos muchas ganas de contar la historia de Mercadona en el podcast de Evening y nos encantaría hablar con Juana Roch, que sabemos que es la CEO de la parte online de Mercadona y que habíamos escuchado que era un poquito más… Estaba más animada a hablar que Juan Roch, que es su padre, el presidente de Mercadona, que es bastante conocido, que no le gusta hablar en público y que hemos oído que, en parte, es porque se le va un poco la lengua, habla mucho… Esta página web de mierda. Exacto, por ejemplo. Dice a algunos exabruptos y le dicen mejor esto lo cuentas en privado y no te ponemos un micro delante. En cambio, Juana se animó. La verdad es que lo organizamos. Tardamos un mes, un mes y pico, desde que hablamos con ellos hasta que vino. Y la verdad es que nos trató muy bien, nos lo explicó todo. Todo lo que le preguntamos al final, vaya.",
+    "speaker": "SPEAKER_03",
+    "start": 244.466,
+    "end": 318.766
+  },
+  {
+    "text": "También comentaba que Mercadona no se da tanto a hacer charlas en público. Ella decía por qué la gente en general, los líderes de Mercadona, son gente que viene de abajo. No es gente que sean speakers que han hecho el MBA y han hecho el public speaking. Y es curiosa esta correlación que hay entre empresas que tienen líderes que dan muchas charlas y empresas que ganan dinero.",
+    "speaker": "SPEAKER_05",
+    "start": 318.786,
+    "end": 341.329
+  },
+  {
+    "text": "También afecta el hecho de que es una empresa privada y que no tiene necesidad realmente de dar ninguna explicación al público, ¿no?",
+    "speaker": "SPEAKER_04",
+    "start": 342.209,
+    "end": 348.656
+  },
+  {
+    "text": "Bueno, tiene el problema de hiring, tiene el problema de impacto en la sociedad... Lo que es mercadona-mercadona.",
+    "speaker": "SPEAKER_05",
+    "start": 348.676,
+    "end": 353.2
+  },
+  {
+    "text": "No Mercadona Tech, pero Mercadona, que tiene 100.000 trabajadores... Bueno, podías...",
+    "speaker": "SPEAKER_04",
+    "start": 353.8,
+    "end": 361.323
+  },
+  {
+    "text": "Branding, no sé. Bueno, Mercadona también tendrá un problema de hiring. Sí, sí.",
+    "speaker": "SPEAKER_05",
+    "start": 361.563,
+    "end": 366.045
+  },
+  {
+    "text": "Bueno, no sé. Yo creo que tiene más a perder que a ganar si hablan en público, la verdad.",
+    "speaker": "SPEAKER_04",
+    "start": 366.205,
+    "end": 370.106
+  },
+  {
+    "text": "Ha habido un hilo larguísimo sobre los trajes de los informáticos. Que han monopolizado la temática, ¿no? ¿A ti qué te ha parecido, César?",
+    "speaker": "SPEAKER_05",
+    "start": 370.266,
+    "end": 379.15
+  },
+  {
+    "text": "Superinteresante, la verdad. Sí. Más allá de las anécdotas de cómo es la vida en una empresa tan distinta. Hostia, son unos números, tío, que te vuelan la cabeza.",
+    "speaker": "SPEAKER_04",
+    "start": 380.27,
+    "end": 390.656
+  },
+  {
+    "text": "Es una escala diferente de lo que estamos acostumbrados.",
+    "speaker": "SPEAKER_05",
+    "start": 391.317,
+    "end": 393.838
+  },
+  {
+    "text": "El aprender que la web de mierda que tienen, la antigua, factura... ¿Cuánto dijeron? ¿200? ¿200 kilos? ¿200 de antigua? Es una locura. Es muy mala. Es muy mala, realmente. La siguiente web terrible que factura más en el mundo. Sí, sí.",
+    "speaker": "SPEAKER_04",
+    "start": 393.978,
+    "end": 410.708
+  },
+  {
+    "text": "Veníamos de un podcast de CREO, donde era tan importante la optimización de la conversión y tal, y luego viene Mercadona y saca una web de mierda. Según Juan Roig, que dijo un día esta web de mierda. Según Juan Roig, que es su presidente. Y que tenía 200 millones.",
+    "speaker": "SPEAKER_05",
+    "start": 410.748,
+    "end": 426.555
+  },
+  {
+    "text": "Sí, pero es lo que te dijo, ¿no? Que al final, para ello, el online ni es un problema. Es decir, es más bien la parte operativa, logística, pero lo que es atraer clientes, llamando temas con una... Y buen problema. Y por eso, con una página de mierda, pues aún así, 200 millones. Lo complicado es dar un buen servicio hacia el cliente logística y eso lo están haciendo bastante bien también.",
+    "speaker": "SPEAKER_02",
+    "start": 426.575,
+    "end": 448.688
+  },
+  {
+    "text": "Bueno, y lo complicado para Mercadona es esto, entiendo, pero lo complicado para cualquier persona que está aquí escuchándonos es tener un cliente.",
+    "speaker": "SPEAKER_05",
+    "start": 449.549,
+    "end": 456.894
+  },
+  {
+    "text": "No, claro, claramente, pero nosotros somos la Cadona, claro, por eso.",
+    "speaker": "SPEAKER_02",
+    "start": 457.374,
+    "end": 460.076
+  },
+  {
+    "text": "Hay mucha gente en Twitter que dice que la diferencia entre las startups y las empresas es de verdad. Las startups están preocupadas por la facturación y Mercadona está preocupada por el bottom line. Claro, pero hay que entender las cosas en su debido momento. O sea, Mercadona hoy está en un momento que seguramente no estaba su padre hace 30, 40, 50 años, ¿no? Que tenía el problema de conseguir cuota de mercado, de crecer, de arriesgar, de abrir centros...",
+    "speaker": "SPEAKER_05",
+    "start": 461.075,
+    "end": 488.365
+  },
+  {
+    "text": "Creo que dijo 100 tiendas al año.",
+    "speaker": "SPEAKER_03",
+    "start": 488.385,
+    "end": 489.945
+  },
+  {
+    "text": "Claro. Es una locura. Seguramente no todas serían rentables, ¿no? Es que es muy distinta la perspectiva cuando eres el 33% de la cuota de mercado, un mercado tan grande que es casi el monopolio. Y el 12 y",
+    "speaker": "SPEAKER_05",
+    "start": 490.186,
+    "end": 501.528
+  },
+  {
+    "text": "pico por cien del PIB de España, que esa métrica a mí se me quedó grabada.",
+    "speaker": "SPEAKER_03",
+    "start": 501.548,
+    "end": 504.609
+  },
+  {
+    "text": "Sí. Es un mercado que al ser tan grande, una cuota de mercado del 30% es monopolio. Es casi monopolio. Es muy heavy.",
+    "speaker": "SPEAKER_05",
+    "start": 505.249,
+    "end": 515.579
+  },
+  {
+    "text": "Nos han criticado un poco por no meterle tanta caña como a otros emprendedores.",
+    "speaker": "SPEAKER_03",
+    "start": 515.98,
+    "end": 519.201
+  },
+  {
+    "text": "Hombre, era súper maja también. No sé cómo quiere decir darle caña. Era súper maja la chica.",
+    "speaker": "SPEAKER_02",
+    "start": 519.501,
+    "end": 523.523
+  },
+  {
+    "text": "Es que tenemos fama de bordes, que yo no sé por qué. Yo tampoco. Mierda, ¿dónde estoy? ¿Dónde he caído? No, en la tertulia no. Estás en la entrevista.",
+    "speaker": "SPEAKER_03",
+    "start": 523.583,
+    "end": 533.347
+  },
+  {
+    "text": "¿Tú qué crees que le falta en Mercadona Online?",
+    "speaker": "SPEAKER_05",
+    "start": 533.827,
+    "end": 536.508
+  },
+  {
+    "text": "Es una pregunta que no te voy a poder contestar con cosas muy relevantes, yo creo, porque faltar una empresa que factura tanto, es un poco lo que he dicho, al final ellos crecer no es tanto el enfoque, es hacer las cosas bien que quieren hacer. Y yo creo que aunque sus ventas online solo representan un 2% de su facturación, que es muy poquito, pues viendo su posición en el mercado, pues creo que lo están haciendo bien. El tema de tener los hives, ¿cómo se dice?",
+    "speaker": "SPEAKER_02",
+    "start": 539.292,
+    "end": 570.829
+  },
+  {
+    "text": "Colmenas.",
+    "speaker": "SPEAKER_03",
+    "start": 570.849,
+    "end": 571.209
+  },
+  {
+    "text": "Las colmenas, perdón. Para las ciudades grandes donde hay más pedido, más demanda, y luego la logística integrada en las tiendas físicas, en las zonas donde hay menos demanda. Me parece muy inteligente también montar una estructura tecnológica al lado de Mejadonotak. También es un movimiento muy estratégico, me parece muy correcto. Y bueno, a ver si luego con los usos también de los consumidores subimos de este 2% a un 10, a un 15, a un 20, no lo sé. Pero en este momento, realmente, ¿para qué? Sabes lo que te he dicho, ¿no? Ella no busca crecer. ¿Para qué? Realmente busca hacer un buen trabajo y seguir dando un buen servicio a sus jefes, los clientes, ¿no?",
+    "speaker": "SPEAKER_02",
+    "start": 571.249,
+    "end": 619.621
+  },
+  {
+    "text": "Es muy diferente de lo que los emprendedores estamos acostumbrados porque es un play puramente defensivo. Es decir, ya tienen la cuota de mercado, no necesitan crecer porque ya la tienen. Ella misma dice, oye, si no van a Mercadona, ¿dónde irán?",
+    "speaker": "SPEAKER_05",
+    "start": 619.681,
+    "end": 633.514
+  },
+  {
+    "text": "A mí se me quedó muy grabado, porque esta semana hablando con varias personas que tienen cuotas de mercado grandes, de mercados más grandes o más pequeños, en este caso cuota muy grande de un mercado muy grande, que cuando le hacemos un poco de challenge a la competencia, dice ¿qué competencia? O ¿qué competencia estará viva de aquí dos años? Porque claro, los gorilas, los geteers, el quick commerce, incluso los globos, los Amazon Prime Now se llamaba, el que te mandaba también al momento compras pequeñas y tal, Dicen, claro, si no son rentables y no saben hacer rentabilidad, el dinero de visite dura lo que dura. O sea, estas empresas les preocupan relativamente poco porque no se creen que van a conseguir sobrevivir. Pero como una sobreviva, van a tener un reto muy grande.",
+    "speaker": "SPEAKER_03",
+    "start": 634.922,
+    "end": 675.063
+  },
+  {
+    "text": "El objetivo es diferente, claro. El objetivo de la startup es venderse, ¿no? O hacerse pública, ¿no? Al final...",
+    "speaker": "SPEAKER_02",
+    "start": 675.163,
+    "end": 680.865
+  },
+  {
+    "text": "Bueno, tienes que crear un negocio sostenible, ¿no? Tienes que intentar crear un negocio sostenible.",
+    "speaker": "SPEAKER_03",
+    "start": 680.885,
+    "end": 685.908
+  },
+  {
+    "text": "Sí, pero creo que sí habrá...",
+    "speaker": "SPEAKER_02",
+    "start": 686.008,
+    "end": 687.008
+  },
+  {
+    "text": "Puede que por el camino alguien te compre.",
+    "speaker": "SPEAKER_03",
+    "start": 687.028,
+    "end": 689.049
+  },
+  {
+    "text": "Hablando de… Pero no te la",
+    "speaker": "SPEAKER_02",
+    "start": 689.389,
+    "end": 690.369
+  },
+  {
+    "text": "puedes jugar a que alguien te compre. Hay mucha gente que juega esto y cuando viene lo que está pasando ahora, que se seca, se apaga el grifo del BCI, las que no tenían un camino a la rentabilidad…",
+    "speaker": "SPEAKER_03",
+    "start": 690.409,
+    "end": 701.292
+  },
+  {
+    "text": "Claramente. … caen. Yo creo que venimos de un periodo de tiempo donde realmente el objetivo del emprendedor es crecer, crecer, ultra growth, pero claramente no por ser rentable. Crecer para ser sexy para invasores y sexy para luego hacer un éxito. Y, obviamente, Mercadona no tiene... Sexino es. Ni de lejos tiene este objetivo, por lo cual nadie le va a comprar. Difícil.",
+    "speaker": "SPEAKER_02",
+    "start": 702.212,
+    "end": 728.144
+  },
+  {
+    "text": "Otro número que me flipó es, tú dijiste Walmart, creo, que factura 300.000 millones de dólares. Mercadona factura 30.000 millones de dólares. O sea, que el líder en Estados Unidos, que es un mercado tan grande, solo sea 10 veces más grande que Mercadona, también me explotó el cerebro. Lo grande que es esta empresa, es increíble.",
+    "speaker": "SPEAKER_03",
+    "start": 728.625,
+    "end": 746.119
+  },
+  {
+    "text": "Sí, sí. ¿Sabes quién decía también quién no va a comprarme? Blockbuster, por ejemplo. Nokia. Eran players que decían eso. Hay que ir con cuidado, porque sí que pueden aparecer players que disrompan los mercados. Pero el grocery, la alimentación, la verdad es que es mercado. Muy difícil, muy difícil de ir a romper. Bueno, es que tampoco puedes",
+    "speaker": "SPEAKER_05",
+    "start": 748.117,
+    "end": 769.93
+  },
+  {
+    "text": "hacer un producto 10 veces mejor de repente que la competencia, ¿no? Al final la gente va a comprar manzanas. Hasta que alguien lo hace.",
+    "speaker": "SPEAKER_04",
+    "start": 769.99,
+    "end": 777.081
+  },
+  {
+    "text": "Hasta que alguien lo hace. O sea, el pitch de la gente que invirtió en Gettyr o en Gorilaz. Yo entiendo que se creía eso, ¿no? Oye, no puedes ir a romper este mercado hasta que puedes comprar on demand en el momento que tienes el problema y te llegan a casa en menos de 10 minutos.",
+    "speaker": "SPEAKER_05",
+    "start": 777.401,
+    "end": 794.535
+  },
+  {
+    "text": "Es que creo que no es ni siquiera el mismo tipo de producto, por así decirlo. Porque los momentos en los que compras en Getty o los momentos en los que compras en Mercadona son completamente distintos. Porque en Mercadona haces la compra de la semana o del mes, pero en Getty es lo que necesitas ahora mismo. Y esto yo creo que ni Globo, ni Gettyr, ni Gorillaz han conseguido cambiarlo.",
+    "speaker": "SPEAKER_04",
+    "start": 794.755,
+    "end": 815.286
+  },
+  {
+    "text": "Sí, pero Amazon también antes no justificaba por escala, por volumen, por márgenes, por lo que sea, hacer compras con shipping gratis. No sé si os ha pasado, yo a veces en una tarde compro tres cosas de Amazon. O sea, son tres envíos diferentes. Como tengo el Prime y no me preocupo o tal, pues no lo optimizo. Y solo porque Amazon tiene la escala que tiene, se puede permitir hacer esto. Antes era impensable. Para una compra puntual te irás de la tienda. Solo harás online cuando tienes tres semanas para esperarte a que te llegue, vas a hacer una caja grande, un ticket grande, etc. Y acaba cambiando. Amazon ha ganado un cambio de hábitos de consumidor que parecía imposible.",
+    "speaker": "SPEAKER_03",
+    "start": 815.866,
+    "end": 851.844
+  },
+  {
+    "text": "Pero hay una diferencia en el producto que compras en Amazon y es que, compres lo que compres en Amazon, siempre va a ser exactamente lo que has comprado. No hay pequeñas diferencias. Bueno, compra un cable de Apple. Vale, pero aparte de eso, tampoco vas a la tienda a comprar el cable. Lo que quiero decir es que la gente valora mucho elegir el producto que compra, ¿sabes? Y sobre todo cuando compra frescos. Y esto me lo estoy imaginando porque tengo cero idea de... Tú no cocinas como dijimos en el último podcast. No, pero joder, sí que se oye muchísimo. Yo valoro mucho ir y ver el producto y comprar ese producto. Y esto yo creo que la gente no está tan dispuesta a sacrificarlo. Mientras que en Amazon te compras un ratón y es un ratón. Es exactamente igual que si te compras otro en otro momento.",
+    "speaker": "SPEAKER_04",
+    "start": 851.924,
+    "end": 897.108
+  },
+  {
+    "text": "Yo creo que el problema aquí está en que si el sentido le da tener mucho volumen en un mercado muy grande, O sea, cuando tienes mucha logística y puedes comprar un demand en menos de 10 minutos, es que ya tienes un volumen muy bestia y una logística muy bien hecha. Claro, si el modelo tiene sentido a mucha, mucha escala y antes no, esa travesía en el desierto es muy peligrosa y es donde se queda todo el mundo. Si tú consigues generar mucho valor a un nicho con mucho menos volumen, tienes más posibilidades de crecer, sobre todo si este nicho luego representa una nueva demanda de un mercado más grande. Bueno, yo creo que veremos si alguien consigue quitarle el puesto al mercado, pero parece difícil.",
+    "speaker": "SPEAKER_05",
+    "start": 897.788,
+    "end": 940.839
+  },
+  {
+    "text": "Complicado, sí. Ahora sí, complicado.",
+    "speaker": "SPEAKER_02",
+    "start": 941.699,
+    "end": 943.98
+  },
+  {
+    "text": "Hablando de empresas con cuota de mercado muy grande, con challengers que están viniendo, Google y la búsqueda esta semana. No sé si habéis leído las declaraciones de Satya Nadella, que ha venido fuerte. Ha venido con ganas de caña, un tío que parecía discretito, que llevaba muchos años en Microsoft trabajando. De hecho, estuvo en el equipo de Bing durante bastante tiempo. ha salido a soltar hostias sin parar. Han anunciado Bing con OpenAI, que te contesta preguntas directamente en la cajita de búsqueda. Han sacado un nuevo producto de Edge, que es el navegador de Microsoft, se me había olvidado que existía, pero existe, con un chatbox integrado y con la opción de sumarizar, de resumir contenido que estás consultando a través de la página web. Y Satya ha soltado un par de perlitas diciendo que, digamos, ahora a Google le toca demostrar si saben bailar. O sea, se ha puesto bastante duro incluso con las metáforas, que Google era el 800 Pound Gorilla, no sé cómo traducirlo, el gorila fuerte del zoo, y que ahora ha venido este a pincharle y le toca demostrar. Y es curioso como Microsoft va de underdog. Microsoft va como del innovador startup que viene a molestar al grande. Cuando es el monopolio por excelencia en tecnología, de repente parece que son los cool kids que van a molestar a la empresa grande y tradicional.",
+    "speaker": "SPEAKER_03",
+    "start": 944.0,
+    "end": 1027.637
+  },
+  {
+    "text": "¿Ves qué mal han hecho siempre el B2C, no? Microsoft, que comentabas tú antes. Él hablaba de que tiene un 3% de market share, lo decía Satya. ¿En qué país? En global. Google, el 95. Hay un 2% por ahí de owners.",
+    "speaker": "SPEAKER_05",
+    "start": 1028.372,
+    "end": 1049.357
+  },
+  {
+    "text": "Es César con DuckDuckDuck.",
+    "speaker": "SPEAKER_03",
+    "start": 1049.477,
+    "end": 1051.038
+  },
+  {
+    "text": "Y dice, bueno, es el mercado más rentable del mundo. Y es verdad, es un mercado súper rentable. El del search. El del search, ¿no? O sea, ahí sí que se pueden reír de mercado, ¿no? Porque estamos hablando de un mercado de factura centrales de miles de millones y al mismo tiempo tiene un margen de más del 90%. Y parece ser que ahí Google no se le podía cuestionar. Y bueno, ahora igual cambia. No sé, eso es lo que dice Sati.",
+    "speaker": "SPEAKER_05",
+    "start": 1053.34,
+    "end": 1080.3
+  },
+  {
+    "text": "Han reaccionado, han dicho que iban a crear su producto Google no sé qué, integrado con su propia AI.",
+    "speaker": "SPEAKER_02",
+    "start": 1080.36,
+    "end": 1085.824
+  },
+  {
+    "text": "Sí. Salió BART. Se llama el BART con D. Esto es un bardo, ¿no? Es como el juggler. Sería la traducción de BART. Me parece un nombre terrible. Sí, le anunciaron BART, que es el chat GPT de Google. Y, de hecho, se ha hecho mucha coña, que lo hablamos justo antes de empezar, que yo creo que no hay para tanto, pero que la demo que pusieron, la respuesta del VAR era incorrecta. No era muy... Y es la que eligieron y cuando esto se publicó, bajaron las acciones de Google y Google perdió una capitalización bolsátil de 100.000 millones de dólares por una demo, digamos que una mala respuesta. Que vaya tela, llevamos unas semanas de que la gente va perdiendo 100 billion aquí como si fueran gratis. A ver, la gente no pierde.",
+    "speaker": "SPEAKER_03",
+    "start": 1085.884,
+    "end": 1131.523
+  },
+  {
+    "text": "Esa es la volatilidad de la bolsa, que hoy vale, igual no valía. Pero ha bajado el valor. Igual no ha bajado, igual antes había subido. O sea, no sabes cuál es el valor de verdad.",
+    "speaker": "SPEAKER_05",
+    "start": 1131.543,
+    "end": 1142.246
+  },
+  {
+    "text": "Antes no, llevamos un año y dijo el Nasdaq está bastante mal. Sí, sí, sí.",
+    "speaker": "SPEAKER_02",
+    "start": 1142.326,
+    "end": 1147.987
+  },
+  {
+    "text": "Esa es la pregunta que tiene, se llama nada huevos, que la pregunta que utiliza Google para probar su servicio y que ponen la homepage y tal, no hayan validado que sea factual y que sea verdad, ¿no?",
+    "speaker": "SPEAKER_05",
+    "start": 1148.147,
+    "end": 1162.231
+  },
+  {
+    "text": "Además se saltó por la ventana ahí. Por aclarar un poco lo de la respuesta, la pregunta era ¿cuáles son las últimas fotos de un exoplaneta o algo así? No, los discoveries from the James Webb Telescope. ¿Cómo se lo explicarías a un niño de nueve años? Exacto. Y puso tres facts sobre el telescopio y el tercero, que era que había sido el primero en hacer fotos de un exoplaneta. Un planeta fuera del Sistema Solar. Es erróneo.",
+    "speaker": "SPEAKER_04",
+    "start": 1162.271,
+    "end": 1190.123
+  },
+  {
+    "text": "Y de hecho, fue un astrónomo en Twitter que dijo, oye, me sabe mal, ¿eh? Pero no es verdad. Pero me parece un poco ñiñiño. ¡Cien billones!",
+    "speaker": "SPEAKER_05",
+    "start": 1191.083,
+    "end": 1199.569
+  },
+  {
+    "text": "No hay para tanto. No hay para tanto. O sea, ChatGPT ha dicho burradas mucho más grandes. Seguro que hemos hablado ya de esto. No, no es la demo. No es la demo.",
+    "speaker": "SPEAKER_03",
+    "start": 1200.589,
+    "end": 1209.454
+  },
+  {
+    "text": "Tienes que ser tonto para usar esto. Este es el problema que tiene Google y es por lo que ellos argumentan que no habían sacado una versión similar a ChatGPT antes. Los Deadlines, ¿eh? Claro, porque es que al final Google solo puede perder en este juego. Y Microsoft solo puede ganar. Entonces, Google está en una posición terrible ahora mismo. Y además, a nivel de producto, yo no sé muy bien qué van a hacer porque al final... El negocio de Google es mostrarte links de pago más arriba de los resultados. Y la motivación para darle tu contenido a Google es que te den tráfico. Correcto. Y ahora lo que está haciendo es procesar todo el contenido, escupirte un texto que puede tener referencias. Google me parece que no lo hace aún, no lo he visto. Pero Bing, por ejemplo, cuando buscas y te devuelve una respuesta GPT, Sí que te incluye como referencias a links para que veas el contenido. Pero es que es un segundo paso.",
+    "speaker": "SPEAKER_04",
+    "start": 1209.474,
+    "end": 1260.845
+  },
+  {
+    "text": "Yo la verdad confío en Google para encontrar una manera de monetizar esto. O sea, no tengo ninguna duda de que van a encontrar una manera. Por ejemplo, en el texto que te generan, poner links justamente de pago a publicidad X o… Claro, pero el problema es que… Y esto es algo que… Contextual network, ¿sabes? Algo así.",
+    "speaker": "SPEAKER_02",
+    "start": 1260.985,
+    "end": 1278.173
+  },
+  {
+    "text": "Pero esto es algo que ellos ya estaban empezando a hacer, ¿no? El concepto de tú buscas algo en Google y no te vas de Google para encontrar la respuesta, sino que ya te muestran pues metadatos relevantes relacionados con lo que buscas, ¿no? Pues si buscas una película, te muestra como la ficha de la película justo al lado. Y la gente ya se empezó a mosquear un poco con esto.",
+    "speaker": "SPEAKER_04",
+    "start": 1278.633,
+    "end": 1295.501
+  },
+  {
+    "text": "Y por eso no me creo lo que estás diciendo tú, que estaban aplazando sacar esto, porque ya tenían el concepto de microformato. O sea, el concepto de microformato...",
+    "speaker": "SPEAKER_05",
+    "start": 1295.541,
+    "end": 1304.385
+  },
+  {
+    "text": "Claro, pero no es lo mismo.",
+    "speaker": "SPEAKER_04",
+    "start": 1304.405,
+    "end": 1305.246
+  },
+  {
+    "text": "No, pero no tiene ningún sentido el concepto de microformato. O sea, tú como webmaster, publicas una web, tienes que estar codificando tu formato para que salga en el sitio de las respuestas, de Q&A, de Google, de tal, cuando realmente utiliza inteligencia artificial si llevas invirtiendo en DeepMind y en todas esas historias durante siglos.",
+    "speaker": "SPEAKER_05",
+    "start": 1305.847,
+    "end": 1327.004
+  },
+  {
+    "text": "Pero el microformato es de hace mucho más tiempo.",
+    "speaker": "SPEAKER_04",
+    "start": 1327.044,
+    "end": 1328.845
+  },
+  {
+    "text": "Ya, pero ¿sigue funcionando a día de hoy?",
+    "speaker": "SPEAKER_05",
+    "start": 1329.666,
+    "end": 1331.888
+  },
+  {
+    "text": "Sí, claro. No se lo van a cargar de golpe. Han movido medio internet para que pongan los putos microformatos.",
+    "speaker": "SPEAKER_04",
+    "start": 1332.578,
+    "end": 1337.12
+  },
+  {
+    "text": "Pero ChatGPT te da una respuesta a cualquier tipo de pregunta.",
+    "speaker": "SPEAKER_05",
+    "start": 1337.14,
+    "end": 1340.021
+  },
+  {
+    "text": "Sí, y ha salido en diciembre de 2022.",
+    "speaker": "SPEAKER_04",
+    "start": 1340.141,
+    "end": 1344.043
+  },
+  {
+    "text": "Antes que en Google. Eso es lo que te estoy diciendo.",
+    "speaker": "SPEAKER_05",
+    "start": 1344.323,
+    "end": 1346.444
+  },
+  {
+    "text": "Sí, porque tiene más a perder Google. Es el innovador.",
+    "speaker": "SPEAKER_03",
+    "start": 1346.844,
+    "end": 1349.425
+  },
+  {
+    "text": "No, porque el espacio ese del microformato ya lo tenía.",
+    "speaker": "SPEAKER_05",
+    "start": 1349.465,
+    "end": 1351.966
+  },
+  {
+    "text": "Bueno, porque tienen ahí el negocio. O sea, ¿no quiere encargarse ese espacio? ¿Ese espacio es el que paga la fiesta también?",
+    "speaker": "SPEAKER_03",
+    "start": 1351.986,
+    "end": 1356.67
+  },
+  {
+    "text": "Este espacio no tiene negocio. Tiene negocio el inmediatamente después.",
+    "speaker": "SPEAKER_05",
+    "start": 1356.69,
+    "end": 1359.913
+  },
+  {
+    "text": "O si te sale un e-commerce o si te sale un vuelo. O sea, depende de que salga en ese espacio. Los vuelos lo han quitado, creo.",
+    "speaker": "SPEAKER_03",
+    "start": 1360.114,
+    "end": 1366.46
+  },
+  {
+    "text": "En Google Flights. Sí, sí.",
+    "speaker": "SPEAKER_02",
+    "start": 1366.601,
+    "end": 1367.882
+  },
+  {
+    "text": "O sea, yo hablo de la respuesta cuando te imprime el resultado de tu pregunta. Del párrafo de Wikipedia",
+    "speaker": "SPEAKER_05",
+    "start": 1368.422,
+    "end": 1373.908
+  },
+  {
+    "text": "sin link a Wikipedia. Exacto. Igual a Wikipedia le va a estar bien esto.",
+    "speaker": "SPEAKER_04",
+    "start": 1373.988,
+    "end": 1380.095
+  },
+  {
+    "text": "A mí la pregunta es, ¿Google puede sacar un nuevo producto? Esa es la pregunta. ¿Es capaz de sacar un nuevo producto o solo puede ordeñar el search desde el año 95? Esa es la pregunta. O comprar una compañía como YouTube y ser la mejor compra de la historia. ¿Qué hace toda la gente en DeepMind? ¿Qué hace toda la gente que está haciendo AI en Google? Yo me lo pregunto. ¿Académicos? ¿Académicos? ¿Académicos? Y ese es el problema. Es un mundo muy de research el de Google.",
+    "speaker": "SPEAKER_05",
+    "start": 1380.135,
+    "end": 1408.777
+  },
+  {
+    "text": "De hecho, no solo Google. OpenAI también es una empresa muy de research. De hecho, lo hablábamos creo que hoy comiendo. Yo creo que el gran paso que hemos hecho ahora, nosotros no hemos hecho nada, ¿no? Pero colectivo. En aprender cómo utilizar los Large Language Models Un gran parte de esto es un conocimiento intelectual que tenemos, que ahora mismo sobre todo tienen ingenieros de OpenAI, pero que cualquiera puede ir a contratarles, que de hecho OpenAI contrató ingenieros de Google, los más listos seguramente los contrató OpenAI y han hecho esto y en 5 o 10 años esto lo tendrán todas las compañías grandes que puedan invertir. Entonces yo no veo que OpenAI o Google o Microsoft tengan esa ventaja loquísima de tener el algoritmo, porque yo creo que este algoritmo lo acabarán escribiendo todos. Yo creo que aquí es quien tiene datos propietarios y se los guarda y se los cierra y los hace crecer y estos son los que tendrán mucho valor para luego explotar con el AI, porque esto al final es research. Este research es para todos.",
+    "speaker": "SPEAKER_03",
+    "start": 1408.797,
+    "end": 1470.289
+  },
+  {
+    "text": "Ya, pero ahora ya lo están monetizando, es decir, OpenAI ya tiene su versión de pago para que otras empresas puedan usar su...",
+    "speaker": "SPEAKER_02",
+    "start": 1470.749,
+    "end": 1477.294
+  },
+  {
+    "text": "Les queda mucho para devolverle los 10 billones a Microsoft. 10 billones es mucho dinero.",
+    "speaker": "SPEAKER_03",
+    "start": 1477.314,
+    "end": 1484.178
+  },
+  {
+    "text": "Yo vi una simulación de un tío que posteó en LinkedIn la semana pasada que decía, mira, 100 millones de usuarios en un mes. Algo así, algo bestial. Ahora tienen ya su medio de pago para licencias bajas, 20 euros al mes o algo así, no lo recuerdo directamente. Suponiendo que van a convertir usuarios gratis de pago por un X por ciento, hizo la simulación del ARR bestial. O sea, un ARR que les haría pero no tan lejos de devolver el dinero a Microsoft como nos decías. No, no, realmente aquí hay un modelo económico bestial y yo no creo que la gente sea capaz de, como tú decías, de crear el algoritmo y luego todo el tiempo que necesitas para chupar los datos y sacar algo relevante de esto. Yo creo que la gente, la mayoría, ya que se puede por un precio bastante módico, O sea, nosotros no lo haremos.",
+    "speaker": "SPEAKER_02",
+    "start": 1484.519,
+    "end": 1539.212
+  },
+  {
+    "text": "Nosotros no haremos un Large Language Model, pero Google sí que lo hará. Y Tesla hará el suyo. Y Amazon hará el suyo. Google ya lo hace. Y las big techs.",
+    "speaker": "SPEAKER_03",
+    "start": 1539.492,
+    "end": 1547.415
+  },
+  {
+    "text": "Sobre todo los big clouds, porque tiene mucho sentido. Exactamente. El software no se puede paternizar.",
+    "speaker": "SPEAKER_05",
+    "start": 1547.935,
+    "end": 1552.737
+  },
+  {
+    "text": "Y nosotros lo alquilaremos, perfecto, como el cloud, como los servidores. Habrá 5, no habrá 1.000.",
+    "speaker": "SPEAKER_02",
+    "start": 1552.757,
+    "end": 1558.039
+  },
+  {
+    "text": "Correcto. Pero habrá 5 y eso le quita mucho valor a OpenAI, porque se repartirá el pastel. Obviamente tiene mucho valor.",
+    "speaker": "SPEAKER_03",
+    "start": 1558.219,
+    "end": 1564.781
+  },
+  {
+    "text": "First Google Advantage puede ser interesante.",
+    "speaker": "SPEAKER_02",
+    "start": 1564.981,
+    "end": 1567.562
+  },
+  {
+    "text": "De momento sí. Estos son cuatro cosas. Por un lado, el software. El software que no se puede patentar. Antes lo discutíamos. Contratas a un tío de PNI y ya tienes el software.",
+    "speaker": "SPEAKER_05",
+    "start": 1567.802,
+    "end": 1578.31
+  },
+  {
+    "text": "Un par de años, pero sí, lo tienes. El software está disponible. Está disponible. De hecho, hay mucho open source.",
+    "speaker": "SPEAKER_04",
+    "start": 1578.35,
+    "end": 1583.433
+  },
+  {
+    "text": "La computación es pasta. Y si eres un cloud player, tienes una ventaja. A precio y coste. A precio y coste. Y es mucha pasta. El prompt no lo puedes controlar, porque es el usuario quien lo pone, o la aplicación quien lo usa. O sea, los usuarios,",
+    "speaker": "SPEAKER_05",
+    "start": 1584.194,
+    "end": 1597.905
+  },
+  {
+    "text": "la masa crítica de usuarios.",
+    "speaker": "SPEAKER_03",
+    "start": 1598.045,
+    "end": 1599.106
+  },
+  {
+    "text": "El cuarto es el dataset. Correcto.",
+    "speaker": "SPEAKER_05",
+    "start": 1600.066,
+    "end": 1602.509
+  },
+  {
+    "text": "Y de hecho, de momento están usando todos estos datasets públicos, que es internet. O sea, básicamente, lo que están indexando es internet.",
+    "speaker": "SPEAKER_03",
+    "start": 1602.909,
+    "end": 1609.755
+  },
+  {
+    "text": "Y ahí está saliendo la gente y dice ni de coña. Estás vulnerando mi propiedad privada, mi propiedad intelectual. Y por eso lo has",
+    "speaker": "SPEAKER_05",
+    "start": 1610.894,
+    "end": 1617.018
+  },
+  {
+    "text": "puesto en internet, ¿no? También, pero bueno.",
+    "speaker": "SPEAKER_03",
+    "start": 1617.038,
+    "end": 1619.44
+  },
+  {
+    "text": "Bueno, lo has puesto en internet. Si tienes un vídeo de Shakira en internet, no significa que sea tuyo. Esta conversación es eterna. Venga, vamos a cambiar de tema. Comentabas, Ronan, de una app que lo está petando en Estados Unidos que se llama Temu.",
+    "speaker": "SPEAKER_05",
+    "start": 1619.46,
+    "end": 1635.25
+  },
+  {
+    "text": "Sí, Temu es la nueva sensación lanzada por la versión occidental de Pinduoduo, una startup gigante del e-commerce chino con el concepto de social commerce. Es un marketplace con social commerce. En ese caso, ¿qué significa social commerce? Sería que el comprador va a movilizar su red de contactos personales para conseguir un mejor precio y comprar juntos un poquito El concepto Groupon de antaños o Let's Buy It, no sé si os acordáis de Let's Buy It, era una startup de los años 2000-2001.",
+    "speaker": "SPEAKER_02",
+    "start": 1635.55,
+    "end": 1671.872
+  },
+  {
+    "text": "Hay una grande que hace esto, no recuerdo cómo se llama. Son compras grupales, por lo tanto te salen más baratos los ítems. Groupon. No, no sé. El Groupon era un",
+    "speaker": "SPEAKER_04",
+    "start": 1672.612,
+    "end": 1683.26
+  },
+  {
+    "text": "falso argumento comercial realmente. En realidad Groupon se llamaba compras colectivas, compras grupales, pero no lo era. Porque el precio ya era negociado y daba igual si eran dos compradores o cinco. El mismo Groupon sí que era grupal.",
+    "speaker": "SPEAKER_02",
+    "start": 1683.3,
+    "end": 1694.983
+  },
+  {
+    "text": "Este sí que lo hicieron en zonas rurales, en China. En principio sí.",
+    "speaker": "SPEAKER_03",
+    "start": 1695.143,
+    "end": 1698.304
+  },
+  {
+    "text": "Y con su nueva marca, la marca Temu, en un mes creo consiguieron más de 20 millones de descargas de la app. Fueron número uno en Estados Unidos delante de Amazon, Shine, otro chino. y otros y ahora lanzan Canadá y supuestamente van a lanzar a España también pronto. Bueno, para testear en el mercado europeo.",
+    "speaker": "SPEAKER_02",
+    "start": 1698.624,
+    "end": 1717.731
+  },
+  {
+    "text": "Ojo con las apps chinas, sociales principalmente, que arrasan.",
+    "speaker": "SPEAKER_05",
+    "start": 1718.471,
+    "end": 1722.834
+  },
+  {
+    "text": "Sí, sí, sí. De hecho, es raro que arrasen también en Occidente. Porque el concepto...",
+    "speaker": "SPEAKER_02",
+    "start": 1722.874,
+    "end": 1728.958
+  },
+  {
+    "text": "Antes decíamos, no, aquí no, son ellos que son raros. Sí, pero de hecho,",
+    "speaker": "SPEAKER_05",
+    "start": 1728.978,
+    "end": 1732.16
+  },
+  {
+    "text": "lo hemos visto un poquito, ¿sabes? El año pasado hubo, bueno, y el año anterior también, hubo un poco en el e-commerce la fiebre del live commerce. El live commerce es... justamente a un fenómeno que venía de China, donde volvemos un poquito al concepto del teleshopping. Al final tienes un influencer o un presentador. Teletienda. Teletienda, correcto. Tienes un presentador que puede ser un influencer que está aquí presentando el producto en live en un e-commerce concreto. y miles de ventas en directo. Este concepto obviamente ha hecho que en Europa se han desarrollado un montón de herramientas e-commerce para live commerce. Yo invertí en una, por cierto, el año pasado y no acaba de despegar. El modelo live commerce en China es genial y en Europa Esto es Oprah, ¿no?",
+    "speaker": "SPEAKER_02",
+    "start": 1732.52,
+    "end": 1784.809
+  },
+  {
+    "text": "Al final es el modelo Oprah. Oprah Winfrey, que es una presentadora de tele. Sí, sí, la conozco, pero",
+    "speaker": "SPEAKER_03",
+    "start": 1784.829,
+    "end": 1791.474
+  },
+  {
+    "text": "ella no vende productos online. Ella podía ser de",
+    "speaker": "SPEAKER_02",
+    "start": 1791.514,
+    "end": 1794.436
+  },
+  {
+    "text": "Oprah Winfrey de teletienda, pero bueno, sí. Bueno, es la versión grande de teletienda, en realidad. Enseñaba un producto y se vendía millones de unidades. Pues ahí va, ahí va, directamente. Y los vendía ella, era una distribuidora.",
+    "speaker": "SPEAKER_03",
+    "start": 1794.476,
+    "end": 1806.545
+  },
+  {
+    "text": "Yo lo que veo es que el factor social humano es igual en cualquier cultura. O sea, parece que hay una barra cultural muy grande, no la hay. Yo creo que esta es la conclusión, que estamos llegando con TikTok y con todo este tipo de apps. Que, por cierto, en Estados Unidos, ¿la quieren banear? ¿No se la han baneado ya? ¿O la van a banear? Todavía no, ¿no?",
+    "speaker": "SPEAKER_05",
+    "start": 1807.066,
+    "end": 1825.155
+  },
+  {
+    "text": "Que yo sepa, ¿no? Pero hay muchos debates. Pero estos debates llegan desde Trump, ¿eh? Desde Trump amenazando en prohibir TikTok. Y muchos rumores de que si se vende, de que si los inversores la están regalando... Pero ByteDance, que es la empresa propietaria de TikTok, creo que es la tercera o cuarta empresa con más demanda en el mercado secundario de empresas tecnológicas privadas, por detrás de SpaceX y de Stripe, y alguna más.",
+    "speaker": "SPEAKER_03",
+    "start": 1825.805,
+    "end": 1853.793
+  },
+  {
+    "text": "¿Pero Biden no es publicado todavía?",
+    "speaker": "SPEAKER_02",
+    "start": 1854.474,
+    "end": 1856.058
+  },
+  {
+    "text": "No. Está en el mercado secundario. Imagino que no. Más novedades. Twitter, que hace mucho que no hablamos de Elon Musk. Nos atragantamos de Elon Musk durante diciembre. Pero he visto muchas novedades. Antes preguntaba a César si seguía pagando por Twitter Blue. Le decía que sí, pero más por pasividad que otra cosa. Tampoco es la hostia. De hecho, me jode mucho que creo más anuncios desde que pago por Twitter Blue que cuando la usaba gratis. Al menos quítame los anuncios. Es comprar Real Estate en Reino Unido, ya me dirías tú. Voy a comprar un castillo en Reino Unido me ofrecen. Te habrán visto cara de millonario. Hablando de Twitter Blue, 180.000 suscriptores en Estados Unidos, 290.000 suscriptores en Estados Unidos. Esto es una startup de 28 millones de dólares de ARR. no sé, siendo una de las redes sociales más grandes del mundo, no es la hostia. Han pasado dos meses desde que lanzaron Twitter Blue, 28 millones de dólares de ARR, que en teoría de lo más dijo que este año tenían que generar 3 billion, o sea, 3.000 millones de dólares en revenue de publicidad, y esto de momento está contribuyendo menos de un 1%. No parece mucho, ¿no? Han cerrado la API. No sé si os habéis enterado. Han dejado de permitir usar la API de Twitter. Un montón de clientes, aplicaciones que usaban la API, bots, han dejado de funcionar. He leído que algunas features de Twitter han dejado de funcionar porque usaban su propia API y no pagaban por la API, porque no se puede pagar por la API, porque no han hecho un modelo de suscripción por la API. Y han lanzado, por último, que los suscriptores de Twitter Blue en Estados Unidos, con lo cual yo no, pueden hacer tweets de 4.000 caracteres. Que no sé si lo habéis visto. Es un muro de texto infumable que en la aplicación móvil no está bien soportado. Un cutre de cojones.",
+    "speaker": "SPEAKER_03",
+    "start": 1856.259,
+    "end": 1972.043
+  },
+  {
+    "text": "Pero eso del move fast and break things, ¿no?",
+    "speaker": "SPEAKER_05",
+    "start": 1972.323,
+    "end": 1975.805
+  },
+  {
+    "text": "Sí, que hablando de esto, ya acabo con Twitter, Elon Musk ayer dijo a todo el staff que dejaran de sacar nuevas features, que se pusieran a arreglar las cosas y a priorizar la estabilidad, porque ayer miércoles, si ayer era miércoles, se cayó Twitter una hora y además la Super Bowl es pronto, no sé si alguien de aquí sabe cuándo es la Super Bowl. Este domingo, gracias. Este domingo es la Super Bowl y se ve que es un día muy importante para ingresos en publicidad. De hecho, Twitter, uno de los pocos wins que tiene comercialmente, ha cerrado algunos deals potentes para la Super Bowl y está muy preocupado de que no vaya, aunque se caiga Twitter, con tanta feature nueva, medio hacer y tantas cosas rotas, para la Super Bowl de este domingo. Cambios en Twitter es interesante ver.",
+    "speaker": "SPEAKER_03",
+    "start": 1976.085,
+    "end": 2025.388
+  },
+  {
+    "text": "¿Cómo disfruta la gente metiendo el dedo en la llaga y diciendo que ya ha venido este y se lo ha cargado todo?",
+    "speaker": "SPEAKER_05",
+    "start": 2025.408,
+    "end": 2030.673
+  },
+  {
+    "text": "Ya lo dije, ya lo dije.",
+    "speaker": "SPEAKER_04",
+    "start": 2030.693,
+    "end": 2032.234
+  },
+  {
+    "text": "Es increíble, ¿no? Pero es que esto es la naturaleza de una startup. Está volviendo a ser una startup. Se rompen las cosas. ¿So? Es la única forma de encontrar nuevas oportunidades. Y claramente Twitter no era un negocio. Había que agitarlo.",
+    "speaker": "SPEAKER_05",
+    "start": 2032.254,
+    "end": 2047.584
+  },
+  {
+    "text": "Era más negocio de lo que es ahora. ¿Eh? Era más negocio de lo que es ahora.",
+    "speaker": "SPEAKER_04",
+    "start": 2047.644,
+    "end": 2050.866
+  },
+  {
+    "text": "No era un buen negocio.",
+    "speaker": "SPEAKER_05",
+    "start": 2050.886,
+    "end": 2051.787
+  },
+  {
+    "text": "¿Qué creéis que va a pasar con Twitter?",
+    "speaker": "SPEAKER_04",
+    "start": 2051.807,
+    "end": 2055.109
+  },
+  {
+    "text": "No lo sé. ¿Tú qué crees?",
+    "speaker": "SPEAKER_05",
+    "start": 2055.149,
+    "end": 2056.725
+  },
+  {
+    "text": "Lo pregunto yo. No vale eso. Yo creo que lo van a arreglar. Lo van a arreglar en el sentido de que van a conseguir hacer un muy buen producto con poca gente muy buena. Yo creo que este es el resumen más grande del cambio que yo creo que es bueno que ha metido Elon Musk en Twitter. Pasa que por el camino, para hacer una tortilla se rompen huevos. Y yo creo que se están rompiendo muchos huevos ahora mismo. Pero si realmente consigue atraer talento top, que históricamente lo ha sabido hacer, van a ser un buen producto. Es difícil de matarlo de mastodón. No sé si alguien aquí se ha registrado un mastodón y lo intenta usar y tal. Peñazo. Ya está toda la gente ahí. Ya publican lo que a ti te interesa y tal. Ya lo arreglarán. Yo no creo que Twitter vaya a desaparecer ni vaya a venir un mastodón que se lo cargue. Pero bueno, mientras tanto, es divertido ver que se lían.",
+    "speaker": "SPEAKER_03",
+    "start": 2057.106,
+    "end": 2106.991
+  },
+  {
+    "text": "Yo creo que le falta un poco de visión. No sé cuál es el plan. Están probando muchas cosas. Y luego, es verdad que Elon Musk tuiteaba esta semana diciendo que está muy preocupado por él mismo. Dice que Musk, en los peores tiempos de Tesla, está trabajando 12 horas al día. No, está muy apurado. Entonces yo no sé si puede seguir escalando Tesla con los problemas que tiene Tesla, SpaceX y Twitter. O sea, yo confío mucho en Elon Musk y la verdad es que para mí lo más importante es quién es el líder y quién es capaz de llevar esto. Pero, ¿puede hacer tantas cosas a la vez? Aunque sea Elon Musk, lo veo difícil. Bueno, pues oye, no sé si tenéis algún tema más. Tenemos a Adam Neumann que ha vuelto. Ha vuelto, nuestro amigo Adam Neumann. César, ¿tú lo has visto el vídeo entero?",
+    "speaker": "SPEAKER_05",
+    "start": 2107.37,
+    "end": 2156.824
+  },
+  {
+    "text": "Sí, sí, estuve viendo un rato la charla esta que hizo con Marc Andreessen y el otro, no sé quién es. Pero hicieron una charla de branding de la empresa nueva de Adam Neumann. Flow. Que se llama Flow. Que es el tema este de espacios de co-living, básicamente. Y nada, el tío explica un poco qué hizo después de su salida de WeWork. Te lo pinta todo como... O sea, el tío habla muy bien, ya lo sabemos, ¿no? Y lo viste todo muy bien, toda la historia.",
+    "speaker": "SPEAKER_04",
+    "start": 2156.844,
+    "end": 2189.903
+  },
+  {
+    "text": "Yo no se lo compro, ¿eh? No sé por qué, os encanta.",
+    "speaker": "SPEAKER_05",
+    "start": 2189.923,
+    "end": 2193.225
+  },
+  {
+    "text": "No compro nada. Yo sé que habla bien y se nota que habla bien. Y se nota el tipo de discurso que hace. Y se ve que lo hace con un propósito. Y se puede ver. Pero lo hace muy bien, es la verdad. Pero bueno, total, que cuenta...",
+    "speaker": "SPEAKER_04",
+    "start": 2193.245,
+    "end": 2207.431
+  },
+  {
+    "text": "¿Te ha quedado claro qué es Flow? Sí, sí, sí.",
+    "speaker": "SPEAKER_05",
+    "start": 2207.451,
+    "end": 2209.651
+  },
+  {
+    "text": "¿Sí? Sí. Básicamente la línea argumental es desde el COVID la gente ha perdido ciertos espacios comunes, como es la oficina, los campus tipo Google, Facebook, etcétera, también están como medio muertos porque la gente ya no está yendo a la oficina y la gente ha perdido muchas cosas. pues ha perdido oportunidades de hacer más amigos, oportunidades de conocer gente, la cercanía, ¿no? Y al final lo que dicen es que la gente ha pasado de vivir en sitios así, que son como campos de universidad, a vivir en apartamentos de 40 metros de los que no salen ni para trabajar, porque trabajan desde casa, ¿no? Y que esto es algo que no ven pasando a largo plazo. Y luego, por otro lado, también dicen que el mercado del alquiler inmobiliario está siendo igual desde hace decenas de años, décadas. Y que les sorprende mucho que no haya venido nadie a innovar aquí porque, al final, habiendo un mercado con tanta demanda, es relativamente sencillo venir con un approach más de startup y decir, te voy a ofrecer un producto diez veces mejor que lo que tienes ahora mismo. y quedarse con el mercado de esa forma, ¿no? Y además pues otra serie de cosas que no sé muy bien cómo van a implementar, como el tema de que tú cuando pagas el alquiler en uno de estos co-livings de Flow, no sé ni cómo los llaman, como que adquieres ownership, adquieres propiedad de, no sé si la casa o de la empresa, no lo tengo muy claro. Y no sé tampoco qué incentivo tienen para hacer esto, supongo que se ofrece… Tan claro no tiene. No, porque es que he visto 30 minutos de 50. Pero es que tampoco cuentan mucho más.",
+    "speaker": "SPEAKER_04",
+    "start": 2209.891,
+    "end": 2310.217
+  },
+  {
+    "text": "Es que no está muy claro todavía. Claro que no. Pero te lo dice con mucha convicción. Es como ChatGPT.",
+    "speaker": "SPEAKER_03",
+    "start": 2310.378,
+    "end": 2317.284
+  },
+  {
+    "text": "Yo creo que es interesante porque te explica los motivos que le llevan a construir a esta empresa y a construir este producto. Y a mí me encajan, o sea, tiene sentido. ¿Tú querrás vivir a un WeFlow?",
+    "speaker": "SPEAKER_04",
+    "start": 2317.564,
+    "end": 2326.691
+  },
+  {
+    "text": "Yo no, pero estoy seguro que mucha gente sí. Mucha gente sí.",
+    "speaker": "SPEAKER_05",
+    "start": 2326.831,
+    "end": 2329.993
+  },
+  {
+    "text": "Pero es que me creo 100% que lo que comentan especialmente de después del COVID la gente está viviendo, trabajando, durmiendo en su casa y no salen de allí, esto es realmente un problema que ellos creo que pueden solucionar.",
+    "speaker": "SPEAKER_04",
+    "start": 2331.473,
+    "end": 2343.218
+  },
+  {
+    "text": "Una cosa es creerte la categoría igual que WeWork. WeWork es una buena idea, es una buena categoría y es un buen negocio. Lo que no es es un negocio de tecnología.",
+    "speaker": "SPEAKER_03",
+    "start": 2344.458,
+    "end": 2351.48
+  },
+  {
+    "text": "Y un negocio que existía antes de WeWork y existe después de WeWork. Igual que un co-living existía antes de WeWork. Y que se puede hacer mejor.",
+    "speaker": "SPEAKER_05",
+    "start": 2352.14,
+    "end": 2360.683
+  },
+  {
+    "text": "WeWork lo hicieron bien. O sea, hicieron buenos co-workings. Lo que no hicieron bien es que se valoraron como empresa tecnológica y luego descubrieron que no lo era. Y Conflow está volviendo a hacer el pitch de que es una empresa tecnológica y de servicios financieros y de real estate y de no sé qué. Y el miedo que me da es que…",
+    "speaker": "SPEAKER_03",
+    "start": 2361.143,
+    "end": 2377.916
+  },
+  {
+    "text": "La parte tecnológica tampoco la venden tanto, al menos de lo que yo he oído.",
+    "speaker": "SPEAKER_04",
+    "start": 2377.956,
+    "end": 2381.699
+  },
+  {
+    "text": "En Flow, yo creo que sí. Financial Services, que nadie entiende dónde. Tecnología, que nadie entiende dónde está. Y luego, lo de siempre.",
+    "speaker": "SPEAKER_05",
+    "start": 2382.62,
+    "end": 2392.93
+  },
+  {
+    "text": "Co-living. Co-living bien hecho, buen negocio. No sé si es para Andrés en Horowitz, pero es un buen negocio. Parece que sí. Bueno, sí, si han metido pasta.",
+    "speaker": "SPEAKER_03",
+    "start": 2393.75,
+    "end": 2400.957
+  },
+  {
+    "text": "Es que el caso de WeWork dices, no, era un buen coworking, si era un buen coworking porque tenía 20 billion para hacer un buen coworking, que no es lo que normalmente tiene un buen coworking. Si no fuera una empresa tecnológica no tendría 20 billion y no sería un buen coworking.",
+    "speaker": "SPEAKER_05",
+    "start": 2402.779,
+    "end": 2415.769
+  },
+  {
+    "text": "Y creo que de momento sigue valiendo menos que lo que han levantado.",
+    "speaker": "SPEAKER_03",
+    "start": 2415.789,
+    "end": 2418.331
+  },
+  {
+    "text": "Sí, sí, por eso. Oye, vamos a la siguiente etapa. ¿No quieres hablar de atunes? ¿Quieres hablar de atunes?",
+    "speaker": "SPEAKER_05",
+    "start": 2419.252,
+    "end": 2427.097
+  },
+  {
+    "text": "Es que tengo aquí mis notas atunes.",
+    "speaker": "SPEAKER_03",
+    "start": 2427.117,
+    "end": 2428.438
+  },
+  {
+    "text": "Es que Jordi y yo hoy hemos comido, de hecho, en una... No hemos comido atún. No hemos comido atún, pero hemos ido a una fábrica de atunes, cliente de Factorial. Hacemos visitas así como muy raras. Y en este caso hemos visto una fábrica enorme que vende todo, por ejemplo, todos los atunes de Mercadona. Y muchos más, es una cuota pequeña lo que vende a Mercadona, o sea, venden muchos atunes. Y hemos visto todo el proceso entero de compra de atunes y cómo está industrializado completamente, automatizado. Unos robots de la hostia. Unos robots espectaculares.",
+    "speaker": "SPEAKER_05",
+    "start": 2430.54,
+    "end": 2465.024
+  },
+  {
+    "text": "Visión por computador, ventosas, brazos, muy bestia.",
+    "speaker": "SPEAKER_03",
+    "start": 2465.044,
+    "end": 2469.287
+  },
+  {
+    "text": "Y hemos ido con el traje. ¿Se puede poner la foto de Jordi? Con el traje y viendo los atunes. Tecnología punta. Salimos de ahí y dijimos, menos mal que estamos en el mundo del software.",
+    "speaker": "SPEAKER_05",
+    "start": 2470.293,
+    "end": 2488.14
+  },
+  {
+    "text": "Se nos ha dado un poco de pereza el follón para procesar los atunes.",
+    "speaker": "SPEAKER_03",
+    "start": 2488.26,
+    "end": 2492.862
+  },
+  {
+    "text": "La cantidad de cosas que puede ir mal",
+    "speaker": "SPEAKER_05",
+    "start": 2492.882,
+    "end": 2494.402
+  },
+  {
+    "text": "en un negocio tan industrial",
+    "speaker": "SPEAKER_03",
+    "start": 2495.022,
+    "end": 2496.183
+  },
+  {
+    "text": "con unos stocks de atunes dando vueltas por el mundo de muchos millones de euros, con unos procesos, y al final, con unos Evitas que dices, hostia. Margenes pequeños. Realmente vale la pena, ¿no? Pero menos mal que existen esos negocios, ¿no? Si no, no comeríamos atún.",
+    "speaker": "SPEAKER_05",
+    "start": 2496.963,
+    "end": 2512.047
+  },
+  {
+    "text": "Atún no en lata. El atún que va en una cajita de plástico que luego se pone a la plancha y tal, viene casi seguro de esta empresa que hemos ido a visitar nosotros y compra muchos atunes, que son clientes de factorio, así crecen y contratan más servicios.",
+    "speaker": "SPEAKER_03",
+    "start": 2512.307,
+    "end": 2526.602
+  },
+  {
+    "text": "Somos un ecosistema de startups tech de Barcelona, creadores de Camalún, Kipu y Factorial, entre otras. Ofrecemos más de 5.000 metros cuadrados de coworking a startups y organizamos eventos diarios para discutir negocio y tecnología hasta la saciedad. Desde Evening Fund, invertimos en equipos con capacidad de construir grandes productos y negocios. ¡Te esperamos!",
+    "speaker": "SPEAKER_00",
+    "start": 2526.862,
+    "end": 2545.708
+  }
+]

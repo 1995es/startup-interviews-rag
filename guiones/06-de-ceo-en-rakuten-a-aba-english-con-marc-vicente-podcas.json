@@ -1,0 +1,608 @@
+[
+  {
+    "text": "Bienvenidos a Startup Insight Stories de ITNIC, un podcast donde hablamos de startups, negocio y tecnología. Este episodio lo patrocina Curve, la tarjeta que unifica todas tus tarjetas de crédito y débito y elimina tasas de pago en el extranjero de todas ellas. Curve ofrece un 1% de cashback y te permite elegir a qué tarjeta asignar el cargo. Regístrate con el código ITNIC para recibir 5 euros gratis.",
+    "speaker": "SPEAKER_00",
+    "start": 7.208,
+    "end": 29.202
+  },
+  {
+    "text": "Bienvenidos una semana más al podcast de ITNIC. Yo soy Bernat Farrero, CEO de ITNIC. Esta semana estoy con Juan Rodríguez, CEO de Camalún. Buenas tardes. Y con Marc Vicente. ¿Qué tal? Buenas tardes. ¿Qué tal Marc? Marc es un ejecutivo de varias compañías, un ejecutivo de internet. Ha estado en Travel, en Last Minute, ha pasado por Acamón, Rakuten. Cdiscount y ahora ABA English. Desde hace un año y pico. Eso es. O sea, has pasado del travel al e-commerce y ahora estás en una especie de SaaS que no es exactamente... Subscription business. Vale. Empecemos por el e-commerce porque es un espacio muy interesante que lleva creciendo mucho, mucho tiempo. Pero tú empezaste en Rakuten. Efectivamente.",
+    "speaker": "SPEAKER_02",
+    "start": 31.137,
+    "end": 74.87
+  },
+  {
+    "text": "Rakuten es el Amazon japonés, ¿no? Sí, es el Amazon japonés, aunque su modelo de negocio es mucho más parecido a Alibaba en China que no a Amazon, que sería probablemente un retail directo. De hecho, Rakuten no vende prácticamente nada de su propio stock, no hace compra y distribución, sino que es puramente un marketplace desde el entorno de e-commerce, con lo cual sería mucho más parecido desde un punto de vista de modelo de negocio a Alibaba, a Ebay, que no a Amazon, que sería tanto marketplace como venta directa de first party. ¿No hace venta directa Rakuten? No, en su inmensa mayoría de negocio han hecho pruebas, en Japón tienen alguna distribución directa, pero en general su modelo de negocio original es marketplace.",
+    "speaker": "SPEAKER_03",
+    "start": 75.01,
+    "end": 114.165
+  },
+  {
+    "text": "¿Y tú empezaste siendo el CEO de Rakuten en España? Sí. ¿Y acabaste siendo el director de operaciones en Europa?",
+    "speaker": "SPEAKER_02",
+    "start": 115.198,
+    "end": 121.543
+  },
+  {
+    "text": "Sí, básicamente llevando las operaciones de e-commerce en todo lo que serían los distintos mercados en Europa. De hecho, fue muy curioso porque, a pesar de que Rakuten sea una gran corporación, probablemente ha sido uno de los proyectos donde me he sentido más que nunca como un emprendedor. Cuando me ficharon, su objetivo era muy simple. Estaba en una fase de expansión a nivel internacional A nivel europeo habían realizado muchas adquisiciones de compañías que les parecieron interesantes y en España decidieron experimentar y en lugar de comprar una compañía existente quisieron empezar desde cero. Y curiosamente es una compañía que tenía muy poca experiencia en empezar nada desde cero, porque históricamente lo habían hecho todo a través de Marei. Cuando me ficharon, lo primero que tuve que hacer es pedirle ayuda a los compañeros de Rakuten TV, en ese momento Waki, a que me dejaran durante unas semanas unas sillas, unas mesas, para saber dónde ir. De hecho, durante los primeros cuatro meses, el salario me lo pagó Jacinto. de Waki porque ni siquiera teníamos la sociedad constituida. Damos de alta la sociedad, compramos el mobiliario, definimos lo que queríamos hacer desde un punto de vista de plataforma de negocio. Fue prácticamente empezarlo todo desde cero. Y arranqué yo mismo con Eisuke. Eisuke es un chaval japonés al que Rakuten asignó el proyecto de España como mi mano derecha. y básicamente en 4 meses formamos un equipo de unas 30 personas. y lanzamos lo que sería nuestro primer marketplace con un primer millón de productos disponibles a través de unos 150 vendedores a los que hicimos onboarding muy rápido y a partir de ahí empezamos a navegar prácticamente desde cero. En ese momento, como recordatorio, Rakuten era una marca prácticamente desconocida, sobre todo a la gran consumidora, aún no se habían hecho ninguna operación como los sponsors Intel-Varsya, que ahora todo el mundo los conoce. Pero tuvimos una acogida muy buena y rápida, precisamente por la perspectiva del Amazon francés, que es un poco como si nos iba a conocer en el mercado. ¿Cuánto factura Rakuten en el mundo? A nivel mundial, su valoración, la última vez que la vi, estaba cerca a 20.000 millones y creo que desde un punto de vista de facturación, probablemente ahora mismo en Japón, que es donde genera la mayor parte de su facturación en el área de e-commerce, deben estar cerca de los 14-15.000 millones de facturación al año. Sólo el área de e-commerce. En el total de facturación de revenues del resto del conglomerado, ahora mismo no lo sé. Básicamente Rakuten lo arrancó como un negocio de e-commerce, pero ha pivotado a pasar a ser un ecosistema de servicios digitales. Actualmente el área de e-commerce es la fundamental desde un punto de vista de reconocimiento de marca. pero lo que crearon es un sistema de fidelización a través del cual empezaron a conectarlo con distintos servicios. Tienen Rakuten Travel, que es el líder de viajes en Japón, Finance, servicios financieros, seguros, entertainment, tienen prácticamente de todo. Imaginaros en Japón, imaginaros una empresa que en España es al mismo tiempo propietaria de El Corte Inglés, Telefónica, eDreams y prácticamente casi todos los líderes digitales que os podéis imaginar. Y ellos lo unen todo en base a una misma marca, en base a una misma propuesta de valor, en base a un mismo servicio. Entonces, quizá en cada uno de los servicios individuales no necesariamente tienen que ser los mejores, pero en el conglomerado de lo que es su propuesta de valor, básicamente lo tienen todo, lo ofrecen todo y generan fidelización de, básicamente, acumular lo que ellos llaman puntos, utilizando cada uno de los servicios.",
+    "speaker": "SPEAKER_03",
+    "start": 121.763,
+    "end": 341.495
+  },
+  {
+    "text": "¿Como e-commerce es el líder en Japón?",
+    "speaker": "SPEAKER_01",
+    "start": 341.515,
+    "end": 343.457
+  },
+  {
+    "text": "Es el líder en Japón. ¿Por encima de Amazon? Por encima de Amazon, uno de los pocos mercados que existen donde aún hay un operador local que es capaz de competir contra Amazon. De hecho, en los últimos años creo que Amazon estaba empezando a acelerar su crecimiento y a comerse parte de su cuota de mercado, pero Rakuten se ha mantenido líder durante muchísimos años. Primero, por el momento en el que entraba en el mercado. Segundo, porque su modelo de negocio es muy distinto a Amazon, ya os comentaré, de la manera como compiten. Y tercero, precisamente por ese ecosistema de servicios.",
+    "speaker": "SPEAKER_03",
+    "start": 344.157,
+    "end": 372.968
+  },
+  {
+    "text": "Ese ecosistema que ha sido muy fuerte y muy viable en Japón, ¿ha sido posible de exportarlo a otros países?",
+    "speaker": "SPEAKER_01",
+    "start": 373.068,
+    "end": 381.23
+  },
+  {
+    "text": "De momento no lo han conseguido demostrar. Su plan siempre fue precisamente crear ese ecosistema fuera de la región principal, que era Japón. Tanto en Europa como, por ejemplo, en Estados Unidos. En Europa, por ejemplo, Rakuten lo primero que hizo es montar el Rakuten Bank, servicios especialmente de B2B. compraron distintas compañías de e-commerce, pero también otras compañías de entertainment, como fue Waki. Su idea era crear un conglomerado, que cada una de esas compañías, de manera individual, creciera exitosamente, para en algún momento determinado unir todos los servicios en base a una misma marca, porque al principio ni siquiera todos tenían la misma marca, y una misma propuesta de servicio desde un punto de vista de fidelización. No lo han conseguido. y mi punto de vista es que es muy difícil de conseguir.",
+    "speaker": "SPEAKER_03",
+    "start": 382.031,
+    "end": 429.961
+  },
+  {
+    "text": "Que el e-commerce, esta plataforma de e-commerce que es B2B, funcione, es la clave para que funcione el resto de servicios periféricos. Si no tienes el e-commerce, ¿es posible que el resto tenga sentido?",
+    "speaker": "SPEAKER_01",
+    "start": 430.261,
+    "end": 439.667
+  },
+  {
+    "text": "Yo no sé si el e-commerce tiene que ser la base, pero tiene que haber una base sólida. Tiene que haber un primer modelo de negocio, un primer negocio que sea sólido y sea dominante y lidere en el sector. En Japón el primero fue el e-commerce y a partir de aquí crearon el conglomerado alrededor. No necesariamente el e-commerce tiene que ser el punto de partida en otros sectores. Pueden tener otros negocios más potentes a través de los cuales crear el resto del ecosistema y el e-commerce puede ser un pilar más. El problema que se encontraron cuando se enfrentaron a otros mercados, como por ejemplo el europeo, primero es que eran muchísimo más maduros. por tema de timings que otros mercados que arrancaron desde cero cuando ellos lo hicieron, con lo cual el capital que se requiere para tener éxito en el entorno de e-commerce es, como sabéis, enorme. y han entrado en mercados donde Amazon era maduro, donde existían operadores locales que lo hacían muy bien, con lo cual el nivel de inversión que se requería para conseguir posiciones de liderazgo en Europa era complejo y a partir de allí crear un ecosistema en ya marcados maduros de nuevo sin tener un pilar muy fuerte, no es que no sea posible, pero requiere de un nivel de inversión muy elevado. De hecho, lo primero que hicieron precisamente es esto, se fueron a Francia, compraron priceminister.com, se fueron a Inglaterra, compraron play.com, que eran operadores, eran el segundo, el tercero en e-commerce en cada uno de los mercados y la idea era ayudarlos a crecer. y una vez habían obtenido posiciones dominantes en cada mercado, empezar a crear ese OX sistema. Entonces, trabajaron en paralelo en el crecimiento de estas compañías y en establecer las bases del ecosistema.",
+    "speaker": "SPEAKER_03",
+    "start": 440.247,
+    "end": 537.459
+  },
+  {
+    "text": "Sin embargo, en España empiezan de cero.",
+    "speaker": "SPEAKER_01",
+    "start": 537.579,
+    "end": 538.86
+  },
+  {
+    "text": "En España experimentaron desde cero por distintos motivos. Primero, porque no encontraron a nadie al que consideraran suficientemente interesante como para realizar un M&A en ese momento. Y segundo, porque las operaciones que habían realizado en Europa no fueron del todo exitosas. ¿Qué nos encontramos? Nos encontramos con cinco mercados en Europa, con cinco compañías distintas, con cinco modelos de negocio distintos, con cinco marcas, plataformas distintas y cinco equipos y liderazgos distintos. Y con comportamientos muy distintos porque Ellos podían prever que Europa tendría un comportamiento uniforme y obviamente el mercado francés es un mercado que funciona con sus propias dinámicas y que funciona de manera distinta al alemán, al inglés, al español. Y lo que crearon son cinco compañías distintas que eran muy difíciles de gestionar de manera individual, básicamente. De hecho, de aquí vino mi segunda etapa. Mi primera etapa fue montamos Rakuten en España.",
+    "speaker": "SPEAKER_03",
+    "start": 539.421,
+    "end": 598.987
+  },
+  {
+    "text": "¿Con qué inversión montas Rakuten en España?",
+    "speaker": "SPEAKER_01",
+    "start": 599.007,
+    "end": 602.049
+  },
+  {
+    "text": "Suficiente como para arrancar y ser rentable. pero muy inferior a lo que os podríais imaginar para una compañía. ¿Puedes dar una cifra aproximada? Me resulta complicado. Millones, pero menos de 10 para arrancar. menos de edad para arrancar y con eso básicamente el primer año y medio lo creamos todo de cero arrancamos montamos equipo conseguimos conseguimos llegar a facturar a treinta y pico millones de cero básicamente a un año con lo cual no está nada mal y nos acercamos mucho a puntos de rentabilidad y ahí lo que sucede son varias cosas al mismo factor a vosotros a transaccionar transaccionados el turno de los gms exactamente Y aquí lo que sucede, se unieron muchos puntos curiosos y intercede un poco en lo que ha sido mi evolución también desde un punto de vista de carrera profesional. Lo primero que sucede es que se dan cuenta que esa compañía experimental que ha montado en España, desde un punto de vista de Unit Economics, ha tenido más éxito que otras compañías en las que han realizado M&A y en las que han tenido que invertir. Muchísimo dinero. Con lo cual se nos otorga cierto valor a lo que hemos hecho en el mercado español. Y lo segundo que sucede es que se dan cuenta que el esquema de tener seis empresas o cinco o siete en torno al e-commerce, ya no entro en Viber, etcétera, porque compraron muchos otros operadores de nuevo para empezar a crear el ecosistema fuera del e-commerce en paralelo. Se dan cuenta de que tener estas empresas en cada uno de los mercados con dinámicas de negocio totalmente distintas, ninguna relación desde un punto de vista de contratos, dinámicas comerciales, marketing, plataformas tecnológicas, no es eficiente. Y deciden tomar la decisión de unificarlo todo bajo una misma operación, bajo una misma dirección, que es probablemente evidente y algo que se tenía que haber probablemente contemplado desde el principio. Lo curioso, y en ese momento probablemente era el ejecutivo con menos experiencia de Rakuten, debía tener 30 años aproximadamente, 29, justo recién cumplidos, nos encontramos dos cosas. Uno, teníamos muy buena reputación en España por lo que habíamos conseguido, y dos, precisamente como que Rakuten realizó M&A bastante interesantes, cada uno de los grandes y inteligentísimos emprendedores que existían en las compañías a las que habían comprado, ninguno de ellos tenía muchas ganas de trabajar. Y la realidad es que los fundadores de Play, de Price Minister, de Tradorian Alemania, etcétera, no estaban en una situación personal donde les apeteciera coger un trabajo mucho más operativo desde un punto de vista de intensidad. y en consecuencia me ofreceron a mí a establecer las operaciones en Europa.",
+    "speaker": "SPEAKER_03",
+    "start": 602.069,
+    "end": 762.785
+  },
+  {
+    "text": "¿Cuánto tiempo estuviste de CEO de Rakuten en España?",
+    "speaker": "SPEAKER_01",
+    "start": 762.805,
+    "end": 764.887
+  },
+  {
+    "text": "De hecho, aunque luego pasé a ser CEO de Rakuten en Europa, mantuve mi doble título como CEO de España. Teníamos un director general de España, pero legalmente seguí siendo el CEO de España. En total, todo el periodo que estuve en Rakuten, un poquito más de tres años creo, fui CEO de España, más allá de que luego también era CEO de Rakuten. Fue una experiencia fantástica. Me promocionaron a Executive Officer, que implica que automáticamente pasas a reportar al fundador de la compañía, Hiroshi Mikitani, con el que mantenía reuniones prácticamente semanalmente. ¿Cómo es? Es un emprendedor inteligentísimo. hombre hecho a sí mismo desde el punto de vista de convicciones con ideas clarísimas probablemente es un gran gran gran visionario y yo diría que es una persona que tenía la capacidad de rodearse, y no lo digo por mí, tuvo la capacidad de rodearse toda la gente de la cual se rodeó en la época en la que estuve y pude comprobarlo, eran increíbles. Era capaz de convencer a emprendedores para unirse a él, ya no porque hubiera comprado sus compañías, sino por sus convicciones y visión a futuro, básicamente. En Japón estamos hablando de una persona que es ultraconocida, no sólo por lo que ha conseguido desde un punto de vista de emprendeduría como Rakuten, sino por la contribución que hace en el entorno digital en la propia sociedad japonesa. Es como un referente digital en lo que sería el entorno japonés. Él junto con el Sonsan, que es el señor de Softbank, que son los dos grandes referentes que existen en Japón. Luego, por otro lado, a mí siempre me llegó a sorprender como anécdota el nivel de capacidad operativa que tenía. Entraba en el detalle, muy en el detalle. Yo he estado discutiendo con él el color de los banners de la nueva campaña que vamos a lanzar. Y, sinceramente, no estoy muy convencido, no tengo ni idea de cómo llegaba a comprender tanto detalle y ser capaz de hacernos challenging en tantos niveles a tantas personas. ¿Era tecnológico o era más bien marketero? Era más bien marketero. sobre todo... Es, imagínate. Es. Es, exacto. Es marketero, es un tío de ventas, es un tío que sabe cómo funciona la tecnología, pero sobre todo, sobre todo, es probablemente el líder que he tenido como estereotipo de líder visionario.",
+    "speaker": "SPEAKER_03",
+    "start": 765.348,
+    "end": 914.68
+  },
+  {
+    "text": "¿Cuál es su visión de futuros países? Que la gente se sumaba a su visión. ¿Qué veía a largo plazo en el e-commerce?",
+    "speaker": "SPEAKER_02",
+    "start": 914.76,
+    "end": 921.163
+  },
+  {
+    "text": "Más que veía, él lo que había demostrado es que podías conectar todos los servicios en un ecosistema indestructible. Porque lo que consiguió en Japón posicionaba a Rakuten como una compañía donde nadie se puede llegar a imaginar cómo puedes destruir su dominancia. Porque más allá de que en el e-commerce puede llegar un Amazon, apretar muy fuerte y hacerte pupa, estamos hablando de número uno en banking, número uno en travel, número uno en e-commerce. Cuando tú consigues eso, Es muy, muy, muy difícil de que alguien te pueda hacer pupa, básicamente. Y lo consiguió a través de la fuerza operativa, y lo consiguió a través de... obviamente entrando en el momento adecuado, pero lo consiguió a través de convencer a mucha gente en cada uno de los sectores de que tenía sentido unirlo todo bajo una misma marca, una misma plataforma tecnológica, un mismo servicio, etcétera, etcétera. Y su visión, era básicamente implementar ese ecosistema de servicios, ecosistema al que une una marca con una perspectiva concreta en todo el mundo. Que aquí es donde aún se tiene que validar si será capaz de conseguirlo o de no conseguirlo,",
+    "speaker": "SPEAKER_03",
+    "start": 921.223,
+    "end": 997.06
+  },
+  {
+    "text": "y a mi opinión es muy difícil. Porque eso que funciona en Japón no es exportable al resto del mundo.",
+    "speaker": "SPEAKER_01",
+    "start": 997.08,
+    "end": 1002.677
+  },
+  {
+    "text": "Primero hay un tema de momentos, de momentum. Cuando él consiguió sus posiciones de liderazgo en Japón era un momento donde probablemente aún el entorno digital, la compañía que creo que se juntó en el 2000, 1997, con lo cual muchos y ese ecosistema, travel, finance, etcétera, lo arrancó muy, muy... Hablamos que ellos salieron a la borsa dos años después de ser fundados. Y a los dos años después ya estaban lanzando todo el ecosistema de servicios. Con lo cual, de manera, cuando ni siquiera sabíamos lo que significaba fintech, ellos habían creado una estructura de fintech brutal a través de todos los servicios de e-commerce. Ahora es del 99, 2000.",
+    "speaker": "SPEAKER_03",
+    "start": 1002.857,
+    "end": 1035.596
+  },
+  {
+    "text": "Hasta ese punto iban más rápido que Amazon.",
+    "speaker": "SPEAKER_01",
+    "start": 1036.157,
+    "end": 1037.72
+  },
+  {
+    "text": "Buena pregunta. Es probable. Amazon en 96 facturaba 16 millones. En aceleraciones, pero en volumen no lo sé.",
+    "speaker": "SPEAKER_03",
+    "start": 1039.228,
+    "end": 1048.074
+  },
+  {
+    "text": "Pasó del 96 al 97 y 16 millones de facturación a 150, algo así. Amazon crece a partir básicamente del año 99-2000. Salió en bolsa en 98. Pero no implica... Ya, pero ya tenías capitalización, ya estabas 99. ¿Y en qué bolsa salió?",
+    "speaker": "SPEAKER_01",
+    "start": 1048.114,
+    "end": 1061.902
+  },
+  {
+    "text": "Japonesa. Nombre... Bueno, acuerdo. La bolsa japonesa.",
+    "speaker": "SPEAKER_03",
+    "start": 1063.463,
+    "end": 1067.906
+  },
+  {
+    "text": "Pero hasta ese punto iban a ir muy de la mano los dos, ¿no? Hasta ese punto iban muy de las manos.",
+    "speaker": "SPEAKER_01",
+    "start": 1067.926,
+    "end": 1075.59
+  },
+  {
+    "text": "De hecho, siempre se utilizaban muchos paralelismos de Kimikitani. Siempre decía que esto se lo copió Jeff Bezos de alguna manera u otra. Desde el principio existió muchísima rivalidad entre ambos. Aunque Japón también es verdad que fue uno de los primeros mercados donde Amazon entró Con lo cual, Rakuten se acostumbró a luchar contra Amazon muy desde el principio. Pero de nuevo, aunque hablemos de lucha, son modelos de negocio y propuestas de valor que no tienen nada que ver. Y esto también luego lo podemos ver con la parte de C-Discount, donde para mí es fascinante porque C-Discount es un operador francés de los pocos que en un mercado occidental es capaz de competir contra Amazon cara a cara y lo hace con todo el descaro del mundo. Y de la misma manera que han encontrado una manera de hacerlo en una dimensión, Rakuten no encontra una manera de hacerlo en otra dimensión. Básicamente, Rakuten lo que es, es la expresión más pura de lo que es comprar en un mercadillo digital, en un mercadillo como el que conocemos toda la vida. Pero en un mercadillo en el que no necesariamente estamos hablando de poca calidad, sino que estamos hablando de de artesanía, donde estamos hablando de productos hechos de manera manual. Por ejemplo, de los productos más vendidos en Rakuten, olvidaros de iPhone, olvidaros de muebles, olvidaros de productos de electrónica, estamos hablando que el producto más vendido era un shampoo hecho con rano de caballo, manual, que lo hacían en una granja concreta y eran capaces de distribuir 20.000 botes al día. Y de eso crearon un gran imperio.",
+    "speaker": "SPEAKER_03",
+    "start": 1075.83,
+    "end": 1168.372
+  },
+  {
+    "text": "O sea, ¿tú crees que Amazon y Rakuten son dos modelos que pueden convivir?",
+    "speaker": "SPEAKER_01",
+    "start": 1168.392,
+    "end": 1171.174
+  },
+  {
+    "text": "Originalmente sí. Obviamente ahora mismo sí que existen, en ciertas categorías, competencia. Pero de manera original, en el core del negocio, no. Rakuten, de los productos que más vende, son unos huevos. unos huevos de una gallina de la leche que le hacen masajes y no sé, y vende miles y eso no lo vende Amazon. De momento. ¿Cuál era el producto que más vendías tú en España? Yo sí que vendía muchos iPhones. Yo sí que vendía muchos iPhones.",
+    "speaker": "SPEAKER_03",
+    "start": 1171.855,
+    "end": 1203.729
+  },
+  {
+    "text": "Es que los huevos de la gallina igual van bien.",
+    "speaker": "SPEAKER_01",
+    "start": 1203.949,
+    "end": 1207.371
+  },
+  {
+    "text": "Nosotros lo que trabajamos mucho desde el principio fue la alimentación, tanto a través de pequeños boutiques gourmet como a través de acuerdos con grandes supermercados. Teníamos acuerdos con Día, por ejemplo, a través de los cuales empezamos a... En ese momento todo lo que era la venta digital de supermercado era aún muy débil, empezaba a través de Holabox, etc. ¿Y compraron Holabox? ¿No se lo planteó nunca Rakuten? Eh... Oficialmente no. Pero yo conozco a Xiaoma, estuvimos hablando muchas veces, y hubiera podido tener sentido. Lo que pasa que cuando Rakuten... después de gastarse más de mil millones en cinco o seis compras en Europa y todas las empresas y cada una de ellas perder dinero, como que se le pasaron un poco las ganas de comprar e-commerce. Bueno, no hubiera gastado mil millones, ¿eh? Sí, de manera conglomerada. Ha llegado un momento donde se sufría más a nivel de complejidad operativa que no tanto a nivel de... no era un tema de manager, era un tema de complejidad operativa tener seis compañías totalmente distintas.",
+    "speaker": "SPEAKER_03",
+    "start": 1207.391,
+    "end": 1265.802
+  },
+  {
+    "text": "Antes de bajar a España, ¿Alibaba? Empezó mucho más tarde que Amazon y que Rakuten. Era un modelo parecido, por lo que veo, ¿no? Era un modelo parecido en el sentido que",
+    "speaker": "SPEAKER_02",
+    "start": 1266.142,
+    "end": 1278.361
+  },
+  {
+    "text": "Alibaba, más allá de que ellos han creado distintos marketplaces para respetar tema de marca, tipo de producto, etcétera, pero en general su modelo original core es marketplace también. Que era Alibaba en sí. Luego ya hay Taobao y Tmall. La manera que lo expresamos es Amazon es product-centric. Básicamente, lo primero que hay en la jerarquía de la experiencia del cliente es el producto. Y las páginas, básicamente, son las páginas de producto donde tienes un buy box y todo el mundo compite para ese buy box. En Rakuten y en Alibaba, lo primero que hay no es el producto, es la tienda. Estamos hablando del centro comercial. Tú entrabas, tú querías comprar un iPhone y no te encontrabas un iPhone con muchas tiendas, sino que te encontrabas muchas tiendas, cada una con un nivel de servicio distinto. En Amazon, tú tienes un nivel de servicio reglado por Amazon y a cuyos parámetros todo el mundo se tiene que adherir. En Rakuten, cada tienda tenía su propio servicio, tenía su propia experiencia, tenía su propia marca. Y de entrada, tú dentro de Rakuten tienes incluso tu propio microsite. La gente sabe que está comprando en Rakuten, pero dentro de Rakuten pueden estar comprando en el supermercado X, en la tienda X. Y esa tienda tiene su propio look and feel, tiene sus condiciones, etcétera, etcétera. Eso desde un punto de vista de propuesta de valor en ciertos servicios, las tiendas lo valoraban mucho, su temor habitual a trabajar con marketplaces, las dependencias, su propuesta de pérdida de valor. Desde un punto de vista de cliente en ciertos productos, eso es complicado. Cuando hablas de productos únicos, unos huevos de la montaña, pues tiene todo el sentido del mundo. Cuando hablas de iPhones, es un tema de precio, rapidez, etcétera, etcétera.",
+    "speaker": "SPEAKER_03",
+    "start": 1278.421,
+    "end": 1379.458
+  },
+  {
+    "text": "Son dos modelos de negocio distintos.",
+    "speaker": "SPEAKER_01",
+    "start": 1381.043,
+    "end": 1382.264
+  },
+  {
+    "text": "Y Alibaba en ese mismo modelo de negocio ha tenido y tiene mucho éxito. La diferencia es que Alibaba opera en China, que es un mercado superior más grande que Rakuten. Pero el modelo de negocio es parecido entre ambos. Aún así, ¿quién vende más iPhones en Japón? Pues probablemente es Amazon. Pero también es cierto que en iPhones mucho margen no hay. Esa ha sido una gran diferencia también entre Rakuten y Amazon. Todos sabemos que Amazon Es una historia de éxito a mucho largo plazo y que antes de ganar pasta, que aún me acuerdo cuando eran 2014 o 2015, el primer cuartel que ganaron pasta después de 20 y pico años de ejecución. O sea, increíble la visión de Jeff Bezos de poder convencer a los inversores de que eso valía la pena aún ganando dinero dentro de 20 años. Reconocer esa compañía que desde un punto de vista de vida, de margen, es mucho, mucho, mucho más rentable. De manera muy histórica, desde el primer día fue una compañía que ganó dinero. debido al tipo de producto que venden, debido a que no tiene la complejidad y los costes operativos. Obviamente, a la hora de buscar eficiencia, rapidez de entrega, etcétera, etcétera, es donde Amazon probablemente tiene más.",
+    "speaker": "SPEAKER_03",
+    "start": 1382.284,
+    "end": 1456.946
+  },
+  {
+    "text": "¿No es asombroso? Porque son dos visiones de negocio distintos. Eso es. Y hemos visto los dos negocios cómo han prosperado y han hecho carreras separadas. Eso es. Y la verdad que eso, a la hora de valorarlo, como que es estática así, ¿no?",
+    "speaker": "SPEAKER_01",
+    "start": 1456.966,
+    "end": 1469.335
+  },
+  {
+    "text": "Y ya no es Rakuten. eBay. eBay y Amazon. Estamos hablando que el año 2000 todavía no se sabía cuál sería el modelo que ganaría. eBay estaba ya valorado en 20.000 millones. Igual es una tontería, pero sobre los 20.000 millones. Cosa que hoy seguramente sigue en la misma valoración. Y Amazon es de las pocas compañías que ha superado el trillón de dólares de valoración. O sea, realmente tenía visión de negocio y tenía visión a largo plazo.",
+    "speaker": "SPEAKER_02",
+    "start": 1470.356,
+    "end": 1497.31
+  },
+  {
+    "text": "Tenía visión de negocio y a largo plazo, absolutamente.",
+    "speaker": "SPEAKER_01",
+    "start": 1497.33,
+    "end": 1500.37
+  },
+  {
+    "text": "El éxito para mí, el éxito de Amazon, si nos centramos en ello, La visión, espectacular, convencer a los inversores para inventir en un negocio que no va a ganar dinero hasta dentro de 20 años, es increíble y no estamos hablando de rondas de 100 millones, sino que hablamos de muchísimo más, pero la razón del éxito no se basa en la visión, como mínimo solamente se basa en la operación. Y la operación, es genial. La operación es muy complicada. Lo sé de cerca, tengo por suerte muchos amigos que trabajan en Amazon, algunos que directamente reportan allí pesos y lo que me hablan es operación, operación, operación y operación. tienen una visión muy clara pero...",
+    "speaker": "SPEAKER_03",
+    "start": 1500.45,
+    "end": 1536.457
+  },
+  {
+    "text": "Al final un retail es operación, sea online o offline, es operación. Un combate y mucho día a día. Al final el cliente necesita el producto en su casa, en un plazo, en un tiempo, etcétera, etcétera. Eso es operación. Eso es.",
+    "speaker": "SPEAKER_01",
+    "start": 1537.058,
+    "end": 1550.16
+  },
+  {
+    "text": "Y Amazon ha seguido combinar muy bien la visión con una perspectiva tecnológica increíble, con visión e inversión a largo plazo y una operativa del día a día brutal, brutal.",
+    "speaker": "SPEAKER_03",
+    "start": 1550.36,
+    "end": 1561.923
+  },
+  {
+    "text": "Entonces, en Rakuten se plantea abrir España, ¿y cómo elige las categorías donde va a competir? Porque claro, el e-commerce es todo.",
+    "speaker": "SPEAKER_02",
+    "start": 1563.958,
+    "end": 1571.223
+  },
+  {
+    "text": "¿Te dan un cheque en blanco y te dicen, haz lo que quieras?",
+    "speaker": "SPEAKER_01",
+    "start": 1571.243,
+    "end": 1577.187
+  },
+  {
+    "text": "Básicamente sí, básicamente sí. Por eso lo considero una experiencia de emprendeduría, aunque parezca un error, pero básicamente sí, porque ahí pasaron dos cosas. Uno, Que los japoneses sabían que había muchos best practices que debíamos tomar de ellos en base a su know-how, por supuesto, pero también sabían que muchos de los elementos que a ellos les funcionaban en Japón no nos funcionarían a nosotros. Porque la realidad es que cuando... Ostras, es que es todo muy distinto cómo funciona el e-commerce de Japón y en Francia. Por ejemplo, Al principio decidimos operar a través de una plataforma que nos prestaron como mínimos sustimientos desde un equipo que se había hecho en Japón. Y en esa plataforma, cuando faltaban dos semanas para lanzar, nos damos cuenta, es como si compraras un coche y no te das cuenta de que no tiene ruedas porque te has",
+    "speaker": "SPEAKER_03",
+    "start": 1577.247,
+    "end": 1634.835
+  },
+  {
+    "text": "presentado que tiene ruedas,",
+    "speaker": "SPEAKER_01",
+    "start": 1634.875,
+    "end": 1636.035
+  },
+  {
+    "text": "nos damos cuenta de que el e-commerce en Japón en ese momento sucedía de una manera muy curiosa que es yo veo un producto que me gusta, compro. Pero, y meto la tarjeta. Pero no se realiza ninguna transacción. El vendedor me llama. Negocio el precio con él. Los huevos están bien, son bonitos. Sí, va, que tendré 12. Me haré un descuento, etcétera, tatata. Llegan a un acuerdo de la propuesta y del precio. Cuelgan, aceptan la compra y entonces realizan el envío. Ese nivel de operación es la hostia. Sí, pero es como funciona. Entonces, cuando yo vi... Nos dieron una plataforma que cuando el cliente transaccionaba no se realizaba la confirmación, sino que se generaba una orden de llamada al cliente. Y mi trabajo al principio fue convencer a los japoneses de que ese no funcionara. Pero ellos eran conscientes y a partir de que eran conscientes de esto nos dieron mucha libertad para operar a nivel táctico. Lo que luego sucedió es que una de nuestras empresas primas, o hermanas, era Priceminister.com en Francia, que ellos ya habían abierto Price Minister en España. Era pequeñitos, pero ya llevábamos unos años operando aquí. Entonces, heredamos sus ventas, heredamos su plataforma, aunque luego la cambiamos rapidísimamente, y heredamos todo su know-how desde el punto de vista de categorías. Ya existían muchos vendedores, que luego migramos a lo que era la plataforma española. La plataforma la montasteis aquí? La plataforma, primero teníamos la plataforma francesa de Priceminister, en dos meses decidimos cambiarla a una plataforma global cuyos cimientos, el backing, se realizaron en Japón, pero yo tenía mi propio CTO y mis propios desarrolladores aquí a través de los cuales cogimos todas las APIs y lo conectamos todo con soluciones nuestras.",
+    "speaker": "SPEAKER_03",
+    "start": 1636.075,
+    "end": 1749.218
+  },
+  {
+    "text": "¿Puede ser que programáis en Ruby?",
+    "speaker": "SPEAKER_02",
+    "start": 1749.238,
+    "end": 1750.94
+  },
+  {
+    "text": "En esa época estábamos todos a leches.",
+    "speaker": "SPEAKER_03",
+    "start": 1752.79,
+    "end": 1757.693
+  },
+  {
+    "text": "¿Cómo evolucionaron las ventas de Rakuten en España?",
+    "speaker": "SPEAKER_01",
+    "start": 1757.713,
+    "end": 1760.595
+  },
+  {
+    "text": "Mira, al principio la primera compra la hice yo. Los primeros tres meses tuvimos más ventas de las que nos pensábamos. porque la entrada en España hizo más ruido de lo que probablemente haría una startup en condiciones normales por básicamente quién era. Fue esta novedad y la gente probó. Sí, exacto. A partir de aquí lo que conseguimos es básicamente ya que éramos un experimento se asignó un presupuesto especial a la unidad de España y básicamente el CMO del grupo Rakuten con su propio budget decidió hacer un experimento y básicamente me dio mucho dinero para hacer televisión. y arrancamos con campañas de televisión bastante fuertes durante una temporada, a través de las cuales nos asociamos con Alberto Chicote, a través de las cuales lanzamos unas campañas durante cuatro meses fuertes, que obviamente nos generaron tráfico, nos generaron muchas ventas y lo hicieron de manera muy rápida.",
+    "speaker": "SPEAKER_03",
+    "start": 1762.136,
+    "end": 1821.597
+  },
+  {
+    "text": "¿Por eso se pasó de 0 a 30 millones de euros de facturación? Entre otras cosas, sí. ¿Todas estas campañas estaban aquí? Eso es. ¿Pero eso está por encima de los 10 millones de euros de inversión o por debajo?",
+    "speaker": "SPEAKER_02",
+    "start": 1822.877,
+    "end": 1832.259
+  },
+  {
+    "text": "El dinero que se invirtió desde un punto de vista de marketing no está dentro de lo que invertimos, pero es muy inferior. Si estamos hablando de que tuvimos una inversión, lo que invertimos en televisión creo que llegó a dos millones y medio, que no está nada mal, pero son dos millones y medio. Tampoco nos dio para cuatro meses hacer bastante ruido. Y luego el patrocinio del Barça. Sí. que no tiene nada que ver con la estrategia de Rakuten en España ni la estrategia de Rakuten en Europa, tiene que ver con el posicionamiento de marca a nivel global. Una de las conclusiones a las que llegaron es que básicamente si querían crear un ecosistema fuerte, se tenía que basar no solo en el liderazgo de alguno de sus servicios como pilar, sino en una marca que por sí misma fuera reconocida. Y se planteó la oportunidad del Barça y maduró. Yo estuve al principio de las valoraciones y negociaciones con el Barça, y de hecho mi salida fue cuando estaban negociando algo que venía ya de muy atrás. Lo que te puedo decir es que cuando se planteó el tema desde el principio, Desde Europa, desde la dirección de Europa, lo analizamos desde muchos ángulos y en todas las conclusiones recomendamos no hacerlo. No te voy a engañar, tampoco no quiero hablar mal de Rokuten, ni mucho menos, pero creo que no tiene ningún sentido, ni se puede encontrar una manera para extraer un ROI positivo de ninguna manera u otra. Pero estamos hablando de una compañía cuyo líder tiene el control absoluto de la compañía desde el punto de vista operacional, toma las decisiones que considera y personalmente creo que fue una decisión que tomó el fundador porque le apetecía a nivel personal.",
+    "speaker": "SPEAKER_03",
+    "start": 1834.973,
+    "end": 1938.652
+  },
+  {
+    "text": "¿El contrato era en 50 millones, 100 millones de euros?",
+    "speaker": "SPEAKER_02",
+    "start": 1939.603,
+    "end": 1941.624
+  },
+  {
+    "text": "No lo sé. Probablemente sea tanto como vosotros desde el punto de vista de lo que ha salido a la prensa. Me suena en 80 a mí, pero no estoy seguro. ¿Tú ya no estabas",
+    "speaker": "SPEAKER_03",
+    "start": 1942.064,
+    "end": 1950.386
+  },
+  {
+    "text": "en Rakuten en España cuando esto...?",
+    "speaker": "SPEAKER_01",
+    "start": 1950.446,
+    "end": 1952.247
+  },
+  {
+    "text": "Cuando se cerró, no, pero sí que estuve al inicio de las conversaciones.",
+    "speaker": "SPEAKER_03",
+    "start": 1952.267,
+    "end": 1955.948
+  },
+  {
+    "text": "¿Eso ayudaría a las ventas?",
+    "speaker": "SPEAKER_02",
+    "start": 1955.968,
+    "end": 1957.208
+  },
+  {
+    "text": "Pero ya no estabas. No, ya no estaba, pero sé que ayudó a las ventas, segurísimo. Pero, de todas maneras, no compensa, ni mucho menos.",
+    "speaker": "SPEAKER_03",
+    "start": 1958.3,
+    "end": 1966.804
+  },
+  {
+    "text": "Se desinvirtió en Rakuten.",
+    "speaker": "SPEAKER_02",
+    "start": 1967.064,
+    "end": 1968.925
+  },
+  {
+    "text": "Sí, aquí sucedieron varias cosas, y esa fue mi decisión. Al unir las operaciones... Básicamente, lo que hicimos en Europa es unir las operaciones de todos los distintos países en una sola unidad de negocio, en unas solas oficinas en Alemania. Y cuando estuve en Alemania, que es donde ubicamos la central europea, lo que vimos es que, aunque el proyecto de España fuera interesante, cuando tienes Francia por delante, tienes Alemania por delante, tienes Inglaterra por delante, decidimos centrarnos mucho más en estos países que tenían muchísimo más, ya no potencial, sino que básicamente para ganar en Europa teníamos que ganar en estos países. Y básicamente España, Austria o algún país o más pasó a ser baja prioridad por el potencial que tenía. Al final estamos hablando de que mercados, incluso el mercado francés, tú tienes cinco o seis tíos que en e-commerce te hacen más de mil millones. Estamos hablando de mercados que no tienen nada que ver con el nuestro. Aquí tienes a un Privalia que te hará 500, 600, pero esto es lo más grado que tienes aquí. En volumen de mercado, España no compensaba la complejidad de las operaciones, con lo cual decidimos ponerlo en baja prioridad. ¿Qué sentido tiene invertir en el Barça con eso?",
+    "speaker": "SPEAKER_03",
+    "start": 1968.945,
+    "end": 2034.251
+  },
+  {
+    "text": "Según mi opinión, ninguna. Pero en baja prioridad no es que zarrastes el mercado.",
+    "speaker": "SPEAKER_01",
+    "start": 2034.812,
+    "end": 2037.994
+  },
+  {
+    "text": "No cerramos el mercado,",
+    "speaker": "SPEAKER_03",
+    "start": 2038.894,
+    "end": 2039.695
+  },
+  {
+    "text": "se transformó el modelo de negocio en algo mucho más",
+    "speaker": "SPEAKER_01",
+    "start": 2039.875,
+    "end": 2042.316
+  },
+  {
+    "text": "automático, pero se estuvo manteniendo el site, se estuvo manteniendo las ventas, pero a nivel operativo se desinvirtió totalmente.",
+    "speaker": "SPEAKER_03",
+    "start": 2043.097,
+    "end": 2052.503
+  },
+  {
+    "text": "O sea, solamente estabais en Alemania, Francia e Inglaterra. Sí.",
+    "speaker": "SPEAKER_01",
+    "start": 2052.523,
+    "end": 2055.925
+  },
+  {
+    "text": "¿Y luego se dejó de invertir también en estos mercados? ¿O sea, el Rakuten se fue de Europa?",
+    "speaker": "SPEAKER_02",
+    "start": 2056.526,
+    "end": 2059.548
+  },
+  {
+    "text": "No, no se fue de Europa. sigue operando en estos tres mercados y sigue funcionando bastante bien, sobre todo en Francia y en Alemania, donde Rakuten tiene volúmenes importantes, está creciendo bien y tiene compañías rentables, como por ejemplo Price Minister, que fue rebrandeada Rakuten en Francia y yo desde Siriscon estuve competiendo con ellos y son duros y son buenos. Y en Alemania, que surgían de otra retail que se llamaba Tradoria, que transformaron también en Rakuten en Alemania, no tienen el volumen de los 12, 14 mil millones de Amazon ni mucho menos, pero siguen siendo un e-commerce de cientos de millones que funciona bastante bien y sigue creciendo. Y ahí es donde se han centrado básicamente. ¿Por qué cambiaron su perspectiva más agresiva de inversión en su momento? Uno, porque Amazon empezó a apretar mucho en Japón y era el momento para ellos para proteger su territorio.",
+    "speaker": "SPEAKER_03",
+    "start": 2060.428,
+    "end": 2118.369
+  },
+  {
+    "text": "Estratégicamente es un gran movimiento de Amazon además, pero ¿se puede ser global estando solamente en Japón y luego fuera de Japón en Alemania, Francia, Inglaterra, haciendo un cherry pick de tres o cuatro países? Esto no puede ser global, no tiene ningún sentido. Muy difícil.",
+    "speaker": "SPEAKER_01",
+    "start": 2118.77,
+    "end": 2131.358
+  },
+  {
+    "text": "El modelo tenía sentido a la hora de realizar ciertas captaciones si muy rapidísimamente creas un merge de todas ellas, creas un merge operacional a nivel internacional y a partir de aquí apuestas y apretas muy fuerte, pero tienes que apretar muy fuerte y todo desde una operativa unificada. Si, en Estados Unidos su estrategia fue parecida a la europea. Compraron una empresa que se llamaba Buy.com hace años. que acabaron eliminando, porque básicamente fracasó totalmente. Y ahí sí que hicieron una operación que hasta lo que yo sé les ha funcionado bastante bien. Compraron ahí Ebates, no Ebates.com, que es básicamente un site de rebates. Básicamente compras a través de filiación, compras a través del... del destino final y generas un descuento para tu seguir en compra. Y Bates funciona muy muy bien. Creo que cuando la compraron la compañía facturaba cerca de mil millones y era rentable. Y por lo que tengo entendido sigue siéndolo. No tiene ningún paralelismo con el modelo de negocio de Rakuten. No creo que tenga ninguna sinergia a nivel global, pero es un caso más básicamente de ese movimiento.",
+    "speaker": "SPEAKER_03",
+    "start": 2132.859,
+    "end": 2210.426
+  },
+  {
+    "text": "Entonces tú pasaste a hacer discount.",
+    "speaker": "SPEAKER_02",
+    "start": 2210.686,
+    "end": 2212.427
+  },
+  {
+    "text": "Sí, efectivamente. De hecho, en ese momento, después de realizar todo lo que es el merge de las operativas a nivel europeo, me apetecía un cambio profesional y me contactan del grupo Casino. El grupo Casino es un gran grupo de retail francés, al igual que lo es Carrefour. Es un grupo de facturación de 40.000 millones aproximadamente. Es multimarca, con lo cual no estamos muy familiarizados en España con lo que es la marca Casino. Tiene marcas como Monoprix, por ejemplo, son líderes en Francia y líderes en muchos mercados en Sudamérica y también en Asia. El grupo Casino es el propietario de uno de los mayores e-commerce de Francia, que se llama Seediscount. Seediscount, con una facturación cercana a 4.000 millones, es básicamente otro e-commerce barra marketplace que compite directamente contra Amazon. Y lo hace de manera muy, muy digna y con una propuesta de valor muy distinta. Me ficharon como mano derecha del CEO, donde llevaba sobre todo las operaciones de Marketplace, pero también la parte de B2B, la parte internacional. Estábamos operando en nueve mercados distintos cuando yo entré. África, Asia, Suramérica. Y fue una experiencia fantástica. Estamos hablando de uno de los mayores Marketplaces independientes a nivel europeo, excluyendo los grandes grupos como serían Amazon. El Marketplace solo factura 1.500 millones y tienen aproximadamente unos 40.000 vendedores de todo el mundo, de los cuales un 20% por ejemplo, los contratábamos directamente de China. ¿Desde Francia trabajabas? Sí, desde Francia. Mi familia se fue a Burdeos, una ciudad preciosa, si no la conocéis os recomiendo visitarla un fin de semana. La compañía estaba en Burdeos porque fue fundada originalmente por tres hermanos emprendedores en esa ciudad y el grupo casi no la compró cuando facturaban ni 10 millones de euros. Yo estaba a caballo entre Burdeos y París, básicamente. TGV, dos horas, para arriba y para abajo todo el día. Y es una compañía enorme. Solo al lado de las oficinas centrales de Burdeos teníamos medio millón de metros cuadrados de logística, con cinco centros iguales en toda Francia. Y hablamos de una operativa, probablemente desde el mundo del retail, de lo más eficiente que he visto nunca. Eso es retail puro. Más allá de que tiene marketplace, también tendría su first party sales, básicamente. Eso casi no lo domina bien, ¿no?",
+    "speaker": "SPEAKER_03",
+    "start": 2213.167,
+    "end": 2359.291
+  },
+  {
+    "text": "El grupo casi no lo domina bien. Sí, efectivamente.",
+    "speaker": "SPEAKER_01",
+    "start": 2359.331,
+    "end": 2361.552
+  },
+  {
+    "text": "Tú que has estado tanto tiempo en el e-commerce y en el retail, en este caso, ¿qué es lo que has aprendido? ¿Cuáles son las claves del e-commerce? O, lo que es lo mismo, ¿cómo se compite con Amazon?",
+    "speaker": "SPEAKER_02",
+    "start": 2361.893,
+    "end": 2375.199
+  },
+  {
+    "text": "Yo creo que, uno, en el e-commerce es muy difícil ganar dinero. Esto es lo primero que he aprendido. Si quieres ganar dinero, no te metes en e-commerce. E-commerce retail, básicamente. Esto es lo primero. No conozco a nadie que gane mucho. Yo, personalmente. Hay casos Farfetch, etcétera, pero tampoco. Dos, de que a no ser que seas capaz de encontrar un niche muy concreto geográficamente hablando o desde un punto de vista de producto, no creo que sea realista competir con Amazon. Esa es la realidad. Hay casos interesantes. Hay casos interesantísimos. Farfetch en Inglaterra, marketplace, lujo, 1.500 millones de facturación, Bravo, lejos de Amazon por el momento, posicionamiento distinto, fantástico. Etsy con su modelo, etcétera. Hay excepciones. Pero que a nadie se le ocurra meterse a vender teléfonos, que a nadie se le ocurra entrar a montar tiendas de e-commerce en ninguna categoría que compita con Amazon, a no ser que seas capaz de proponer un servicio, una propuesta de valor totalmente distinta. Sin embargo, en España",
+    "speaker": "SPEAKER_03",
+    "start": 2376.297,
+    "end": 2442.875
+  },
+  {
+    "text": "hay e-commerce tipo Redcon o PcComponentes.",
+    "speaker": "SPEAKER_02",
+    "start": 2443.195,
+    "end": 2446.277
+  },
+  {
+    "text": "Sí, pero en España precisamente es un gran ejemplo donde fuera de Amazon hay poca vida comparado con otros mercados. Tienes Privalia, ok, modelo de negocio distinto, bien protegidos con la parte de MemPrivé, fantástico, pero no podemos comparar burmeles de ventas. Tienes PcComponentes, que parece que lo hacen fantásticamente, llevan mucho tiempo y creo que gracias a eso y a las buenas operaciones lo están salvando fantástico, pero en mi opinión No entiendo cuál puede ser su perspectiva a medio plazo o a largo plazo, sinceramente. No sé cómo pueden llegar a sobrevivir, sinceramente. Pero más allá de esto, si tú miras Francia por ejemplo, allí sí que existen 8 o 7 tíos muy potentes y son sobre todo muy potentes por su presencia en tienda y por su servicio a través de marca, por ejemplo Fnac. Fnac ha conseguido generar una experiencia, no es un e-commerce, no es un producto, es una experiencia de compra que une Luego el canal digital, el canal de las tiendas, etcétera, etcétera. Comprar en FNAC en Francia es un tema de estatus, básicamente.",
+    "speaker": "SPEAKER_03",
+    "start": 2446.357,
+    "end": 2519.632
+  },
+  {
+    "text": "Estamos hablando de negocios que han surgido en muchos casos antes que Amazon, que tienen presencia física, que han conseguido generar marca, etcétera, y que luego se han ido al canal online. Eso es. ¿Tú con Antietz es lo mismo? ¿Estás de acuerdo? ¿Es imposible competir con Amazon? A ver, por ejemplo, en el caso nuestro no competimos con Amazon. Yo creo que vender un producto sin diferenciar sin customizar, sin nada. Es un producto con una operación de estocaje y envío al cliente contra Amazon. A ver, Amazon, y este es un parte del drama, entre comillas, de Rakuten, y es que habéis competido contra el mejor. El mejor. O sea, es que Amazon no es solamente el mejor retailer. Yo creo que es una de las mejores operaciones que existe en cualquier sector. O sea, estamos hablando de alguien, de un auténtico visionario y que tiene montada una operación que es excepcional. O sea, y es que no hay eso en tantos sectores. Entonces yo creo que competir contra Amazon sin una propuesta de valor diferencial no es fácil, no es nada fácil.",
+    "speaker": "SPEAKER_01",
+    "start": 2519.652,
+    "end": 2576.484
+  },
+  {
+    "text": "Luego obviamente existen oportunidades pero en eso reflejas una sensación que he tenido muchas veces compitiendo con ellos desde muchos ángulos distintos. es que no solo son los más grandes, son los más rápidos, los más atrevidos, los más innovadores, es que te dan por todos lados, esa es la realidad. En Cdiscount, yo creo que de los pocos casos que he visto que se defienden muy bien, pero tengo que seguir hablando de defenderse, no ser ofensivos. De hecho, lo que Amazon toca muy bien es todo lo que es Motron, menos de 30 kilos, básicamente. Lo que es producto de más de 30 kilos gama blanca electrodomésticos y luego mobiliario, por ejemplo, desde un punto de vista del hogar, eso no lo tocan también ni en gama de producto ni en logística, porque la logística de este tipo de productos es tan compleja que incluso para Amazon a veces les resulta demasiado caro. Por ejemplo, en C-Discount es líder en gama blanca y es líder en mobiliario. Y gracias a su network logístico que tienen tanto a través de su experiencia como a través de casino, ni siquiera Amazon puede competir contra ellos. En C-Discount eres capaz de comprarte una lavadora el domingo por la mañana y a las 5 de la tarde el mismo domingo te han venido a casa, te la han instalado y te han enseñado cómo funciona. Y además que la lavadora probablemente es la mejor gama y mejor precio de mercado. Ahí ni Amazon puede hacer eso. Estos son productos de bajo margen, tampoco Amazon sabe lo que hacen en este tipo de casos. Tienes tíos que lo están haciendo muy bien en hogar, Amazon Dumont, etc. Luego están los otros franceses, también Marketplace, que lo están haciendo muy bien, no me acuerdo el nombre. Ahí tienes sectores súper interesantes que lo serán a largo plazo no lo sé pero productos pesados de logística compleja de momento es un huevo claro.",
+    "speaker": "SPEAKER_03",
+    "start": 2576.524,
+    "end": 2681.373
+  },
+  {
+    "text": "Vámonos al SaaS, bueno a suscripción después de la perspectiva desoladora del e-commerce. No, pero cuidado, me",
+    "speaker": "SPEAKER_02",
+    "start": 2682.414,
+    "end": 2691.161
+  },
+  {
+    "text": "encantaría volver a repetir e-commerce. No dejaré nunca de, si tengo oportunidades, volver a competir contra Amazon. Seguro que se puede ganar a Amazon. Algún día eso se retirará y existen huecos.",
+    "speaker": "SPEAKER_03",
+    "start": 2691.181,
+    "end": 2702.667
+  },
+  {
+    "text": "Hay verticales donde Amazon no gana. Yo he trabajado en un vertical donde no ganaba Amazon. Amazon, el vertical donde realmente gana es en libros.",
+    "speaker": "SPEAKER_01",
+    "start": 2703.087,
+    "end": 2712.756
+  },
+  {
+    "text": "Se puede permitir no ganar en verticales, cosa que si tú estás en este vertical probablemente no te lo puedas permitir. Correcto. Pero vamos a avanzar. Caso ABA English. ¿Qué ha pasado con ABA English? ¿ABA English es un servicio de suscripción para aprender inglés? Tiene una fórmula concreta que para enseñar inglés, que ha funcionado muy bien, que ha conseguido muchos suscriptores, pero ha tenido una especie de crecimiento muy rápido y luego un estancamiento. ¿Cuál es la historia de Abba English?",
+    "speaker": "SPEAKER_02",
+    "start": 2712.996,
+    "end": 2739.26
+  },
+  {
+    "text": "Abba English fue fundada por Severo, Severo Figarola, el mismo señor que hace muchos años fundó Home English y lo vendió a Editorial Planeta. Y justo cuando vendió a Home English, en base a toda su experiencia, en ese momento empezaba a surgir todo el fenómeno del mundo digital y el entorno de la educación aún no estaba muy maduro, tuvo la idea de utilizar toda su experiencia y metodologías de aprendizaje que había desarrollado a través de más de 40 años enseñando idiomas, a un entorno digital, básicamente. A partir de aquí creó lo que llamamos el método natural, que se basa en replicar el aprendizaje, el proceso por el cual una persona pasa de aprendizaje cuando se traslada a vivir a otro sitio, con escenas de la vida cotidiana. El método natural de Ava, de hecho, encajó muy bien en un entorno digital. Se basaba en crear cortometrajes con nuestro propio estudio de grabación, nuestros realizadores, etcétera, que escenifican momentos concretos personalizados por niveles. Los estudiantes disfrutan mirando estos cortometrajes y a partir de aquí realizan ejercicios a través de estos cortometrajes, todo distribuido en seis niveles oficiales de aprendizaje, de beginner a business y pasando por advanced. y 144 unidades. Lanzaron este modelo digital a través de una plataforma web y desde el primer día funcionó fantástico. Una compañía que enseguida que lo lanzaron en perspectiva B2C empezó a captar usuarios de un modelo de suscripción anual. Y tal como has dicho tú, desde el 2011 que el nuevo modelo de negocio empezó, empezaron a crecer de manera sostenible y fantástica. La historia a partir de allí es conocida. Ronda de inversión con Nauta, a través de su crecimiento. Ronda de inversión con Kenneth Partners, un fondo inglés. Y hasta el 2017 es una historia de éxito fantástica, de crecimientos enormes, donde empezaron vendiendo en algunos países concretos, se expandieron en distintos otros mercados, múltiples canales de captación, etcétera, etcétera. Y a partir de aquí nos encontramos una compañía que ya es madura desde un punto de vista de operaciones, desde un punto de vista de tiempo. ¿Cuánto factura RR? ¿Hasta cuándo llega? Nuestro revenio de lo que es el año pasado sería aproximadamente un poco más de 10 millones de euros. Y a partir de aquí, a partir del 2017, lo que se encuentra es una compañía donde para escalar tiene que cambiar cosas. para escalar, para subir de los 10 millones, para mantenerlos, porque eso tendrá un char importante. Sí, pero también estamos en un sector en alto crecimiento, con lo cual se siguen captando muchísimos, muchísimos estudiantes. Obviamente, la cuestión es cómo poder seguir escalando, manteniendo los costes de captación adecuados, con un extra value que te salga a cuenta. ¿Por qué competencia? Mira, cuando empezó la operativa en el 2013, que es cuando hicieron el lanzamiento, si no me acuerdo mal, de las aplicaciones, de la parte de la aplicación móvil, existían unas 50 aplicaciones de aprendizaje de idiomas. Actualmente hay más de 600 solo en la App Store aproximadamente, con lo cual existe muchísima competencia. Aún así...",
+    "speaker": "SPEAKER_03",
+    "start": 2739.7,
+    "end": 2934.834
+  },
+  {
+    "text": "El signo, mi famoso, que no me acuerdo, Ling... Lingokids. No, Lingokids no, también. Lingoda.",
+    "speaker": "SPEAKER_02",
+    "start": 2934.894,
+    "end": 2939.735
+  },
+  {
+    "text": "Aún así el posicionamiento sigue siendo muy único y desde esta perspectiva sigue siendo un posicionamiento a través del cual nadie se ha acercado porque lo que está sucediendo en el mercado es que todas las nuevas startups de aprendizaje de idiomas primero son nativas desde un punto de vista móvil y en consecuencia están desarrollando productos que basan su aprendizaje en los comportamientos de los clientes en dispositivos móviles, que son muy muy muy casuals y muy rápidos. Aquí lo que te encuentras es Babel, Duolingo, Memrise, Boozoo, etc. A través de los cuales tú generas una experiencia de aprendizaje de un idioma muy entretenida, muy placentera, muy cercana al entorno del juego, pero probablemente muy alejada de una solidez académica que realmente te haga mejorar un idioma desde el principio. Puedes practicar, puedes mejorar algo concreto, pero creo que con la mayor parte de aplicaciones que existen en el mercado no puedes aprender un idioma.",
+    "speaker": "SPEAKER_03",
+    "start": 2940.471,
+    "end": 3006.869
+  },
+  {
+    "text": "¿En qué mercado estáis vosotros?",
+    "speaker": "SPEAKER_01",
+    "start": 3006.889,
+    "end": 3008.49
+  },
+  {
+    "text": "Estamos ahora mismo operando 180 países distintos. De hecho, hemos abierto China, Estados Unidos en los últimos cuatro meses, donde estamos teniendo resultados superinteresantes. El año pasado, cuando yo me incorporé, teníamos cinco mercados principales. España, Italia, Francia, México, Brasil. Y uno de los cambios que hemos introducido es básicamente... automatizar todo lo que es la localización, automatizar todo lo que es desde un punto de vista de producto y también la automatización desde un punto de vista de captación y de marketing y hemos conseguido lanzar en un montón de mercados al mismo tiempo, algo que estamos justo testeando ahora mismo. Ahora mismo no se me ocurren muchos mercados en los que no tengamos... ¿Enseñanzas solo en inglés? Todo lo que hacemos es aprendizaje a inglés. En Loma de Origen tenemos más de 20 idiomas, aproximadamente. En China hemos lanzado con chino mandarín. Puedes aprender de chino mandarín a inglés, básicamente. ¿Crece? Sí, el año pasado. Actualmente tengo un 60% más de usuarios de pago que el año pasado. A estas mismas alturas.",
+    "speaker": "SPEAKER_03",
+    "start": 3008.53,
+    "end": 3076.674
+  },
+  {
+    "text": "O sea, ¿16 millones de RR?",
+    "speaker": "SPEAKER_02",
+    "start": 3077.375,
+    "end": 3078.575
+  },
+  {
+    "text": "en usuarios de pago.",
+    "speaker": "SPEAKER_03",
+    "start": 3079.618,
+    "end": 3081.559
+  },
+  {
+    "text": "Ha bajado el ticket.",
+    "speaker": "SPEAKER_02",
+    "start": 3082.079,
+    "end": 3082.919
+  },
+  {
+    "text": "El ticket ha bajado y ha bajado porque obviamente existe muchísima más competencia y ha bajado porque para nosotros era un gran momento para acelerar el crecimiento. Cuando yo me incorporé lo que nos encontramos es sobre todo mucho foco en cinco mercados y mucha potencial en captación mobile y lo que hemos hecho es abrir el abanico geográfico Y también lo que hemos hecho es centrarnos mucho en mejorar el producto de este tipo de móvil. En un modelo de suscripción como el nuestro, lo que sucede es que el primer año, básicamente, tienes que invertir y a partir de que llega la renovación, porque nuestro modelo de suscripción es anual, es cuando empiezas a compensar el CAC. Y a partir de aquí, la gente que renueva, tenemos tasas de renovación muy altas. Tenemos usuarios que renuevan están con nosotros 3, 4 o 5 años. Tenemos una tasa de renovación al año superior del 60%.",
+    "speaker": "SPEAKER_03",
+    "start": 3084.4,
+    "end": 3139.975
+  },
+  {
+    "text": "¿Por qué pagan un año obligatoriamente?",
+    "speaker": "SPEAKER_02",
+    "start": 3140.015,
+    "end": 3142.436
+  },
+  {
+    "text": "No, la mayor parte de las suscripciones son anuales, pero existen mensuales, trimestrales, etc. De hecho, uno de los grandes cambios que realizamos es que anteriormente había un modelo de suscripción anual que tenía un precio prácticamente único para todos los países. Actualmente tenemos más de 1.000 permutaciones de precio. dependiendo del mercado, del device, del comportamiento del cliente, etc. Ahí lo que hicimos es implementar técnicas de revenue management del sector de más modulos al sector del subscription business, de la educación. Y eso nos permitió acelerar mucho el crecimiento de nuevos usuarios de pago. ¿Cuándo eso se transformará en revenue? En revenue ya se está transformado, pero lo verámos claramente, sobre todo, cuando empiecen a venir las renovaciones de estos clientes. ¿Ganáis dinero? ¿Ganáis dinero? Ahora mismo, en los últimos meses, hay algunos que sí, algunos que no, pero la compañía es sostenible.",
+    "speaker": "SPEAKER_03",
+    "start": 3142.576,
+    "end": 3189.393
+  },
+  {
+    "text": "La compañía está en blanco y negro.",
+    "speaker": "SPEAKER_01",
+    "start": 3190.45,
+    "end": 3191.871
+  },
+  {
+    "text": "En el año total y todo el año no. Porque hay excepcionalidad buena o excepcionalidad mala. Pero hay meses en que ganamos dinero y cuando no ganamos dinero es porque decidimos invertir de manera agresiva para captar usuarios. Es una compañía que no tiene problema de sobrevivir, no tiene problema de generar negocio y crecer pasito a pasito. El reto es acelerar ese crecimiento.",
+    "speaker": "SPEAKER_03",
+    "start": 3192.771,
+    "end": 3215.762
+  },
+  {
+    "text": "Que es para el que han entrado los fondos.",
+    "speaker": "SPEAKER_02",
+    "start": 3216.022,
+    "end": 3217.603
+  },
+  {
+    "text": "¿Se va a ir a buscar más rondas de inversión? Por el momento mi prioridad se basa en mejorar las operaciones y acelerar los unit economics. Una vez hayamos demostrado que somos capaces de hacer esto, que será básicamente a final de este año, cuando tenga un año completo básicamente de cohortes renovadas, plantearemos distintos escenarios y es posible que uno de ellos sea ir a buscar más inversión para acelerar nuestro crecimiento. Como por ejemplo el hecho de que en China Hemos arrancado hace pocos meses. Lo que estamos viendo es muy, muy, muy interesante. Tasas de conversión surrealistas. Resultados muy, muy buenos. Pero en China para ganar no puedes ir poco a poco. Necesitas muchísimo dinero. Entonces, lo que estamos haciendo en China es validar el modelo del negocio para que en algún momento determinado podamos probablemente ir a buscar una ronda y a partir de aquí acelerar. ¿Cuánta gente sois? Somos un poco más de 70 personas.",
+    "speaker": "SPEAKER_03",
+    "start": 3218.697,
+    "end": 3266.505
+  },
+  {
+    "text": "¿Y cómo están repartidas la mitad? ¿Son desarrolladores? ¿O gente que genera contenido? ¿O gente de marketing?",
+    "speaker": "SPEAKER_02",
+    "start": 3266.525,
+    "end": 3272.828
+  },
+  {
+    "text": "La mitad son técnicos y en el entorno técnico pondría técnicos entre producto, analistas, etcétera. Todo lo que sería el entorno de producto incluyendo la parte tecnológica. Y la otra mitad se dividiría entre lo que sería marketing, el equipo de learning. desde un punto de vista pedagógico, para nosotros es muy importante, tenemos profesores que dan atención al cliente, que trabajan con los clientes porque también ofrecemos clases particulares, clases en grupo, asesoramiento a través de chat con el estudiante y obviamente también atención al cliente que tenemos que ofrecer en distintos idiomas por razones obvias. Nos contacta clientes desde Abu Dhabi, clientes desde Hong Kong, clientes desde Mongolia. Eso es caro, ¿eh? Depende de lo bien que sepas automatizar tus operaciones. Y esto ha sido una de las áreas donde hemos invertido mucho tiempo durante el último año. Y es precisamente uno de los motivos por los cuales yo me incorporé a la compañía. Es una compañía que tiene un modelo de negocio claro, una visión y una propuesta de valor que creo que es ganadora en el mercado. Nos diferenciamos mucho de la competencia. Mi objetivo es enfocarnos a la parte operativa y la eficiencia del negocio, que es lo que nos hacía falta y lo que creo que estamos trabajando ahora mismo.",
+    "speaker": "SPEAKER_03",
+    "start": 3274.534,
+    "end": 3345.102
+  },
+  {
+    "text": "Marc, nos quedamos en tiempo. Súper interesante. No hemos podido entrar en la parte inicial de tu vida, que era parte de Traveller, pero la recuperaremos otro día. Muchas gracias por tu historia. A vosotros. Muchas gracias.",
+    "speaker": "SPEAKER_02",
+    "start": 3346.225,
+    "end": 3360.296
+  },
+  {
+    "text": "Suscribíos a nuestro podcast en youtube.com barra ITNIC, Spotify, iTunes, Google Podcasts, iVoox y otras plataformas para no perderos ningún episodio. También lo podéis recibir en vuestro correo suscribiéndoos a nuestra newsletter en ITNIC.net.",
+    "speaker": "SPEAKER_00",
+    "start": 3360.316,
+    "end": 3375.188
+  }
+]

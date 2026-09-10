@@ -1,0 +1,782 @@
+[
+  {
+    "text": "Bienvenidos una semana más al podcast de ITNIC. Yo soy Daniel Camargo, la persona que está detrás de las cámaras, y hoy vengo a hablarles de este episodio entre Bernat Farrero y Eduard Castañeda, cofundador de Wallboxx, uno de los proveedores líder en diseñar, fabricar y distribuir productos de carga inteligente para vehículos eléctricos en más de 60 países. En este episodio Eduard nos explica el futuro de la energía en el mundo, de cómo lo que parece un simple cargador de un vehículo eléctrico se puede convertir en una pieza clave para gestionar la energía de la casa, de una comunidad de vecinos e incluso de una empresa. Eduard nos habla específicamente de energía renovable, de convertir el vehículo eléctrico en un activo que da paso a la autonomía energética cuando va de la mano de paneles solares o incluso de maquinaria que es capaz de captar energía eólica. Así nos explica con ejemplos detallados cada uno de los productos que ofrece Wallbox y cómo estos terminan ayudando a ser más eficiente el consumo de energía en diferentes espacios. Durante este podcast conoceremos cómo Wallbox ha conseguido distribuir a sus clientes a través de venta indirecta, afiliándose con partners internacionales, pero también con venta directa a través de e-commerce. o acercándose a la puerta de las empresas o de las administraciones públicas para venderles. También haremos un recorrido por su historia personal y cómo ha pasado de ser un taller con 4 personas a ser, al día de grabación de este podcast, una empresa con más de 600 empleados, valorada en aproximadamente 1.500 millones de euros y en proceso para salir a la bolsa de New York. Si quieres conocer una de las empresas españolas con mayor crecimiento y ambición en cuanto a impacto global, no te puedes perder este episodio. Y el podcast de hoy es posible gracias a cada uno de vosotros. Aquellos que nos dejan comentarios, aquellos que nos dejan opiniones, retroalimentación. Y aquellos que nos comparten en redes sociales, que nos dicen cuáles son sus episodios favoritos, que es lo que más destacan de cada uno. Incluso aquellos que simplemente están suscritos al canal, los ayudan un montón. Así que si aún haces parte de ese 46% de la población que nos escucha pero que no ha presionado ese botón rojo, no dudéis en hacerlo, que ese clic es lo que nos motiva a continuar. Y como no, este episodio es también posible gracias a nuestro sponsor corporativo Factorial, la plataforma de recursos humanos que automatiza y centraliza todos los datos de los empleados en un simple portal en el cloud. Accesible para managers, para las personas de recursos humanos, incluso los mismos empleados, facilitando todos los procesos de ellos. Y lo digo ya por experiencia propia, porque la utilizo todos los días para indicar mis horarios de trabajo, y si es necesario una baja médica o pedir permisos para vacaciones, no necesito ir al quinto piso a buscar quien me lo apruebe. Todo se realiza a través de Factorial, es muy sencillo y muy fácil de utilizar. Muchísimas gracias Factorial por hacer posible este episodio, muchísimas gracias a ti que nos estás escuchando, y sin más, os dejo con Fernanfarrero y Eduard Castañeda.",
+    "speaker": "SPEAKER_00",
+    "start": 0.191,
+    "end": 148.415
+  },
+  {
+    "text": "Bienvenidos una semana más al podcast de Indy. Yo soy Bernat Farrero y esta semana estoy con Eduard Castañeda. ¿Qué tal, Eduard? Muy bien. Mucho gusto. Eduard es uno de los dos fundadores de Wallbox. que es una empresa que está en la prensa últimamente por ser una de las primeras empresas tecnológicas que sale a bolsa a través de SPAC, que es un proceso un poco abstracto para la persona de calle para entender cómo va a salir a bolsa, pero básicamente es un vehículo que se genera en la bolsa, que sale a bolsa, con el objetivo de comprar y fusionar compañías y que levanta dinero para ello. Se ha publicado que está valorado Wallbox o la empresa conjunta en más de un billón, con lo cual nos colocaría en el status de unicorn. Pero vamos a hablar de la historia de Wallbox, del producto, de vuestra fundación, del go-to-market. ¿Cuál es el pitch de Wallbox? Cuando te preguntan qué es Wallbox, ¿qué respondes?",
+    "speaker": "SPEAKER_02",
+    "start": 154.435,
+    "end": 223.202
+  },
+  {
+    "text": "Pues lo primero es que somos un actor en lo que es la energía y la movilidad. Y esto es lo que queremos que se entienda. Es verdad que nosotros empezamos enfocándonos con los problemas de los primeros usuarios del coche en 2015, donde podemos ver a vehículos con poco rango de batería, donde había pocos vehículos, donde lo que era efectivo era solucionar la carga doméstica, y todo eso ha ido evolucionando de una manera muy rápida. Los vehículos que teníamos en el año 2015 nada tienen que ver con los que tenemos hoy. El porfolio de vehículos que te puedes encontrar cuando vas a buscar un vehículo eléctrico no tiene nada que ver. El rango, la autonomía y las prestaciones tampoco tienen nada que ver. Por lo tanto, poco a poco se está extendiendo el vehículo eléctrico como un vehículo más. Así como al principio era una barrera de entrada al coste y esa autonomía y era un vehículo de ciudad, Ahora ya encontramos que es un vehículo utilitario, un vehículo que te permite transportarte, que te permite ya empezar a hacer recorridos largos. Y para todo esto tienes que dar una solución. Y no es simplemente una solución de carga, es una solución de gestión de energía y una solución de movilidad. Y así cuando ves un poco el portfolio y entiendes cómo Wallbox está expandiendo, ves que Wallbox gestiona energía y gestiona movilidad.",
+    "speaker": "SPEAKER_03",
+    "start": 224.243,
+    "end": 300.067
+  },
+  {
+    "text": "Pitch complicado, ¿eh? Realmente, el problema es",
+    "speaker": "SPEAKER_02",
+    "start": 301.317,
+    "end": 306.299
+  },
+  {
+    "text": "la carga de tu vehículo. No es un problema como tal.",
+    "speaker": "SPEAKER_03",
+    "start": 306.68,
+    "end": 310.301
+  },
+  {
+    "text": "Bueno, digamos, donde hay la oportunidad es en la carga del vehículo en casa.",
+    "speaker": "SPEAKER_02",
+    "start": 310.361,
+    "end": 316.664
+  },
+  {
+    "text": "Es proporcionar la solución. Al fin y al cabo, los usuarios de coche eléctrico ahora son autónomos. Ahora pueden decidir cuándo y cómo cargar. De la otra manera, tenía una dependencia de decir, oye, yo cada X días tengo que ir a la gasolinera y repostar. Ahora lo puedes hacer en casa. Y puedes incluso decidir a qué coste y qué precio.",
+    "speaker": "SPEAKER_03",
+    "start": 317.024,
+    "end": 337.217
+  },
+  {
+    "text": "Para explicarlo para tontos, vosotros hacéis el enchufe, digamos.",
+    "speaker": "SPEAKER_02",
+    "start": 337.938,
+    "end": 341.461
+  },
+  {
+    "text": "No es verdad. Es que ese es lo importante. Puedes comprar el cargador. De hecho, si eres un usuario doméstico, asociarás el cargador a lo que necesitas. Y el cargador viene con unas funcionalidades. Y esas funcionalidades es lo que quitan esa palabra, ¿no? Lo que tú llamas tonto, nosotros le decimos smart, inteligente.",
+    "speaker": "SPEAKER_03",
+    "start": 342.022,
+    "end": 359.688
+  },
+  {
+    "text": "Yo para tontos en mi caso, ¿eh? Yo soy el tonto aquí.",
+    "speaker": "SPEAKER_02",
+    "start": 360.189,
+    "end": 362.871
+  },
+  {
+    "text": "Por ejemplo... Uno de los problemas que puedes llegar a tener es pensar, oye, ¿tengo potencia disponible, suficiente? Pues sí, realmente tienes potencia más que suficiente. No tienes que incrementar lo que se llama el término potencia. ¿En tu casa? En tu casa. Lo único que tienes que hacer es saber a qué horas, ¿no? Y el cargador lo que te ayuda es a saber cuándo tienes que cargar y además hacerlo de manera automática. O sea, no tienes que estar pensando, oye, voy a apagar el horno, voy a quitar el aire acondicionado. Todo eso no es necesario. Esa gestión se tiene que delegar, tú tienes que percibirlo como que es algo, lo que llamamos simples, ¿no? Que realmente ocurre de una manera natural.",
+    "speaker": "SPEAKER_03",
+    "start": 362.911,
+    "end": 396.401
+  },
+  {
+    "text": "Pero vayámonos a la persona que no tiene un coche eléctrico, no sabe lo que es un coche eléctrico, porque gran parte, la gran parte de la población todavía no tiene un coche eléctrico. Entonces, para entender este problema, que no es un problema, pero bueno, es una parte del proceso de cuando tienes un coche, es, tú tienes un coche eléctrico, lo puedes cargar o bien en un sitio especializado, o bien en tu casa. Pero entiendo que no lo puedes conectar a la corriente normal y ya está.",
+    "speaker": "SPEAKER_02",
+    "start": 396.421,
+    "end": 423.113
+  },
+  {
+    "text": "Claro que sí. Es que lo puedes hacer. Es que ahí está, ¿no? El secreto.",
+    "speaker": "SPEAKER_03",
+    "start": 423.454,
+    "end": 427.661
+  },
+  {
+    "text": "Pero sin Wallbox, ¿eh?",
+    "speaker": "SPEAKER_02",
+    "start": 428.082,
+    "end": 428.844
+  },
+  {
+    "text": "Lo tienes que hacer con un wallbox, ¿vale? Ya sea el wallbox que te proporciona, en este caso, el fabricante, que es un wallbox con una potencia muy reducida, o a través de un cargador dedicado, que es el que realmente te permite cargar más rápido.",
+    "speaker": "SPEAKER_03",
+    "start": 430.335,
+    "end": 444.259
+  },
+  {
+    "text": "No puedes conectar la corriente.",
+    "speaker": "SPEAKER_02",
+    "start": 444.279,
+    "end": 445.219
+  },
+  {
+    "text": "Digamos que un coche no tiene un cable de salida que se conecta directamente a la corriente. No, lo tienes que hacer a través de un cargador como tal, específico. Pero es tan sencillo... Pero es tan sencillo como... Tu portátil tiene un cargador o tu teléfono móvil tiene un cargador que es un mínimo adaptador para ello, pues ahí está. Ese es el punto. Tú necesitas simplemente un adaptador para poder cargar tu coche.",
+    "speaker": "SPEAKER_03",
+    "start": 445.239,
+    "end": 467.03
+  },
+  {
+    "text": "¿Pero no requiere una potencia distinta? ¿Dar de alta una potencia distinta?",
+    "speaker": "SPEAKER_02",
+    "start": 467.05,
+    "end": 471.373
+  },
+  {
+    "text": "Ese es el punto. No necesitas tener una potencia distinta.",
+    "speaker": "SPEAKER_03",
+    "start": 471.493,
+    "end": 474.295
+  },
+  {
+    "text": "¿Con Wallbox o, en general, con cualquier coche eléctrico?",
+    "speaker": "SPEAKER_02",
+    "start": 474.315,
+    "end": 477.758
+  },
+  {
+    "text": "El coche eléctrico es independiente del Wallbox porque nosotros somos compatibles con todos los coches eléctricos. Tú puedes tener un Nissan, puedes tener un BMW, puedes tener un Tesla y podrás cargar con un Wallbox. Lo que es importante es que el Wallbox va a hacer cosas que no van a hacer los otros cargadores. y lo importante es que se va a adaptar a tu consumo. Y tú podrás configurarlo para que te produzca el proceso de carga de la manera más sencilla y, además, de la manera más económica. Y puedas ahorrar dinero y, encima, te puedes asegurar que el coche a las 8 de la mañana, al día siguiente, esté cargado. Y te notifique el estado. Si pasa cualquier cosa, incluso si estás fuera de casa y se va la luz, puedes tener una notificación de que la carga se ha interrumpido. Y esas cosas que pueden ser críticas y que para un usuario realmente a nivel de experiencia de uso son muy importantes, eso es lo que te aporta Wallbox. Sencillez, simplicidad y tecnología, como si quieres podemos hablar luego, de no solo el vehículo que decías, ¿no? El vehículo no solo se conecta a tu casa para cargar, y lo hace a través de un cargador, sino que a través del software y de nuestro hardware, esa energía que tiene almacenado el coche puede servir para ahorrar más dinero y ser más sostenible. Y esto es, por ejemplo, a través de un cargador bidireccional, como el Quasar, que es único, y a día de hoy lo que te permite es utilizar la energía que un coche almacena, que te puede dar autonomía para cinco o seis días, utilizar esa energía para cuando la energía es más cara, que normalmente es que coincide que la estás utilizando, porque llegas a casa y a lo mejor sabes que por la tarde o noche es cuando el término de potencia es más caro y la energía es más cara, puedes utilizar la energía almacenada para, de alguna manera, aislarte en esas horas del consumo de red y utilizar la energía más barata almacenada en tu coche para autoconsumir. Y más tarde, en el periodo valle, que es por la noche, meter esa energía en el coche de vuelta y, por lo tanto, ahorrarte energía.",
+    "speaker": "SPEAKER_03",
+    "start": 479.056,
+    "end": 591.177
+  },
+  {
+    "text": "Si la energía tuviera siempre el mismo coste y no hubiera estos periodos de horas y franjas donde es más caro o más",
+    "speaker": "SPEAKER_02",
+    "start": 591.903,
+    "end": 599.267
+  },
+  {
+    "text": "barato, ¿eso no tendría sentido? Tendría igualmente sentido. ¿Por qué? Porque hay una parte que incluso es la potencia suscrita. Tenemos que entender que el acceso de las renovables va ligado al vehículo eléctrico. Y son cosas que están pasando de manera natural e inteligente. Y son cosas que pasan como hoy, o pasa cualquier día del año, que sabemos que la meteorología es cambiante. Y las renovables, su aplicación básica es la dependencia de la meteorología. Porque si tenemos un sol radiante, vamos a tener una buena producción fotovoltaica, y si tenemos, por ejemplo, mucho aire, vamos a tener mucha producción de viento. Pero, ¿qué pasa cuando tenemos el proceso contrario? el día que es nuboso o no hay generación eólica porque no hay viento, entonces tenemos una escasez, no tenemos producción. Y eso, que lo podemos pronosticar, no podemos incidir, al menos a día de hoy, en lo que ocurre a nivel meteorológico. Entonces nosotros ponemos mecanismos para que el avance de las renovables tenga un apoyo y un soporte a la red. Y ahí es donde entran todo lo que son los servicios de energía deslocalizados. Y eso es, por ejemplo, el Vehicle-to-Grid o el Vehicle-to-Home que explicábamos antes. El Vehicle-to-Grid lo que es es dar soporte a la red cuando la red no tiene potencia disponible. Porque ¿cuál es la consecuencia? a encender una central de cogeneración a gas o de carbón y eso produce emisiones. Entonces, teniendo una red descentralizada de energía que puede ser tanto en baterías de segunda vida, de vehículos que se pueden reciclar, como en los propios vehículos que tienen tan cantidad de energía que puede ser reaprovechada, porque nosotros realmente de la batería, de la cantidad de energía almacenada en un vehículo, utilizamos un pequeño porcentaje. el 90% de las personas en su viaje diario recorren menos de 70 kilómetros por lo tanto siempre tiene un gran almacenaje y esto es una solución que no teníamos con un coche de combustión interna porque de la gasolina almacenada tú no podías extraerla no a través de un generador ahora tu vehículo se convierte lo que decimos en un asset no ahora el vehículo te puede aportar esa energía y si pensamos en la cantidad de vehículos que hay distribuidos y la cantidad de energía que hay Eso nos da un soporte a la red. Y cada vez más estas variaciones se reflejan en la tarifa. Estas variaciones que comentábamos al principio de los ciclos de generación solar y eólica tienen un impacto grande en el consumo eléctrico. Entonces tener acceso a esos flujos de retorno, a esa energía almacenada, tiene un valor estratégico súper importante. Y además, ya para acabar, no solo es la meteorología que se altera y eso es bueno, precisamente produce los ciclos de la lluvia, el sol, el calor, el invierno. También tenemos tú y yo. Seguramente que tenemos un patrón común y seguramente el patrón es que de día nos levantamos, tenemos una conducta, nos desplazamos, vamos al trabajo, trabajamos o a lo mejor lo hacemos desde casa también, pero por la noche reposamos. Entonces, se concentra la actividad energética en unas franjas de hora diarias en las cuales concentramos toda la energía pero, por ejemplo, por la noche siga habiendo producción eólica. Entonces, ¿qué pasa? ¿Qué hacemos con esa producción eólica? Y en casa, la gente que tiene placas solares y no están en casa, ¿qué pasa con esa producción solar? ¿Se pierde? ¿La perdemos? Entonces, El mecanismo para juntar todo esto es la inteligencia, es el software y es el hardware. Entonces, a distintos niveles, lo mismo pasa en casa cuando tienes placas solares, lo mismo pasa en un edificio cuando también tienes un parking que puedes dotarlo de una marquesina con placas solares, lo mismo pasa en una red global. La incidencia, y nosotros que queremos ir a un modelo de energía renovable, esa incidencia que se puede pronosticar pero no se puede actuar sobre ella, necesitamos de mecanismos que nos simplifiquen el poder tener acceso y hacerlo de una manera eficiente y no tener que encender esas energías que le podríamos decir sucias, ¿no? Entonces ahí es cuando la gestión inteligente te aporta ese valor y hace que el cliente a nivel doméstico le sea mucho más económico tener un vehículo eléctrico si es inteligente, si la carga es inteligente. Porque si tiene unas placas solares y esas placas solares en vez de verter la energía a la red a coste cero, o a precio cero, o incluso quemar esa energía, gracias a nuestro software, si el coche está conectado, lo que va a hacer es, oye, tengo un exceso de producción solar y mi casa no lo está consumiendo, utilizo esa energía para inyectarla en el vehículo. Esto se llama Ecosmart, es una funcionalidad de Wallbox. Si yo tengo un vehículo y, por ejemplo, quiero bajar mi término de potencia, porque sé que cuando estoy en casa normalmente tengo el coche, pues puedo utilizar un Quasar y utilizo el Vehicle-to-Home para que cuando estoy en casa el aporte de energía me venga del vehículo. Y como sé que hay 8 a 10 horas en las cuales se está durmiendo y el consumo en casa es reducido, utilizo esas horas para ese consumo que he extraído del vehículo, ese exceso, lo traduzco en potencia para cargar el vehículo. Entonces es todo un ecosistema donde el cargador lo que permite es habilitar lo que decimos el advenimiento de la energía renovable y es donde el vehículo eléctrico curiosamente ha coincidido en espacio y tiempo con esta gran implementación y estos grandes proyectos para hacer renovables y esto al final lo que hace es más eficiente y sostenible el ecosistema y así como alguno podría pensar que el vehículo eléctrico Es un problema, realmente tiene muchas, muchas soluciones y viene precisamente a soportar esa transición. ¿Por qué debería ser un",
+    "speaker": "SPEAKER_03",
+    "start": 599.307,
+    "end": 953.655
+  },
+  {
+    "text": "problema el vehículo eléctrico? ¿Quién piensa esto?",
+    "speaker": "SPEAKER_02",
+    "start": 953.695,
+    "end": 956.457
+  },
+  {
+    "text": "Pues porque lo que comentabas al principio, ¿no? Las personas pueden pensar que ahora, ¿cómo cargo? ¿Qué cargo? Tengo que aumentar la potencia de casa. Tengo que contratar más potencia. Estamos viendo como realmente no es necesario contratar más potencia. Estamos viendo que además te ayuda a reducir tu tarifa, tu consumo eléctrico o a hacerlo más eficiente. Entonces...",
+    "speaker": "SPEAKER_03",
+    "start": 956.497,
+    "end": 975.811
+  },
+  {
+    "text": "Yo te decía problema, pero como concepto fundacional de un negocio. O sea, un negocio",
+    "speaker": "SPEAKER_02",
+    "start": 975.971,
+    "end": 981.015
+  },
+  {
+    "text": "nace con un problema que un emprendedor convierte en oportunidad y a partir de ahí genera un negocio. Y es ese resumen. Es del facilitar las cosas. Es de pensar, tengo que pensar en cómo cargar el vehículo. Pues lo puedes hacer en casa. Puede ser autosuficiente. Puedes tener autonomía y decidir cuándo hacerlo. Y además...",
+    "speaker": "SPEAKER_03",
+    "start": 981.616,
+    "end": 999.917
+  },
+  {
+    "text": "Me parece increíble esta idea, este concepto. Pero la práctica... En una ciudad, por ejemplo, esto es difícil, ¿no? O sea, yo tengo el coche, pero lo tengo en el parking del otro lado. O lo tengo abajo. ¿Cómo tiro un cable?",
+    "speaker": "SPEAKER_02",
+    "start": 999.997,
+    "end": 1013.326
+  },
+  {
+    "text": "Y aquí es donde viene el siguiente punto, ¿no? El vehículo... El vehículo eléctrico tiene una transición. Y el vehículo eléctrico empieza en las casas aisladas, seguramente asociadas con personas con mayor poder adquisitivo, y eso permite una penetración muy rápida en países como Noruega, Centro Europa, pero eso tiene que expandirse. Y el ejemplo son ciudades como Barcelona, donde más de 300.000 vehículos duermen en las calles, ¿no? O que lo hacen en condominios. Entonces ahí es donde Wallbox es mucho más que el cargador, es la solución. Y ahí es donde hay las soluciones específicas para condominios, para esos administradores de fincas que gestionan un parking comunitario y en donde no tiene sentido realmente que cada vecino coja y haga una instalación y una infraestructura propia. Y ahí es donde nosotros lo que proporcionamos es una herramienta para que mensualmente el consumo de energía repercuta sobre cada vecino aún y teniendo una cometida única. Porque eso es lo que es eficiente, es establecer una cometida única para todos los vecinos y hacer una infraestructura de carga para un parking conjunto. donde no solo el hardware, sino sin una solución de pagos, sin una solución de reporte mensual, no llegas, ¿no? Pero esto es muy fácil. O sea, realmente... No, lo difícil es vender a las comunidades de vecinos. Pero esto es una transición y es lógico porque cuando tú tienes una penetración del mercado de un 2% no lo ves. No es necesario, es que no es ni necesario. Incluso puedes transicionar y pagar hasta cierto punto la ineficiencia de que haya un vecino que decida hacer su acometida propia. Y eso no podemos pedir la perfección, yo creo que eso es romper. Pero en países donde ya tenemos penetraciones del 20, el 25, el 30% del coche eléctrico, esto es normal. Esto en Noruega es muy normal y creo que es un buen paradigma y es un buen punto de partida. Tenemos el futuro. Tenemos un sitio donde aquellos que dicen, bueno, y tú tienes una bola de cristal. No existe como tal. Pero sí que tú puedes tener un referente. Y cuando tú ves un mercado donde la penetración del vehículo eléctrico creo que el mes pasado era superior al 70% de las ventas. ¿Cuál es ese? Noruega. Entonces, aun siendo un país pequeño, ya puedes ver. Porque ahí ya no piensan en un coche eléctrico. Una familia no piensa en un coche eléctrico. Ahí ya tienes dos vehículos eléctricos que están aparcando en simultáneo. Ya no tienes que pensar en la gestión de un vehículo eléctrico. Tienes que pensar en la gestión de dos vehículos eléctricos. Ahí ya no tienes una comunidad de vecinos con un solo vecino, ¿no? Un pionero del vehículo eléctrico. Ahí ya tienes que prácticamente todos los vecinos tienen un vehículo eléctrico.",
+    "speaker": "SPEAKER_03",
+    "start": 1013.846,
+    "end": 1179.881
+  },
+  {
+    "text": "A mí me parece muy interesante esto. Y cuando Elon Musk habló de la batería en casa, Recibió todo tipo de pushbacks, ¿no? De las eléctricas. En España, recuerdo, además, las eléctricas, que esto decían, esto...",
+    "speaker": "SPEAKER_02",
+    "start": 1179.901,
+    "end": 1197.294
+  },
+  {
+    "text": "malo. Porque, bueno, no sé exactamente los comentarios que ese pushback, no soy consciente, pero todo el sistema de almacenaje... No, no, mi pregunta es, pero es que no he acabado la pregunta. La pregunta es, ¿las eléctricas cómo lo ven esto? es que es imprescindible, es que no se puede ver de otra manera que apoyándolo y lo vemos. No solo porque nosotros, por ejemplo... Iberdola, ¿no? Es uno de los socios. Iberdola es socia de Wallbox, ha invertido en Wallbox. Sí, pero si lo ves con el resto y ves el resto de compañías eléctricas, todas tienen un posicionamiento con empresas relacionadas con la gestión de la carga y la movilidad eléctrica. Todas están, de alguna manera, muy, muy implicadas. Engie, E.ON, en Inglaterra, pues en Scottish Power. O sea, ¿aceptan que la transición a las renovables es imparable? Tendrías que preguntar a ellos, pero entiendo que es evidente, si es que les beneficia, si es que la diferenciación de tarifas es muy buena, hace sostenible el mercado. Y eso sí, ver las inversiones en renovables son potentísimas. Pero en el momento que dices, oye, si tú tienes una placa solar, te desconectas, tienes aquí la batería en el coche, ya no hace falta la red para nada, esto no, ¿no? Ahí no estamos todavía. Pero es que no va a ser. Es que no va a ser... es que nosotros tenemos una visión también sobre eso, pero es que en la ciudad tú vas a necesitar una fuente de energía. No te vas a poder hacer... no vas a poder tener una independencia del 100%. Por mucho que los edificios sean inteligentes, Si vemos el transcurso de la sociedad, el consumo de energía ha ido ligado al avance tecnológico. Es obvio que ahora mismo seguramente tenemos un consumo energético que está desbocado y hay que eficientarlo. Pero un consumo de energía razonable lo que te permite es hacer muchas más cosas. y tener acceso a esa energía en las ciudades es muy complicado. Y es más, no se podría lograr una transición. Entonces, los hogares, las personas tendrán que consumir energía. Pero esa energía puede ser que venga de una gran planta, fotovoltaica o eólica, o puede ser que venga de un familiar tuyo. que vive, a lo mejor, no sé dónde vive, ahora me estoy aventurando, pero te pongo el caso. Pero imagínate, una persona que puede vivir en Vilafranca, y tiene una casa, y tiene paneles solares, y tiene un exceso de producción. Y quiere compartir tu energía directamente y hacer un peer-to-peer contigo. Historias eléctricas encantadas. Pero es que las eléctricas les hace sostenible también",
+    "speaker": "SPEAKER_03",
+    "start": 1198.335,
+    "end": 1360.942
+  },
+  {
+    "text": "a ellos el modelo. Porque a otra gente prefieren intermediar, ¿no? Y arbitrar el precio. Pero ofrecen un servicio. Yo creo que ellas",
+    "speaker": "SPEAKER_02",
+    "start": 1360.962,
+    "end": 1369.909
+  },
+  {
+    "text": "lo que pretenden es ofrecer un servicio de calidad. Y yo creo que a día de hoy todos tenemos que ir a un servicio sostenible y de calidad. Con lo cual, tienen que adaptarse a ello. ¿Tú vivías en Barcelona? Yo vivía en Barcelona. Ahora ya no vivo en Barcelona, vivo cerca de Barcelona. ¿Y tienes coche eléctrico? Tengo coche eléctrico.",
+    "speaker": "SPEAKER_03",
+    "start": 1370.229,
+    "end": 1386.848
+  },
+  {
+    "text": "¿Desde hace mucho tiempo?",
+    "speaker": "SPEAKER_02",
+    "start": 1386.868,
+    "end": 1388.209
+  },
+  {
+    "text": "Desde... 2016, 2017. ¿Tesla? No, un BMW, ahora tengo un Tesla.",
+    "speaker": "SPEAKER_03",
+    "start": 1388.65,
+    "end": 1396.197
+  },
+  {
+    "text": "¿Y aprovechas de esta funcionalidad para cargar tu casa? ¿O sea, lo utilizas en tu casa, la energía del coche eléctrico, o todavía no?",
+    "speaker": "SPEAKER_02",
+    "start": 1396.217,
+    "end": 1404.124
+  },
+  {
+    "text": "Fíjate, yo no necesito cargar en casa. Yo cargo en la empresa. Yo utilizo, que es la siguiente solución. Y ahí voy, porque yo ahora sí que vivo en un sitio que tendría opción de cargar y, de hecho, lo que estoy haciendo es poner placas solares y tener un cargador bidireccional. pero yo vivía muchos años en Barcelona, he vivido muchos años en Barcelona, y el recurso de acceso a la carga no lo necesité que fuese en casa. ¿Por qué? Porque la empresa tenía un sitio donde cargar. Entonces, tenemos el recurso de carga doméstica que no todo el mundo tendrá acceso de manera inmediata. Tenemos el recurso de carga en empresas, el recurso de la carga de oportunidad, que pueden ser un supermercado, un hotel, un restaurante... ¿Eso existe hoy? Muchísimos hoteles a día de hoy, lo que se llama el destination charging, te ofrecen la carga en destino. Oye, si yo voy a un hotel, que me ofrezcan una carga es un valor añadido para el hotel y el restaurante. Si voy y me desplazo, pues a un restaurante me ofrecen puntos de carga. Y es muy interesante. Y si te empiezas a desplegar por la geografía, verás desde la visión del conductor de vehículo eléctrico te das cuenta que tienes mucho más puntos de carga y con la aplicación de Electromaps que adquirimos el año pasado que es una aplicación fenomenal porque tiene el efecto comunidad como como el Waze pues puedes ver encima no cuáles son los puntos de carga y puedes ver la puntuación y su disponibilidad. ¿Y te cobran? depende eso ya depende de por ejemplo un restaurante que quiere un poder de atracción y visibilidad no te a lo mejor no te va a cobrar y hay muchísimos puntos de carga que son gratuitos depende",
+    "speaker": "SPEAKER_03",
+    "start": 1404.525,
+    "end": 1511.84
+  },
+  {
+    "text": "tuve el futuro en la carga más distribuido en locales que ofrecen este servicio o más modelo supercharger",
+    "speaker": "SPEAKER_02",
+    "start": 1512.8,
+    "end": 1520.505
+  },
+  {
+    "text": "va a haber diferentes modelos y de hecho es la coexistencia y el acceso a ellos tenemos que dar soluciones y antes hablábamos no por ejemplo y te voy a poner algunos ejemplos que son súper a mí me parecen muy interesantes toda esa gente que el coche duerme en la calle le tenemos que dar una solución de carga pública vale pero eso significa tener que poner esos más de 300.000 vehículos que por el ejemplo que poníamos en barcelona duerme en la calle hay que ponerles un punto de carga para cada uno Eso no es sostenible, no es sostenible, ¿no? Entonces nos tenemos que acercar a ese modelo y hay que transitarse a ese modelo donde el acceso a esa carga pública sea. ¿Y dónde está? La carga rápida. Entonces hay que tener, hay que desplegar carga rápida. Esto es el supercharger. Y esto es Supernova. –¿Supernova? –Supernova, que es nuestro cargador rápido. –Ah, vale.",
+    "speaker": "SPEAKER_03",
+    "start": 1521.604,
+    "end": 1569.615
+  },
+  {
+    "text": "¿Has colocado todos tus productos",
+    "speaker": "SPEAKER_02",
+    "start": 1569.655,
+    "end": 1571.377
+  },
+  {
+    "text": "como si todo el mundo los conociera? –Pero porque al inicio te he dicho que éramos mucho más, ¿no? Y te he dicho que cubríamos el espectro y que buscábamos esa solución completa. Y esa solución completa es el 360º, es decir, tengo una solución de carga doméstica, tengo una solución de carga en un condominio, tengo una solución de carga en una empresa, tengo una solución para un mall o un supermercado, un centro comercial, y tengo una solución de carga pública. Y en todos los estratos damos la solución hardware y software. Porque es la combinación, y eso es lo que hablamos al principio, de que nosotros, cuando tú me preguntabas qué éramos, pues gestionamos energía y movilidad. Y ahí es cuando, obviamente, un consumidor compra un cargador. Cuando piensa, piensa en un cargador. Cuando compras un teléfono móvil, seguramente estás pensando en el dispositivo, pero es que el dispositivo alberga en su interior un montón de funcionalidades de software, ¿no? Es software, es puro software al final, ¿no? La interacción, las aplicaciones, la mensajería, el tomar fotos, ¿no? Pero se habilitan gracias al hardware.",
+    "speaker": "SPEAKER_03",
+    "start": 1572.038,
+    "end": 1635.75
+  },
+  {
+    "text": "Y para entender, o sea, los productos que tenéis, tenéis el producto del Supernova, Carga pública. Que es carga pública. Y el cliente en este caso son administraciones públicas o...",
+    "speaker": "SPEAKER_02",
+    "start": 1635.85,
+    "end": 1644.939
+  },
+  {
+    "text": "Muy bien, exacto. Pueden ser desde administraciones públicas, ayuntamientos, a través de licitaciones, pero también pueden ser cualquier eléctrica, utility, que quiera poner ese servicio, o cualquier persona que quiera invertir. Porque la carga pública ahora es rentable, porque en 2015 no lo era. Era un hecho en el cual lo que se buscaba era generar tracción a la electromovilidad, porque con tan pocos coches y con rangos de batería muy pequeños, era muy difícil que ese punto de carga tuviera tres o cuatro sesiones de carga al día. Pero claro, hoy día, cuando tú te fijas y ves el volumen de coches eléctricos que empieza a haber, Ahora sí que empieza a ser atractivo y además lo hacemos atractivo gracias a la tecnología que desarrollamos y que desarrolla Wallbox. Un Supernova hace dos años no era posible porque por coste no sería posible. Gracias a la tecnología que hemos desarrollado en nuestros cargadores bidireccionales ahorramos en componentes, en el tamaño de los componentes, en el uso de cosas como el cobre, que tiene un coste, y al hacer una miniaturización, reducimos los costes. Y al hacer su modularidad, lo que permitimos es también que sean muy, muy, muy, perdón la palabra, que no me sale reliable, ¿no? Que sean confiables, sí. Entonces, hemos conseguido bajar el coste, con lo cual tu ROI es mucho más cerca en el tiempo, Y además, hacemos un producto súper robusto, que es la palabra, perdona, que es lo que necesitas. Porque tú, un cargador público, tienes que ser súper robusto. El uptime es súper importante. Entonces, todo esto es lo que nosotros estamos articulando a través de dar una solución como es Supernova, y luego hardware, y luego una solución software como es Electromaps. Para cualquier persona que se quiera desplazar, no tenga que bajarse...",
+    "speaker": "SPEAKER_03",
+    "start": 1645.159,
+    "end": 1764.964
+  },
+  {
+    "text": "¿Se paga estas cargas públicas? ¿Se pagan?",
+    "speaker": "SPEAKER_02",
+    "start": 1765.704,
+    "end": 1768.885
+  },
+  {
+    "text": "Es lo que decía, depende. Depende del proveedor de servicios lo que quiera hacer con ella. En general vamos a ir a pagar la carga pública. Es obvio, o sea, es un servicio y tienes que pagar por él. Pero a lo mejor hay alguien que le interesa la atracción. Un supermercado a lo mejor te ofrece tener carga gratuita porque sabe que con eso te fideliza como cliente o como usuario.",
+    "speaker": "SPEAKER_03",
+    "start": 1768.905,
+    "end": 1789.711
+  },
+  {
+    "text": "Vale, entonces has hablado del Supernova, luego has hablado del Quazar y el Pulsar.",
+    "speaker": "SPEAKER_02",
+    "start": 1789.911,
+    "end": 1793.132
+  },
+  {
+    "text": "Si quieres, hacemos una pequeña recopilación rápida, ¿vale? Nuestros productos hardware tenemos en casa, tenemos Pulsar, Pulsar Plus, ¿vale? Que es nuestro producto líder en Europa. Luego tenemos Commander y Copper, que son las soluciones business. que son dos productos que te ofrecen básicamente lo mismo la única diferenciación es el tipo de conector que en uno tienes un cable y en el otro digamos que tienes como un adaptador intermedio para que en el mercado hay dos estándares que son los japoneses que fueron los primeros que se incorporaron y los europeos tienen dos conectores diferentes Y con este cargador es independiente de si vienes con un Nissan, por ejemplo, de los antiguos, que los nuevos ya van con el conector europeo, o si tienes un BMW o un Volkswagen. Y finalmente, entre medio, de esos de lo que sería casa y comercial, tendrías el Quasar, que es el cargador bidireccional, que tanto te permite hacer lo que decimos el autoconsumo, hacer el vehículo a la casa, el vehicle to home, como hacer el vehicle to business, el vehicle to building, perdón, que es por ejemplo en Por poner un ejemplo práctico y que realmente es la demostración de que esta tecnología funciona. Nosotros invertimos en placas solares en nuestro edificio del Carré Foc, de la zona franca, en Barcelona. Y en ese edificio tenemos más de 26 vehículos eléctricos cargando todos los días. Y tenemos unas pérgolas con más de 200 kilovatios de potencia solar instalada. el edificio no tiene potencia suficiente para el consumo que hacemos, ¿no? Porque somos más de 300 personas o 400 personas ya y eso significa tener AC, luz, consumos, incluso nuestros equipos de test, porque nosotros tenemos que hacer test de carga rápida y esos son unos consumos muy elevados. ¿Qué hacemos? Pues nosotros somos capaces de aislarnos de la red. Gracias a todos los Quasar, y nuestro software que le denominamos Sirius, nuestro sistema de gestión de energía Sirius, lo que hacemos es por la noche cargar los Quasar, perdón, los Nissan Leaf utilizando los Quasar y durante el día vamos arrancando todos estos Quasar y introducimos la energía almacenada en el vehículo para autoconsumir. Cuando la energía solar empieza a hacer aparición, porque tiene una curva, lógicamente por la mañana va incrementándose hasta el mediodía, que es la punta, nosotros vamos utilizando toda esa energía y vamos cada vez descargando menos de los Nissan Leaf. De tal manera que llega un momento en que somos totalmente... autoconsumimos plenamente. Luego, a medida que va pasando el día, ya vamos hacia la tarde, volvemos a tener la penetración de los Quasar. Lo interesante de todo ello es que además podemos dar movilidad, porque esos vehículos no tienen que estar cargando en el propio edificio, no tiene sentido, entonces no dan movilidad a nadie. Esos vehículos los pueden utilizar los empleados, en este caso nuestros trabajadores, para desplazarnos a casa, cargar en casa, cargar por la noche, que es la energía, es más económica, y al día siguiente lo único que pedimos es que a una hora determinada ese coche esté estacionado en Wallboxx. De tal manera que podemos utilizar una energía más limpia, producida por la noche, más barata, y la podemos utilizar durante el día para nuestro autoabastecimiento. Con lo cual, no tenemos que contratar más potencia en el edificio porque no podemos, porque realmente estamos limitados, Y de esta manera generamos un vínculo en lo que decíamos al principio. Como la energía solar, con un apoyo inteligente, y el vehículo como un almacenamiento de energía, eso permite que en conjunto, a nivel de un edificio, permita ahorrarnos muchísimo dinero y consumir energía de manera sostenible, llegando al punto de ser plenamente autosuficientes durante una parte del día.",
+    "speaker": "SPEAKER_03",
+    "start": 1793.632,
+    "end": 2042.148
+  },
+  {
+    "text": "Entendido. O sea, para resumir los productos, tenéis el B2G, digamos, que sería el Supernova, ¿Qué vendéis? ¿Administración pública o entidades...?",
+    "speaker": "SPEAKER_02",
+    "start": 2042.188,
+    "end": 2051.236
+  },
+  {
+    "text": "Cargador público Supernova. Supernova. B2G es igual que el B2H, que es el Vehicle-to-Home y el Vehicle-to-Grid. Ah, no, B2G, Business-to-Government. Decía yo, como modelo de negocio. Ah, vale, vale, perdona. El B2B y el B2C. Estaba diferenciando las tres líneas.",
+    "speaker": "SPEAKER_03",
+    "start": 2051.877,
+    "end": 2068.532
+  },
+  {
+    "text": "Perfecto. Básicamente estos son los productos, ¿no? Sí. hardware.",
+    "speaker": "SPEAKER_02",
+    "start": 2068.872,
+    "end": 2074.096
+  },
+  {
+    "text": "Luego, a nivel software, tenemos nuestra plataforma My Wallbox y Electromaps, que te ofrecen pues toda la cobertura de soluciones, de la app y la integración de una plataforma, pues si eres un operador de los puntos de carga, el gestor, ¿no? Imagínate, el gestor del edificio que tiene o el administrador de fincas, pues que en este caso quiere gestionar los distintos cargadores, pues le damos una plataforma para que pueda hacerlo.",
+    "speaker": "SPEAKER_03",
+    "start": 2074.377,
+    "end": 2097.473
+  },
+  {
+    "text": "A nivel de negocio, ¿cuál es el más importante para vosotros?",
+    "speaker": "SPEAKER_02",
+    "start": 2098.154,
+    "end": 2100.656
+  },
+  {
+    "text": "A día de hoy, donde tenemos mayores revenios en casa, y ahora estamos expandiendo ya la parte business, y lo que esperamos es que la parte de carga pública sea muy importante de aquí a 2019. Se ha empezado con el B2C. Exacto, es lo que hablamos. En 2015 las necesidades se enfocaban en casa. Coches con poca batería, poco rango, entorno doméstico. Ahora esto, vemos mucha más gente que necesita tener un punto de carga, ya sea en un condominio, en una empresa o en supermercados que quieran ofrecer este servicio. Finalmente, una vez consolidado y con muchos más coches desplazándose y haciendo recorridos interurbanos, carga pública.",
+    "speaker": "SPEAKER_03",
+    "start": 2101.412,
+    "end": 2139.989
+  },
+  {
+    "text": "Pareciera que automarketing en B2C, ¿cómo lo habéis hecho hasta ahora?",
+    "speaker": "SPEAKER_02",
+    "start": 2141.283,
+    "end": 2144.425
+  },
+  {
+    "text": "Pues, como puedes imaginar, en 2015 el mercado era pequeño y encima, lo que hablábamos, ¿no? Muy nicho. Muy nicho y si tú mirabas en nuestro entorno, en el sur de Europa no había prácticamente mercado. Por lo tanto, esto nos empujó desde el primer día a la internacionalización. Y fuimos, pues, por ejemplo, al norte de Europa, a Alemania, a Inglaterra, y eso es lo que nos ha hecho, ¿no?, de alguna manera, ser una multinacional y desde el primer día enfocarnos en productos más allá de un territorio. ¿Cómo vendíais en Noruega? Pues era muy importante aquí los partners, ¿no? Gente que crean en tu producto, que vean el valor del producto y distribuidores sobre todo que lo que han hecho es, oye, entiendo el producto, lo puedo posicionar y en este caso han sido en Noruega con Intelligent Solutions que más tarde hemos adquirido. en países pues como Irlanda con Car Charger o Islandia como Isorca. ¿Cómo lo encontráis a estos partners? Pues esto es muy importante ¿no? Yo creo que es el equipo ¿no? Cómo está distribuido tanto como MidMarkets ¿no? Un equipo de MidMarkets muy potente que está haciendo prospección y al fin y al cabo yendo al terreno ¿no? para entender posteriormente con la apertura de oficinas y luego cuando todo esto ha madurado y tú tienes una red de distribución potente Luego llegan los Key Accounts, que hay que trabajar también, que son muy importantes, todos los fabricantes de vehículos, o las eléctricas, ¿no? Y entonces ese ecosistema entre distribuidores, partners...",
+    "speaker": "SPEAKER_03",
+    "start": 2144.906,
+    "end": 2232.637
+  },
+  {
+    "text": "Y venta directa, porque veo que en",
+    "speaker": "SPEAKER_02",
+    "start": 2233.398,
+    "end": 2234.619
+  },
+  {
+    "text": "Amazon está el producto. Y finalmente aquí, ¿no? El e-commerce, que también es muy importante, que tiene un valor, pues... fuerte en nuestro revenue.",
+    "speaker": "SPEAKER_03",
+    "start": 2234.639,
+    "end": 2243.225
+  },
+  {
+    "text": "¿Qué importancia tiene la venta directa versus partners?",
+    "speaker": "SPEAKER_02",
+    "start": 2243.245,
+    "end": 2246.847
+  },
+  {
+    "text": "La venta directa, yo diría que estaríamos por encima del 10%. ¿Vale? Entonces, es muy importante. Nuestro canal de e-commerce, nuestra página web, incluso todo lo que es Amazon, ¿no? Por ejemplo, en Estados Unidos hemos sido repetidamente el número uno como el producto más vendido en Estados Unidos. El e-commerce es una parte fundamental también para nosotros porque te da a conocer y además El cliente, ¿no? Es muy agradecido porque es directo. Claro. Tienes una relación directa con el cliente, aprendes directamente de él. Si no, tiene que ser a través de los partners que os llegue igualmente el feedback. De todas maneras, lo importante, por ejemplo, es que yo creo que esa parte de estar centrado en el usuario es fundamental. Y por ejemplo, nosotros hacemos continuamente, ¿no? Esa parte de discovery, de entender el cliente, de reunirnos con él, de hablar. Bueno, y tú eres el cliente también. Y yo soy el cliente también. Y de hecho, es muy importante entender el producto y experimentarlo, ¿no? Y todo esto, aparte del test, el beta testing y el tener un grupo de clientes sobre los cuales puedes incluso, lo que se dice, ¿no? A lo mejor con tu Argot como informático, ¿no? El deployar y poner funcionalidades incluso antes de liberarlas es muy importante porque te permite validar que lo que estás haciendo va a tener un impacto en el cliente, ¿no? Entonces, es muy importante toda esta cercanía y entender el mercado. Por desgracia, el último año y medio ha habido la barrera del desplazamiento y a veces el estar uno a uno, el one to one es muy importante con los clientes. Las ferias incluso para aprender, para ver los nuevos parques, los nuevos distribuidores o los competidores que también existen en el mercado. Pues eso es una parte que ha sido más difícil pero en cambio hemos hecho un esfuerzo en tener esas reuniones y en poder estar cerca de lo que realmente el usuario necesita. El ser el user centric es una parte fundamental.",
+    "speaker": "SPEAKER_03",
+    "start": 2246.887,
+    "end": 2362.07
+  },
+  {
+    "text": "Nosotros recibimos emprendedores que buscan financiación y tal y en muchos casos nos llegan emprendedores que quieren construir un hardware. Y a priori el inversor de software, o que nosotros tenemos mentalidad muy de software, nos acojona el hardware. Porque los riesgos potencialmente son muy grandes. Desde producir cosas que piensas que funcionan, pero luego hay casos de uso que no cubren y tienes un problema de firmware y tienes que recuperar todo el hardware y con pérdidas brutales, o stocks que tienes que invertir en producir y no salen, o problemas en el centro de origen de producción en China muchas veces y que acaba resultando en que no se entrega cuando se espera. Vosotros empezáis un negocio en el hardware, directamente con un hardware, ¿no?",
+    "speaker": "SPEAKER_02",
+    "start": 2362.51,
+    "end": 2416.203
+  },
+  {
+    "text": "Vuelvo a decir, el hardware es el elemento reconocible, pero es que desde el día uno lo importante era la combinación de hardware y software. Innovar para que el hardware sea ready, para que te dé el future proof, pero sobre todo la capa de software es que es súper importante. Esas funcionalidades que hacía más fácil. Pero entiendo un poco por dónde va la pregunta. El tiempo sería larguísimo, ¿no? Porque creo que todo el esfuerzo en hardware es muy importante y me encanta que digas esto, ¿no? Para cómo quitar ese miedo a la inversión de hardware y, en parte, es tener un poco de background. Yo creo que la suerte que tuvimos en el año 2015, porque creo que no hay... Lo que tú has dicho son miedos que son ciertos, o sea, lo entiendo, ¿eh? El trabajar con hardware son ciclos más rápidos, A veces no son reversibles, que es lo que has dicho. Si tienes un problema en un diseño, es difícil. Y si has vendido miles de unidades, ahí está la validación. Pero ¿qué te diría? Lo importante en este caso es el background. El background de las personas que invirtieron en Wallbox venía del sector del automóvil. Y en este caso sabían que el retorno de inversión no iba a ser explosivo, o sea, que no iba a ser inmediato, que en un mes, ¿no? Sino que, aunque la evolución de Wallbox ha sido realmente yo creo que rápida, ha llevado un tiempo, ¿no? Realmente tienes que diseñar un producto, tienes que validarlo, tienes que hacer las compras y todo esto. ¿Cómo fue este proceso? ¿Quién diseña el primer prototipo? Bueno, pues es conjuntamente con Enric. Yo mismo, luego una etapa un poquito ya más posterior para todo hacer la HMI, empezar a hacer el backend. ¿Qué es la HMI? La pantalla, perdona. He utilizado una nomenclatura, lo siento. Es lo que llaman la Human Machine Interface, ¿vale? Esa parte ya entró al Age, por ejemplo, que fue clave. La parte de software también. Pero todo ese modelo, realmente lo que yo creo que hacemos es súper, súper, súper, súper, súper rápido lanzar los primeros prototipos. Somos capaces de en muy poco tiempo, en muy pocos meses, gracias a la impresión 3D, gracias a lanzar placas electrónicas y hacerlo muy rápido, tenemos prototipos y podemos validar que la idea funciona y podemos presentar el prototipo, que realmente es un prototipo funcional. y con las características que prometíamos, ¿no?",
+    "speaker": "SPEAKER_03",
+    "start": 2417.004,
+    "end": 2562.096
+  },
+  {
+    "text": "Haciendo un paréntesis en vuestra historia fundacional. Vosotros, Enric, que es el CEO, entiendo que se va a trabajar a Tesla, ¿no? Esa es la historia. Y ahí entiende, entra en contacto con el ¿La problemática o la oportunidad?",
+    "speaker": "SPEAKER_02",
+    "start": 2562.136,
+    "end": 2577.355
+  },
+  {
+    "text": "Él, digamos que ya trabajaba en el sector de los vehículos eléctricos porque él ya estaba en ideada. Él ya forma parte de un grupo de certificación y lideraba un grupo de certificación en ideada y trabajaba con los protocolos de los vehículos y la comunicación con los vehículos y certificar que los productos eran compatibles. Os conocéis vosotros en la universidad. En la universidad. Si vamos un más atrás... Ingeniería industrial. Nuestra relación empieza el primer día de la universidad. ¿El primer día? El primer día de la universidad nos conocemos.",
+    "speaker": "SPEAKER_03",
+    "start": 2578.036,
+    "end": 2607.698
+  },
+  {
+    "text": "Mira, como Romero, como mi socio y yo.",
+    "speaker": "SPEAKER_02",
+    "start": 2607.718,
+    "end": 2609.579
+  },
+  {
+    "text": "Con una anécdota de que él, lo cuento, me va a acabar matando, pero la anécdota es que él venía pensando que era la primera sesión del rector, de introducción, de bienvenida a los alumnos, pero no sabía que el primer día se empezaban las clases como tal. Y de alguna manera venía un poco... Pues eso, ¿no? Con las manos en los cuchillos. Y fue eso, ¿no? Porque lo primero que me pidió es un boli y un papel, ¿vale? Y me acuerdo de esa historia, ¿no? Menos mal que estabas ahí con el boli. Aún me debe el boli, ¿no? Pero digamos que ese es el primer día. Realmente no hay una amistad que surge inmediatamente, pero sí que empezamos... a ver que hay mucha sinergia en la tecnología, en la idea, ¿no? Y de ahí pues, bueno, pues tenemos una amistad que fíjate los años que ya dura, ¿no?",
+    "speaker": "SPEAKER_03",
+    "start": 2609.599,
+    "end": 2657.9
+  },
+  {
+    "text": "Entonces él está trabajando en eso, luego se va a Tesla.",
+    "speaker": "SPEAKER_02",
+    "start": 2657.96,
+    "end": 2661.161
+  },
+  {
+    "text": "Entonces solo para completar la historia. Nos metemos en la universidad, hacemos el proyecto final de carrera juntos de pilas de combustible. ¿Pilas de combustible? Sí, de hidrógeno. Y bueno, ahí nos damos cuenta que podemos hacer casi de todo, ¿no? Porque realmente construimos tanto desde el Power Electronics, como hasta incluso a nivel termodinámico, de la física, de lo que había ahí, pues una herramienta, ¿no? Al final, lo que hicimos es un Redge Extender para un robot, y ahí aprendimos muchísimo. Programar, toda la parte mecánica, 3D Printing, todas estas cosas las pusimos en común, nos dimos cuenta que éramos capaces de lanzar un producto, aunque en aquel momento quizá no éramos tan conscientes. Pero era una batería, una pila. Era una pila de combustible perfecto. Era un almacenado. En vez de utilizar las baterías de ese robot, tenía una duración limitada y era para un entorno público. Era un hospital para acompañar. La idea, la propuesta de valor era hacer un robot que pudiese acompañar a las personas en su día a día. En un hospital o incluso en un hotel. una feria y no tenía una duración de batería suficiente y se tenía que hacer un rango extendido que es lo que se llamaba y para eso se pensó en pilas de combustible hidrógeno para validar fíjate tú en aquel momento como las pilas de hidrógeno el hidrógeno podía ser un sistema de acumulación y producción de energía suficiente para dar potencia a ese vehículo durante ocho horas Todavía no hay pilas de hidrógeno, ¿no? A día de hoy. Baterías de hidrógeno.",
+    "speaker": "SPEAKER_03",
+    "start": 2661.321,
+    "end": 2753.431
+  },
+  {
+    "text": "Se ha hablado mucho, pero...",
+    "speaker": "SPEAKER_02",
+    "start": 2754.312,
+    "end": 2755.232
+  },
+  {
+    "text": "Sí, sí, eso existe. O sea, las celdas para la producción de hidrógeno, los catalizadores... En sí, la pila de combustible existe y hay a día de hoy incluso vehículos que lo utilizan. Hay una serie de barreras, ¿no? Que son como la eficiencia y el coste. Y eso ha hecho que quizá se haya desarrollado antes el vehículo eléctrico que el de hidrógeno, ¿no? Pero digamos que de aquella experiencia nosotros lo que logramos es un gran conocimiento. Enric, digamos que en aquel momento, pues mandó un currículum y entra en IDEADA. En IDEADA lo hace también en toda la parte de certificación. Y tiene, de alguna manera, ese renombre que Tesla, buscando una figura para lo que era toda la parte de el post, ¿no? La postventa y que la instalación, el proceso de instalación, fuese perfecto para el usuario, lo contratan y yo creo que... ¿Con qué rol? Pues él era Program Manager para toda la parte de service de Tesla, ¿no? Del after sales y asegurarse, ¿no? De que los clientes no tenían ningún problema para el momento en que llegaba el vehículo lo tuvieran todo a su disposición. O sea, que el cargador estuviese puesto y que, de hecho, toda esa parte de la fricción con la instalación no existiera. Y yo creo que es en aquel momento en que se dio cuenta de que las cosas se pueden hacer diferentes, ¿no? Porque en aquel momento Tesla no tenía un producto propio, sino que tenía que depender de otros para cargar. Y se dio cuenta de que él podía hacer ese producto, ¿no? Y lo podía hacer mejor.",
+    "speaker": "SPEAKER_03",
+    "start": 2755.472,
+    "end": 2845.514
+  },
+  {
+    "text": "Todo el mundo tiene la valentía de decir, oye, yo hago este producto a nivel mundial.",
+    "speaker": "SPEAKER_02",
+    "start": 2847.075,
+    "end": 2853.259
+  },
+  {
+    "text": "Y seguramente, te lo diría que incluso estando en Tesla, esas cosas que pueden sorprender, una empresa puntera, ¿cómo voy a dejar yo esto para empezar mi propio negocio a mi cuenta de riesgo? Y seguramente de ahí, Enric, yo creo que para entender también el carácter de la persona, pues lo fundamental es la figura del padre Enric, ¿no? Enrique, Enrique es el padre de Enrique. Enrique es el padre de Enrique. Y fue una persona clave, ¿no? Porque de alguna manera él siempre había tenido, o había sido un empresario, se dedicaba al sector de los moldes, y Enrique había trabajado con su padre. Tengo anécdotas del día de la universidad, estar un día él sentado en la primera fila de clase, ¿no? Y llamarle al teléfono y salir y responderlo, ¿no? Y todo el mundo te dice, ostras, ¿quién es esta persona? Y dejarse la puerta abierta y todos oyendo un poco la conversación porque estaba con apenas 18 años trabajando y gestionando grupos de personas y con alto grado de tecnología, porque los moldes, quien sabe el ajuste de moldes, realmente requiere de mucho conocimiento. Pero ¿esto a Enric? Y Enrique era realmente la persona que tenía todo el conocimiento de los moldes y tenía un grupo de personas especializadas en hacer ajustes de moldes y cualquier tipo de producto que tenemos a día de hoy lleva inyección de plástico, ¿no? Esto era un gran experto. Y esa emprendeduría que tenía su padre yo creo que la llevaba en el ADN también Enrique. Y de alguna manera él quería ser autosuficiente y llevar su propio negocio adelante.",
+    "speaker": "SPEAKER_03",
+    "start": 2853.82,
+    "end": 2943.796
+  },
+  {
+    "text": "Me doy cuenta que esta conversación da para cinco podcasts, ¿eh?",
+    "speaker": "SPEAKER_02",
+    "start": 2944.056,
+    "end": 2946.117
+  },
+  {
+    "text": "Cada una de las ramas de un podcast. Sí, yo no sé si",
+    "speaker": "SPEAKER_03",
+    "start": 2946.757,
+    "end": 2948.958
+  },
+  {
+    "text": "está siendo muy disperso o no. No, no, es súper interesante. Entonces, ¿en qué momento Enric te llama y dice, Eduard?",
+    "speaker": "SPEAKER_02",
+    "start": 2948.998,
+    "end": 2956.179
+  },
+  {
+    "text": "Entonces, Enric yo creo que tenía, se dio cuenta y dice, ostras, siempre en la universidad y en el proyecto de final de carrera hemos dicho, en el futuro tenemos que trabajar juntos, ¿no? O sea, nos gustaría trabajar juntos Yo creo que es esa doble faceta, ¿no? De la electrónica, el diseño industrial, que él tenía la electrónica y yo el diseño industrial, hacían el match perfecto. Y bueno, coincidiendo con un evento, ¿no? Que teníamos la boda de un amigo, pues dijo, venga, el 3 de abril, que además era el día de su aniversario, dice, oye, a ver si nos reunimos y hablamos del tema, ¿no? Y tengo una idea y realmente ya veníamos hablando un poco, pero en ese momento lo tuvimos bastante claro. ¿Y tú qué decías en aquel momento? Pues yo había cambiado totalmente, ¿no? Mi vida había cambiado hasta el punto de que yo estaba trabajando en Huesca en una explotación agraria, en la cual tenía casi la parte de la gerencia, ¿no? La historia es un poco ya más curiosa. Era a través de un amigo de un amigo. En este caso era una persona que había fallecido su padre. y había heredado pues una explotación agraria. ¿De qué? Pues en este caso era de invernaderos. Tenía invernaderos y luego explotaciones muy grandes de 130 hectáreas de regadío. Y en ese caso, pues la parte importante fue entender cómo se podía optimizar el proceso. Es muy curioso, ¿no? El sector agrario es altamente tecnológico. aunque no lo parezca, ¿no? De hecho, puedes imaginar que el grado de tecnificación es muy alto porque es lo más antiguo casi de la humanidad, ¿no? La agricultura. Y ahí lo que era interesante era la variabilidad que el producto fresco sobre la conservera te ofrece. Una conservera, pues es un gran distribuidor que te puede comprar el producto a un precio muy bajo. Pero eso te asegura que lo que coseches, alguien te lo vaya a comprar. Nosotros cambiamos y viramos totalmente, ¿no? Y fuimos al producto fresco. Porque con el producto fresco, realmente tú puedes jugar con mucho más margen para ti. Corres muchos más riesgos, pero puedes ofrecer un producto en cada momento y no tienes esos intermediarios.",
+    "speaker": "SPEAKER_03",
+    "start": 2956.459,
+    "end": 3091.533
+  },
+  {
+    "text": "Tienes cierto paralelismo con el tema de las baterías.",
+    "speaker": "SPEAKER_02",
+    "start": 3091.653,
+    "end": 3093.994
+  },
+  {
+    "text": "Entonces, bueno, era espectacular porque al fin y al cabo, tenías que entender en qué momento el producto iba a madurar para saber el ciclo óptimo para ponerlo en el mercado. O sea, controlando las temperaturas y la ventilación de esos invernaderos, tú puedes saber en qué momento el producto va a madurar. Y entonces, poner el producto antes de tiempo es un problema y ponerlo más tarde también es otro problema. Y sobre todo, en la zona de Aragón, que es una zona muy interesante, porque hay todo el tema del cierzo. Y el cierzo, el aire, lo que permite es purificar y eliminar bacterias, hongos... Bueno, eso es una parte muy interesante. Entonces, para mí también me sirvió mucho la gestión logística y una cosa que yo no tenía y que Enric sí que tenía. es, de alguna manera, tener tu propio negocio, ¿no? Y yo hacía una parte de gestión, de gerencia, gestionar personas... ¿Cuánto tiempo estuviste haciendo esto? Pues menos de un año. Menos de un año. Pero esa parte para mí luego me permitió entender muchas cosas que no hubiese tenido, ¿no? Y yo creo que eso es lo que también me permitió hacer el paso hacia adelante. Me permitió ahorrar y poder lanzarme a este proyecto.",
+    "speaker": "SPEAKER_03",
+    "start": 3094.655,
+    "end": 3162.721
+  },
+  {
+    "text": "¿Y en esta boda te dice, oye, tenemos que montar eso? Deja lo de los tomates o no sé cuál era el cultivo. Sí, sí. Y vente aquí. Y tú lo dejas.",
+    "speaker": "SPEAKER_02",
+    "start": 3162.741,
+    "end": 3172.727
+  },
+  {
+    "text": "Lo dejamos los dos. O sea, realmente nosotros decimos, oye, tenemos que hacer un proceso y empezar un proyecto totalmente distinto a lo que nos hubiésemos imaginado que empezaríamos. Y sí, sí, es así. Dejamos el trabajo y empezamos el 6 o el 7 de julio. Y ya todas las noches trabajamos. Me acuerdo de hacer remotos con Enric. y a trabajar desde el primer día en los diseños, cómo encajarían las placas, cómo la pantalla, las características del producto. Me acuerdo de estar hasta las 3 o 4 de la mañana y Enrique hacía sus rushes, porque él también trabajaba, y me enviaba, ah, tengo este nuevo diseño, mira que se ha ido encajando.",
+    "speaker": "SPEAKER_03",
+    "start": 3172.768,
+    "end": 3210.153
+  },
+  {
+    "text": "Es decir, se trabaja unas cuantas horas, por lo que he oído, ¿no? Supongo, supongo que se debe trabajar mucho. Y entonces, ¿lo montáis? ¿Invertís vosotros en eso? Claro. Es todo capital nuestro inicialmente. ¿Cuánto capital invertís? Pues no lo sé. No te sabría decir. Creo que fue muy poquito. Lo mínimo para poder empezar. Y luego vais sumando a gente. y vais buscando financiación. Enric lleva más la parte de",
+    "speaker": "SPEAKER_02",
+    "start": 3210.173,
+    "end": 3239.044
+  },
+  {
+    "text": "financiación, tú la parte más de tecnología. Sí, sí. Realmente la parte de tecnología y producto siempre hemos estado juntos y al principio éramos los dos, prácticamente uno. Y si la parte financiera la llevaba más él. Lo que es importante son las personas que nos acompañan en ese primer momento. Y la referencia, por ejemplo, a mí a Joan Camman, que es una persona que es quien de alguna manera nos hace la marca, es quien pensa y crea la marca. Así como Wallbox, esto lo tenía muy claro Enric, es quien dice qué tipo de marca tenemos que crear y cómo hacerlo. Y es una persona clave para nosotros porque nos hace todo el guiado inicial. es que, de alguna manera, Juan es una persona muy reconocida, es el top a nivel europeo, es una de las personas top. Ahora ya lo era en el momento. Bueno, digamos que cuando nosotros le cogimos ya era en su parte final, ¿vale? Él ya... ¿Y cómo le pagáis? Pues no le pagamos, es que él cree en la idea, ¿no? Él cree en la idea. Y es así, Juan ha formado parte de nosotros. Y él de alguna manera, porque no lo podíamos pagar, no había manera de pagarle su participación. Ahí era de alguna manera de ayuda para unos chavales que estaban empezando algo. y iba a poder desarrollar el proyecto. Y él nos, de alguna manera, nos introducía a José María Tarragó, que es otra persona clave en esta compañía. José María, pues venía del mundo del automóvil, había estado en Ficosa, en Carbures, y entendía perfectamente lo que nos pasaba. Y es esa parte tan importante, que a lo mejor comentábamos antes de empezar, que para el hardware tienes que tener gente que lo entienda. A lo mejor no lo haya vivido directamente, pero entiende que los ciclos, el vender el doble... Es un problema. Porque tienes que comprar el doble de material, ¿no? Y tienes que tener margen. Es difícil que tengas tanto margen como para que te puedas autofinanciar esas compras. Entonces, tienes que tener gente que entienda que durante un tiempo vas a tener un cashflow negativo, ¿no? ¿Quién fue ese agente? ¿Quién invirtió en la compañía? Pues inicialmente José María Tarragoy, luego entraron otros grupos muy importantes. ¿Personalmente? Sí, como Quadis, ¿no? Él personalmente supo que lo hizo a través de... ¿no? Pues... Sí, de su vehículo financiero.",
+    "speaker": "SPEAKER_03",
+    "start": 3239.104,
+    "end": 3384.707
+  },
+  {
+    "text": "¿Y Quadis? Son unos empresarios de aquí, de Cataluña, ¿no?",
+    "speaker": "SPEAKER_02",
+    "start": 3384.727,
+    "end": 3390.149
+  },
+  {
+    "text": "Sí, bueno, es la red de confesionarios más grande del sur de Europa. En este caso, Paul Soule, también. Hay mucha gente nueva que está agradecida. Yo creo que pone la piel de gallina. Habría mucha gente que no podría mencionar. Pero es que es tan importante realmente pensar en gente que...",
+    "speaker": "SPEAKER_03",
+    "start": 3390.349,
+    "end": 3408.472
+  },
+  {
+    "text": "Qué pena que no nos conociéramos en aquel momento, porque si me cuentas esto con esta pasión...",
+    "speaker": "SPEAKER_02",
+    "start": 3408.512,
+    "end": 3411.893
+  },
+  {
+    "text": "No lo sé. Te tiro dinero en la cara. No, no lo sé. No, pero lo importante yo creo que es también reconocer a esas, a la gente, todo, ¿eh? O sea, el máximo respeto por todos los accionistas. Es impresionante que crean. Para mí es algo que siempre digo que es una, ¿no? Una alegría infinita. Y lo recuerdas con toda esta gente que al principio puso sus ahorros y dices, hostia, es que tienes también tu propio sentimiento de decir, caray, esta gente está invirtiendo su capital. Y también lo decíamos antes al principio y decíamos enhorabuena por conseguir precisamente lo que estáis haciendo que es poner dinero cuando ya había recibido, ¿no? Seguramente los dos compartimos un origen humilde de clase media. Sí. Y que nuestros padres no podían financiarnos, ¿no? Nuestra familia no podía financiar el proyecto que hacíamos. Y a lo mejor tu familia sabes que van a confiar en ti a muerte, pero que confíen otras personas en ti, incluso en momentos jodidos, porque hay que decir lo que los hay. Hostia, pues eso tiene mucho mérito y por eso de ahí que yo creo que les guardas el máximo respeto, ¿no? Y los accionistas Lógicamente quieren su retorno, su inversión, pero incluso va más allá muchas veces. Es un apoyo moral, anímico, en movimientos que son muy importantes para ti.",
+    "speaker": "SPEAKER_03",
+    "start": 3413.054,
+    "end": 3490.892
+  },
+  {
+    "text": "¿Cuándo hacéis la primera venta B2C?",
+    "speaker": "SPEAKER_02",
+    "start": 3491.032,
+    "end": 3492.974
+  },
+  {
+    "text": "Sí, sí, la recuerdo perfectamente. Yo creo que fue en diciembre de 2015. Habíamos abierto la página web y bueno es una persona que tenía el cargador número uno y sin tener producto nos compró y le dijimos bueno no te podemos servir ahora vas a tener que esperar. Otra persona clave. Sí, sí, sí. Otra persona clave y de hecho hace muy poco seguimos teniendo comunicación porque ahora vamos a lanzar, bueno hemos lanzado ahora para Copper en nuestra versión Business, pero vamos a lanzar ahora para Pulsar en Lecosmar, esta funcionalidad y lo interesante de todo ello es que Esta persona sigue confiando en nuestros productos y está interesada en ver cómo integramos eso con placas solares, en su caso. Entonces, eso es una parte muy interesante.",
+    "speaker": "SPEAKER_03",
+    "start": 3492.994,
+    "end": 3547.295
+  },
+  {
+    "text": "¿Funcionó el primer producto que cuando le mandasteis del cargador? ¿Funcionaba?",
+    "speaker": "SPEAKER_02",
+    "start": 3547.755,
+    "end": 3551.897
+  },
+  {
+    "text": "Perfectamente, ¿no? Yo que sé de esos puntos. Pero sí que te das cuenta, ¿no? De que al final... Alguna cagada habréis hecho, ¿no? Hombre, yo creo que hay cosas que son interesantes. Aprendes mucho y hay cosas que no tienes en mente. Y al principio, lo que parece que la instalación es lo más sencillo del cargador, luego ves que es muy importante todo el proceso de instalación, la educación, de ello, ¿no? Y eso se lo hace cada uno. Eh, no. La instalación del producto solo puede hacer una persona certificada y cualificada para ello, ¿no? Vale. Y entonces, por ahí, ¿no? Eh, pues, Academy, ¿no? Hay una parte que es muy importante, que es cómo explicamos eh, todos nuestros productos. Y tu, la página support, el service, qué haces. Y yo creo que darnos cuenta del servicio de atención, pues es algo que es muy importante. Y es algo que tienes que siempre, siempre, siempre mejorar, ¿no? Y dar la mejor atención a cada uno.",
+    "speaker": "SPEAKER_03",
+    "start": 3552.837,
+    "end": 3609.413
+  },
+  {
+    "text": "¿En qué momento decidís ir a pitchear el proyecto a Iberdrola y que invierta un inversor como Iberdrola?",
+    "speaker": "SPEAKER_02",
+    "start": 3609.693,
+    "end": 3616.598
+  },
+  {
+    "text": "Pues yo, sinceramente, no tengo un problema. Desconozco si realmente fuimos a hacer pitch directo. O sea, no lo sé.",
+    "speaker": "SPEAKER_03",
+    "start": 3617.558,
+    "end": 3623.482
+  },
+  {
+    "text": "Pero la decisión de coger una eléctrica como socia.",
+    "speaker": "SPEAKER_02",
+    "start": 3624.703,
+    "end": 3630.727
+  },
+  {
+    "text": "Pues por las sinergias, yo creo que es muy interesante, te aporta. Lo importante es entender que tú gozas de autonomía para tomar tus decisiones y que eso no está en duda. Y que tienes un partner que te va a apoyar en las decisiones que tomes. Y yo creo que en ese caso cumplía. No era Iberdrola como tal, era Perseo, que es su fondo, indirectamente. Pero yo creo que de hecho ha habido muy buenas sinergias y se comprueba día a día de que era un partner clave, ¿no? Porque la venta de Supernova hemos vendido, ¿no? Ya tenemos esa orden de más de mil cargadores, ¿no? En España. Sí, ese compromiso de compra de más de mil cargadores. Bueno, España más allá, porque Iberiola, como eléctrica, es realmente una de las principales eléctricas que hay en el mundo en estos momentos. O sea que su capacidad, ahora mismo, por ejemplo, en Estados Unidos, está entrando con mucha fuerza.",
+    "speaker": "SPEAKER_03",
+    "start": 3631.667,
+    "end": 3684.096
+  },
+  {
+    "text": "Y la evolución en cuanto a ventas, equipo, ¿cómo ha sido? Porque actualmente ¿cuánta gente sois? Más de 600 personas, sí, sí, ya somos más de 600 personas. ¿Y cómo fue evolucionando el equipo y las ventas a lo largo de los años, en los últimos años?",
+    "speaker": "SPEAKER_02",
+    "start": 3685.254,
+    "end": 3701.494
+  },
+  {
+    "text": "Yo creo que siempre hemos estado triplicando o cuatriplicando en nuestro volumen y eso al final exige que el equipo de ventas crezca ¿no? Y crezca para soportar todo esto ¿no? Y aquí por ejemplo el Massoud Rabbani que es nuestro Chief Commercial Officer ha hecho un trabajo espectacular ¿no? Él viene de Google. Pero como ha configurado el equipo, como ha dividido sus equipos por países y toda esa expansión, realmente es espectacular lo que han logrado. Y esa diferenciación entre los mid-markets, como trabajar con distribuidores, partners, como generar la red de contacto directo, como el acuerdo con Nissan, que firmamos con uno IEM, que es muy importante. Toda esa parte yo creo que es un reto. La parte comercial, sin duda, es parte del éxito, ¿no? El hecho de que este año, en este primer semestre, pues hemos triplicado el year to year. 27 millones de dólares o euros. Mira, ahora me haces duda, no sé si son millones o dólares. Sí, sí. Pero respecto al año pasado, pues hemos... En el primer semestre. Sí. Y esto, bueno, es exactamente lo que buscamos, ¿no? Y es lo que sabemos que va a pasar, que es que el mercado está creciendo. Y nosotros no solo queremos crecer con el mercado, sino ganar market share.",
+    "speaker": "SPEAKER_03",
+    "start": 3701.954,
+    "end": 3779.021
+  },
+  {
+    "text": "Y con todo este cambio, todo este terremoto, ¿tú has sentido que, tú personalmente, cómo lo has vivido el hecho de tener tanto senior manager alrededor? O sea, empezar desde cero, que sois tú y Enric, hasta hoy, ¿cómo lo has vivido tú,",
+    "speaker": "SPEAKER_02",
+    "start": 3780.301,
+    "end": 3795.785
+  },
+  {
+    "text": "personalmente, desde tu rol? Yo creo que es lo mismo, es una transición. No lo llegas a vivir nunca como de un día a otro te levantas y dices, ahora ha cambiado la situación. Lo vas transicionando, ¿no? Y lo importante es darte cuenta en qué momento tu equipo tiene que pasar del talento al talento y la experiencia. Porque al principio no eres competitivo, o sea, no puedes luchar con otras empresas que pagan más, incluso... Yo lo asocio mucho a la curva de crecimiento mantenimiento y muerte de una compañía, ¿no? O sea, tienes que saber escoger las personas para cada momento. Tú no puedes... La muerte igual. Bueno, por desgracia, ¿no? Ojalá que... Los periodos tienen que ser lo más largos posibles. Y qué compañías, ¿no? Hay compañías que son más de 100 años de historia. Pero hay otras que no han sido capaces de lograr. Yo no estoy hablando del proceso de caída o de caída de una empresa. Estoy hablando del proceso de crecimiento. Pero incluso en esa curva de crecimiento de la compañía, que también afecta a los productos, tienes que saber escoger a las personas. Tú no puedes traer a una persona con un nivel de seniority brutal para un estado de la compañía que es inicial, porque no se te va a saber adaptar, ¿no? Hay muy pocas personas, a lo mejor la encuentras, pero es muy difícil, ¿no? Entonces tienes que saber estar siempre un paso por delante con las personas que contratas. Y ahora ese paso en que se traduce en gente que ya lo haya hecho. Ahora buscas Mayoritariamente buscas gente que el reto ya lo haya cumplido, ya lo haya hecho. O sea, al principio empujas, es lo que decimos, tú empujas desde atrás, pero no ves lo que tienes delante. Ahora necesitas gente que estire, porque está delante y ya lo ha visto, y te aporta ese año y medio, dos años de experiencia. Y eso es lo difícil de buscar, ¿no? Es gente que realmente... Pero es algo natural que vas buscando y que cada vez, cuando contratas, buscas. Pero a todos los niveles, de todas maneras, la atracción de talento tiene que seguir. O sea, la seniority no tiene que ir opuesta al talento. Tienes que seguir buscando esto. Igualmente vas a buscar desde internships, gente que viene a hacer sus prácticas, que son fundamentales. Y nosotros siempre decimos lo mismo. La gente que viene en ese formato, que a lo mejor tiene mucho talento pero poca experiencia, son capitales. Nosotros no buscamos gente que busque el salto. Es una experiencia. Nosotros lo que buscamos es gente que tenga recorrido, porque a Wallbox le prevemos un recorrido muy largo. Y eso es también muy importante, saber ver a esa gente que entiende que el proyecto va mucho más allá de la experiencia.",
+    "speaker": "SPEAKER_03",
+    "start": 3796.445,
+    "end": 3946.709
+  },
+  {
+    "text": "¿Qué habéis hecho más, desarrollar talento de cero o buscar talento en el mercado que lo hayáis hecho?",
+    "speaker": "SPEAKER_02",
+    "start": 3946.729,
+    "end": 3953.298
+  },
+  {
+    "text": "Depende de la fase. Al inicio era mucho buscar talento para que, lo que hablamos, es que confíen en el proyecto y a veces cuando eres tan pequeñito y tienes poco volumen de ventas y eres poco significativo y es tan mercado nicho como era el del vehículo eléctrico, imagínate en 2016-2017, pues había muchas personas que realmente se volcaban por el talento. Ahora, claro, digamos que buscas gente que ya tengan esa experiencia, porque te es más fácil hacer entender el proyecto y la dimensión de lo que tú buscas. Obviamente hemos tenido gente con mucha experiencia que se han unido al principio y ha sido una gran suerte, pero eso forma parte un poco de cada momento y también de lo que decía, de encontrar la persona adecuada en el momento adecuado.",
+    "speaker": "SPEAKER_03",
+    "start": 3955.639,
+    "end": 4000.424
+  },
+  {
+    "text": "¿Y la presencia internacional? ¿Habéis abierto oficinas en China, en Estados Unidos? Sí. ¿En China hacéis producción?",
+    "speaker": "SPEAKER_02",
+    "start": 4000.89,
+    "end": 4006.695
+  },
+  {
+    "text": "Hacemos producción también. Tenemos una fábrica en Shuzhou, que está muy cerca de Shanghái. Tenemos nuestra propia... Sí, es una fábrica que... ¿La habéis montado vosotros? Con Asian Venture. Con Fushan Group, que es un tier one muy importante de piezas para los vehículos y el sector de automoción.",
+    "speaker": "SPEAKER_03",
+    "start": 4007.176,
+    "end": 4025.753
+  },
+  {
+    "text": "¿Quién lo ha hecho? ¿Tenéis una persona que tiene experiencia produciendo en China? ¿O lo has hecho tú?",
+    "speaker": "SPEAKER_02",
+    "start": 4026.708,
+    "end": 4033.111
+  },
+  {
+    "text": "No, no, no. Esto, obviamente, depende de las personas. En este caso, por ejemplo, nuestro COO, que es nuestro Chief Operations Officer, que viene de Ficosa, que es Oriol Riba, pues, obviamente, es la persona que ha liderado toda esta implantación de la fábrica en China.",
+    "speaker": "SPEAKER_03",
+    "start": 4033.552,
+    "end": 4049.52
+  },
+  {
+    "text": "¿Y también vais a producir aquí en Barcelona? ¿O estáis produciendo en Barcelona?",
+    "speaker": "SPEAKER_02",
+    "start": 4050.313,
+    "end": 4054.156
+  },
+  {
+    "text": "Ya estamos, desde el primer día. O sea, yo creo que una de las cosas que son más importantes en la parte de hardware es que nosotros desde el día uno, ingeniería y operaciones, o las operaciones llamadas la fabricación, logística, calidad, han estado juntas. Porque cuando tienes un problema, tú quieres que esas personas estén juntas. Porque el tiempo de resolución es muy rápido. Y eso nos da una flexibilidad brutal. Y nosotros, de hecho, no estamos deslocalizando la fábrica, sino poniendo otra fábrica ahora en zona franca. Es obvio que hay proveedores que tienes que diversificar y por eso tenemos una fábrica en China y vamos a abrir una fábrica en Estados Unidos. Pero es fundamental que tú controles primero tus partners. Nuestros primeros proveedores eran todos de la zona. O sea, estaban todos muy cerca y siguen siendo proveedores de nuestro arco. Porque es que el contacto directo es fundamental.",
+    "speaker": "SPEAKER_03",
+    "start": 4054.176,
+    "end": 4112.043
+  },
+  {
+    "text": "¿Y por qué montar una fábrica en Estados Unidos? Porque vamos a poner un montón de producto en Estados Unidos. ¿Y es más eficiente producirlo ahí que enviarlo? Mucho más.",
+    "speaker": "SPEAKER_02",
+    "start": 4112.063,
+    "end": 4121.748
+  },
+  {
+    "text": "Mucho más. Ahora mismo podemos suplir producto desde aquí, pero cuando tengamos que fletar Supernovas, Quasars y los volúmenes de Pulsar Plus, la versión de Estados Unidos, no tiene sentido seguir. Es que no es coherente con nuestra visión. Poner un barco o un avión para enviar producto hasta allí no tiene sentido.",
+    "speaker": "SPEAKER_03",
+    "start": 4122.868,
+    "end": 4141.698
+  },
+  {
+    "text": "El potencial en Estados Unidos es espectacular, ¿no? Es el mercado más",
+    "speaker": "SPEAKER_02",
+    "start": 4142.795,
+    "end": 4145.839
+  },
+  {
+    "text": "grande del mundo y",
+    "speaker": "SPEAKER_03",
+    "start": 4145.859,
+    "end": 4146.519
+  },
+  {
+    "text": "con un crecimiento brutal.",
+    "speaker": "SPEAKER_02",
+    "start": 4147.701,
+    "end": 4148.682
+  },
+  {
+    "text": "Bueno, el mercado más grande del mundo, la verdad es que esto es muy interesante porque realmente tenemos tres regiones que es muy bueno, que están compitiendo de una manera feroz, que son China, Europa y Estados Unidos. Y en los tres estamos, y eso es una parte muy interesante. Pero si tú lo analizas, los anuncios de Biden hace un par de semanas, o cuando tú ves el plan quinquenal chino, que es una apuesta superdecidida por el vehículo eléctrico, y ves Europa con todo el plan de Next Generation, Aquí yo creo que se ha entendido que es una oportunidad única, es una revolución, es un cambio industrial y el que esté fuera pues sabe que está por detrás de los demás. Entonces yo creo que esto es por eso hay ese empuje tan grande. Entonces decir qué mercado es más grande, obviamente el mercado europeo lo está haciendo muy bien y a día de hoy está liderando los números de vehículo eléctrico.",
+    "speaker": "SPEAKER_03",
+    "start": 4148.862,
+    "end": 4205.084
+  },
+  {
+    "text": "En potencial, China. En potencial.",
+    "speaker": "SPEAKER_02",
+    "start": 4206.27,
+    "end": 4209.231
+  },
+  {
+    "text": "Por población. Pero por población real, Europa es un mercado muy potente. Y es el mercado yo creo que más potente en estos momentos.",
+    "speaker": "SPEAKER_03",
+    "start": 4209.411,
+    "end": 4217.332
+  },
+  {
+    "text": "¿Qué se espera en los próximos años? ¿Vais a desarrollar nuevos productos? ¿O vais a distribuir a saco estas líneas de productos? Todo. Es expansión. Por ejemplo, ¿os vais a meter en baterías? No. Eso no.",
+    "speaker": "SPEAKER_02",
+    "start": 4217.352,
+    "end": 4230.335
+  },
+  {
+    "text": "Nosotros lo que hacemos es investigación de mercado y tenemos nuestra parte de innovación, ¿no? Así como Quasar en su día fue un producto innovativo y que estaba fuera de nuestro portfolio, pues... Que no nos los puedes contar, ¿no?",
+    "speaker": "SPEAKER_03",
+    "start": 4231.495,
+    "end": 4244.944
+  },
+  {
+    "text": "No. Vaya. Pero vais a distribuir en estas tres regiones, ¿eso es seguro?",
+    "speaker": "SPEAKER_02",
+    "start": 4245.445,
+    "end": 4252.329
+  },
+  {
+    "text": "Bueno, estas tres regiones, mucho más. O sea, Latam, todo, perdón, Latinoamérica, América Central y luego Asia, Pacífico, también son mercados importantes. Australia, es muy interesante por todo lo que hay del, del, lo que hablábamos antes del Vehicle to Home, Vehicle to Grid.",
+    "speaker": "SPEAKER_03",
+    "start": 4253.508,
+    "end": 4269.954
+  },
+  {
+    "text": "Es muy interesante. Y tu evolución personal en el proyecto. Tú te ves a largo, a larguísimo plazo en el proyecto. O te ves en algún momento dado vendiendo, ¿Qué pregunta, no?",
+    "speaker": "SPEAKER_02",
+    "start": 4272.335,
+    "end": 4284.22
+  },
+  {
+    "text": "Al final, ¿qué quiere decir vender? ¿Por qué debes vender algo? Nosotros el proyecto lo empezamos porque nos gustaba la tecnología, queríamos hacer un impacto en la sociedad, Y mientras eso perdure, vamos a perdurar.",
+    "speaker": "SPEAKER_03",
+    "start": 4284.38,
+    "end": 4301.065
+  },
+  {
+    "text": "Estoy 100% de acuerdo contigo, pero créeme que no todo el mundo",
+    "speaker": "SPEAKER_02",
+    "start": 4301.085,
+    "end": 4303.726
+  },
+  {
+    "text": "tiene la misma perspectiva. Pues yo te respondo como lo veo, ¿eh? Es así, o sea, mientras podamos hacer lo que nos gusta, disfrutar, hay que ser sinceros, se sufre mucho tiempo. ¿No? Y esto, con Enric lo decíamos, el 90% del tiempo Es mucho trabajo, hay que ser consciente. Pero 10% de recompensa es interesante, ¿eh? Porque ves tener producto con un cliente que está utilizando tu producto, es ver que somos más de 600 personas y todo esto, ¿no? Yo creo que es lo que te dices, bueno, pues estamos haciendo cosas que de momento tienen sentido, ¿no? El día que no tenga sentido, pues supongo que como la mayoría de personas, ¿no? Cuando un proyecto deja de tener sentido, pues no estarás. Yo no le veo, de momento, esa posibilidad. Y, de hecho, queremos que Wallbox crezca mucho, mucho, mucho, ¿no? O sea... Y nos gustaría, además, ¿no? Que se ha acompañado, incluso. Que esto sea una oportunidad de cambio de ciclo para que... No, surjan más oportunidades en el sector. Y tú decías baterías, pues ojalá haya oportunidades en baterías, ojalá haya oportunidades en muchas otras cosas del sector. Coches, no. Que haya coches, claro, coches eléctricos. Coches Wallboxx. No, no, me refiero en el sector. Digo, o sea, que en el ecosistema en el que estamos puedan crecer este tipo de empresas. Nos ayudarán, yo creo que nos empujarán.",
+    "speaker": "SPEAKER_03",
+    "start": 4304.106,
+    "end": 4388.643
+  },
+  {
+    "text": "Lo que es increíble es el cambio. O sea, pocas veces se ve un mercado con tanta oportunidad de cambio y con lo cual de tanto crecimiento, ¿no? O sea, que el hecho de conseguir una posición de liderazgo en este mercado es una oportunidad brutal, ¿no? Sí, sí.",
+    "speaker": "SPEAKER_02",
+    "start": 4389.4,
+    "end": 4404.845
+  },
+  {
+    "text": "Al final estamos haciendo un producto de consumo electronics, ¿no? De consumer electronics. El CES de 2020 nos reconoció Quasar, ¿no? Nos dio cinco premios por el producto compitiendo con con los más grandes, ¿no? Y es que estamos cambiando el paradigma, ¿no? De lo que era una caja eléctrica, que a lo mejor tú decías al principio que es lo que se asociaba un tonto a lo que es un cargador, que es un dispositivo más de tu casa. Y que gestiona de manera inteligente pues todo este ecosistema.",
+    "speaker": "SPEAKER_03",
+    "start": 4405.345,
+    "end": 4436.675
+  },
+  {
+    "text": "Última pregunta. ¿Tú cómo aprendes? en tu día a día. O sea, ya no a nivel técnico, que imagino que eres súper autodidacta. Te imagino súper autodidacta, ¿no? Pero también a nivel de management, a nivel de negocio. ¿Qué referencias tienes? ¿Lees? ¿Escuchas podcast?",
+    "speaker": "SPEAKER_02",
+    "start": 4437.256,
+    "end": 4458.772
+  },
+  {
+    "text": "Es la curiosidad, ¿no? Yo creo que lo que tenemos es mucha curiosidad. Realmente, hoy en día en Internet tienes acceso a muchísima información. Quizá una de las cosas que se echan en falta es poder tener tiempo dedicado exclusivamente y reservado a lo que tú dices, ¿no? A aprender. Bueno, para esto en Qualvos tenemos trainings y hay una parte de eso que explota. Yo durante el último año he tenido la posibilidad de tener acceso a charlas y conversaciones con gente del sector y gente incluso de otros sectores, pero que lideran producto. Y eso me ha servido para aprender. Pero se aprende mucho del cliente final Se aprende mucho de tu equipo, de trabajar con ellos y entender. Y luego, pues estar un poco siempre atento a la tecnología, que yo creo que es algo que nos gusta mucho. Y por volver a la referencia con Enric, yo siempre hemos estado ahí, cerca de lo que pasaba. Creo que la visión estratégica parte mucho de estar siempre atento a lo que tienes a tu alrededor. Y corres el riesgo de estar despistado. Por lo tanto, es muy importante que siempre tengas todos los sentidos abiertos a lo que hay. Entonces nosotros siempre lo que procuramos es estar en contacto. Hay muchas veces que por las cuestiones del día a día, pierdes, pero tienes que intentar hacer el esfuerzo de volver a forzarte a estar atento a lo que ocurre, ¿no? Porque es así. Los competidores no paran. Es lo que tiene una sociedad competitiva y estamos en ello. Y tienes un producto que tiene que ser más competitivo y mejor que el del resto. Nos gusta. De hecho, nuestro lema es que queremos ser los mejores, no los más grandes. El camino va a ser grande, seguramente acompaña a ser el mejor, pero nuestro criterio es ser los mejores y eso es lo que intentamos. ¿Elon Musk es referencia para ti o no? Seguro que es para muchos, ¿no? ¿Tienes a tres? Hay mucha gente, ¿no? A mí, al principio nos encantaba la parte de Dyson, ¿no? Cómo reconvirtieron todo el modelo de negocio de Dyson. Pero tenemos infinidad de referentes. Un referente que nos encanta no es una persona, sino es la NASA. El proyecto Apolo, ¿no? El cómo fijar un objetivo tan ambicioso. ¡Ostras! A mucha gente no le gusta poner una fecha al delivery, ¿no? Allá implica a lo mejor trabajar sin fechas y desarrollar, pero nos gusta esa cultura, ¿eh? ¿No tenéis fecha? Tenemos fechas. Al final hay que poner algunas fechas, ¿no? Eso no quiere decir que tú tengas que forzar a... a decir, bueno, hay que trabajar con fechas. Pero sobre todo, viendo el proyecto Apolo, es... gestionar 300.000 ingenieros, ¿no? Todo un país volcado en un proyecto, o una gran parte de un país volcado en un proyecto, eso es espectacular, ¿no? Y lo que se logró a nivel de ingeniería, incluso muchos de los sistemas operativos pueden tener alguna reminiscencia de lo que se desarrolló en aquellos momentos. pues aquello creo que nos genera eso, el decir, oye, se puede llegar muy lejos y con ambición, pero también con el humble, con el decir, oye, con humildad, eso es importante.",
+    "speaker": "SPEAKER_03",
+    "start": 4460.233,
+    "end": 4663.68
+  },
+  {
+    "text": "Oye, pues Eduard, muchísimas gracias por contarnos tu experiencia. La verdad es que es espectacular. O sea, tenemos aquí muchos proyectos, pero pocos con ese nivel de ambición tan global y tanto crecimiento, ¿no? O sea que gracias por tu tiempo.",
+    "speaker": "SPEAKER_02",
+    "start": 4664.24,
+    "end": 4678.95
+  },
+  {
+    "text": "Pues te agradezco las palabras. Lo que te digo es que yo te invito, porque no nos conocíamos y fíjate, sí que cuando he preguntado por el podcast llega mucha gente. O sea, siento no haber sido un... No pasa nada. Esto tiene remedio. Pero mira, es así. A lo mejor no conocías The Wallboxx antes y no te has conocido hoy, pero te invito a que también vengas y que de primera mano veas. Porque yo creo que al final lo que nos gustaba en la universidad era la aplicación práctica. La teoría está muy bien, y a lo mejor todo lo que he contado está muy bien, pero yo te invito a que veas en la práctica cómo funciona. Yo tengo un híbrido no enchufable. Error, ¿no? Error. ¿Por qué error? No, pregúntame. Si era tu opción, a",
+    "speaker": "SPEAKER_03",
+    "start": 4678.97,
+    "end": 4720.115
+  },
+  {
+    "text": "lo mejor no era tu opción.",
+    "speaker": "SPEAKER_02",
+    "start": 4721.135,
+    "end": 4722.596
+  },
+  {
+    "text": "Claro, en su momento seguramente no tenías opción de un eléctrico. El próximo será eléctrico, con Wallbox.",
+    "speaker": "SPEAKER_03",
+    "start": 4722.736,
+    "end": 4731.787
+  },
+  {
+    "text": "Seguro. Muchas gracias. Un placer, muchas gracias. Hasta la semana que viene. Somos un ecosistema de startups tech de Barcelona, creadores de Camalún, Kipu y Factorial, entre otras. Ofrecemos más de 5.000 metros cuadrados de coworking a startups y organizamos eventos diarios para discutir negocio y tecnología hasta la saciedad. Desde IgnigFan, invertimos en equipos con capacidad de construir grandes productos y negocios. ¡Te esperamos!",
+    "speaker": "SPEAKER_01",
+    "start": 4731.807,
+    "end": 4753.162
+  }
+]

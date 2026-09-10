@@ -1,0 +1,16 @@
+# Entorno
+.venv/
+__pycache__/
+*.py[cod]
+
+# Secretos (HF_TOKEN va en el entorno, nunca en el repo)
+.env
+*.token
+
+# Ficheros generados
+audio/
+output/
+output_test/
+
+# Token de HuggingFace suelto
+.hftoken

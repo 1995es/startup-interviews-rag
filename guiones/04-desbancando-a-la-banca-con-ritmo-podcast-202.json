@@ -1,0 +1,770 @@
+[
+  {
+    "text": "Bienvenidos una semana más al podcast de ITNIC. Yo soy Daniel Camargo, la persona que normalmente está detrás de cámaras pero que hoy está haciendo de hombre orquesta, y hoy os vengo a contar un poco más de esta entrevista con Bernat Farrero y Raimundo Burguera. Raimundo es coseo y cofundador de Ritmo, una fintech que pretende financiar e-commerce utilizando inteligencia artificial que se alimenta de los datos financieros de cada comercio, el histórico de ventas, cómo están posicionándose, cómo captan tráfico, Para predecir el retorno de inversión, Raimundo nos explica cómo en el e-commerce el 40% de las ventas se realizan en 4 meses, normalmente por fechas especiales como Black Friday u otras épocas de descuento, que hace necesario que el e-commerce necesite financiación instantánea y a corto plazo. En este sentido, Raimundo nos explica que tiene clientes que son capaces de recibir 40 mil euros de inversión ya sea para inventario o publicidad y son capaces de convertirlos en 6 millones de euros. De esta manera, Ritmo recoge el capital atrás de un porcentaje de las ventas en vez de un plazo fijo de deuda, que son para él la razón por la cual los e-commerce mueren cuando ya no se encuentran en temporada. Quédate hasta el final de este episodio para descubrir todo lo que hay detrás del algoritmo de Ritmo, cuáles son los problemas de los que viven día a día los comercios electrónicos y cómo incluso con un discurso antibancario han logrado levantar 13.8 millones de euros con un banco y con múltiples business angels. Y este episodio es posible gracias a todos vosotros, aquellos que se suscriben al canal de YouTube, aquellos que lo escuchan por Spotify, por Apple Podcasts, por cualquier plataforma auditiva, y que no dudan en recomendar el podcast a través de redes sociales o incluso hacernos comentarios ya sea para mejorarlo o para simplemente felicitarnos. Todas estas pequeñas acciones sin duda cuentan un montón para nosotros, así que no dudes en suscribirte si haces parte de ese 46% de la población que nos escucha pero que aún no está suscrito al canal. Y por supuesto, este episodio no habría sido posible sin nuestro sponsor corporativo, Factorial, la plataforma de recursos humanos que digitaliza todos los procesos administrativos de los empleados. Yo personalmente la tengo que utilizar día tras día y es muy sencillo de utilizar, y en ella no solo indico a qué horas entro a trabajar, a qué horas salgo a trabajar, sino que también está toda la documentación necesaria para que los de recursos humanos tomen decisiones. Muchísimas gracias a Factorial por hacer posible este episodio, y si os queda gustando este video no duden en hacerle like y hacérnoslo saber en los comentarios. Sin más, os dejo con Bernat, Raymundo y Ritmo.",
+    "speaker": "SPEAKER_02",
+    "start": 0.271,
+    "end": 119.902
+  },
+  {
+    "text": "Bienvenidos a Startup Insight Stories de Indic, un podcast donde hablamos de startups, negocio y tecnología.",
+    "speaker": "SPEAKER_00",
+    "start": 122.197,
+    "end": 128.079
+  },
+  {
+    "text": "Bienvenidos una semana más al podcast de Indic. Yo soy Bernat Farrero y esta semana estoy con Raimundo Urguera. ¿Qué tal, Raimundo?",
+    "speaker": "SPEAKER_03",
+    "start": 128.859,
+    "end": 135.682
+  },
+  {
+    "text": "Muy bien, Bernat. Gracias por invitarme.",
+    "speaker": "SPEAKER_01",
+    "start": 136.482,
+    "end": 138.303
+  },
+  {
+    "text": "a ti por estar. Raimundo es uno de los fundadores de Ritmo, que es una empresa de financiación, una fintech de financiación de e-commerce y modelos intensivos de marketing. Explícanos un poco más cuál es vuestro pitch, cómo os definís.",
+    "speaker": "SPEAKER_03",
+    "start": 139.518,
+    "end": 157.165
+  },
+  {
+    "text": "Nosotros somos una plataforma de financiamiento alternativo que ofrece capital para el comercio electrónico, para inventarios, para marketing y para crecimiento. El comercio electrónico, Bernard, tiene unas características muy específicas. El comercio digital que crece con seasonality, con temporalidad. Y esa temporalidad hace que necesite capital para inventarse mejor, tener más inventario disponible, más stock para vender más y comprar más medios digitales. El comercio electrónico no ha estado copado por el capital, no es una industria que esté copada por el capital. Nosotros no invertimos en startups, invertimos en negocios digitales, en comercios que van creciendo. Y nuestra plataforma lo que hace es un modelo de financiamiento alternativo y especializado para ofrecer capital para el crecimiento, para el comercio electrónico, en una forma muy sencilla que es para financiar inventario y marketing digital y se hace a través de un porcentaje, o sea, se invierte el capital en la empresa y se recobra el capital a través de un porcentaje de futuro de las ventas, que es lo que se llama Revenue Based Financing. Y eso es muy interesante para el comercio, Bernard, porque el comercio, por esta seasonality, por esta estacionalidad tan marcada, necesita de un modelo de financiamiento que vaya con sus ciclos, porque hay meses muy buenos y hay meses muy malos. En los meses muy malos, pagar un plazo fijo de deuda te mata. Nosotros cubrimos un GAP que la banca y la institución financiera no está cubriendo, que es de 350 billones americanos. Es el GAP de crédito más grande que existe. Y lo cubrimos porque estos negocios no tienen activos. Sus activos son digitales y nosotros lo que financiamos es esta compra de activos repetitivos, que dejan una trazabilidad digital, que es la compra de inventario, que es una actividad repetitiva. Todos los meses estos comercios digitales compran inventarios, compran inventarios. Inventario físico. Hay gente, el comercio electrónico, que vende un seller de Amazon, un comercio en Shopify, que tiene un inventario. Él tiene que traer su inventario y lo vende a través de la plataforma. Y esa compra de inventario supone hoy el 50-60% de sus gastos.",
+    "speaker": "SPEAKER_01",
+    "start": 158.826,
+    "end": 297.237
+  },
+  {
+    "text": "Entiendo. ¿Y la parte de inventario cambia tanto respecto al comercio tradicional? Porque al final los bancos, entre otras cosas, se han dedicado a esto toda la vida, ¿no? La financiación de circulante, en ese caso, deuda corta...",
+    "speaker": "SPEAKER_03",
+    "start": 301.713,
+    "end": 314.097
+  },
+  {
+    "text": "Pues cambia muchísimo porque en un negocio normalmente suele ser del 10 al 15%, pero en un comercio... que no tiene nada físico, que no suele tener almacenes muy grandes, ni infraestructura tal, sino que son 4 o 5 personas que compran en China y venden en Amazon, el 70% o 60% es el inventario, entonces son del 10 al 15%. Cambia también porque la forma en la que compran estos inventarios traen una marcada, traen muchos picos y estas empresas lo que necesitan es justo cuando están en ese pico que es Black Friday, Amazon Prime Day o el pico de su propia estacionalidad. No sé si eres un e-commerce de Back to School ahora que viene en septiembre, tienes que inventarte 60 días, 30 días. Y eso hoy en día no hay una plataforma, no hay ningún servicio financiero que lo cubra. Hay unas herramientas de Trade Finance como Ebury y todas estas herramientas que han crecido, pero no están encajándose en el mercado del comercio electrónico. Porque, al final, ponen un plazo fijo. Y el plazo fijo lo que hace es ahogar al negocio. Porque cuando te va muy bien, cuando tienes el mes fuerte, obviamente el plazo fijo no te importa, pero son cuatro meses fuertes al año y el restante son meses medianos y flojos. Eso es la seasonality. El 40% de las ventas del comercio electrónico se hacen en cuatro meses. Eso genera una tensión de la tesorería muy importante. Y luego, la forma de analizar los negocios, Bernard, no se basa en estado financiero. Esta gente no tiene activos. La banca, el sector financiero, mira los estados financieros del negocio. Y eso mira el pasado. Yo miro la data real. Nosotros estamos transformando la industria de capital y de financiamiento a través de los datos y de tecnología. Eso es lo que hace el ritmo.",
+    "speaker": "SPEAKER_01",
+    "start": 314.117,
+    "end": 422.407
+  },
+  {
+    "text": "A ver, el comercio tradicional tampoco tiene especialmente activos, más allá del inventario. El negocio minorista de retail tampoco hace grandes inversiones en activos. En ese sentido, tampoco cambia mucho. Entiendo que por el hecho de poder distribuir a través de Internet, puede ser más sensible a ofertas o a estacionalidades, que igual el negocio tradicional de calle no es tan sensible, aunque también tiene las estacionalidades, las ofertas o las temporadas de rebajas, etcétera.",
+    "speaker": "SPEAKER_03",
+    "start": 425.631,
+    "end": 455.408
+  },
+  {
+    "text": "Sí. Esto es lo que temporalmente se llamaba Merchant Cash Financing, Merchant Cash Advance, que es el negocio físico, claro que tiene seasonality. No está marcada, pero tiene seasonality. No se trata solo de la seasonality, sino del tipo de negocio, de la estructura. La institución financiera lo que mira además es un tema de regulación. ¿Me entiendes? Es un tema que el banco tiene que provisionar y sacar fuera de balance. O sea, es un tema importantísimo. Lejos de poder encajarse en ese tema, ¿no? Pero bueno, la institución financiera lo que mira es los estados financieros. Mirar al pasado de los estados financieros. Nosotros nos conectamos con la data que tienes de tus plataformas publicitarias, de tu revenue digital y de tu Open Banking y con eso tenemos tres tipos de información. La primera es cómo eficientes son tus inversiones publicitarias, cómo estás, cuáles son tus ROAS, tu retorno de la publicidad. y qué tan eficiente es y cómo puede crecer. Y hemos visto que hay una oportunidad enorme en el comercio digital de optimización. Porque estas empresas, el 95% que tienen líneas financieras bancarias, Bernardo, hoy en día, porque las tienen algunas, son líneas de Export-Import Line. No son líneas de hacer un top up y potenciar tu inventario cuatro meses. ¿Qué es lo que hacemos nosotros? Nosotros estamos en el pico del capital. O sea, ofrecemos en nuestra línea recurrente de Revenue Based Financing, ofrecemos hasta cuatro meses de tus ventas. Es un híbrido entre el capital y la deuda lo que hacemos nosotros. Por eso se llama capital no dilutivo. no es un préstamo de cash flow, de vivo con esto, eso lo tienen, los bancos lo tienen, pero eso no le satisface al negocio para seguir impulsando su crecimiento y sus ventas. Y esto no es para todo el comercio. El comercio que no crece ni a nosotros nos encaja ni a nosotros nos encajamos con ellos. Nosotros vamos a comercios que crecen entre un 2% mensual. 2% mensual mínimo, básicamente. Después de la pandemia hay miles y cientos en España. Esto solo en Amazon.",
+    "speaker": "SPEAKER_01",
+    "start": 456.652,
+    "end": 580.005
+  },
+  {
+    "text": "Entre el 1% y el 2% mensual. Sí.",
+    "speaker": "SPEAKER_03",
+    "start": 580.266,
+    "end": 583.227
+  },
+  {
+    "text": "De ahí a más. Tenemos clientes que crecen 15% mensual, ¿no? O sea, sí, 20 y 30. Pero, digo, 1 o 2% mensual mínimo. Normalmente, el average está en un 28% de crecimiento anualmente. Son empresas de alto crecimiento.",
+    "speaker": "SPEAKER_01",
+    "start": 585.327,
+    "end": 599.131
+  },
+  {
+    "text": "Un e-commerce depende de su ciclo de conversión de caja, pero si consigue tener un working capital negativo, normalmente es capaz de financiar su propio crecimiento con el working capital.",
+    "speaker": "SPEAKER_03",
+    "start": 600.331,
+    "end": 608.873
+  },
+  {
+    "text": "Claro, su propio cash flow, pero eso le lleva a ser muy poco eficiente en el crecimiento y depender solamente de su propio cash flow, que es lo que hace hoy en día el 90% de los e-commerce. Y por eso, nuestra propuesta de valores, si nosotros sabemos por qué estamos conectados con tu data de Amazon, con tu data de tu plataforma de Shopify, sabemos que puedes llegar al punto A, y en vez de crecer un 20, puedes crecer un 45%, porque el ROAS no te lo puede permitir, porque la inversión de stock disponible, porque en el marketplace toda la tendencia de los datos practica en que si tú tuvieras 300.000 euros de inventario para Black Friday lo venderías, que es lo que nos dicen nuestros clientes. El problema que resolvemos es, si yo tuviera los 600.000 euros de inventario, lo vendería. Pero tengo 150.000 porque es lo que me permite mi propio cash flow. Esta gente crece por su propio cash flow, por el ciclo negativo. No tienen capital ni financiamiento especializado ni nada alrededor suyo. Han salido todos estos agregadores que compran al 1 o 2% ¿No? Los Thrasio, el Zenecto Thrasio, pero que muchos de estos negocios, estos sales de Amazon o estos negocios de comercio digital no se quieren vender, ¿sabes?",
+    "speaker": "SPEAKER_01",
+    "start": 609.383,
+    "end": 672.87
+  },
+  {
+    "text": "Yo soy uno de estos negocios, entiendo que vuestros clientes son EBITDA positivos o son EBITDA negativos.",
+    "speaker": "SPEAKER_03",
+    "start": 672.91,
+    "end": 678.516
+  },
+  {
+    "text": "Tenemos de todo, pero tenemos negocios en el mercado marketplace, sobre todo en UK, que son EBITDA positive, ¿vale? Y tenemos negocios que están EBITDA negative, pero tienen affordability. El modelo de affordability es cómo son los units de economía. Nuestro modelo es una transformación en la forma de analizar el crecimiento de un negocio y cómo invertir y ofrecerle capital. Pues nosotros estamos conectados en tiempo real y podemos ver su CAC, su Lifetime Value, en tiempo real, porque estamos conectados con el Open Banking, estamos conectados con la data de su Revenue, estamos conectados con su ROAS. Entonces, lo que nos interesa si es un negocio de vida negative es si tiene affordability, es decir, si tiene potencial de crecimiento. No entramos en un negocio que queme capital por quemarlo. No somos de los pasos. Ni entramos en financiar operaciones de 7 o 10 años. Financiamos actividades repetitivas que dejan una trazabilidad digital que además es lo más eficiente para un emprendedor que es que el inventario y el working capital, que es inventario y compra de marketing digital y todo lo que es crecimiento de hoy voy a abrir un nuevo marketplace, estoy abriendo un nuevo mercado, estoy creciendo, ese capital lo puedas ofrecer a través de nuestro capital, o sea, nuestra línea de financiamiento. Es más sencillo que cualquier otra forma y es lo más disponible, porque hoy en día no existe una forma para este negocio.",
+    "speaker": "SPEAKER_01",
+    "start": 679.546,
+    "end": 759.951
+  },
+  {
+    "text": "Vale. Yo conozco casos muy cercanos de verdaderas historias de horror de compras de stock que no han salido. Claro. O sea, al final, el inventario tiene riesgo. Tiene riesgo de negocio. ¿No? O lo mismo con los costes de adquisición, ¿no? O sea, conozco muchos casos de e-commerce cercanos que compran por encima, o sea, pagan por un cliente por encima de su Lifetime Value. Claro. Y en realidad nosotros no entramos ahí.",
+    "speaker": "SPEAKER_03",
+    "start": 762.447,
+    "end": 794.129
+  },
+  {
+    "text": "Nosotros estamos entrando no en startups que son esos, no que vienen de un paycheck, un paycheck. Eso son las startups. Tú no vamos. O sea, no sé si se puede definir un startup. También tenemos clientes de startup, pero tienen que dejar y tienen que tener affordability, que es que los units de economía tengan sentido. Esos son units de economía que no tienen sentido. Y nos hemos dado cuenta que la gran mayoría del comercio electrónico below the radar, que es nuestro segmento, que es el que más queremos y el que estamos enfocados, no a la marca nativa superfamosa de Milán, que también ofrecemos capital. Esas empresas hoy en día operan con ROAS 7 y 8. Invierten 40.000 euros y venden 6 millones. de euros. Tengo así 30 o 40 clientes grandes. Venden en Google, invierten en Google, invierten en Facebook, invierten poquito y, sobre todo, invierten en su inventario. Luego, el ciclo inventario lo que tienes que entender es cuál es la forma óptima. No es inventariarte. O sea, tú no estás No le estás diciendo inventariate. Si nosotros predecimos el revenue, nuestro modelo es un modelo basado en datos inteligente artificial que se conecta con la fuente de información en tiempo real del cliente y dice, a ver, ¿cuál es tu revenue pasado? ¿Cuál es tu histórico de ventas? ¿Cuáles son tus históricos, tus métricas? Y estamos conectados durante toda la vida del adelanto. Entonces, ¿eso qué hace? Que tenemos en tiempo real cómo esa empresa está captando tráfico, qué tan óptima es la inversión de captación, cómo está haciendo ese tema, cómo está posicionando un Marketplace, que es otro modelo, ¿vale? Tenemos Sellers y Commerce Publishers, ¿vale? ¿Cómo está en su Revenue? ¿Cómo ha sido el histórico de 24 o 36 meses? Nos conectamos con la pasada de pago, con la plataforma de comercio electrónico, ¿vale? Y con eso podemos entender la Seasonality, cómo ha ido creciendo en tiempo real. O sea, yo que vengo de la industria de lending y financiamiento, tuve ellas de los estados financieros a 12 meses, pero a mí lo que me interesa es cómo terminó el mes de julio. Y si el mes de julio terminó un 4 o un 5% por encima del mes anterior, ¿vale? Y sigue consistentemente una tendencia en tiempo real, eso es lo que hacen los datos. Los datos están aquí para darnos transparencia y trazabilidad de la inversión, de la optimización, de la compra de activos, ¿vale? Y eso es lo que es eficiente. Nosotros no, porque vamos al riesgo del emprendedor. Y el modelo Revenue Based Finance se basa también en un modelo, nuestro modelo está enfocado en el corto plazo. Damos adelantos en una temporalidad de corto plazo. ¿Por qué? Porque al final tú lo que necesitas es el financiamiento para el pico. Es decir, necesito 400.000 euros. Vale, venga, pues ahí los tienes. y se repaga en un corto periodo de pago. Y así vas generando una línea recurrente, que es lo que nos hemos diferenciado de algún jugador americano que también está, y es lo que nos está ayudando a crecer rápido en ritmo, que hemos hecho la primera línea recurrente porque nos hemos dado cuenta que el cliente no necesita solamente un deployment, nunca un adelanto, sino que por esta Seasonality tiene tres adelantos. Nuestro Timesheet hoy en día de inversión tiene tres adelantos programados para Black Friday, para la siguiente etapa de Seasonality, todo el tema. Entonces, el negocio, el emprendedor del comercio digital, se dedica a operar su negocio. Dice, bueno, yo tengo ya disponible este capital. Y este capital se basa en la consecución de estas métricas. Este cojón de datos, ¿no? En un tempsit tranquilo, de tres páginas transparentes. Si yo consigo mantener mis ROAS en tanto nivel, si yo consigo mantener mi revenue en tanto nivel y consigo mantener mi estructura financiera en tanto nivel, nosotros nos metemos en el Open Banking también. y con eso tengo toda su estructura de conversión de flujo, de ciclo, de conversión de caja. O sea, no solamente invierto en base a cómo están performando las campañas de marketing o comprando inventario, sino también cómo está convirtiendo en flujo de caja y la estructura de costos de la empresa. Si la estructura de costos de la empresa o la conversión de flujo de caja o los ratios de liquidez o de runway no nos hacen sentido, no adelantamos capital.",
+    "speaker": "SPEAKER_01",
+    "start": 795.01,
+    "end": 1022.773
+  },
+  {
+    "text": "Al final son métricas, muchas de estas, que lo mira la banca tradicional también. O sea, la banca tradicional presta dinero, sobre todo a negocios que lo pueden devolver. El problema es que son las startups, son los negocios con márgenes negativos.",
+    "speaker": "SPEAKER_03",
+    "start": 1025.252,
+    "end": 1043.043
+  },
+  {
+    "text": "Yo no he escuchado a un banco, pero no solo en España, en ningún lado del mundo, donde le vayas al branch manager o al gestor de la banca y le digas, oye, mi lifetime value, mi ROAS, mi CAC es este. El tipo no. No, no, o sea, te va a verar tu revenue, tu estado financiero, porque es un modelo. Es que no puede moverse en el modelo de riesgo. Es que es un tema estructural de riesgo.",
+    "speaker": "SPEAKER_01",
+    "start": 1043.323,
+    "end": 1061.295
+  },
+  {
+    "text": "Más les vale que se pongan las pilas, ¿no? Porque el crecimiento del e-commerce es imparable y cada vez es menos discutible, ¿no?",
+    "speaker": "SPEAKER_03",
+    "start": 1061.796,
+    "end": 1068.06
+  },
+  {
+    "text": "Efectivamente, por eso existimos. Y los modelos omnicanal y tal. Efectivamente, por eso insistimos nosotros. Por ejemplo, cuando empezamos nosotros nos dimos cuenta que muy gran parte de nuestra competencia americana se dedicaba a la marca nativa. Nosotros dijimos, oye, pero si hay un montón de comercio fuera del radar, ¿sabes qué? ¿Entiendes que como mucho mete un buy now, pay later en su plataforma? ¿Sabes? Este merchant lo que necesita es capital para crecer. Y además le damos analíticos. Es muy interesante.",
+    "speaker": "SPEAKER_01",
+    "start": 1068.12,
+    "end": 1095.739
+  },
+  {
+    "text": "Entonces, yo me planteo... Lo mismo que me planteé con los chicos de Capchase, cuando estuvieron aquí en el podcast. Yo les pregunté, oye, ¿pero este algoritmo que tenéis, si realmente es lo que vosotros decís que es, esto de por sí es un negocio? ¿No es más negocio el algoritmo que el margen de la deuda? O sea, si realmente tenéis este algoritmo, ¿qué puede predecir ahí el futuro del e-commerce?",
+    "speaker": "SPEAKER_03",
+    "start": 1096.319,
+    "end": 1121.346
+  },
+  {
+    "text": "El algoritmo se crece. El algoritmo no se tiene. Eso es mentira. El algoritmo se desarrolla. Los datos tienes que entrenarlos. Yo vengo de diez años haciendo temas intensivos en data y transformando la industria de crédito y de tecnología financiera hacia el tema y es mentira que tú tengas un algoritmo performando bien. Los algoritmos se hacen en los datos. La inteligencia artificial no se crea, se alimenta con los datos y se entra con modelos de entrenamiento de datos. Entonces es mentira que nosotros ni hoy ni ninguna otra persona tenga algoritmos que sean capaces de predecir tengo una bola de cristal. Eso no existe en la industria. Nosotros lo que intentamos es hacer que... Llegar a un modelo de predicción mucho más asertivo y eficiente que haga fit con la estructura de estos negocios. ¿Cómo operan? Y ese es el gap que cubrimos nosotros. Igual que Capchase lo hace para SaaS, ¿me entiendes? Con el negocio recurrente. Y claro, pues eso no lo ha visto. Entonces, yo creo que la innovación que estamos haciendo en el financiamiento digital ya seamos nosotros en la parte de comercio y ellos en la parte de SaaS, es un tema que se ha dado porque en la industria de negocios digitales el capital ha sido el reinante. Cuando en ninguna industria de negocio, Bernat, el capital no representa ni el 4% que la deuda. La deuda es más grande en todos los mercados. En infraestructura, en retail, en operaciones, todo. Los fondos. BlackRock hace más en deuda que en capital. Sin embargo, en la industria capital todo se ha derivado del capital, que es lo más ineficiente, lo más costoso, lo más desastroso que puedes hacer para tu negocio, pero no tienes otra opción. Y además es una inversión de súper largo plazo. Lo que pasa es que estamos trabajando en las alternativas. ¿Quién no prefiere deuda?",
+    "speaker": "SPEAKER_01",
+    "start": 1122.606,
+    "end": 1228.075
+  },
+  {
+    "text": "Claro. Cualquier emprendedor prefiere deuda.",
+    "speaker": "SPEAKER_03",
+    "start": 1229.035,
+    "end": 1230.715
+  },
+  {
+    "text": "Efectivamente, lo que no se han creado son canales. Entonces, tú cuando hay un exceso de liquidez en el mercado, porque se está imprimiendo dinero a lo bestia, ¿vale? Y no saben cómo colocarlo. Ahora vienen todas las ayudas de fondo ICOS, ¿vale? Entonces hay una serie de gente que dice, oye, pues yo lo tengo, lo distribuyo. Bueno, muy bien, ¿vale? No sé cuánto, muchísimo dinero a lo que he leído, ¿no? ¿Cómo generas un canal que sea eficiente para la distribución y un canal que le permita a una inversión institucional, un plan de pensiones, una semana ayer, un fondo de titulización, de deuda, desplegar ese tema y empezar a entender que este negocio del comercio autónomo que representa un valor hoy en día de casi 800 billones vale americanos y que va creciendo doble dígito y que en regiones como latinoamérica están creciendo 80 90 por ciento año con año sabes en méxico sabes el comercio electrónico este es un imparable y no solamente se ha dado por el tema de la aceleración del covid o sea esto es imparable y ese tipo de negocios necesitan un capital que no es un préstamo verdad bernard lo que tú decías muy bien que lo has dicho al principio es un es un híbrido Porque el comercio que yo voy, que es un comercio de alto crecimiento, lo que necesita es este híbrido porque está creciendo. Lo que quiere es crecer más rápido. Lo que nosotros queremos es que adelante y que vaya más rápido en ese crecimiento. Teniendo en cuenta que los unions de economics tienen que tener sentido. Pero lo que hemos visto es una ineficiencia enorme porque ellos operan con su propio cash flow. Ese es el problema. El tipo podría... La emprendedora o el emprendedor podría crecer más rápido, pero no puede crecer más rápido porque tiene su límite, su limitante. Ese es su propio caso. Esa es la problemática. Y la velocidad y la rapidez de tenerlo disponible en los picos necesarios. Esa es nuestra propuesta de valor. Además, hemos creado una suite de analíticos que ayuda a los emprendedores de este comercio electrónico, que no es tan profesional como una súper startup famosa, ¿Vale? De tener un Hero Flow, de tener gente de marketing digital, que como sabes es muy difícil ficharla, pues nosotros lo que hemos hecho es puesto todo nuestro credit underwriting analítico, se lo hemos dado a nuestros clientes, se llama Ripple Insights. Y la verdad es que los usuarios les están encantando por ahora y estamos viendo también conectarlos a otras plataformas ¿No?",
+    "speaker": "SPEAKER_01",
+    "start": 1231.276,
+    "end": 1355.703
+  },
+  {
+    "text": "Está claro que es un mercado muy hot, sobre todo desde el punto de vista de financiación, porque desde que nosotros vimos Capchase, que no lo vimos, creo que estaban en la ronda SIT cuando lo vimos, seis meses después había levantado más de 150 millones de euros entre deuda y equity, ¿no? Y tú claramente tienes muy buen pitch explicando este proyecto y esta oportunidad. ¿Y has conseguido convencer? A Bank of Sabadell, que eso es lo que me parece muy fuerte. Porque tu pitch antibanca, de alguna manera, porque dices, no, la banca no va a llegar, no lo va a ver. Por cierto, el mundo está yendo aquí, pero la banca no lo ve. Y tú eres capaz de convencer a la banca que invierta en tu negocio. ¿Cómo haces esto?",
+    "speaker": "SPEAKER_03",
+    "start": 1356.453,
+    "end": 1398.349
+  },
+  {
+    "text": "Hombre, porque yo creo que la banca tiene que convivir con esos modelos de financiamiento alternativo y tiene que participar de una a otra, ¿no? Y esto no solamente está pasando con mi caso, está pasando en Asia, en China, donde Ant Financial es un banco y participa en miles de negocios fintech todos los días, ¿sabes? Está pasando en Estados Unidos, donde algunas fintechs están empezando a hacer alianzas con bancos y algunas fintechs están convirtiendo en bancos, en mercados regulados. Nosotros operamos en mercados regulados. y tenemos una limitante de mercados regulados. Yo creo que la barrera entre banca y fintech se va a ir disipando cada vez más. Y va a haber varias colaboraciones.",
+    "speaker": "SPEAKER_01",
+    "start": 1399.525,
+    "end": 1434.997
+  },
+  {
+    "text": "Porque Banco Sabadell, cuando invierte en ritmo, ¿qué es lo que tiene en mente? O sea, ¿lo que quiere es aprender de vosotros? Porque entiendo que ha invertido en equity, ¿no?",
+    "speaker": "SPEAKER_03",
+    "start": 1435.958,
+    "end": 1448.605
+  },
+  {
+    "text": "He invertido en deuda y en equity. Lo bueno es que invirtió en deuda y tiene un balance importante porque el banco es una institución financiera con un balance importante. Para nosotros, cuando hicimos la ronda, seleccionamos a los inversionistas porque queríamos ser inversionistas financieros. Nuestro competidor también está en UK y está participado por un banco. que al final es un fondo que ha cambiado de nombre, pero es un banco. Es muy natural esto. Yo no sé cuál es su intención, si es solamente aprender o estructurar. Yo creo que es un tema de, para nosotros, la forma que hemos entrado, en este caso en concreto, es a través de la unidad de deuda y capital. Nosotros estamos entrando como una inversión de Corporate Development de la parte de deuda y capital. ¿No habéis entrado desde Capital Riesgo, no?",
+    "speaker": "SPEAKER_01",
+    "start": 1448.665,
+    "end": 1498.424
+  },
+  {
+    "text": "¿Desde Big Start?",
+    "speaker": "SPEAKER_03",
+    "start": 1498.444,
+    "end": 1500.325
+  },
+  {
+    "text": "Sí, desde Capital Riesgo. Hemos tocado muchas diferentes opciones del banco, que además opera en geografías muy interesantes para nosotros, y tenemos una muy buena relación y estamos trabajando algunas cosas muy interesantes con negocios que ellos te dicen, oye, yo tengo pasarelas de pago para e-commerce, ¿por qué no te conectas con ellas? Y tengo 2.000 e-commerce en España. Ah, pues bueno, vamos a hacerlo. Entonces, hemos ido seleccionando a instituciones, sobre todo. Y luego, pues tienen la posibilidad de tener más deuda. Porque al final, el costo de fondo de un banco es el más económico del mercado. ¿No, Bernat?",
+    "speaker": "SPEAKER_01",
+    "start": 1500.506,
+    "end": 1535.788
+  },
+  {
+    "text": "El Banco Sabadell se ha comprometido a meter deuda. A ofreceros...",
+    "speaker": "SPEAKER_03",
+    "start": 1537.589,
+    "end": 1543.733
+  },
+  {
+    "text": "Sí, tiene inversión con deuda con nosotros.",
+    "speaker": "SPEAKER_01",
+    "start": 1543.773,
+    "end": 1545.834
+  },
+  {
+    "text": "Vale. ¿Y el hecho de tener un banco no os compromete a largo plazo a decir, oye, pues imagínate que en cierto momento queréis vender la compañía o queréis que invierta otro? No, no, no.",
+    "speaker": "SPEAKER_03",
+    "start": 1547.485,
+    "end": 1556.413
+  },
+  {
+    "text": "Porque la inversión en equity... Nosotros hemos levantado una inversión en equity muy distribuida y no hay ningún shareholder para allá y al final nosotros... Desde el principio, las expectativas de los inversionistas financieros que hemos tenido institucionales ha sido que el negocio tiene una independencia, una autonomía completa. Esto pasa cuando tú, el socio de Corporate Venture Capital, por así decirlo, tiene un porcentaje representativo y tiene una serie de temas y la está viendo para comprarla. Nosotros no vemos ritmo para venderlo en el mercado privado. ¿El ritmo de una empresa española? Rimo tiene base española, pero está operando en UK, en Europa y en Latinoamérica. Ahora mismo.",
+    "speaker": "SPEAKER_01",
+    "start": 1556.433,
+    "end": 1603.889
+  },
+  {
+    "text": "Vale.",
+    "speaker": "SPEAKER_03",
+    "start": 1605.05,
+    "end": 1605.23
+  },
+  {
+    "text": "Es una empresa con talento español, pero con vocación global.",
+    "speaker": "SPEAKER_01",
+    "start": 1605.27,
+    "end": 1608.53
+  },
+  {
+    "text": "Pero es una SL. La empresa madre es una SL española.",
+    "speaker": "SPEAKER_03",
+    "start": 1610.111,
+    "end": 1613.752
+  },
+  {
+    "text": "Rimo tiene una empresa que tiene una SL y luego tienes PBs en diferentes mercados.",
+    "speaker": "SPEAKER_01",
+    "start": 1615.432,
+    "end": 1619.073
+  },
+  {
+    "text": "Vale. No te puedes ir mucho más",
+    "speaker": "SPEAKER_03",
+    "start": 1620.393,
+    "end": 1622.614
+  },
+  {
+    "text": "allá porque es la ventaja competitiva.",
+    "speaker": "SPEAKER_01",
+    "start": 1622.674,
+    "end": 1624.594
+  },
+  {
+    "text": "Vale, vale, vale, interesante. Pero lo que quería decir es que los socios de la empresa española tienen derecho de tanteo, que les da la ley de sociedades de capital. O sea, pueden comprar en caso de que se ofreciera a la compañía un tercero, ellos tendrían el derecho de poder adquirir prioritariamente la compañía. Eso es lo que le da...",
+    "speaker": "SPEAKER_03",
+    "start": 1625.819,
+    "end": 1645.449
+  },
+  {
+    "text": "Bueno, eso es lo que tú negocias con tus socios. Yo creo que al final nosotros... En el mundo del emprendimiento, el balance del poder se está moviendo hacia el mundo del emprendedor más que del fondo de capital privado. Y nosotros hemos negociado, creemos, unas condiciones muy friendly para el emprendedor. Donde el mayor inversor, ni de lejos, es Sabadell. Es un inversionista muy estratégico para nosotros, muy bueno. Como lo puede ser otro panco, si es que queremos, que no lo queremos, ¿vale? O como lo puede ser un Goldman Sachs, un J.B. Morgan o un SoftBank, ¿vale? O sea, al final para nosotros es un inversionista que juega un papel fundamental y que nos ayuda. Pero las condiciones que tú negocies son las que tú determinas. Y nosotros tenemos autonomía y de inversión completa, ¿me entiendes? Para hacer de la empresa Siempre con los respetos que se siguen y cumpliendo los shareholders. ¿Qué te digo? Tú lo has visto 50 veces. Tienes un grupo de empresas. Entonces, al final, depende mucho qué condiciones pactes y cuál es lo que negocies y dónde está la estructura.",
+    "speaker": "SPEAKER_01",
+    "start": 1645.469,
+    "end": 1706.404
+  },
+  {
+    "text": "¿Cuánto habéis levantado hasta ahora?",
+    "speaker": "SPEAKER_03",
+    "start": 1706.424,
+    "end": 1708.665
+  },
+  {
+    "text": "Hemos levantado 13,8 millones de euros.",
+    "speaker": "SPEAKER_01",
+    "start": 1709.745,
+    "end": 1711.625
+  },
+  {
+    "text": "13,8 millones de euros. Esto no está SID. Esto es vuestra ronda SIT. No está mal, ¿no? Como ronda SIT. Cómo están evolucionando las rondas. Sí, sí, sí. 13,8 millones de euros en ronda SIT. Caray. O sea, aquí no hay métricas, digamos, ¿no? En una ronda SIT no hay métricas. Hay un PowerPoint, un plan, una voluntad.",
+    "speaker": "SPEAKER_03",
+    "start": 1711.645,
+    "end": 1735.451
+  },
+  {
+    "text": "No, es que yo creo que aquí podemos hablar de algo entendido de diferente nomenclatura. Nosotros, los emprendedores que fundamos Ritmo, pues habíamos tenido una trayectoria y pusimos el capital inicial. ¿Vale? Y ya fue una empresa de unas métricas muy buenas. Y la verdad es que tuvimos inversionistas interesados por todos lados, pero al final decidimos con quién queríamos, porque para nosotros, nuestros socios en la parte capital, igual que para cualquier emprendedor, los tienes que seleccionar porque son tus acompañantes. ¿Vale? Y cada uno de ellos pues tienen una selección, igual que Inverready, pues no es un fondo solamente de Venture Capital, tiene Venture Dev, tiene un Asset Manager, ha hecho el primer SPAC español, ¿me entiendes? Tiene una sofisticación financiera diferente. En verdad, es socio vuestro también. Vayan temas de deuda y tenemos una relación excelente a diferentes niveles y por eso lo invitamos y porque han generado un valor muy bueno en diferentes temas. JM porque es un fondo muy proemprendedor y que nos ayudaba a entender el tema y a hacer la estructura y desde el principio tuvimos una empatía fabulosa con el equipo de GMA. Y creíamos que son los acompañantes perfectos y fueron los que lideraron la ronda. FinRebel, que es un fondo de Nueva York, un evergreen fan de un emprendedor serial que le vendió su negocio a JP Morgan. que hace muy pocas inversiones, pero todas las que hace les funciona. Hizo Doxen, ha hecho Tiffin Group, que es un Wealth Management Group, vendió otra vez a JP Morgan, y ha hecho GlobalEx, que se llama Bruno Delama. Hemos traído también inversionistas como Binn en Portugal para el mercado sureuropeo. Hemos traído a Wired para partes que la por Latinoamérica, por la parte de una serie de sectores de Open Telephony que tienen un nexo específico. Y hemos traído una serie de emprendedores seriales como Stefan Krokat, que es el emprendedor que fundó Dafiti, que es Zappos en Latinoamérica. y lo vendió por 300 millones de dólares hace ocho años a los sudafricanos. Él es inversionista y además está en el consejo para ayudarnos en Latinoamérica. Nos está ayudando enormemente, está poniendo tiempo y capital. Metimos al general manager de BNP Paribas, que es un banco de asset manager con los que tenemos buena relación. Metimos a una serie de inversionistas también del mundo del comercio electrónico a nivel de este Marketplace en Latinoamérica y en Europa. Ha sido una serie de gente que hemos ido invitando, que nos dan la posibilidad de crecer el negocio en otro mercado porque tienen un network. Y al final ha sido porque los unit economies de negocios estamos volando ahora mismo.",
+    "speaker": "SPEAKER_01",
+    "start": 1736.863,
+    "end": 1915.532
+  },
+  {
+    "text": "Cuéntanos Raimundo, tengo mucha curiosidad. ¿Cómo ha sido la evolución del negocio en sí? Hemos entendido la estructura capital.",
+    "speaker": "SPEAKER_03",
+    "start": 1915.592,
+    "end": 1922.657
+  },
+  {
+    "text": "Sí. El setup del negocio se hizo en noviembre, finales, y el 31 de diciembre hicimos el primer adelanto, a las nueve de la noche. Eso denota un poco... A las nueve de la noche. Sí, me querían matar en casa, ¿vale? Pero tenía que ser en 2020 sí o sí, y eso denota un poco. ¿Quién era el primer cliente?",
+    "speaker": "SPEAKER_01",
+    "start": 1923.598,
+    "end": 1946.389
+  },
+  {
+    "text": "¿Quién fue el primer cliente?",
+    "speaker": "SPEAKER_03",
+    "start": 1946.829,
+    "end": 1947.809
+  },
+  {
+    "text": "El primer cliente se llamaba Tapwater. Es un Amazon seller de filtros de agua, que tiene un Shopify.",
+    "speaker": "SPEAKER_01",
+    "start": 1947.849,
+    "end": 1953.833
+  },
+  {
+    "text": "Y no era tu primo ni tu hermano. No, no, no, no hacemos de nada.",
+    "speaker": "SPEAKER_03",
+    "start": 1954.413,
+    "end": 1958.155
+  },
+  {
+    "text": "Random. Random, random, random. Este, el día dos, el segundo cliente. ¿Me entiendes? Y ha ido creciendo paralelamente. Hoy somos 25 personas. Vamos a doblar Headcount en los próximos, pues yo creo, 30 o 45 días. Tenemos más de 18 posiciones abiertas en Europa y en otros mercados otras 15 posiciones. Este... Tenemos el equipo técnico de producto de datos en Barcelona, donde mi socio Iñaki Mediavilla, que ha liderado parte del growth de Tideform y de Softonic, tiene un acceso a un network de talento. Nuestro director de datos, David Martín Borregón, lideraba la parte de data también en Tideform, en Badi y en Yahoo. Y hemos encontrado un talento Verdad, increíble. Empiezo por el equipo, porque para mí los negocios tienen tres pilares. El más importante es la forma de rodearte con la mejor gente para poder hacer que esto funcione bien.",
+    "speaker": "SPEAKER_01",
+    "start": 1958.195,
+    "end": 2014.407
+  },
+  {
+    "text": "¿Quiénes son los fundadores?",
+    "speaker": "SPEAKER_03",
+    "start": 2014.487,
+    "end": 2016.448
+  },
+  {
+    "text": "Somos cuatro fundadores. Pablo, que viene de ser un emprendedor serial en el mundo de adtech y servicios financieros y ahorro. que es el Money Supermarket, un comprador. Se lo vendió a Elegam, a Unprivate Equity. También tiene una empresa que se llama Jota Internet Media, que es uno de los principales algoritmos de compra de medios digitales del mundo. Y está metido en todo el mundo de la ad-tech y la publicidad. Y muy relacionado en España. Es un emprendedor con trayectoria y experiencia en matchmaking y operaciones, y él aporta eso. Tenemos a Iñaki, que es en la parte de Productos y Datos, que ha trabajado 14 años en la intersección de Datos y Productos y Tecnología en Barcelona. Era una de las principales scale-ups del país. Pero nunca había sido fundador. Y él era amigo de la universidad y sociólogo. Un tipo muy inteligente. Y la verdad que nos ha ayudado a crecer el equipo. Y aparte, con esa etapa que te da en la vida, Bernat, que dices, oye, es el momento, pues tengo el senior y tengo la experiencia, me salto. Es decir, el C-level de tal, el empleado número 3, el empleado número 4, hacen mi startup. Y creo que encajamos muy bien, nos conocemos hace 20 años, y es un crack. Este, Iván, que es la parte de Capital Markets, que viene de 15 años trabajando en Jimmy Morgan. a nivel internacional. Y esa es la parte del funding. Y esa es una parte que nos ha diferenciado porque no solamente nos fondeamos de VentureNet, nos fondeamos de diferentes formas, ¿no? Y eso nos hace tener capital disponible en todo momento y tenemos una estrategia de fondeo muy institucionalizada. Además de eso, Prageesh Sharma entró como el first employee, tiene equity, es nuestro CFO y fue una de las personas que sacó el CFO nivel 3 más joven de la India. Y es ingeniero por la Universidad de Bangalore, donde quedó el número 30 de 800.000 personas. ¿Vale? En la historia de la universidad. Es un genio, ¿vale? El tipo. Y está aquí en nuestro Heroes of Reason. Es el CFO. Es el CFO de Heroes of Reason. Great. ¿Vale? Y el Sprague y Sharma, antes de eso, estuvo en Trade Finance en Merck. ¿La naviera, Dani, esa? Haciendo un spin-out que era una start-up de trade financing, que genera un corporativo y fue él y otra persona lo montaron. Un ingeniero con mucho conocimiento del mercado financiero, trabajando en crédito, riesgo, datos, estructura. Pero bueno, por un ingeniero a nivel a controlar tu cuartera, tu crédito, tu operación, tu riesgo, es muy bueno. Y del nivel de Pragit, muy bueno. Es un equipo con seis nacionales.",
+    "speaker": "SPEAKER_01",
+    "start": 2017.028,
+    "end": 2167.481
+  },
+  {
+    "text": "¿Quién tiene la idea? ¿Quién junta al equipo? La idea la tuve yo.",
+    "speaker": "SPEAKER_03",
+    "start": 2167.961,
+    "end": 2170.862
+  },
+  {
+    "text": "La idea la tuve yo porque yo venía del mundo de SME Lending, SME Finance, pero ya que las SMEs que más estaban creciendo eran los nuevos negocios, inclusive el comercio electrónico. Y entonces, desafortunadamente, como bien sabes, Bernardo, muchas de las SMEs mueren. Hay una tasa de mortalidad en todo el mundo enorme, ¿no? Sin embargo, había un dato que a mí me estaba quedando siempre en la cabeza, que era cómo estaban creciendo, cómo se estaban transformando algunas o creciendo cada vez nuevas. Y muy apasionado, trabajando... El problema es saber cuáles, ¿no? El problema es saber cuáles, pero saber una macrotendencia que sabes que estas están creciendo y tienen la tasa de mortalidad que es un 6% de la tasa de mortalidad de una pyme. Ahí estás bajando riesgo. Y luego el crecimiento es un 130% superior. Estos son datos macro, a nivel. Luego por mercado puede cambiar un poquito. Trabajando toda mi vida, 12 años, en el mundo de fintech, lending y la intersección del comercio electrónico, era muy directo el tema. Tuve la idea, tenía Pablo con Iñaki, tenemos muy buen atractor, hemos hecho cosas juntos, nos conocíamos muy bien. Y fui ensamblando todo el equipo. Me fui fundando con gente que me complementara, como hace un emprendedor. Y luego al C-Level hemos conseguido gente de Amazon, muy joven, muy buena, con 28 o 29 años, con un hambre espectacular. Gente de JP Morgan. como Jorge, que es nuestro Head of Partnership, y Álvaro, que viene de Amazon y de Edemion, y viene también de BBA, de Investment Banking. Y hemos tenido gente muy buena en datos y en producto, y la verdad es que hemos creado un equipo que yo creo que tenemos un equipo de ejecutores world class.",
+    "speaker": "SPEAKER_01",
+    "start": 2171.462,
+    "end": 2280.53
+  },
+  {
+    "text": "Y Raimundo, ¿el split entre los socios es partes iguales o tú eres el mayoritario?",
+    "speaker": "SPEAKER_03",
+    "start": 2281.51,
+    "end": 2286.813
+  },
+  {
+    "text": "No, tenemos un cap table donde cada uno tenemos una consideración en base a la inversión que hicimos inicial. Vale. Nosotros reportamos capital al principio.",
+    "speaker": "SPEAKER_01",
+    "start": 2287.821,
+    "end": 2299.824
+  },
+  {
+    "text": "¿Cuánto levantaste desde el principio de los propios socios?",
+    "speaker": "SPEAKER_03",
+    "start": 2300.545,
+    "end": 2302.805
+  },
+  {
+    "text": "Entre todos pusimos 800.000 euros. ¡Ostras!",
+    "speaker": "SPEAKER_01",
+    "start": 2302.845,
+    "end": 2307.046
+  },
+  {
+    "text": "No es habitual empezar con 800.000 euros.",
+    "speaker": "SPEAKER_03",
+    "start": 2307.066,
+    "end": 2308.587
+  },
+  {
+    "text": "Hombre, nosotros ya habíamos vendido nuestras compañías y para nosotros era lo que necesitábamos para llegar muy rápido y es lo que hemos demostrado. En ocho meses tenemos ya más de 90 operaciones, creciendo 370% todos los meses, creciendo mercados. Acabamos de cerrar hace un mes un partnership con World First, que es el brazo transfinancial para sellers a nivel mundial. Hemos cerrado un partnership con PrestaShop, que es el segundo CMS más grande de e-commerce, para ofrecerlo dentro de su plataforma. Ya estamos live. En septiembre sale para todo la newsletter, donde vamos a hacer un roll-out de cinco países. Hemos sido capaces de cerrar algunos partnerships muy estratégicos. Y hay siete o ocho partnerships on the fly, que en septiembre nos van a dar acceso a miles de sellers en mercados europeos y latinoamericanos. Al final también otra cosa que estamos muy orgullosos es el uso de los unit economies de las métricas. O sea, no solamente hemos crecido muy rápido, en términos de clientes, sino también de capital. O sea, pasando los 10 millones de deployments y de capital comprometido...",
+    "speaker": "SPEAKER_01",
+    "start": 2309.712,
+    "end": 2377.716
+  },
+  {
+    "text": "Raymundo, espera, no vayas tan rápido. No me das tiempo de preguntarte. Lo último que te había preguntado era cuál era el split entre los socios. Sí, en base a la aportación. ¿Dentro de los cuatro tú eras el principal?",
+    "speaker": "SPEAKER_03",
+    "start": 2380.737,
+    "end": 2394.935
+  },
+  {
+    "text": "No, tenemos una sutura balanceada en base a la aportación.",
+    "speaker": "SPEAKER_01",
+    "start": 2396.596,
+    "end": 2401.499
+  },
+  {
+    "text": "Vale, vale. Entonces, desde este día 2 de enero, que tuvisteis la segunda operación, ¿no? O día 4, no me he dicho. Hasta las 90 operaciones en total. ¿Cómo fue esta evolución?",
+    "speaker": "SPEAKER_03",
+    "start": 2401.519,
+    "end": 2412.886
+  },
+  {
+    "text": "¿Cómo ha ido creciendo? Ha ido creciendo muy rápido y en los últimos dos meses ya... O sea, tú ya sabes cuál es el hot stick, ¿no? ¿Sabes? ¿Por qué? Porque al principio éramos tres, cuatro personas, siete, ocho personas, doce personas. Ahora tenemos un equipo de outbound que es una estructura, una máquina bien engrasada. ¿Vale? Y tenemos partnership, que ya están engrasados, se están ejecutando. Se ha engrasado muy rápido, ¿eh?",
+    "speaker": "SPEAKER_01",
+    "start": 2414.08,
+    "end": 2434.282
+  },
+  {
+    "text": "Se ha engrasado muy rápido.",
+    "speaker": "SPEAKER_03",
+    "start": 2434.502,
+    "end": 2435.382
+  },
+  {
+    "text": "Sí, porque no era la primera vez que creamos un modelo B2B. Todos nosotros tenemos muy buena experiencia B2B. No es que nos hayamos movido de consumer a B2B. Sabemos engrasarlo rápido, sabemos que necesitábamos. tengamos experiencia creando los equipos. Eso es lo que pasa cuando eres un second time entrepreneur, que has hecho muchas cagadas en el pasado y que al final sabes empezar a hacerlo más rápido. ¿Y de dónde vienen,",
+    "speaker": "SPEAKER_01",
+    "start": 2435.402,
+    "end": 2456.405
+  },
+  {
+    "text": "Raimundo, de dónde vienen los clientes? ¿Cuál es el split de market?",
+    "speaker": "SPEAKER_03",
+    "start": 2456.906,
+    "end": 2460.712
+  },
+  {
+    "text": "Canales de partnership, este estratégico que tenemos, una parte muy importante. Otra parte importante viene de una estrategia de Advan bastante sofisticada con incluso modelos de datos avanzados.",
+    "speaker": "SPEAKER_01",
+    "start": 2462.677,
+    "end": 2474.569
+  },
+  {
+    "text": "¿Qué significan modelos de datos avanzados?",
+    "speaker": "SPEAKER_03",
+    "start": 2477.352,
+    "end": 2480.475
+  },
+  {
+    "text": "pues este que no perfila si haces el scouting de Adban basado simplemente en, ah, voy a sacar una base de datos y voy a hablarle, sino ¿quién tiene más probabilidad? ¿Cómo está la estructura? ¿Cómo puedes scrapear la base de manera más eficiente? ¿Cómo creas una estructura de scouting avanzado? ¿Pasas de una fase 1 a fase 2? Es verdad que los modelos de datos avanzados, como decíamos antes Bernard, tienen que ir evolucionando. Entonces hoy en día son modelos de datos que nos permiten tener una mejor tasa de conversión, tener una mejor entrada y que el mensaje para el tema de AdWords sea más eficiente. Y de ahí, pues yo creo que Álvaro, que es nuestro Head of Development junto con Iñaki. Podemos tener una práctica entera porque son gente que ha creado esto ya en el pasado y que tiene una sensibilidad muy importante sobre cómo estructurarlo y es una parte importante. Partnership es nuestra parte importante y creo que nos hemos diferenciado muy bien porque hemos hecho la primera plataforma empedida. Ritmo se empede. en otras plataformas. La corriente de embedded finance, ¿no? Nos embedemos y entonces... ¿Dónde os embedéis? En plataformas de comercio electrónico, en herramientas de... En Shopify. ¿En Shopify? En Shopify, en marketplaces, en herramientas de software as a service que le ofrecen servicios a nuestros clientes. y ofrecemos capital, porque la propuesta de valor es muy directa. Yo ofrezco capital para crecer. ¿Me entiendes? Entonces, al final, el SaaS o el comercio electrónico al Marketplace le incrementa el GMB directamente. ¿Verdad? Y el engagement en la plataforma. Entonces, el seller que opera en un marketplace dice, bueno, si yo tengo acceso a funding aquí, perfecto, voy a tener más stock disponible, voy a vender más en el marketplace. Entonces, el beneficio es muy directo. Todos los partners que hacemos, hay partners inmonetarios, ¿vale? Pero tiene que haber un incentivo directo que ya sea que nuestro revenue share o el modelo económico que hacemos con nuestros asociados o partners tenga sentido para el cliente, pero también tiene que tener sentido porque nuestro beneficio en sí le ayuda a vender más y a crecer más su negocio.",
+    "speaker": "SPEAKER_01",
+    "start": 2480.715,
+    "end": 2606.37
+  },
+  {
+    "text": "¿Y un ejemplo de partners? WallFirst es un ejemplo.",
+    "speaker": "SPEAKER_03",
+    "start": 2606.85,
+    "end": 2614.234
+  },
+  {
+    "text": "Prestashop. WallFirst es una plataforma de pagos de divisas, la número uno del mundo, que lo compró Financial. Es un banco británico que opera en 170 países. Es una plataforma que todos los sales utilizan, Bernal, porque tienen que pagar en China, muchos de ellos, ¿verdad? Y es la primera plataforma que utilizas tú cuando pagas. A veces no sabes ni que la estás utilizando, que es la gran mayoría de las veces. Es de esas plataformas de tecnología incumbente que no sabes que la estás utilizando, pero si has vendido en Amazon, has vendido en un Marketplace, probablemente la hayas utilizado, a Wolfers. Y para nosotros Prestashop, que es un CMS que todo el mundo lo conoce, donde ya está Live Rhythm, ¿vale? Y para obtener capital a través de Prestashop. Y así una serie de herramientas, ¿no?",
+    "speaker": "SPEAKER_01",
+    "start": 2614.274,
+    "end": 2657.103
+  },
+  {
+    "text": "Entiendo que las tres patas importantes de vuestro negocio es, por un lado, fundraising, conseguir fondos de deuda, que os dejen pasta para poder prestarla. La parte tecnológica y de scoring, o sea, tanto de experiencia de usuario como la parte de modelo de riesgos y valorar el riesgo. Y la parte de captación y marketing, ¿no? Esas son, digamos, las igual cuatro patas de vuestro negocio.",
+    "speaker": "SPEAKER_03",
+    "start": 2658.788,
+    "end": 2680.637
+  },
+  {
+    "text": "Sí, cuatro, porque la parte de marketing y captación nosotros la hacemos sobre todo a través de esta estrategia. Tú lo has dicho muy bien. Nosotros vamos a valer mucho más como compañía tecnológica que como compañía de lending. Ritmo empieza con su balance porque yo no le puedo vender la tecnología y el modelo, a no ser que pruebe que tengo 200, 400 millones o lo que sea, ¿vale? Para que todo el mundo diga, it's proven. Seamos honestos, ¿verdad? ¿Verdad? O sea, es un modelo muy chingón, funciona muy bien, sí. Pruébamelo con un volumen grande. Ahí es donde estamos. Nosotros nos vemos más hacia allá. Nuestra visión es ser una plataforma que habilite el crecimiento del marketplace a nivel mundial. Porque creemos que dentro del comercio electrónico hay un jugador silencioso, que es el marketplace, que en mercados como Latinoamérica o en Sudeste Asiático representa el 85% de las ventas de comercio electrónico y a nivel mundial representa el 48%, pero si le quitas Si quitas Travel y Ocio, te das un porcentaje del 50-60% en Europa del Marketplace. Y está creciendo cada vez más. Además, hemos visto que estas marcas nativas de Marketplace, que son nuestros clientes preferidos, operan con palancas de crecimiento muy interesantes. porque no tienen limitantes de compra de tráfico. Y ahí es donde somos un socio y le damos capital recurrentemente. Entonces, nosotros tenemos cuatro pilares, como tú bien decías. Uno es la adquisición a través de Partnership y ser una plataforma que habilite, que nosotros le prestemos o que un tercero le preste en el futuro, eventualmente. Porque nuestra visión no es ser una plataforma de lending, sino ser un habilitador para que el Marketplace crezca.",
+    "speaker": "SPEAKER_01",
+    "start": 2682.397,
+    "end": 2784.981
+  },
+  {
+    "text": "Vale, vale. Esa es la otra cosa que te iba a preguntar. A nivel de fondos de deuda, ¿vosotros aspiráis a tener unos fondos y prestar el dinero de estos fondos, tener acuerdos privados con estos fondos o tener un modelo abierto de marketplace tipo Fintonic, por ejemplo?",
+    "speaker": "SPEAKER_03",
+    "start": 2786.279,
+    "end": 2800.961
+  },
+  {
+    "text": "Pues nosotros lo que estamos haciendo es que, al principio, el modelo está en nuestra SPV. Estamos levantando una cantidad representativa para los próximos 12 meses. Y, eventualmente, estamos empezando conversaciones que se tienen que empezar a hacer con Senior Lenders. Y lo que haremos es parte de lo que se llama el fronting, el pass-through. Y el Senior Lender captura el balance. Pero más que un marketplace abierto, porque no es consumer lending esto, será muy cerrado y estratégico. Será con un par de jugadores a nivel mundial. Que además ya los tenemos mapeado y hemos empezado conversaciones con ellos.",
+    "speaker": "SPEAKER_01",
+    "start": 2802.418,
+    "end": 2836.63
+  },
+  {
+    "text": "Entonces no es un marketplace, digamos. O sea, vosotros elegís. No va a ser un marketplace porque va a haber...",
+    "speaker": "SPEAKER_03",
+    "start": 2837.211,
+    "end": 2841.734
+  },
+  {
+    "text": "Tienen que ser jugadores que tengan el apetito y la sutura. Al final te das cuenta que hay gente que tiene mucho balance y gente que es muy buena originando con los datos, la tecnología y el proceso. En cada parte del negocio, vemos que nuestro mercado es tan grande que luego va a hacer un unfolding en tres o cuatro años donde van a haber jugadores muy buenos en originación, en el credit underwriting, en la captación de deuda, en darle herramientas adicionales. Ahora puedes ser un end-to-end player, que es lo que somos nosotros, y ver luego cómo te fortaleces. Así es como por lo menos visionamos nosotros el mercado.",
+    "speaker": "SPEAKER_01",
+    "start": 2843.823,
+    "end": 2878.782
+  },
+  {
+    "text": "Para la gente que está montando negocios fintech y se está planteando buscar un fondo de deuda, ¿cómo se hace eso de ir a buscar un fondo de deuda? Porque como tú decías al principio, no es muy habitual, no es muy fácil. Estamos acostumbrados al venture capital, a los fondos de equity, pero ¿cómo encuentras un fondo de deuda?",
+    "speaker": "SPEAKER_03",
+    "start": 2878.822,
+    "end": 2893.868
+  },
+  {
+    "text": "Es más complicado, pero cada vez más. La buena noticia es que cada vez hay más gente que financia el portafolio. Porque las fintes quieren un fondo de deudas para financiar el portafolio. O sea, el long book. Entonces, cada vez hay muchos más jugadores, porque cada vez la industria financiera se está transformando de manera más efectiva y hay jugadores que participan en todas las rondas. Hay herramientas hoy en día a la mano de los emprendedores como son Crunchbase y bases de datos que puedes optimizar. Y si te da el capital y la estructura, hay herramientas que te dan un entendimiento mayor de quién está participando en la deuda. de los negocios. Primero yo diría estar muy atento de lo que hace el mercado, quién está participando, cómo está participando, por qué participa, como si fuera un fondo de bencho capital. La misma tipología, porque cada vez hay más participación. y ver qué tipo de fondo de deuda es. Porque hay fondos de deuda que son fondos de deuda masoning, hay fondos de deuda que financian portafolios, fondos de deuda que lo que hacen que son Venture Debt, que financian asadas y empresas y esas no normalmente... Depende qué fin te quieres y para qué quieres la deuda, depende el fondo de deuda que necesites, ¿no, Bernal?",
+    "speaker": "SPEAKER_01",
+    "start": 2894.99,
+    "end": 2972.144
+  },
+  {
+    "text": "La parte de fundraising es la que haces tú.",
+    "speaker": "SPEAKER_03",
+    "start": 2972.184,
+    "end": 2973.485
+  },
+  {
+    "text": "Tengo a Iván, que es el Head of Capital Markets. Yo hago la parte más de Equity y nosotros nos hemos dividido. Tenemos un equipo de Capital Markets donde tenemos un Investment Analyst. Tenemos a Iván, que es Iván Peña, y tenemos también a Pragit, que le soporta. Y yo hablo de vez en cuando con algún fondo de deuda. Ya hemos tenido experiencia levantando 200 o 300 millones en deuda. Pero la verdad es que tengo un equipo espectacular de Capital Markets. Son mucho mejores que lo que puedo hacer yo. Y mi factor en la empresa es mucho más decisivo en crear nuevos mercados, en la inversión de Equity. Y en el tema de lo que puedo hacer como CEO de la empresa. que es la parte de captar talento, retenerlo, abrir mercado y ayudar al equipo partnership y que la empresa funcione de manera correcta.",
+    "speaker": "SPEAKER_01",
+    "start": 2975.782,
+    "end": 3022.987
+  },
+  {
+    "text": "Raimundo, dejará crecer vuestro negocio, ¿qué te preocupa más? ¿Captar clientes o captar deuda?",
+    "speaker": "SPEAKER_03",
+    "start": 3024.251,
+    "end": 3028.414
+  },
+  {
+    "text": "Ninguno de los dos me preocupa hoy en día. Me preocupa que... ¿Tuvieras que ordenar entre los dos?",
+    "speaker": "SPEAKER_01",
+    "start": 3028.434,
+    "end": 3034.838
+  },
+  {
+    "text": "¿Tuvieras que ordenar entre los dos?",
+    "speaker": "SPEAKER_03",
+    "start": 3034.858,
+    "end": 3036.799
+  },
+  {
+    "text": "Te diría que captar clientes no me preocupa porque estamos básicamente... Ahora mismo te puedo decir que en el mes de julio hemos hecho más clientes que en todos los demás meses que llevamos.",
+    "speaker": "SPEAKER_01",
+    "start": 3037.72,
+    "end": 3048.447
+  },
+  {
+    "text": "Lo bueno que tiene la deuda es que siempre hay gente que necesita pasta. Es fácil encontrar cliente del problema. Por ejemplo, Capchase, que le hice la misma pregunta, me dijeron que nuestro factor limitante es fondos de deuda. Si tuviéramos más pasta para prestar...",
+    "speaker": "SPEAKER_03",
+    "start": 3049.845,
+    "end": 3066.932
+  },
+  {
+    "text": "Nuestro factor limitante ahora mismo, hoy... Es que lo has hecho muy buena pregunta. Depende de la etapa del negocio. Hoy son los fondos de deuda. ¿Vale? ¿De acuerdo? Tenemos la experiencia, acceso y estructura, ¿vale? Y hemos hecho creo un muy buen capital market strategy. Tenemos family office, tenemos institucionales, tenemos una serie de acuerdos para vender esta cartera, ¿sabes? Que nos permiten ir creciendo mientras vas institucionalizando y titulizando qué es hacia lo que quieres llegar, que es securitizar la cartera y mandarla a la bolsa. que es lo que te hace, te baja el costo de fondeo, y eso va a ser un boom, que es que cualquier inversionista particular en el futuro pueda optar y comprar un bono de ritmo, un bono de tal, un bono de tal, y pueda decir, quiero participar de este negocio, que es el crecimiento del comercio electrónico. Es un poco nuestra visión hacia Capital Markets, con Senior Lenders y una estrategia de allá, que tenemos bastante establecida. Hoy nos preocupa mucho más, entre los dos factores, me preocupa más la parte de clientes, que es brutal el crecimiento, porque creo que hemos tenido los canales apropiados. Y además, el hecho de crecer con partners baja el costo de adquisición. Y eso es lo que el inversionista le encanta. Y el hecho de que seamos una plataforma tecnológica, que no solamente somos una plataforma tecnológica para analizar a los clientes, sino que nosotros nos conectamos a través de un API con todos los clientes. a través de los partnerships. O sea, nuestra forma de captar clientes es, nosotros tenemos una API y nos conectamos a las plataformas de comercio electrónico. Y nos conectamos en la propuesta de valor. Es diferente a tener un partnership. ¿Verdad, Esteban? De un partnership a estar conectado y a estar presente en la herramienta de comercio electrónico. para que cualquier seller o comercio lo pueda ver y lo pueda captar automáticamente. Y eso lo que hace, en un negocio de este tipo, que sea una finta P2P, para nosotros la clave del éxito va a ser el costo de adquisición del cliente. Hoy en día nuestra preocupación está mucho más en la parte de fondeo que en el costo de adquisición del cliente. Y obviamente, como un hyper growth company, mi preocupación hoy en día está en... Son los 25, vamos a ser 100 personas al final del año. ¿Cómo mantienes una cultura? ¿Cómo adaptas el mejor talento? ¿Cómo sigues creciendo a esa velocidad? con los retos que tiene la operación. Eso, si te dirías, sería mi principal preocupación.",
+    "speaker": "SPEAKER_01",
+    "start": 3066.992,
+    "end": 3200.924
+  },
+  {
+    "text": "La morosidad no te preocupa.",
+    "speaker": "SPEAKER_03",
+    "start": 3200.964,
+    "end": 3201.966
+  },
+  {
+    "text": "Sí, siempre. Nosotros tenemos unos criterios muy sofisticados de análisis de crédito. Hoy en día tenemos una serie de diferenciadores conforme a la competencia, en términos de acuerdos con pasarelas de pago, que nos permiten ser un modelo diferente. Por eso hemos captado capital tan rápido, en ocho meses.",
+    "speaker": "SPEAKER_01",
+    "start": 3203.581,
+    "end": 3223.166
+  },
+  {
+    "text": "¿Habéis tenido amorosidad hasta ahora? Cero. Es poco tiempo.",
+    "speaker": "SPEAKER_03",
+    "start": 3223.186,
+    "end": 3229.468
+  },
+  {
+    "text": "Es poco tiempo, pero lo demás es que nuestro modelo, Bernard, más que monosida completa por cómo funciona Revenue Based Finance y cómo funciona Ritmo completamente, es que nosotros cobramos todos los días. o todas las semanas, un parte de las ventas, a través de un acuerdo que tenemos con una pasarela de pago a nivel mundial que es Stripe, eso se puede decir, que es público, y en septiembre va a salir una serie, no sé, eligieron como la única startup en Europa para hacer este partnership. Lo habían hecho los Estados Unidos y somos su partnership adecuado. Creo que eso también nos ha fortalecido mucho de cara al negocio, de cara a los partners, el hecho de que tengamos partners potentes como Stripe, ¿vale? En la parte de la operación del negocio. Y eso es un diferenciador. Entonces, nuestro riesgo es más la extensión de la cartera, del adelanto, que pase de unos meses o unos meses más largos, que realmente el riesgo de default. O sea, es como lo vemos nosotros hoy en día y como controlamos. En todo caso, tenemos líneas de aprovisionamiento, tenemos un equipo de riesgo y crédito brutal, liderado por una persona que ha manejado 700 millones de dólares en cartera, ¿vale? Un director de crédito riesgo. No es como que es nuestra primera fintech en lending, ¿sabes? Para nosotros ha sido todos los aprendizajes que hemos superado, ¿no? No, me preocupa más la tasa de default fuera de Europa que en Europa. En mercados emergentes.",
+    "speaker": "SPEAKER_01",
+    "start": 3231.012,
+    "end": 3302.034
+  },
+  {
+    "text": "¿Por qué? ¿Qué mercados tenéis previsto atacar? ¿Y en cuáles estáis?",
+    "speaker": "SPEAKER_03",
+    "start": 3302.054,
+    "end": 3308.496
+  },
+  {
+    "text": "Al Latam, muy fuerte. México, este hoy estamos en Europa, en UK, este que es un mercado de 150 billones de mercado de comercio electrónico es muy grande, es cuatro veces el mercado de comercio electrónico español, pero es que no es ni la actividad retail, es que en donde se concentran en el mundo de Marketplace sellers se concentran sellers que operan en 40 países, ¿sabes Bernardo? Sabes que desde Londres operan en, venden en Walmart US, por ejemplo clientes nuestros. Y estamos creciendo muy rápido. Hoy en día, 40% de nuestros clientes vienen de UK. ¿Vale? O sea, no tenéis ninguna limitación",
+    "speaker": "SPEAKER_01",
+    "start": 3308.556,
+    "end": 3347.074
+  },
+  {
+    "text": "en cuanto al mercado, al país donde opera vuestro cliente.",
+    "speaker": "SPEAKER_03",
+    "start": 3347.754,
+    "end": 3350.576
+  },
+  {
+    "text": "Sí, hay limitantes de parte regulatoria. Hay mercados donde necesitas una licencia. Entonces, estamos operando los que no necesitamos licencia, básicamente. Imaginaos que a nivel de",
+    "speaker": "SPEAKER_01",
+    "start": 3350.596,
+    "end": 3360.744
+  },
+  {
+    "text": "compliance tiene que ser complicado, ¿no? O sea, la sociedad a la que estáis prestando pasta.",
+    "speaker": "SPEAKER_03",
+    "start": 3360.764,
+    "end": 3365.988
+  },
+  {
+    "text": "Es un lío. Tienes que tener muy buen tema de compliance y por eso metimos a Abraham Najera como nuestro General Counsel, que era el co-head de CMS.",
+    "speaker": "SPEAKER_01",
+    "start": 3368.019,
+    "end": 3378.208
+  },
+  {
+    "text": "Un héroe. Es un héroe. ¿Lo conoces? No, no, no. No lo conozco. Pero para estar operando en México, en LATAM, en UK, en todos estos mercados a la vez, la parte de compliance, bueno... Lo veo un reto importante.",
+    "speaker": "SPEAKER_03",
+    "start": 3378.268,
+    "end": 3394.598
+  },
+  {
+    "text": "Estamos operando en mercados donde se permite operar. Eso es lo primero que hacemos. Si se permite operar, el modelo es extremadamente escalable, Bernat, por dos razones. Una es porque tú, al final, nada más que estás haciendo es habilitando a ingresos digitales. En esta causa del comercio electrónico, capital. Entonces, Stripe, Shopify y las pasarelas de pago, Google, Facebook, Amazon, Marketplace, Mercadolibre en Latinoamérica, que es mucho más grande que Amazon. ellos están haciendo el trabajo por ti, ellos están habilitando cada vez más comercios digitalmente, cada vez más datos. Entonces la parte compliance es una parte súper compleja y tienes que medirla y estructurarla y determina obviamente hoy a día de hoy tu estrategia de crecimiento.",
+    "speaker": "SPEAKER_01",
+    "start": 3394.978,
+    "end": 3447.035
+  },
+  {
+    "text": "Porque vosotros tenéis licencia en medio de pago o licencia ya de crédito o algo parecido.",
+    "speaker": "SPEAKER_03",
+    "start": 3447.847,
+    "end": 3453.913
+  },
+  {
+    "text": "No necesitamos donde operamos. Que donde operamos, o sea, solamente en Europa, solamente en Francia y en Italia necesitas licencia de crédito. O sea, en España no la necesitas. En Holanda tampoco la necesitas.",
+    "speaker": "SPEAKER_01",
+    "start": 3453.953,
+    "end": 3466.965
+  },
+  {
+    "text": "Bueno, operáis con la de un tercero, digamos.",
+    "speaker": "SPEAKER_03",
+    "start": 3468.046,
+    "end": 3469.728
+  },
+  {
+    "text": "No, en España no necesitas licencia de crédito para negocios B2B. Y en UK tampoco, en Estados Unidos tampoco, menos en todos los estados. En Latinoamérica ningún mercado. En el sudeste asiático ninguno.",
+    "speaker": "SPEAKER_01",
+    "start": 3471.268,
+    "end": 3484.337
+  },
+  {
+    "text": "¿Puedes prestar dinero a negocios sin licencia de crédito o licencia de medio de pago?",
+    "speaker": "SPEAKER_03",
+    "start": 3484.557,
+    "end": 3490.061
+  },
+  {
+    "text": "Claro, a negocios B2B sí. En algunos mercados, ¿eh? En otros mercados no. Hay mercados donde la regulación es mucho más fuerte la parte del consumidor, como es el caso español y UK, donde si tu financiamiento fuera un crédito al consumo, entonces tienes que ser entidad de pago o registrar, o tienes que tener la licencia. Y es verdad que cada vez hay plataformas de banqueras a service que te dan la licencia. O sea, al final, la limitante está, si sabes darle la vuelta, se puede convertir en una ventaja competitiva, que es lo que intentamos nosotros. Tenemos algunas ideas ahí al respecto muy interesantes.",
+    "speaker": "SPEAKER_01",
+    "start": 3491.282,
+    "end": 3526.06
+  },
+  {
+    "text": "Entiendo. Y para entenderlo, ¿a dónde va el negocio? O sea, ¿dónde estaréis dentro de... al final de año y el año que viene? ¿Vais a levantar más pasta?",
+    "speaker": "SPEAKER_03",
+    "start": 3527.184,
+    "end": 3539.45
+  },
+  {
+    "text": "Sí, estamos buscando otra ronda importante de híbrida, de capital y deuda, para seguir acelerando el crecimiento, básicamente.",
+    "speaker": "SPEAKER_01",
+    "start": 3539.49,
+    "end": 3548.077
+  },
+  {
+    "text": "¿Vais a abrir nuevos mercados, nuevas oficinas?",
+    "speaker": "SPEAKER_03",
+    "start": 3549.398,
+    "end": 3552.621
+  },
+  {
+    "text": "Vamos a consolidar un nuevo mercado. Estamos muy contentos con el lanzamiento de Ritmo Insights. que es una suite de analíticos de growth, porque nosotros no nos vemos como una empresa de capital. Hoy en día la gente que obtiene capital por nosotros, nosotros le damos una suite de analíticos. ¿No? ¿Verdad? Esta suite de analíticos, ellos ven en tiempo real sus métricas de crecimiento, sus ROAS, cómo fue su revenue projection, conforme al sector que operas, si es cosmético. Es muy interesante lo que tenemos entre manos. Hoy estamos dándolo como un... una sin costo, ¿vale? Porque lo que queremos es ofrecer esto al mercado para tener más clientes potenciales de la herramienta. Pero estamos lanzándolo no solamente como parte de nuestro complemento, sino en diferentes plataformas solamente como un producto. Y tenemos muy buena acogida inicial por nuestros clientes y por un beta test de un wishlist que hemos hecho con cientos de usuarios en una semana. Entonces, creemos que Rhythm Insights puede ser algo muy importante Es algo nuevo, ya veremos por dónde conduce. No tenemos todas las, como tú bien sabes, como emprendedor, pero pinta muy bien y le vamos a poner, en su caso, recursos y capital para poder escalarlo, porque lo que queremos es que en cinco años es tener 150.000 usuarios en Rhythm and Size y 10.000 clientes de capital. Queremos ser reconocidos como la suite de capital y analíticos, pero que la gente diga, yo voy a Rhythm porque quiero crecer mi negocio, mi comercio digital, básicamente. Y la gente dice, bueno, puede ser que necesite capital, pero hoy en día utilizo Ritmo de Sales. Y de ahí se derivan una serie de modelos de negocio muy interesantes.",
+    "speaker": "SPEAKER_01",
+    "start": 3552.721,
+    "end": 3646.159
+  },
+  {
+    "text": "Por el camino llega un banco grande y te ofrece 100 millones de euros. ¿Vendes? No. No vendes. ¿100 millones de euros no vendes?",
+    "speaker": "SPEAKER_03",
+    "start": 3647.76,
+    "end": 3659.288
+  },
+  {
+    "text": "No, porque ya hemos estado, no.",
+    "speaker": "SPEAKER_01",
+    "start": 3660.548,
+    "end": 3663.07
+  },
+  {
+    "text": "¿Y has estado vendiendo un negocio por 100 millones de euros?",
+    "speaker": "SPEAKER_03",
+    "start": 3664.697,
+    "end": 3666.821
+  },
+  {
+    "text": "No, no hemos estado, pero digo, hemos estado no ahí, pero cerca de eso. Cerca de eso. ¿Y por cuánto? Es por... No, no es la cifra exacta. Yo creo que el tema es el potencial de crecimiento y la etapa de vida del emprendedor. ¿Me entiendes? Y hacia dónde lo quieres llevar con el equipo que tienes y todo el tema. Ok, termina. A ver, las condiciones pueden cambiar. No es un tema de... Te he dicho una respuesta muy tema porque la primera que se me ha pasado.",
+    "speaker": "SPEAKER_01",
+    "start": 3666.901,
+    "end": 3692.244
+  },
+  {
+    "text": "Siempre damos esta pregunta y la verdad es que todo el mundo se plantea la vida en este momento, pero no es fácil.",
+    "speaker": "SPEAKER_03",
+    "start": 3692.764,
+    "end": 3698.967
+  },
+  {
+    "text": "Pero la verdad es que no, la verdad es que yo no creo que... A ver, ¿qué puede pasar? Y si pasa así, tendrá que pasar dentro de tres meses, porque si no, no tiene mucho sentido la valoración.",
+    "speaker": "SPEAKER_01",
+    "start": 3699.432,
+    "end": 3711.003
+  },
+  {
+    "text": "Ya nos oís. Bancos, ya nos oís. Lo que dice Raimundo. Entiendo. Oye, última pregunta ya más personal. ¿Cuáles son tus referencias, Raimundo? ¿Cuáles son tus referencias? ¿Quiénes son las personas emprendedores a los que sigues que te flipan? Biografías o libros que has leído que te han cambiado. ¿Puedes compartir un poco?",
+    "speaker": "SPEAKER_03",
+    "start": 3712.074,
+    "end": 3735.767
+  },
+  {
+    "text": "Sí, claro. La verdad es que intento leer... no solamente el mundo del emprendimiento, eso lo leía como hace dos años, más de eso. Ahora leo más cosas para relajar la mente. Leo cosas muy... Hombre, con esta velocidad de",
+    "speaker": "SPEAKER_01",
+    "start": 3736.828,
+    "end": 3751.924
+  },
+  {
+    "text": "crecimiento vas a tope. Claro, no tengo ni tiempo para leer, estoy sincero.",
+    "speaker": "SPEAKER_03",
+    "start": 3751.944,
+    "end": 3755.985
+  },
+  {
+    "text": "Intento leer, estoy con el e-book, pero entiendo cosas que te entretengan y que te lleven a la mente fuera del negocio, ¿verdad? Porque tienes que leer muchísimo del mercado y tienes que intentar buscar los huecos. leer sobre un emprendimiento cada vez más. Me gusta escuchar podcasts. Eso sí me encanta. ¿Cuáles sigas? El formato de podcast es brutal. Sigo 20 Minute Busy, de Harry. Sigo algún podcast de algún fondo de Estados Unidos, como el de Andreessen. Sigo algún podcast, pero vamos, ya ni... O sea, se lo seguía. Ahora mi vida me consume en ritmo, la verdad, mi familia y en pasar buenos tiempos con mi familia y mi negocio y mis amigos, tal. ¿Tú vives en México, no? No, yo vivo en Madrid y estoy dando la operación en México. Ahora estoy en México, de hecho, montando toda la estructura. Y como emprendedor, pues yo creo que al final tengo, de alguna manera, pues a mi familia, a mi padre, tengo gente de mi entorno. No hay ningún patrón que siga, ¿sabes? Como alguien, wow, hay gente que hace cosas impresionantes. Pero más que algún gurú de emprendimiento, no tengo ninguno en la cabeza hoy en día. ¿Tu padre es emprendedor? Y mi abuelo lo era. No sé, yo tengo la cultura ahí de... Yo empecé en un hedge fund a trabajar con Bloomer, cuatro pantallas, todo el mundo el día viendo numeritos. Y dije, esto es muy aburrido. Aquí no estamos creando nada de valor. Yo creo que aquí estamos resolviendo un problema y después de estar mucho tiempo y hacer cosas bien y otras cosas muy mal, aprendes, ¿no? Y te das de topes con la vida y empiezas a aprender de lo que quieres. Y lo que más me emociona es esta roda de gente buena, inteligente, honesta, íntegra y con... con buena capacidad y que sea un reto constante. Eso es lo que más me emociona a mí, lo que más me lleva la atención. Sobre el reto de emprender, disfrutar del momento, disfrutar que estás con gente inteligente, el propio reto en sí. Trabajar, hablar con gente, tener la oportunidad de participar hoy con ustedes, incluso, es muy gratificante. Es algo que te permite exponerte, retarte y aprender y mejorar cada día. Yo creo que eso es lo que me motiva.",
+    "speaker": "SPEAKER_01",
+    "start": 3756.065,
+    "end": 3898.49
+  },
+  {
+    "text": "Oye Raimundo, pues muchísimas gracias por compartir tu experiencia y tu negocio con nosotros y te deseamos muchísima suerte.",
+    "speaker": "SPEAKER_03",
+    "start": 3900.255,
+    "end": 3908.145
+  },
+  {
+    "text": "Muchas gracias. Muchas gracias a ustedes por la participación y encantados. Aquí estamos para lo que necesiten.",
+    "speaker": "SPEAKER_01",
+    "start": 3910.674,
+    "end": 3916.359
+  },
+  {
+    "text": "Muchas gracias. Muy bien. Y con los demás, hasta la semana que viene.",
+    "speaker": "SPEAKER_03",
+    "start": 3916.379,
+    "end": 3919.641
+  },
+  {
+    "text": "Somos un ecosistema de startups tech de Barcelona, creadores de Camalún, Kipu y Factorial, entre otras. Ofrecemos más de 5.000 metros cuadrados de coworking a startups y organizamos eventos diarios para discutir negocio y tecnología hasta la saciedad. Desde Evening Fund, invertimos en equipos con capacidad de construir grandes productos y negocios. ¡Te esperamos!",
+    "speaker": "SPEAKER_00",
+    "start": 3920.462,
+    "end": 3939.41
+  }
+]

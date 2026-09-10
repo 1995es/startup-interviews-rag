@@ -1,0 +1,1256 @@
+[
+  {
+    "text": "Bueno, bienvenidos todos a una nueva tercera. ¿Por qué te ríes? ¿Por qué te ríes? La verdad que flojo. Que hoy no es en directo. una nueva tertulia de ITNIC. Hoy es una tertulia asincrona, no es en directo, y es la última tertulia antes de Navidad. Por eso vamos con los atuendos típicos de Navidad.",
+    "speaker": "SPEAKER_01",
+    "start": 0.111,
+    "end": 21.788
+  },
+  {
+    "text": "Muy navideños ya. Te queda muy bien cesar las gafas. Claro, no ves un pepino ahora, ¿no tú?",
+    "speaker": "SPEAKER_02",
+    "start": 24.688,
+    "end": 29.409
+  },
+  {
+    "text": "Bueno, en realidad sí. ¿En realidad sí? Sí, porque las gafas son un poco complemento estético.",
+    "speaker": "SPEAKER_00",
+    "start": 30.369,
+    "end": 34.63
+  },
+  {
+    "text": "¿Las que llevas de normal no son para ver? No. Ah, pues este complemento estético mucho mejor.",
+    "speaker": "SPEAKER_02",
+    "start": 34.65,
+    "end": 38.491
+  },
+  {
+    "text": "O sea, ¿tú ves sin gafas?",
+    "speaker": "SPEAKER_01",
+    "start": 39.031,
+    "end": 39.911
+  },
+  {
+    "text": "Es que, a ver, mi historia... Yo llevo gafas toda mi vida, ¿vale? Desde que tenía tres añitos. Tres añitos, ¿eh? Muy pequeño. Muy pequeño. Cuando entraste aquí, ¿no? Es verdad, cuando te encontré aquí. Cuando empecé en Camalún. Y hace un par de años, o tres, me operé porque es hiper incómodo no ver. Es una mierda. No se lo recomienda a nadie. Y nada, fue muy bien la operación, veo perfectamente, pero me veía superraro en el espejo sin gafas. Es verdad.",
+    "speaker": "SPEAKER_00",
+    "start": 40.091,
+    "end": 69.704
+  },
+  {
+    "text": "Me acuerdo que te operaste, pero nunca había pensado que volvieras a llevar gafas.",
+    "speaker": "SPEAKER_02",
+    "start": 69.724,
+    "end": 73.468
+  },
+  {
+    "text": "Porque era más cómodo y también era la novedad, ¿no? Pero no sé, tío, es que me veía rarísimo. Y, no sé, pues al final me acabé cambiando los cristales. No tienen graduación. ¿En serio? Sí, sí. ¿Y las llevas todo el día? Bueno… Casos opcionales. Las llevo cuando llevo zapatillas, cuando llevo pantalones, ¿sabes? Cuando estoy en mi casa, no.",
+    "speaker": "SPEAKER_00",
+    "start": 73.508,
+    "end": 91.446
+  },
+  {
+    "text": "¿Pero entonces por qué te operas?",
+    "speaker": "SPEAKER_01",
+    "start": 91.466,
+    "end": 92.707
+  },
+  {
+    "text": "Es una buena pregunta y tengo varias respuestas. Primero por un tema de supervivencia, y esto va a sonar una chorrada, pero si pasa cualquier cosa y de repente no puedo acceder a gafas, estoy jodido. Eres un prepper. En cierto modo. En el tema gafas, eres un prepper, ¿no? ¿Qué es un prepper?",
+    "speaker": "SPEAKER_00",
+    "start": 95.082,
+    "end": 113.599
+  },
+  {
+    "text": "Un prepper son los que están preparados, típicamente para los apocalipsis, normalmente zombies o nucleares, gente que está muy preocupada por esto. Yo soy un poco prepper, también me operé. Hay un patrón ahí. Porque yo me operé, pero excepto hoy... Excepto hoy, normalmente no llevo gafas. Lo que sí que llevo son gafas de estas de cristal azul. Sí. Que tengo amigos ópticos, especialistas en óptica, que me dicen que esto es un burlo, que no hay ninguna base científica. Sí, yo leo estudios donde... Pero te juro que me cambian la vida. Y las uso con el ordenador. Y hay días que me pongo delante del portátil así, que no puedo ni enfocar, y me pongo las gafas esas, que según los especialistas no sirven de nada, y me cambian la vida. Entonces, las llevo para el ordenador.",
+    "speaker": "SPEAKER_02",
+    "start": 113.739,
+    "end": 155.776
+  },
+  {
+    "text": "Sección esponsorizada por... Oye, vamos a hablar de las reflexiones de 2024. Teníamos apuntado. Vamos a comentar cuáles son los takeaways de este año. ¿Cómo cerráis el año, César? ¿Tú cómo cerráis el año? ¿Cómo...?",
+    "speaker": "SPEAKER_01",
+    "start": 157.117,
+    "end": 177.313
+  },
+  {
+    "text": "No tengo las gafas serias.",
+    "speaker": "SPEAKER_00",
+    "start": 177.333,
+    "end": 178.194
+  },
+  {
+    "text": "Las gafas de reflexionar. ¿Qué te llevas de 2024?",
+    "speaker": "SPEAKER_01",
+    "start": 179.375,
+    "end": 181.316
+  },
+  {
+    "text": "¿Qué me llevo? 2024 ha sido una montaña rusa absoluta. Hemos pivotado dos veces el producto, que se dice pronto, y ahora haciendo un poco de reflexión, a pesar de que me lo hayas dicho cinco minutos antes de empezar el podcast, que reflexiones son el año. Es lo primero que se me ha venido a la mente, la verdad. O sea, el cómo hemos llevado los pivots como equipo, por qué los hemos hecho, de dónde vienen las decisiones, cómo compararlo con los dos años anteriores. Y, hostia, me quedo con dos cosas de este año. Una de ellas es lo importante que es la resiliencia. ¿Es una palabra en español? Bueno, la resiliencia. El poder aguantar este tipo de cosas, ¿sabes? De repente estar dos años construyendo un producto y pulsar un botón, borrar todo el código y empezar de cero. Nosotros siempre tiramos para adelante y esto es algo que además aprendimos con la cultura de Factorial. En realidad también borramos bastante código. Borramos mucho código, pero siempre cuesta volver a empezar, cuesta volver a empezar canales de adquisición, cuesta todo. Y lo hemos hecho dos veces este año. Entonces nos ha costado en el sentido de que es un peaje psicológico, por así decirlo. Costa un día, ¿no? Coste hundido. O sea, verlo hundirse. El luchar contra perder la ilusión también es algo bastante importante. Porque cuando empezamos la empresa, joder, es que nos íbamos a comer del mundo. Y dos años de cabezazos contra la pared te acaban quitando un poco esta ilusión. Y tienes que encontrar formas de recuperarla, formas de engancharte a lo poco que parezca que funcione. Tiene que ser diez veces... ¿Sabéis el bias psicológico que tenemos los humanos de que las cosas malas les damos diez veces más importancia que las cosas buenas? Schopenhauer.",
+    "speaker": "SPEAKER_00",
+    "start": 183.218,
+    "end": 299.612
+  },
+  {
+    "text": "Esto lo dice el señor Schopenhauer. Arthur, creo.",
+    "speaker": "SPEAKER_02",
+    "start": 300.673,
+    "end": 302.995
+  },
+  {
+    "text": "Pues es esto, pero le tienes que dar la vuelta, ¿sabes? De alguna forma tienes que engancharte a esas pocas cosas pequeñas que funcionan bien y darles 100 veces más importancia para contrarrestar las malas.",
+    "speaker": "SPEAKER_00",
+    "start": 303.796,
+    "end": 313.866
+  },
+  {
+    "text": "Que es un poco la definición del emprendedor, ¿eh? O sea, optimistas natos. Total. Y lo que la gente no imagina es lo difícil que es salir de esta etapa de 0 a 1. No se lo imagina nadie cuando se mete, si no, no se metería. Nadie se metería si supiera exactamente lo que implica.",
+    "speaker": "SPEAKER_01",
+    "start": 313.886,
+    "end": 330.56
+  },
+  {
+    "text": "Pero es una etapa durísima. ¡Durísima! Esta semana, hace una semana justo, fin de semana pasada creo que fue, era la conferencia de Dealbook de New York Times, que en general traen gente muy top, y entrevistaron a Jeff Bezos, que precisamente hablaba de esto, de lo que decía Schopenhauer, de la naturaleza humana y de lo que todo el mundo psicológicamente tiende a sobreestimar, los problemas, y a underestimate, subestimar las oportunidades. El emprendedor, por definición, es la persona que tiene una aberración y que no subestima la oportunidad y no sobreestima los problemas. Y se tira a la piscina y ya lo gestiona. Exactamente lo que estás diciendo tú. Lo estaba contando a Chef Bezos hace tres días.",
+    "speaker": "SPEAKER_02",
+    "start": 331.32,
+    "end": 374.633
+  },
+  {
+    "text": "Claro, pero puedes ser muy optimista en períodos cortos de tiempo, ¿sabes? Tener como explosiones de optimismo. Pero no va de eso. Va de conseguir mantener eso en el tiempo. ¿Sabes? Cuando han pasado meses y meses y meses. Eso es la resiliencia. Y sigues dándote cabezazos contra la pared, es que tienes que hacerlo de alguna forma.",
+    "speaker": "SPEAKER_00",
+    "start": 374.673,
+    "end": 390.241
+  },
+  {
+    "text": "Y luego hay otra cosa importante que es la caja. Correcto. También tiene que ser resiliente y optimista.",
+    "speaker": "SPEAKER_01",
+    "start": 390.261,
+    "end": 396.225
+  },
+  {
+    "text": "¿Es resiliente la caja? Sí, la verdad que sí. Y esto fue porque os hice caso.",
+    "speaker": "SPEAKER_00",
+    "start": 396.285,
+    "end": 404.01
+  },
+  {
+    "text": "Hombre, la primera vez en la historia. Fue fuera de factorio. Pero bueno, era importante para ese ser, ¿no?",
+    "speaker": "SPEAKER_02",
+    "start": 404.03,
+    "end": 410.435
+  },
+  {
+    "text": "Sí, sí, sí. Recuerdo perfectamente que cuando estábamos hablando de cómo íbamos a levantar pasta y tal, me dijisteis, levanta toda la que puedas. Y yo pensando, ostia, bueno, pero si pillamos una valoración demasiado alta, luego cómo llegamos a cumplir los objetivos que encaje con esta valoración y cómo lo duplicamos para la siguiente ronda. Pero realmente es que la primera fase es encontrar algo. Incertidumbre absoluta. Correcto. Entonces, el hecho de haber levantado una ronda con una preseed bastante buena, la verdad, nos ha permitido... ¿De cuánto? Que no lo has anunciado nunca. No lo he dicho nunca. Va de misterio. Levantamos 1,2 millones en 2022. Se ayuda a tener resiliencia. Total, total. No nos hemos vuelto locos con el dinero. Con 1,2 millones podría haber contratado a 20 personas el primer año y no habría tenido ningún sentido. Entonces el equipo siempre lo hemos mantenido lo más pequeño posible. Gente muy, muy top. Que además estando en Barcelona los salarios son los que son. Entonces hemos conseguido alargar la caja un montón. Y es lo que nos ha permitido este año tomar la decisión de, oye, vamos a pivotar. Tenemos aún tiempo para demostrar otra acción y levantar la siguiente ronda. Y no solo eso, lo hemos hecho dos veces. Entonces, aún teniendo tiempo para poder hacerlo. Entonces, el poder comprar tiempo de esa forma ayuda mucho a ser resiliente y ayuda mucho a conseguir encontrar algo que al final lo tiras contra la pared y se pega.",
+    "speaker": "SPEAKER_00",
+    "start": 411.336,
+    "end": 498.449
+  },
+  {
+    "text": "Es curioso porque la mayoría de empresas no pasan de 0 a 1, pero muchas pasan de 0 a 1 y luego la mayoría no pasan de 1 a 10. Y muchas veces las que no pasan de 1 a 10 es porque tienen este problema que acabas de decir, ¿no? O sea, la gente no levanta de 0 a 1 tanta pasta como has levantado tú. Esto no es tan normal. Pero cuando van de 0 a 1 ya empiezan a levantar más pasta. Un millón, dos millones, tres millones. y muchas veces el error que cometen es sobrecargarse estructura, entrar en una situación donde no consiguen el crecimiento que esperaban, que ponía el Excel, pero haberse cargado mucha estructura y tener problemas de ejecución, perder la agilidad típica de una empresa que está empezando, y luego volver atrás y no tener suficiente caja como para poder tener esta resiliencia. o poder meterle la pasta que han levantado en la oportunidad que realmente la merece. Y es la segunda causa después de estancamiento de muerte. Normalmente es de estancamiento, porque puedes llegar, ya cuando has llegado a un 2 millones de euros de ARR, podrías llegar a ser autosuficiente, pero igual no puedes financiar el crecimiento y no puedes tener métricas que soporten futuras rondas. Y saber esto, lo hablamos esta semana con Jordi, de hecho, estábamos hablando tú y yo, y decíamos que esto en realidad va de conseguir oportunidades de growth, uno. Dos, aprovechar oportunidades de growth. Dos. Tres, sobrevivir. Es que son esas cosas, no es solo conseguir oportunidades de growth. O sea, y esto es muy difícil verlo desde fuera. Es solo cuando estás en el volante y dices, hostia, aquí hay algo. Es el momento, ¿no? Y saber meter gas en este momento. Y no está claro, ¿eh? No está muy claro.",
+    "speaker": "SPEAKER_01",
+    "start": 499.129,
+    "end": 598.404
+  },
+  {
+    "text": "O sea, hay un factor riesgo barra suerte también. Totalmente. Porque es todo muy borroso, va todo muy rápido, hay mucha presión, hay mucho sentimiento de impostor, no síndrome de impostor. O sea, que no es tan fácil. A todo lo pasado es muy fácil sintetizar, en el momento no es tan claro, pero hay que darle.",
+    "speaker": "SPEAKER_02",
+    "start": 598.424,
+    "end": 614.332
+  },
+  {
+    "text": "Hay muchos emprendedores que dicen, joder, es que tengo esta oportunidad, he conseguido esto y tal. Y digo, hostia, pues mete gas, ¿no? Pero tampoco me atrevo a decir mete gas, porque lo tiene que ver claro el emprendedor.",
+    "speaker": "SPEAKER_01",
+    "start": 614.752,
+    "end": 623.961
+  },
+  {
+    "text": "Después joder la empresa. Claro. Si luego te hacen caso como a César y resulta que era el consejo incorrecto, es una responsabilidad enorme. Claro. Sí, sí.",
+    "speaker": "SPEAKER_02",
+    "start": 623.981,
+    "end": 630.648
+  },
+  {
+    "text": "Es muy difícil desde fuera tener toda la perspectiva, todos los elementos, la intuición que acaba desarrollando el emprendedor de cuándo tiene que meter gas. Pero a un momento tiene que meter gas, pues no hay escala, no hay volumen.",
+    "speaker": "SPEAKER_01",
+    "start": 630.928,
+    "end": 640.59
+  },
+  {
+    "text": "Por eso a los inversores hay que escucharles, pero no hay que hacer todo lo que digan. Porque no están dentro 24-7 pensando, planteando, desarrollando su intuición, sino que llegan una vez al mes, una vez al trimestre, y tienen una idea, y tienen un feedback, y tienen una comparación con el portfolio, pero cuidado. Que a veces dicen, mete gas y se estrellan. De hecho, hay un montón.",
+    "speaker": "SPEAKER_02",
+    "start": 640.89,
+    "end": 662.516
+  },
+  {
+    "text": "Dicen muchas cosas. Creo que es importante para, porque incluso si estás dentro, yo creo que es incluso más fácil el despistarte y no darte cuenta de dónde tienes que meter gas. Y el tener esa perspectiva externa, ¿sabes? Que ve poquitas cosas, pero las más importantes, igual te hace también pensar, hostia, ¿vale? Porque estoy haciendo tantas cosas que no debería estar haciendo, que son más una cuestión de hábito, ¿sabes? Pues yo que sé, si empiezas un canal de adquisición, si empiezas a meter features en el producto que nadie está usando, es muy fácil ir por el tubo y seguir para adelante, seguir para adelante, sin parar un momento y decir, hostia, ¿esto es lo que tenemos que estar trabajando?",
+    "speaker": "SPEAKER_00",
+    "start": 662.536,
+    "end": 702.314
+  },
+  {
+    "text": "Pero para eso hay que escuchar. O sea, otra cosa es seguir lo que te dicen. Pero, por ejemplo, nosotros, aparte de escucharnos mutuamente y hablamos todo el rato, hacemos podcast, entrevistamos a emprendedores y escuchamos lo que nos cuentan. Salen un montón de ideas que luego traemos al management de Factorial de una cosa que hemos escuchado en una entrevista con un emprendedor del podcast de Ethnic. Y no significa vamos a hacer lo que ha hecho el de Click Arts, pero es decir, ostras, es interesante que ha hecho esto y le ha pasado el tal, quizá puede salir una idea de ahí. Ir a conferencias a veces también inspira, escuchar charlas o conocer a emprendedores de otros estadios en la misma industria. Y oye, el inversor",
+    "speaker": "SPEAKER_02",
+    "start": 702.694,
+    "end": 739.279
+  },
+  {
+    "text": "probablemente también, hay mejores y peores, ¿no? Pero al final lo que tú estás hablando es entender el benchmark, entender el ecosistema, entender los comparables, ¿no? Tener métricas fuera de tu sala de eco, ¿no? Donde te estás escuchando todo el día a ti mismo, de otra gente haciéndolo lo mismo, ¿no? Y yo creo que tú puedes ir al input propio del inversor también, que es el de muchas otras compañías.",
+    "speaker": "SPEAKER_01",
+    "start": 739.299,
+    "end": 764.408
+  },
+  {
+    "text": "Fíjate que yo, más que los benchmarks, yo hablo de simplemente tener una perspectiva externa. Y puede ser un inversor o puede ser un amigo, puede ser cualquier persona. Y yo muchas veces he tenido conversaciones con amigos donde les estaba explicando cómo nos iba y me decían, hostia, pero si eso que me has dicho parece que funciona, ¿por qué estás haciendo estas otras mil cosas en lugar de esa que me has dicho que funciona? Y es un amigo que, con cero contexto, no sabe absolutamente nada del negocio, pero es capaz de ver esas cosas entre líneas y hacerte despertar, en cierto modo.",
+    "speaker": "SPEAKER_00",
+    "start": 764.588,
+    "end": 799.467
+  },
+  {
+    "text": "Jordi, ¿cuál es tu takeaway de 2024?",
+    "speaker": "SPEAKER_01",
+    "start": 800.308,
+    "end": 802.249
+  },
+  {
+    "text": "en Factorial, en el mundo Factorial, y yo creo que se refleja un poco a lo que yo he escuchado del mundo de las startups growth, de las scale ups, es que después de un 2000, finales de 2023 y principios de 2024, donde hemos crecido razonablemente, sin tanto caos, sin romperlo todo, incluso arreglando algunas cosas, que es nuevo, porque en general siempre como más crecíamos más rompíamos las cosas. Hemos arreglado algunas cosas por el camino. De repente, después de verano, ¡ostras! Como que está subiendo la marea, ¿no? Que empieza a haber una aceleración bastante bestia. Muchas semillas que habíamos plantado, que estábamos regando, pero con tranquilidad y con un poco de paciencia, que es una cosa que no estamos acostumbrados a tener. pues se están creciendo. Y la verdad es que yo tengo un 2024 que empieza prudente y empieza, digamos, de no cagarla y de ser un poco más predecible en nuestro caso, de afinar un poco más en las apuestas que hacemos. a acabarlo con crecimiento, con un montón de optimismo y con unas tendencias que, bueno, que son muy excitantes. Y lo curioso es que hace, la semana pasada creo que estuve en Londres, un par de días y hablaba con dos de nuestros inversores ahí y les hablaba un poco de las ideas que tenemos para el año que viene y acababan de ver el cierre de noviembre y habían visto el 7 de octubre y tal. Dicen, oye, parece que hay aquí como de repente una aceleración bestia. Y los dos decían, ostras, pues sabes que mi portfolio de growth estoy viendo un final de año fuerte, en general, ¿no? Así como muchos nos decían el año pasado que todo mal y todo fatal, y nosotros que decíamos, queremos crecer más, decían, oye, no la liéis, que ya estáis creciendo más que casi todo lo que estamos viendo, ahora se ve que es generalizado, que estamos todos un poco acelerando y hay más optimismo y más inversión en crecimiento y más inversión en compañías. Entonces, yo creo que es un año que cerramos arriba, en general.",
+    "speaker": "SPEAKER_02",
+    "start": 806.647,
+    "end": 926.335
+  },
+  {
+    "text": "Bien. Y además es un año que vamos a conseguir los objetivos de Factorial. Y eso, bueno...",
+    "speaker": "SPEAKER_01",
+    "start": 928.275,
+    "end": 936.262
+  },
+  {
+    "text": "Y con sorpresas positivas al final, ¿no?",
+    "speaker": "SPEAKER_02",
+    "start": 936.302,
+    "end": 938.084
+  },
+  {
+    "text": "Objetivos ambiciosos. Objetivos ambiciosos. Y la verdad es que, hostia, hace ilusión. Veníamos de un año anterior más duro. Esto va a ser un año muy fuerte. Yo en mi caso, sí, yo me he focalizado mucho en producto, como bien sabéis. Venía de tres años de go to market a tope, vender, vender, vender. Y me he metido en una dinámica muy diferente de producto, con una entrada un poco difícil, una cultura un poco dividida, con muchos hilos, mucha gente trabajando en lo suyo, y luego muchos equipos. También tenemos equipos de plataforma, equipos de abstracciones comunes, que tenían que encargarse de los problemas comunes. Entonces, yo he aplicado mis basics más fundamentales, que yo no creo en general en las... en las áreas globales, en las áreas de calidad, ¿no? Creo más en repartir el trabajo entre todo el mundo y ser muy transparente con los objetivos de negocio y hacer todo el mundo participe de esto, ¿no? Y esto tiene un efecto en la organización, en los incentivos, pero también tiene un efecto en la distribución propia del trabajo. Entonces, lo primero que hicimos en Factorial fue cargarnos gran parte de lo que eran los equipos comunes de plataforma, que esto fue un poco controvertido en su momento, y distribuimos todas las responsabilidades globales entre todos los equipos. Luego, en tiempo de ejecución y con todo el mundo con un objetivo de negocio y con una parte de los objetivos comunes de las que se responsabilizaba, hemos ido observando y viendo cuáles de los equipos tenían más impacto en lo común. Y poco a poco, después de un año y medio, ahora estamos volviendo a rehacer los equipos comunes.",
+    "speaker": "SPEAKER_01",
+    "start": 938.244,
+    "end": 1043.47
+  },
+  {
+    "text": "Un matiz solo, porque se puede malentender. Cargarnos los equipos, pero no las personas. No, reorganizándolos. Tú ya lo sabes, pero la gente no lo sabe. O sea, se desmontaron equipos y se recolocaron esas personas en los equipos que tenían objetivos de negocio y concretos... Problemas de clientes, básicamente.",
+    "speaker": "SPEAKER_02",
+    "start": 1044.691,
+    "end": 1061.154
+  },
+  {
+    "text": "Y todos los equipos con problemas de clientes compartían algunas responsabilidades de la plataforma comunes.",
+    "speaker": "SPEAKER_01",
+    "start": 1061.514,
+    "end": 1066.156
+  },
+  {
+    "text": "¿Y por qué volvéis ahora a equipos de plataforma?",
+    "speaker": "SPEAKER_00",
+    "start": 1066.556,
+    "end": 1067.956
+  },
+  {
+    "text": "Claro. O sea, realmente lo más escalable y lo más importante al final, en última instancia, es la plataforma, ¿no? Crear una abstracción que permite resolver cualquier problema, ¿no? Es evidente que esto es el objetivo sangreal, ¿no? Lo que pasa es que... Para hacer esto tienes que tener mucho criterio del mundo real. Mucho criterio de los problemas del cliente. Es casi algo que te tienes que ganar. No es algo que te pueda asignar. ¿No? Oye, César, construyeme el sangreal, ¿no? Entonces, crear un move, un movimiento orgánico donde la gente que mejor resuelve los problemas y sistemáticamente es capaz de resolver problemas más grandes y más grandes, poco a poco y de forma meritocrática va asumiendo los problemas más comunes, Hacer este proceso, este camino, como parte de la definición de la organización es lo que a nosotros nos funciona, ¿sabes? Entonces, tú no puedes contratar a una persona que no tiene experiencia en resolver los problemas de los clientes de factorial para generar una abstracción común. Tienes que, de alguna forma, pasar de ir resolviendo problemas más pequeños y luego problemas más grandes y más grandes, y al final estás resolviendo una abstracción. Es muy abstracto lo que estoy diciendo, no sé si alguien va a entender algo. Probablemente no.",
+    "speaker": "SPEAKER_01",
+    "start": 1068.196,
+    "end": 1134.566
+  },
+  {
+    "text": "Lo que dices es que los equipos de plataforma necesitan haber tenido exposición a problemas reales de clientes antes de dedicarse a pensar cómo construir estas abstracciones.",
+    "speaker": "SPEAKER_00",
+    "start": 1135.368,
+    "end": 1143.353
+  },
+  {
+    "text": "O sea, que tiene que haber una concreción antes que una abstracción. Exacto. No se puede hacer la abstracción antes de saber lo que vas a abstraer, ¿no?",
+    "speaker": "SPEAKER_02",
+    "start": 1143.743,
+    "end": 1149.745
+  },
+  {
+    "text": "Yo, os parecerá una gilipollez, pero llevo casi dos años pensando en este tema. En concreción, abstracción, cómo distribuir el trabajo entre estas cosas. Lo común, lo particular, ¿no? Y en una plataforma con 200 personas trabajando en un solo producto, en un solo repositorio de código, es muy difícil entender esto, ¿no? Y luego está el tema de la cultura, que aquí también ha sido durísimo partir de una cultura diferente y volver un poco a los orígenes de gente como muy comprometida, muy committed, mucha gente crecida en la casa que ha demostrado sistemáticamente pues lo mismo, en pequeño, luego más grande, luego más grande, que es capaz de de implementar y acabar teniendo una cultura brutal con gente súper comprometida y sacando una calidad de producto brutal. Incluso hemos podido hacer proyectos ahora de replantear todo el sistema de diseño, toda la arquitectura de toda la plataforma, estamos cambiando piezas que son muy difíciles de cambiar porque afectan a todos los equipos. O sea, hay un momento donde todos los equipos tienen que dejar de trabajar y pasar a implementar otra pieza, ¿no? Y esto lo hemos conseguido este año en varias piezas importantes, ¿no? O sea, con lo cual, es que yo estoy súper contento. Hemos sacado nuevos productos, productos que han ido de cero a un millón de euros en tiempo récord, o sea, con lo que nos costaba antes ir de cero a un millón de euros, pues este año tenemos varios productos que han ido de cero a un millón de euros. Ostras, bastante chulo. Y el año que viene, pues tenemos otras abstracciones. Mira, tenemos una abstracción que es la tabla, o la exposición de los datos. Te suena, ¿no? Más cuantas iteraciones me he comido ese. Pues le tenemos unas ganas a este proyecto porque es casi uno de los primeros que vamos a empezar en 2025. Vamos a rehacer la tabla, que no es la tabla, es la forma de exponer datos. en la plataforma. Todos los productos tienen que exponer datos. ¿Vale? Y otra abstracción común a la que también queremos trabajar es el concepto de tarea. ¿Vale? O sea, ¿qué es el job to be done? O sea, ¿qué es lo que tienes que hacer tú como individuo, como usuario que estás utilizando la plataforma? Que es muy diferente si estás utilizando un producto de finanzas, que si estás utilizando un producto de gestión del talento. que si estás haciendo un clock-in y gestionando las vacaciones, son cosas diferentes, requieres un contexto, requieres una serie de información para tomar una decisión sobre esta tarea. Esta tarea puede formar parte de otras tareas, de un contexto más amplio, o puede ser una tarea aislada. Pero en cualquier caso, todo el mundo de la organización tiene tareas de hacer. Y abstraer esta tarea es uno de los proyectos que más ilusión me hace de cada año que viene. Es un proyecto de un año. Nos va a llevar tiempo.",
+    "speaker": "SPEAKER_01",
+    "start": 1150.025,
+    "end": 1312.947
+  },
+  {
+    "text": "Es el resumen del SAS. Tablas y tareas. Ya está. Más o menos es lo que hacemos todos. Con profundidad y con usabilidad, pero tablas y tareas. Y agentes.",
+    "speaker": "SPEAKER_02",
+    "start": 1313.547,
+    "end": 1325.711
+  },
+  {
+    "text": "Ojo, porque si tienes claro el concepto de tabla y tarea, eso es lo que come un agente para desayunar. Realmente es acceso a la información y entenderlo chopstubidón. Y esto luego, con una capa de lenguaje conversacional y tal, tú puedes simplemente hablar de eso ya. Pero esto lo tienes que tener muy bien mapeado. 24. Oye, el fondo. Hacemos un make-up de ITNIC.",
+    "speaker": "SPEAKER_01",
+    "start": 1326.372,
+    "end": 1351.051
+  },
+  {
+    "text": "Hemos hablado de Factorial y Latitude y Hubspot.",
+    "speaker": "SPEAKER_02",
+    "start": 1351.071,
+    "end": 1354.174
+  },
+  {
+    "text": "Ha sido gran parte del año esperando un trámite burocrático infinito.",
+    "speaker": "SPEAKER_01",
+    "start": 1355.095,
+    "end": 1358.938
+  },
+  {
+    "text": "¿Sabes que el martes pasé por la CNMV? Me hizo mucha ilusión. Saludé desde el taxi. Un edificio ahí, Tocho, en Madrid.",
+    "speaker": "SPEAKER_02",
+    "start": 1358.958,
+    "end": 1365.524
+  },
+  {
+    "text": "Bueno, hemos estado en un expediente... Un papel nuestro ha estado bien atascado. Sí, sí. Pero finalmente, final de septiembre, octubre, pues ya lo anunciamos, ¿no? Que salió y nos habilitaron el fondo. Y desde entonces hemos empezado el proceso de fanraising, que teníamos mucha gente que nos dijo que quería invertir hace un año y medio.",
+    "speaker": "SPEAKER_01",
+    "start": 1366.485,
+    "end": 1384.461
+  },
+  {
+    "text": "Hemos rearrancado, que daba casi vergüenza de personas que a mí han dicho, quiero invertir, ah, vale, vale, y ahora te aviso en unas semanas.",
+    "speaker": "SPEAKER_02",
+    "start": 1384.481,
+    "end": 1391.427
+  },
+  {
+    "text": "Eso es lo que decimos hace un año y medio.",
+    "speaker": "SPEAKER_01",
+    "start": 1392.242,
+    "end": 1394.383
+  },
+  {
+    "text": "Han pasado más de un año. Han sido semanas. 70, pero...",
+    "speaker": "SPEAKER_00",
+    "start": 1394.403,
+    "end": 1397.145
+  },
+  {
+    "text": "Y aún así, sorprendentemente, han seguido interesados. Desde octubre hasta hoy hemos ido hablando con todo el mundo que ha querido invertir y creo que hemos cerrado más de dos tercios del fondo, que son 15 millones.",
+    "speaker": "SPEAKER_01",
+    "start": 1398.846,
+    "end": 1415.554
+  },
+  {
+    "text": "El tamaño originario eran 10 millones. Esto ya está cerrado. Y levantado y todo, y ahora decidimos ampliarlo a 15 y de ahí no pasamos. Y ahora está acabando el último tramo.",
+    "speaker": "SPEAKER_02",
+    "start": 1415.574,
+    "end": 1427.259
+  },
+  {
+    "text": "Y además conseguiremos hacerlo sin inversores institucionales, solo con emprendedores. Que esto no lo teníamos claro.",
+    "speaker": "SPEAKER_01",
+    "start": 1427.299,
+    "end": 1433.281
+  },
+  {
+    "text": "Al principio pensábamos que haríamos emprendedores, que es lo que nos hacía ilusión. Y luego algún ticket grande de alguna institución, digamos, anónima, no anónima, pero que no sea un emprendedor, para acabar de cerrar el fondo. Y al final, todo emprendedores.",
+    "speaker": "SPEAKER_02",
+    "start": 1433.941,
+    "end": 1446.887
+  },
+  {
+    "text": "Con suerte, no era falta. Y además, muchos emprendedores que nos han conocido por el podcast. Que nos han escrito. O sea, nos hace muchas ilusiones también. Pero ya no es simplemente que te envíen un mensaje por LinkedIn. Oye, gracias por el podcast. No, no, oye. ¿Dónde pongo dinero? Me gusta vuestra tesis de inversión. Me gustaría invertir, ¿no? En lo que invertéis vosotros.",
+    "speaker": "SPEAKER_01",
+    "start": 1447.447,
+    "end": 1463.575
+  },
+  {
+    "text": "Y un muy buen año para algunas compañías de porfolio, que no se ha anunciado nada, pero han pasado muchas cosas los últimos meses de rondas del porfolio.",
+    "speaker": "SPEAKER_02",
+    "start": 1466.236,
+    "end": 1477.901
+  },
+  {
+    "text": "Que acaba de arrancar y hay como mínimo cuatro compañías.",
+    "speaker": "SPEAKER_01",
+    "start": 1477.961,
+    "end": 1483.163
+  },
+  {
+    "text": "Tres cerradas y una en camino, creo.",
+    "speaker": "SPEAKER_02",
+    "start": 1483.263,
+    "end": 1485.504
+  },
+  {
+    "text": "que han hecho otras rondas, inauguraciones de entre 5 y 10 veces el valor inicial. Empieza fuerte. Es mi capital. Un fondo divertido. Y mucho AI. Yo creo que el 80% de todo lo que vemos es AI. O más.",
+    "speaker": "SPEAKER_01",
+    "start": 1486.697,
+    "end": 1506.447
+  },
+  {
+    "text": "Fácil. ¿Qué tipo de AI?",
+    "speaker": "SPEAKER_00",
+    "start": 1507.88,
+    "end": 1509.041
+  },
+  {
+    "text": "De todo. Hoy, por ejemplo, hemos visto, no voy a revelar, ¿no? Pero desde el mundo editorial, ¿vale? He explicado el mundo editorial, creativo y generativo.",
+    "speaker": "SPEAKER_01",
+    "start": 1509.721,
+    "end": 1522.948
+  },
+  {
+    "text": "Ah, el que me habéis dicho antes. Sí. Vaya, fue buenísimo.",
+    "speaker": "SPEAKER_00",
+    "start": 1523.709,
+    "end": 1526.51
+  },
+  {
+    "text": "Y luego, pues, mucho SaaS, reinventado con AI y mucha gente.",
+    "speaker": "SPEAKER_01",
+    "start": 1527.351,
+    "end": 1533.514
+  },
+  {
+    "text": "Y luego otras cosas que quizá no nos miramos tanto porque no es lo nuestro, pero también hay tiendas de toda la vida convertidas en startups, modelos de distribución, marketplaces, scriptos. O sea, sigue habiendo de todo. Todo con un toque AI. Pero no. Y aprovechamos para recordar si alguien nos está escuchando y tiene un amigo muy bueno que está empezando un proyecto, que nos lo mande a ITNIC. Que nos avise si hay compañías buenas. ¿A dónde? ¿Dónde lo mandan? Berta arroba ITNIC punto net. Correcto. Alberto está inundadísima. Dale más, que ahora viene Navidad.",
+    "speaker": "SPEAKER_02",
+    "start": 1534.733,
+    "end": 1568.152
+  },
+  {
+    "text": "Sí, está filtrando. El año que viene vamos a reinventar muchas cosas, pero una de ellas es la forma de gestionar el pipeline de inversión. Cuando tú pides a alguien que te aplique, que te envíe su proyecto, pues recibes muchísimas aplicaciones. Muchísimas, quiero decir centenares de al mes. Estamos hablando de centenares de aplicaciones al mes. Esto es muy difícil de digerir, es muy difícil de desgranar. Entonces, de alguna forma, no sé si con agentes o cómo, pero hay que cualificar exactamente cuáles son el tipo de proyectos que buscamos. Porque sí que es verdad. Y es un problema, ¿eh? Porque cuando haces un criterio de cualificación te estás perdiendo oportunidades que igual...",
+    "speaker": "SPEAKER_01",
+    "start": 1568.532,
+    "end": 1614.219
+  },
+  {
+    "text": "Los falsos negativos son carísimos. Son carísimos. Si se nos escapa una buena por culpa del criterio de filtro, nos cagamos en todo.",
+    "speaker": "SPEAKER_02",
+    "start": 1614.42,
+    "end": 1621.006
+  },
+  {
+    "text": "100%. Pero bueno, estamos hablando de un ratio del 1%. ¿Tú sabes lo que es ver 99 emprendedores? Para nada. Con lo insistentes que son. Ya. Que somos. O sea, es difícil. Pero bueno, para encontrar uno. Para encontrar uno, ¿eh? Oye, temas de actualidad. Venga. Elon Musk, hablabas tú, Jordi.",
+    "speaker": "SPEAKER_01",
+    "start": 1621.568,
+    "end": 1644.006
+  },
+  {
+    "text": "Bueno, hablaba yo, no. Hablaba OpenAI de Elon Musk.",
+    "speaker": "SPEAKER_02",
+    "start": 1644.706,
+    "end": 1647.548
+  },
+  {
+    "text": "Qué fuerte que ha creado una página OpenAI con los mil. con los mails que ha tenido. Esto ya es disclosure total. Es un poco ñiñiñiñi, ¿no?",
+    "speaker": "SPEAKER_01",
+    "start": 1647.568,
+    "end": 1654.653
+  },
+  {
+    "text": "Sí, sí, sí.",
+    "speaker": "SPEAKER_02",
+    "start": 1654.693,
+    "end": 1655.653
+  },
+  {
+    "text": "Mira aquí el email que me mandó este día que decía que ya vas a ver tú.",
+    "speaker": "SPEAKER_01",
+    "start": 1656.014,
+    "end": 1659.435
+  },
+  {
+    "text": "Pues bueno, para el que no lo sepa, voy a dar contexto. OpenAI publicó el día 13, ¿no? Hace una semana justo. una web que se llama Elon Musk Wanted an OpenAI for Profit. Es muy ñiñiñi realmente y empieza con un timeline, es muy repelente, pero bueno, empieza con un timeline de los eventos principales de lo que ha pasado con la relación OpenAI y Elon Musk desde la fundación en 2015 como non-profit, al anuncio de la compañía, o sea, de la non-profit, al momento en el que deciden que necesitan pasta, el momento en el que Elon Musk dice, eso tendría que ser una corporación for profit, ya he constituido una, por cierto, Elon Musk constituyó OpenAI no sé qué corporation, él solito. ¿En Delaware? En Delaware. Que ahora ya no le gusta, pero en aquel momento sí le gustaba. En aquel momento todavía no le habían quitado no sé cuántos billions de salario. Y insistió mucho en que él tenía que ser el socio mayoritario, y el CEO, y tener la mayoría de votos del consejo. Y ahí hubo un poco batalla de gallos CEO contra CEO, porque Sam Alman también insistía mucho que él tenía que ser el CEO, y de hecho ves a los otros dos, a Greg y a Ilia, diciendo, qué manía con lo de ser CEO, ¿no? ¡No, pesados!",
+    "speaker": "SPEAKER_02",
+    "start": 1659.916,
+    "end": 1736.563
+  },
+  {
+    "text": "Pero además dicen, ostras, pero tú habías dicho que no te hacía ilusión ser CEO, pero que tienes que serlo igualmente. Es importante por la humanidad.",
+    "speaker": "SPEAKER_01",
+    "start": 1736.643,
+    "end": 1743.907
+  },
+  {
+    "text": "Yo lo hago por la humanidad, que es como la mejor excusa a cualquier cosa, ¿no? Señor, una cerveza por la humanidad. No es para mí, es por la humanidad. Bueno, pues lo que está muy guay es que ponen e-mails enteros de este ping-pong de tal, de todo. Y acaba con la salida de Elon Musk del board de OpenAI. y luego con la constitución de XAI, que ya es la oficialización de que son enemigos, ¿no? Y os lo recomiendo que busquéis OpenAI Elon Musk Profit en Google y encontraréis este artículo que estáis viendo en pantalla ahora mismo, supongo, que es divertido. Es un poco marujeo, pero...",
+    "speaker": "SPEAKER_02",
+    "start": 1744.147,
+    "end": 1783.834
+  },
+  {
+    "text": "Yo lo que no entiendo es qué espera ganar con esto Elon Musk. Porque lo tiene muy mal. ¿Con qué? ¿Con qué? Con esa demanda.",
+    "speaker": "SPEAKER_01",
+    "start": 1784.254,
+    "end": 1790.056
+  },
+  {
+    "text": "Porque esto viene, a ver. ¿Esto viene porque les ha demandado?",
+    "speaker": "SPEAKER_02",
+    "start": 1790.096,
+    "end": 1791.897
+  },
+  {
+    "text": "Porque es lo más que ha demandado. De hecho, demandó OpenAI, retiró la demanda y luego la volvió a presentar. No sé por qué. Y los ha demandado porque",
+    "speaker": "SPEAKER_01",
+    "start": 1791.917,
+    "end": 1799.12
+  },
+  {
+    "text": "OpenAI está convirtiéndose a una non-profit. OpenAI se está convirtiendo en lo que es, en una compañía for profit, ya sin caps ni nons ni nada. Close to AI de toda la vida, con equity para la gente, que bueno, al final, si parece ser que es lo que necesitan para innovar y para crear negocio, pues que lo hagan. Y dicen que para una potencial IPO.",
+    "speaker": "SPEAKER_02",
+    "start": 1799.781,
+    "end": 1821.197
+  },
+  {
+    "text": "Pero ya era él mismo, Elon Musk, quien decía, oye, que el capitalismo es un método útil. Para escalar, para incentivar a empleados, para conseguir compute power, que es muy caro, ¿no? Y si necesitamos financiación no lo vamos a hacer con donantes, socios, ¿no? Lo vamos a hacer con pasta, con pasta gansa, ¿no? O sea, era él quien hacía este argumento.",
+    "speaker": "SPEAKER_01",
+    "start": 1821.958,
+    "end": 1844.391
+  },
+  {
+    "text": "El primero, que es el título del blog post. Este pesado que dice que qué hacemos siendo una for profit fue el primero en proponer que fuera una for profit.",
+    "speaker": "SPEAKER_02",
+    "start": 1844.411,
+    "end": 1852.315
+  },
+  {
+    "text": "No, pero realmente el punto de Elon Musk también es, oye, ellos metí 50 millones aquí cuando era non-profit. Ahora qué? ¿Qué hacemos?",
+    "speaker": "SPEAKER_00",
+    "start": 1852.335,
+    "end": 1860.758
+  },
+  {
+    "text": "No, pero ya, pero dice cuando era non-profit, pero él mismo estaba diciendo en aquel momento que tenía que ser for profit. Y mayoría de ellos... Que él tenía que ser el que llevaba la gestión.",
+    "speaker": "SPEAKER_01",
+    "start": 1860.999,
+    "end": 1870.503
+  },
+  {
+    "text": "Sí, pero aún así los metió, ¿sabes?",
+    "speaker": "SPEAKER_00",
+    "start": 1870.523,
+    "end": 1871.924
+  },
+  {
+    "text": "Y los otros han metido años aquí de... No, si yo creo que aquí nadie se salva, nadie queda limpio. Leyendo este intercambio de mensajes, aquí nadie es limpio limpio.",
+    "speaker": "SPEAKER_02",
+    "start": 1872.644,
+    "end": 1883.731
+  },
+  {
+    "text": "Y hablando de... Esto es un tema un poco polémico que no os he comentado al principio, se me ha acabado de ocurrir. ¿Habéis visto lo del ex empleado de OpenAI? que iba a testificar en contra de OpenAI, concretamente, y otros Large Language Models, o proveedores de Large Language Models, hablando del tema del copyright. Y que murió. Que ha aparecido muerto, suicidado, justo antes de declarar.",
+    "speaker": "SPEAKER_00",
+    "start": 1885.392,
+    "end": 1913.365
+  },
+  {
+    "text": "No sé nada más que esto, pero es chulo. Yo tampoco.",
+    "speaker": "SPEAKER_02",
+    "start": 1914.025,
+    "end": 1916.086
+  },
+  {
+    "text": "Pero ¿todo el mundo sabe? que todo el mundo ha utilizado todos los copyrights del mundo. Empezando por NVIDIA, que se ha publicado mil veces y en Slack estaba Jensen diciendo, ¡sí, sí, cógelo todo!",
+    "speaker": "SPEAKER_01",
+    "start": 1916.106,
+    "end": 1928.936
+  },
+  {
+    "text": "¡Para adentro! O sea, esto es una evidencia. Y el video famoso de Mira Murati, que es la ex, creo que ya no está, ¿no? La ex CTO de OpenAI. Cuando le preguntan si ha utilizado YouTube para entrenar y se pone como roja, que se le hincha la vena y le da como un pequeño infarto cerebral. Contesta una no respuesta y luego Marques Brownlee, probando Sora, Y dice, hace un vídeo de un youtuber que es un tech reviewer. Y es el estudio de Marcus Brownlee. Y dices, ¿qué casualidad? Es clavado al medio con la misma planta, la misma mesa y el mismo background. Y dices, yo creo que sí.",
+    "speaker": "SPEAKER_02",
+    "start": 1928.956,
+    "end": 1966.978
+  },
+  {
+    "text": "La planta era la planta de un euro de Ikea, ¿eh? Ya, ya, pero era, o sea...",
+    "speaker": "SPEAKER_00",
+    "start": 1966.998,
+    "end": 1971.439
+  },
+  {
+    "text": "Está bastante claro. Yo lo tengo claro.",
+    "speaker": "SPEAKER_02",
+    "start": 1973.379,
+    "end": 1975.96
+  },
+  {
+    "text": "Es curioso porque todo lo que son los datos públicos, ya todos los modelos los tienen. O sea, es impensable que alguien no haya utilizado todos los datos abiertos y públicos. O sea, este ya no es el factor de diferenciación de nadie.",
+    "speaker": "SPEAKER_01",
+    "start": 1976.02,
+    "end": 1988.067
+  },
+  {
+    "text": "Y como nadie puede auditar un modelo, porque una vez está adentro, hay un montón de números. O sea, puedes espiar o intentar hacer una auditoría de lo que pasó en su momento, pero el modelo en sí, no hay manera de saber de dónde lo has metido. O sea, es un camino solo. No se puede hacer reverse engineering de ahí. Pero se puede hacerlo de Marcus Brownlee y decir, oye, qué casualidad que sale un contenido idéntico al que no, en teoría, había gustado.",
+    "speaker": "SPEAKER_02",
+    "start": 1988.987,
+    "end": 2012.264
+  },
+  {
+    "text": "De hecho, he visto más vídeos de demo de Sora. Y, por ejemplo, vídeos de un coche desde atrás conduciendo y tal. Se ve que, yo me imagino, no tengo pruebas, pero tampoco dudas. Aquí en general no tenemos pruebas de nada. Los cuños de las startups. Exacto. No, pero se ven que las animaciones parecen de videojuego. Y es que estoy seguro de que han usado horas y horas de video, de Twitch y de Game Engines.",
+    "speaker": "SPEAKER_00",
+    "start": 2012.284,
+    "end": 2039.173
+  },
+  {
+    "text": "Con Twitch es suficiente.",
+    "speaker": "SPEAKER_01",
+    "start": 2039.313,
+    "end": 2040.113
+  },
+  {
+    "text": "No, pero también yo estoy seguro que han generado datos con Game Engines, que es con lo que han entrenado los modelos de video estos. Porque es que se ve cómo interactúa, ¿sabes? Puede ser.",
+    "speaker": "SPEAKER_00",
+    "start": 2040.373,
+    "end": 2050.255
+  },
+  {
+    "text": "Oye, otro podcast que he visto últimamente es el podcast de... ¿Cómo se llama este podcast? Es que no me acuerdo nunca. El de Garly, Bill Garly y... BG Squared.",
+    "speaker": "SPEAKER_01",
+    "start": 2050.835,
+    "end": 2063.561
+  },
+  {
+    "text": "BG Squared. Brad Gerstner y Bill Garly. El de Altimeter. El de Altimeter y el de X Benchmark.",
+    "speaker": "SPEAKER_02",
+    "start": 2063.841,
+    "end": 2069.263
+  },
+  {
+    "text": "Que esta gente yo creo que les dio... vieron al All In que estaban haciendo el podcast.",
+    "speaker": "SPEAKER_01",
+    "start": 2069.523,
+    "end": 2073.725
+  },
+  {
+    "text": "Bueno, les invitaban al All In. De hecho, los dos eran invitados en el All In. Y dijeron, pues nosotros también nos lo montamos. Y está bien. Está mejor que el otro. Porque no tiene la política, no tiene el rollo político.",
+    "speaker": "SPEAKER_02",
+    "start": 2073.745,
+    "end": 2084.251
+  },
+  {
+    "text": "Por eso es que no hemos hablado, esto ya es el paréntesis, de David Sachs. Por fin ha conseguido su campaña. Ha acabado su campaña y hace el zar.",
+    "speaker": "SPEAKER_01",
+    "start": 2084.471,
+    "end": 2093.598
+  },
+  {
+    "text": "El zar de la IA y el blockchain. Nos hemos librado de David Sachs por un rato. Cada vez tiene más cara de Emperador Palpatine.",
+    "speaker": "SPEAKER_02",
+    "start": 2093.658,
+    "end": 2100.984
+  },
+  {
+    "text": "Se le está poniendo una cara de malo de Star Wars, que te cagas. volviendo al podcast de estos dos, con Satya Nadella. No, no este podcast, es otro. Este. El BG2, exacto. BG2. Es el nombre, ¿no? Sí, bueno. BG, BG. Yo nunca había escuchado a Satya Nadella hablando de su historia y de sus puntos de vista de una forma tan larga. Es interesante este hombre, ¿eh? No sé si lo habéis escuchado. Este podcast no.",
+    "speaker": "SPEAKER_01",
+    "start": 2101.705,
+    "end": 2132.86
+  },
+  {
+    "text": "A Satya bastantes veces, pero este podcast no.",
+    "speaker": "SPEAKER_02",
+    "start": 2133.46,
+    "end": 2135.621
+  },
+  {
+    "text": "Satya Nadella era una persona que llevaba cloud en Microsoft. Era responsable de tools and servers y luego pasó a llevar cloud cuando le hicieron CEO. Y desde entonces ha estado, o sea, desde 2011.",
+    "speaker": "SPEAKER_01",
+    "start": 2137.194,
+    "end": 2156.676
+  },
+  {
+    "text": "Un tío con perfil técnico, ¿no?",
+    "speaker": "SPEAKER_00",
+    "start": 2156.696,
+    "end": 2158.517
+  },
+  {
+    "text": "Sí, sí. O sea, es developer. Ingeniero, carrera larguísima en Microsoft. Y luego pasa a ser el CEO, que aplica a él. Sabe que están buscando a CEO. Él envía un memo y explica por qué le gustaría ser el CEO, ¿no? Y claro, él, en 2011 le dijeron, oye, tú tienes que maximizar el impacto de Cloud de Microsoft. Y todo el mundo decía, por cierto, es una batalla perdida, porque es un winner takes all y es AWS quien va a ganar. Pero oye, buena suerte, ¿vale? Esto va a ser tu responsabilidad. Y él lleva toda la vida haciendo eso. O sea, como CEO de Microsoft, ha orientado toda la compañía Todo está pensado para generar cloud, para generar computing, ¿no? Para vender computing. Y él es que en un momento dado se da cuenta de una cosa que cuenta en este podcast que yo me quedé alucinado, que es, claro, para vender real estate, o sea, para vender realmente hierro, tú puedes vender el hierro en sí o puedes inventarte modelos de negocio encima del hierro. Entonces, cuanto más interesantes sean los modelos de negocio, por encima del hierro, pues más hierro van a necesitar. Y esta tontería... Luego veo paralelismo con el modelo de negocio de McDonald's, que es un negocio de real estate que realmente monetiza... El software es lo de las hamburguesas, pero realmente el negocio es ir comprando parcelas y alquilarlas y explotarlas. Lo veo muy parecido al concepto este de Microsoft, donde el tío se obsesiona con cloud Entonces empiezas a entender que el problema no es vender un software u otro. Es maximizar su real estate, ¿no? Su compute. Da igual si están vendiendo su producto o un producto equivalente o un producto de un partner. O factorial, ¿vale?",
+    "speaker": "SPEAKER_01",
+    "start": 2158.537,
+    "end": 2268.422
+  },
+  {
+    "text": "De hecho, nuestro partnership va de esto.",
+    "speaker": "SPEAKER_02",
+    "start": 2268.442,
+    "end": 2270.242
+  },
+  {
+    "text": "Mientras ellos hagan el compute...",
+    "speaker": "SPEAKER_00",
+    "start": 2270.262,
+    "end": 2271.983
+  },
+  {
+    "text": "Esto que has dicho tú de alinear y tal, es como los OKRs, pero una versión donde solo hay un OKR. y toda la compañía tiene un OKR y de hecho nosotros trabajamos mucho con la gente de Microsoft y yo me cachondeo de ellos porque estamos hablando de cualquier cosa y la conclusión es decir, oye, ¿esto a ti te va a ayudar a vender más consumo de azure? Todo Dios que conozco en Microsoft tiene la métrica de consumo de azure. Aunque se dediquen a una cosa que en teoría no tiene nada que ver con consumo de azure, su bonus y su incentivo es consumo de azure. Y consumo de azure, directo o indirecto. Entonces, si usas Factorial e incrementa el consumo de azure, todo bien. Si utilizan un partner que está integrado en el Cloud NDB, perfecto. Y están obsesionados y hacen tierra, mar y aire lo que haga falta para generar consumo de azure y no les está yendo nada mal. Porque el consumo de azure está subiendo y la acción también.",
+    "speaker": "SPEAKER_02",
+    "start": 2272.483,
+    "end": 2321.997
+  },
+  {
+    "text": "Y es curioso porque él se da cuenta que cuando le dicen esto, no, no, esto no vas a ganar porque esto es Winner Takes It All, es AWS, es el líder, monopolio, no vas a poder entrar ahí. Le dice, bueno, no, en realidad hay espacio para otras propuestas de valor. El mundo va a ser heterogéneo, va a haber problemas, o sea, la gente va a querer mover sus datos y va a querer tener ownership de sus datos. y va a querer tenerlos en su geografía. No exactamente en una aplicación centralizada, todo cloud, todo tal, aunque estamos en los inicios de Internet. Para migrar todo el mundo, que el mundo es legacy, el mundo es on-premise y tal, realmente a cloud, vamos a tener que tener otro approach. Entonces, se especializa en la heterogeneidad. No en la homogeneidad, sino en la heterogeneidad. En este sistema... El híbrido, el híbrido on-premise-cloud. En este sistema de tal, ¿no?",
+    "speaker": "SPEAKER_01",
+    "start": 2323.228,
+    "end": 2368.959
+  },
+  {
+    "text": "Era muy tosco al principio, cuando salió esto.",
+    "speaker": "SPEAKER_02",
+    "start": 2368.979,
+    "end": 2370.88
+  },
+  {
+    "text": "Pero para Enterprise, Era perfecto. Era la única manera. Bueno, pues ahora este año se ha anunciado ya definitivamente que los nativos digitales, que son precisamente los que son más aplicación centralizada como Shopify, Spotify... ¿Qué más? No sé. ¿Cuál era la tercera? Bueno, se han pasado a Azure también, ¿no? Está creciendo al 35%, ¿vale? Hoy tiene el 25-26% Market Share contra el 30 y poco de AWS. Era más distinto. Es que ha ido haciendo catch-up. No, no, es que está haciendo catch-up. Es que crece al 19% AWS. El otro crece al 30 y pico, 35. Es una pasada, sí, sí. O sea, realmente le va a desbancar. Pero es que el golpe de puño encima de la mesa es el AI. Sí.",
+    "speaker": "SPEAKER_01",
+    "start": 2371.3,
+    "end": 2420.194
+  },
+  {
+    "text": "Bueno, OpenAI. Ese fue la banderilla. OpenAI, pero es que",
+    "speaker": "SPEAKER_02",
+    "start": 2421.154,
+    "end": 2424.835
+  },
+  {
+    "text": "además, OpenAI, que necesita una cantidad de computing brutal, que se va a basar, él cree, en un modelo único, que él... O sea, pocos modelos, digamos. No único, pero pocos modelos. ¿Qué es lo que él hace en su farm, en su granja? ¿Qué es lo que le dice chatGPT? Para él es su granja de modelo. Y todo lo que son sistemas y application layer es lo que tiene que ir distribuido, tiene que tener datos, tiene que tener tal, ¿no? Y esto, donde mejor va a correr es en Azure, ¿no? O sea, ellos monetizan el API, no monetizan el modelo. El modelo es coste o inversión. Para ellos, hasta ahora, todo el entrenamiento, los billions y billions que han puesto ahí, es con esta inversión. Pero todo lo que son el acceso a API, todos los sistemas y todo lo que van a ser los agentes, que él cree que es la futura capa de aplicación, él cree que el SaaS va a tener que migrar, evolucionar a agentes. va a tener el mismo problema de toda la vida, de servidor con base de datos propia, privada y geolocalizada.",
+    "speaker": "SPEAKER_01",
+    "start": 2424.875,
+    "end": 2483.206
+  },
+  {
+    "text": "Y el propio compute de la inferencia de los agentes. Exacto. Que es lo que ahora mismo se lleva todo el material. Exacto.",
+    "speaker": "SPEAKER_00",
+    "start": 2483.226,
+    "end": 2487.688
+  },
+  {
+    "text": "Y ese es el otro gran tema que me parece muy interesante. O sea, parece que el entrenamiento de los modelos está llegando a una especie de plató, que con más computación no se llegan ya a más sitios. Sin embargo, con estos modelos que funcionan en tiempo de inferencia, están evolucionando mucho. Y eso sí que es un negocio. Porque es computing. Es computing, es cálculo en tiempo real, darle más información al modelo entrenado, y volver más tokens, y volver a calcular, ¿no? Y incrementa mucho la computación en tiempo real. Con lo cual, Azure.",
+    "speaker": "SPEAKER_01",
+    "start": 2487.768,
+    "end": 2522.53
+  },
+  {
+    "text": "Yo, si te digo la verdad, no me tomaba Azure en serio hasta que empezaron a ofrecer los modelos de OpenAI. Claramente para mí era algo que nunca en mi vida iba a querer tocar. Nosotros siempre hemos tenido AWS y mira que AWS tampoco es de santo de mi devoción. No he visto nunca una empresa tan exitosa con una interfaz tan mala.",
+    "speaker": "SPEAKER_00",
+    "start": 2523.164,
+    "end": 2546.33
+  },
+  {
+    "text": "La experiencia de usuario, la interfaz visual de esa consola, pero la de Azure tampoco es la vuestra. Tengo que decir, por muy partners que sean, el front-end no es lo de los clouds. Pero fíjate, yo nunca me lo planteaba porque AWS era el estándar entre developers. Es que lo que hicieron muy bien Amazon, que yo se lo he dicho varias veces a Microsoft, es decir, oye, no estáis todavía al nivel, es el tema de los créditos súper agresivos para startups. Que todos hacen un poco de catch up y tanto Google como Microsoft tienen cositas de startups, pero son más moderados. Tienen más miedo a auto.",
+    "speaker": "SPEAKER_02",
+    "start": 2548.331,
+    "end": 2583.703
+  },
+  {
+    "text": "Hoy en día sí. No, no, están avanzando.",
+    "speaker": "SPEAKER_00",
+    "start": 2583.903,
+    "end": 2585.263
+  },
+  {
+    "text": "Siempre que lo miramos, sigue ganando Amazon. Y los Ubers, los Airbnbs, los Dropboxes, toda esta teoría de compañías que luego se han hecho muy grandes, que fueron un poco los pioneros de cosas serias en la nube, es porque eran startups y por Wild Combinator y por una pequeña burbuja que se llevaron el 100% de ese mercado, que ahora son muchos billions de capitalización. Y esto Microsoft, poco a poco, con el B2B, con la enterprise, ha ido mordiendo, pero todavía no son suficientemente agresivos con las startups. Siempre se lo digo.",
+    "speaker": "SPEAKER_02",
+    "start": 2586.124,
+    "end": 2616.99
+  },
+  {
+    "text": "Fíjate, como contrapunto a no son suficientemente agresivos, justo esta semana han anunciado que VS Code tiene Copilot gratis para todos los derechos. Me han hecho caso. Estuve con Satya justo la semana pasada. No con Satya, no. Pero con la gente de Europa, sí. Con la gente de",
+    "speaker": "SPEAKER_00",
+    "start": 2617.49,
+    "end": 2633.516
+  },
+  {
+    "text": "Europa, sí, sí, sí. Es decir, oye, es una lástima que una... Hablaba de un caso muy concreto, que es un caso como el de Factoren. Una startup que empieza, elige Amazon porque es el que le da más cosas por menos dinero, y empieza a construir. Cuando la startup va, si es B2B sobre todo, se da cuenta de que quiere hacer un canal de distribución, quiere hacer partnerships B2B, y ahí el rey y el único es Microsoft. Y, ostras, ahora me tengo que emigrar de infraestructura porque si no Microsoft tiene el incentivo de los créditos del consumo de Azure. Entonces es un problema para Microsoft tener una fricción muy grande porque es demasiado tarde. Digo, pillales cuando es el primer día ese hiperagresivo con los créditos y las cosas para el programa de Startups Early Stage, es un coste que no es muy grande y luego tendrás mucha más empresa que crece ya en tu plataforma. imposible que se los lleven otros. Yo no tengo claro que esa",
+    "speaker": "SPEAKER_02",
+    "start": 2633.576,
+    "end": 2681.939
+  },
+  {
+    "text": "sea la clave de su modelo de escalabilidad. Creo que seguro que ha ayudado. No, pero a Amazon lo fue. A Amazon. No sé si fue la clave. No sé por la clave. Fue la clave first mover. Claro. Y volumen.",
+    "speaker": "SPEAKER_01",
+    "start": 2681.979,
+    "end": 2690.267
+  },
+  {
+    "text": "Ya, pero el first mover, ¿quién son los first movers? Los early adopters, las startups.",
+    "speaker": "SPEAKER_02",
+    "start": 2690.507,
+    "end": 2693.891
+  },
+  {
+    "text": "No, no, first mover como proveedor de infraestructura unificada, cloud, escalable.",
+    "speaker": "SPEAKER_01",
+    "start": 2693.911,
+    "end": 2697.154
+  },
+  {
+    "text": "Los primeros que se atrevieron a usar el cloud a escala en producción eran las startups. cuando empezaron eran pequeñitas, no tenían nada a perder y luego demostraron que funcionaba.",
+    "speaker": "SPEAKER_02",
+    "start": 2697.174,
+    "end": 2706.68
+  },
+  {
+    "text": "Fueron muy developer friendly, muy orientado a ser utilizado muy fácilmente para un developer que está escalando su... Esto creo que es más importante",
+    "speaker": "SPEAKER_01",
+    "start": 2706.7,
+    "end": 2713.883
+  },
+  {
+    "text": "que lo de los créditos.",
+    "speaker": "SPEAKER_02",
+    "start": 2713.903,
+    "end": 2715.484
+  },
+  {
+    "text": "O sea, lo de los créditos está bien como estrategia de growth hacking, pero no sé si es la clave de este modelo.",
+    "speaker": "SPEAKER_01",
+    "start": 2715.684,
+    "end": 2720.505
+  },
+  {
+    "text": "La clave es una vez que tienes la empresa, es que no, no se va a cambiar de empresa. Cuesta mucho cambiar de provider. Tienen un mod brutal, ¿no? Claro, siendo los primeros. Claro. Fíjate que con Microsoft haciendo VS Code con Copilot gratis no es tan así, porque no estás tan casado con el IDE que tienes. No, la infraestructura es difícil de cambiar. Sí, sí, ya os llegará.",
+    "speaker": "SPEAKER_00",
+    "start": 2720.685,
+    "end": 2742.174
+  },
+  {
+    "text": "Es curioso porque ellos dicen, o sea, nos perdimos Search, Mobile y el browser, pero él vio cuando oí hablar de AI por primera vez que este espacio no iba a ser lo mismo, no se lo iba a perder. Es que además él dice, hostia, nos perdimos Search Mobile, el browser, pero es que el browser es el peor de todos porque ganaron el browser y luego lo perdieron. Se lo quitaron.",
+    "speaker": "SPEAKER_01",
+    "start": 2742.214,
+    "end": 2761.581
+  },
+  {
+    "text": "Se lo quitaron a hostias.",
+    "speaker": "SPEAKER_02",
+    "start": 2762.202,
+    "end": 2763.363
+  },
+  {
+    "text": "Se lo quitaron a Netscape.",
+    "speaker": "SPEAKER_01",
+    "start": 2763.383,
+    "end": 2764.305
+  },
+  {
+    "text": "Se lo quitó el gobierno de Estados Unidos.",
+    "speaker": "SPEAKER_02",
+    "start": 2764.725,
+    "end": 2766.588
+  },
+  {
+    "text": "Y luego se lo quitó el gobierno de Estados Unidos y bueno, y Chrome.",
+    "speaker": "SPEAKER_01",
+    "start": 2766.968,
+    "end": 2769.212
+  },
+  {
+    "text": "Bueno, pero porque primero fueron a Estados Unidos. Sí, sí. No, a Estados Unidos.",
+    "speaker": "SPEAKER_02",
+    "start": 2770.587,
+    "end": 2774.248
+  },
+  {
+    "text": "Esto no lo sé.",
+    "speaker": "SPEAKER_00",
+    "start": 2774.368,
+    "end": 2774.728
+  },
+  {
+    "text": "Bueno, el antitrust, o sea, la batalla judicial que quemó a Bill Gates. Esto fue lo de no permitirles ponerlo por defecto. Exacto.",
+    "speaker": "SPEAKER_02",
+    "start": 2774.908,
+    "end": 2785.951
+  },
+  {
+    "text": "Exacto. O sea, eso. Esto no es lo que mató a Internet Explorer.",
+    "speaker": "SPEAKER_00",
+    "start": 2786.031,
+    "end": 2788.472
+  },
+  {
+    "text": "Bueno, eso es lo que desgastó a Bill Gates. O sea, perder un Founder C o a una empresa como Microsoft lo tiene que notar. Y les estuvo distraídos durante años en una batalla que estaban empezando a ganar. Les hizo mucho daño. Yo creo que han tardado 15 años en recuperarse de esto. Escucha el podcast de Acquired de Microsoft. Súper recomendado.",
+    "speaker": "SPEAKER_02",
+    "start": 2788.492,
+    "end": 2808.473
+  },
+  {
+    "text": "Lo miraré, pero el programa de Internet Explorer era un programa de producto.",
+    "speaker": "SPEAKER_00",
+    "start": 2808.493,
+    "end": 2810.654
+  },
+  {
+    "text": "Sí, pero la razón por la cual el producto era un poco caca es porque estaba toda la empresa también intentando disimular e intentando luchar una batalla existencial. Que ahora quizá les pasa a Google con Chrome, que también lo hablamos hace un par de semanas. Pero esto sigue en pie. No sé si Trump lo va a cambiar. De momento, que yo sepa, no se ha pronunciado. Pero, de momento, Google se tiene que quitar de encima a Chrome.",
+    "speaker": "SPEAKER_02",
+    "start": 2811.474,
+    "end": 2831.522
+  },
+  {
+    "text": "Él es muy humilde y dice que le podría volver a pasar con Gemini. Lo que le pasó con el browser. Pero que si algo, algún objetivo claro tiene...",
+    "speaker": "SPEAKER_01",
+    "start": 2832.242,
+    "end": 2842.645
+  },
+  {
+    "text": "Con Google y LAI, quieres decir.",
+    "speaker": "SPEAKER_02",
+    "start": 2842.665,
+    "end": 2844.085
+  },
+  {
+    "text": "Él cree que ChatGPT es una compañía generacional. O sea, OpenAI es una compañía generacional, la compañía de esta generación. de AI, que tiene el first mover advantage y que lo va a proteger con toda su fuerza. Tiene claro que esto se juega la vida ahí.",
+    "speaker": "SPEAKER_01",
+    "start": 2844.125,
+    "end": 2858.234
+  },
+  {
+    "text": "También por el camino va invirtiendo en la competencia, Microsoft. En competencias de OpenAI.",
+    "speaker": "SPEAKER_02",
+    "start": 2859.095,
+    "end": 2864.06
+  },
+  {
+    "text": "Pero no invierte en Compute. Ellos solo hacen un Compute, porque esto requiere tanto esfuerzo y tanto dinero, que tienen con el deal con OpenAI es que ellos tienen acceso a la patente. Todos los modelos que se generen son suyos también, por defecto. Con lo cual no tiene ningún sentido para ellos seguir invirtiendo en pre-training. Pero sí que invierten en todo lo que son sistemas, enabling, APIs, copilots y todo esto. Me pareció muy interesante cómo piensa en eso. Dice que lleva 10 años peleando el deal de Apple para estar en Apple como Search por defecto. Bing. Bing.",
+    "speaker": "SPEAKER_01",
+    "start": 2864.42,
+    "end": 2900.634
+  },
+  {
+    "text": "Es que él fue también CEO de Bing durante un tiempo, creo, o el director de producto de Bing.",
+    "speaker": "SPEAKER_02",
+    "start": 2901.435,
+    "end": 2905.098
+  },
+  {
+    "text": "No sé, como CEO de Microsoft ha estado 10 años peleando este deal, lo ha perdido todos los años, hasta este año que dice, ChatGPT me ha conseguido el deal que yo no he sido capaz de ganar. Con Apple. Y ahora he entrado por la puerta trasera. Fui el más contento de la sala cuando lo supe. Yo pienso, este tío cómo cuenta eso, ¿no?",
+    "speaker": "SPEAKER_01",
+    "start": 2905.578,
+    "end": 2923.84
+  },
+  {
+    "text": "Entres a publica, una de las más grandes del mundo.",
+    "speaker": "SPEAKER_00",
+    "start": 2923.88,
+    "end": 2926.003
+  },
+  {
+    "text": "Dice, cuando vino Sammy me contó eso. Bueno, está bien.",
+    "speaker": "SPEAKER_01",
+    "start": 2926.043,
+    "end": 2930.509
+  },
+  {
+    "text": "A mí me encanta Satya. Creo que seguramente es el mejor CEO no founder de los últimos 100 años. CEO no founder, porque si metes founder tienes a Elon Musk, tienes a Steve Jobs, tienes a otras personas, Bill Gates incluso, que han hecho empresas gigantescas en el mundo de la tecnología, pero como CEO no founder... Aldo McDonalds. Sí. Pero no sé.",
+    "speaker": "SPEAKER_02",
+    "start": 2930.569,
+    "end": 2952.825
+  },
+  {
+    "text": "Impacto, impacto. Dice que no es un mercado. Ya no os aburro más con el podcast.",
+    "speaker": "SPEAKER_01",
+    "start": 2952.945,
+    "end": 2960.207
+  },
+  {
+    "text": "Está mucha cremita en el pelo de la cabeza. Está finísimo. ¿Cuántos años? Más o menos. César. No está tan fino, César. Tienes que preguntarle qué cremita se pone.",
+    "speaker": "SPEAKER_02",
+    "start": 2960.267,
+    "end": 2971.511
+  },
+  {
+    "text": "Dice que no va a ser un mercado. Winner takes it all. El de los modelos. El de los modelos, por razones obvias geográficas, geopolíticas, crecientes, donde va a ser imposible que solo haya un líder de ese espacio. Y que por la misma razón, Asure es el mismo. El tío va diciendo Asure cada tres frases. Es que su OKR es increíble.",
+    "speaker": "SPEAKER_01",
+    "start": 2971.531,
+    "end": 2993.607
+  },
+  {
+    "text": "Están obsesionados. Esto es muy bueno. Es increíble el foco que tienen.",
+    "speaker": "SPEAKER_02",
+    "start": 2993.667,
+    "end": 2997.369
+  },
+  {
+    "text": "Y lo habla de muchas cosas. Dice que el AI va a ser stateful. va a tener memoria y la memoria va a ser lo más importante de toda esta revolución. O sea, el recordar, el básicamente que tú puedes organizar tu memoria en un sistema distribuido, todo lo que te está pasando visualmente, todo lo que es escrito y tal, y que puedes interaccionar con la memoria y poder transmitir parte de esta memoria en distintos agentes que necesitan contextos determinados, pero atemporales, o sea, de cualquier momento histórico, cree que es la siguiente revolución y, lo más importante, que va a salir en 2025.",
+    "speaker": "SPEAKER_01",
+    "start": 2998.61,
+    "end": 3038.151
+  },
+  {
+    "text": "Y ahí creo que Apple tiene la ventaja más grande contra cualquier otra empresa, pero parece que se les ha olvidado cómo ejecutar. Porque Apple tiene ojos y orejas en todo lo que hace si vives en el ecosistema de Apple. O sea, yo, por ejemplo, todo lo que hago en mi vida lo sabe Apple, si quiere. Porque el ordenador, la tablet, el teléfono, los Airpods, todo lo sabe Apple. Entonces podrían tener una memoria increíble sin tener que integrarse ni depender de otras cosas. Y de momento están fracasando. Y de hecho, ahí fueron pioneros un producto que nos trajiste tú hace un año y pico, que es el de Rewind AI. Que no sé qué ha pasado con eso. Pero la idea era un poco tosca, pero revolucionaria en ese sentido.",
+    "speaker": "SPEAKER_02",
+    "start": 3038.171,
+    "end": 3079.136
+  },
+  {
+    "text": "Rewind se convirtieron en una empresa de hardware. Ah, hicieron una tontería. Lo comentamos también. Sacarán el micro este que te cuelgas aquí, que te permite volver a los momentos pasados. Pendejo.",
+    "speaker": "SPEAKER_00",
+    "start": 3079.156,
+    "end": 3090.902
+  },
+  {
+    "text": "Sí. Pero el concepto era este. Este concepto de memoria con AI absolutamente revolucionario. Nadie ha resuelto una experiencia de usuario que nosotros hayamos visto todavía. Pero sí, está claro que lo va a cambiar todo.",
+    "speaker": "SPEAKER_02",
+    "start": 3090.922,
+    "end": 3101.768
+  },
+  {
+    "text": "Hablando de Takeaway de 2094, yo creo que lo que más me ha revolucionado la mente a mí es el tema de AI. Yo no sé. Realmente es que me lo replanteo todo. Todo el rato. Cuando tú ves ahora los nuevos modelos de VO2. ¿Cómo se llama VO2? Los nombres rarísimos.",
+    "speaker": "SPEAKER_01",
+    "start": 3102.068,
+    "end": 3123.297
+  },
+  {
+    "text": "Google y sus namings. ¿Sabes que es de Google cuando el nombre no tiene ningún sentido?",
+    "speaker": "SPEAKER_02",
+    "start": 3123.397,
+    "end": 3126.658
+  },
+  {
+    "text": "O los Soras, o los Wallys de turno. Y todo lo que está pasando con AI, todo lo que ha pasado este año con AI, para mí es lo más fuerte en muchos años.",
+    "speaker": "SPEAKER_01",
+    "start": 3127.46,
+    "end": 3139.591
+  },
+  {
+    "text": "Y esto es año 2 del público general conociendo estas herramientas. Exacto. Año 2. Imagínate. Pensad en cómo estaba el iPhone en el año 2.",
+    "speaker": "SPEAKER_00",
+    "start": 3140.812,
+    "end": 3149.259
+  },
+  {
+    "text": "No, no, es que es brutal.",
+    "speaker": "SPEAKER_01",
+    "start": 3150.12,
+    "end": 3150.821
+  },
+  {
+    "text": "Que no tenía ni cámara de vídeo.",
+    "speaker": "SPEAKER_00",
+    "start": 3150.841,
+    "end": 3151.781
+  },
+  {
+    "text": "El año 2 tenía Romero el iPhone que no llamaba y yo le decía, ¿pero por qué tiene un teléfono que no llama? Y él, ¡oh, es la hostia!",
+    "speaker": "SPEAKER_01",
+    "start": 3151.961,
+    "end": 3157.025
+  },
+  {
+    "text": "Para hacerme el chulo.",
+    "speaker": "SPEAKER_00",
+    "start": 3157.105,
+    "end": 3157.766
+  },
+  {
+    "text": "Y yo siempre decía, yo nunca me",
+    "speaker": "SPEAKER_02",
+    "start": 3158.907,
+    "end": 3159.987
+  },
+  {
+    "text": "voy a comprar uno y al cabo del año 3 estaba yo.",
+    "speaker": "SPEAKER_01",
+    "start": 3160.007,
+    "end": 3161.809
+  },
+  {
+    "text": "Obviamente, siempre, siempre. Que tenía 480 píxeles de ancho, aquello, ¿eh? O sea, se veían los píxeles desde un kilómetro de lejos. ¿Synapse? No duraba la batería, bueno, ok, pero no. Synapse, sí, sí, era muy, muy tontuno. Pero la experiencia, el touchscreen, el multitouch, A mí me volvió loco. Te flipó. Sí. Bueno, y ahora todo el mundo es multitouch. O sea, cualquier cosa que no tenga touchscreen con sensitividad y tal.",
+    "speaker": "SPEAKER_02",
+    "start": 3161.849,
+    "end": 3190.708
+  },
+  {
+    "text": "Oye, ¿qué te ha parecido VO2, César? Hostia, pues me ha sorprendido, la verdad. Sí, ¿no? Google Delivers, ¿eh? Últimamente. Sí, sí, tío. He visto comparaciones con…",
+    "speaker": "SPEAKER_00",
+    "start": 3190.748,
+    "end": 3199.973
+  },
+  {
+    "text": "Últimamente, o sea, desde la última semana.",
+    "speaker": "SPEAKER_01",
+    "start": 3200.113,
+    "end": 3201.874
+  },
+  {
+    "text": "Últimamente… Ya, todo igual. Google Mates. Ya tenía mala pinta. No, pero, o sea, realmente… He visto comparaciones con mismo prompt y tal entre Sora y el nuevo modelo de vídeo de Google. Le da mil vueltas, honestamente, a Sora.",
+    "speaker": "SPEAKER_00",
+    "start": 3202.154,
+    "end": 3216.908
+  },
+  {
+    "text": "¿Has visto lo del tomate? El tomate lo he visto. 50,000 veces un tomate. Esto lo he visto. Un señor cortando un tomate que va atravesando el tomate mientras lo corta con Sora. y que el otro lo corta perfecto. Que va cayendo el tomate perfecto.",
+    "speaker": "SPEAKER_01",
+    "start": 3216.928,
+    "end": 3229.702
+  },
+  {
+    "text": "He visto uno con unos barcos en una taza de café. Y el cómo interactúan los líquidos con los objetos que hay es muy bestia realmente. Lo bien que lo hace Veo y lo regular que lo hace Sora comparado. Sora, es increíble, es impresionante que seamos capaces de hacer esto. Y más pensando en cómo estábamos hace un año en términos de generación de vídeo. No sé si os acordáis los vídeos rarísimos. Con gente que le salían brazos, cosas. LSD. Hostia, tío, ahora salen cosas hiperrealistas.",
+    "speaker": "SPEAKER_00",
+    "start": 3229.722,
+    "end": 3254.777
+  },
+  {
+    "text": "Sí, los que estamos viendo ahora mismo, no sé si lo estará viendo la audiencia, pero es increíble que esto no sea cierto. Que esto no lo haya hecho un humano con una cámara de verdad o, en el caso de la animación, un equipo con un motor de renders. Total. Total. Esto está a la vuelta de la esquina, ¿eh? O sea, me acuerdo de las primeras generaciones de imagen que eran súper chusqueras, pero dices, ¿sabe generar imágenes? Este concepto del algoritmo stable de Fusion y tal, que a mí al principio me petaba la cabeza, todavía no lo entiendo, pero al principio decía, ostras, una máquina es capaz de inventarse una imagen que más o menos significa algo y eran horribles, eran absolutamente infumables y ahora Flux 1.1 Pro y compañía En cinco minutos haces unas imágenes de lo que quieras con una calidad acojonante y los vídeos están a la vuelta de la esquina.",
+    "speaker": "SPEAKER_02",
+    "start": 3254.797,
+    "end": 3303.819
+  },
+  {
+    "text": "Hablando de hechos de vídeos a la vuelta de la esquina, esta semana, no sé si lo oí ayer, han anunciado Genesis. Genesis es un nuevo tipo de modelo y otras cosas. enfocado a recrear la física del mundo real en ordenadores. Son cuatro cosas realmente, las tengo aquí apuntadas porque son un poco densas. Primero de todo, es un motor de físicas universal construido desde cero. que puede simular materiales, movimiento, o sea, cualquier... Yo he visto las demos que tienen puestas en la página web y son realmente acojonantes cómo hace la física de fluidos, cómo distintos elementos interactúan entre sí, o sea, realmente parece que lo han hecho con un motor de videojuegos donde alguien se ha currado todas estas animaciones. Luego, lo están pensando mucho para robótica, porque al final si tienen una recreación de la física del mundo real, este modelo, cuando lo integras con un robot, claro, de repente puede interactuar con cualquier cosa que exista en el mundo real, porque es capaz de haber hecho la simulación primero, haber sido entrenado para ese caso de uso, y ser capaz de robots que hemos visto en fábricas de distintos fabricantes de vehículos y cosas así, Claro, va a tener un control de materiales, va a tener un control de los pesos, que hasta ahora tenía que ser un poco más manual. Y con este motor es... ¿Y se moverán natural? Que hasta ahora los robots siempre es muy gracioso cuando mandan, que se mueve muy raro. Claro, ahora con esto, si esto funciona realmente... Sí. Al final, estás un poco limitado también por el propio hardware del robot. Claro. Porque no va a tener tantas terminaciones nerviosas, tantos huesos, tantos músculos como los humanos. O más, ¿eh? Por ahora. Por ahora no hemos visto ninguno así. Bueno, no hay ninguna",
+    "speaker": "SPEAKER_00",
+    "start": 3304.759,
+    "end": 3413.313
+  },
+  {
+    "text": "limitación física que lo impida. No.",
+    "speaker": "SPEAKER_01",
+    "start": 3413.333,
+    "end": 3416.495
+  },
+  {
+    "text": "Pero sí que quizás hay una limitación de si tiene sentido o no. El robot ya debe hacer el 99% de las tareas sin tener que replicar todos los músculos que tiene el cuerpo humano.",
+    "speaker": "SPEAKER_00",
+    "start": 3416.695,
+    "end": 3423.68
+  },
+  {
+    "text": "¿Podemos optimizar el cuerpo humano? ¿Por qué es mejor que los motores de videojuego que ya hace años que",
+    "speaker": "SPEAKER_01",
+    "start": 3423.7,
+    "end": 3427.924
+  },
+  {
+    "text": "tienen motores de física bastante guapos? Bueno, porque al final es un poco lo que pasa con AI. Con AI tú puedes coger inputs orgánicos reales, convertirlos a números, meterlos en un modelo y luego hacer predicciones de qué puede pasar con nuevos inputs. Cuando tú tienes un motor de videojuegos, tú lo que tienes es un producto de software que ha creado un developer que ha picado todas esas interacciones a mano, ¿sabes? Que tiene que pensar a mano o de forma generativa, pero no ha sido entrenado de la misma forma con datos reales, sino que han tenido que recrear todas esas cosas de cero. Entonces, es imposible intentar recrear todos los micromovimientos de una persona caminando, por ejemplo. Es prácticamente imposible y en 2014 no hemos llegado a ello.",
+    "speaker": "SPEAKER_00",
+    "start": 3427.944,
+    "end": 3483.914
+  },
+  {
+    "text": "Para aplicar esa lógica, que si lo haces con un motor de física de un videojuego, lo tienes que hacer muy acotado a una implementación. Aquí puedes empezar a tener fantasía con qué le pides a ese motor de física. ¿Y esto es una startup? ¿Es un lab? Es de Google, porque todo se llama Genesys, Gemini.",
+    "speaker": "SPEAKER_02",
+    "start": 3485.354,
+    "end": 3508.969
+  },
+  {
+    "text": "He visto que es una colaboración entre distintos equipos de research de distintas empresas. He visto logos de NVIDIA, de Google, de varias de estas. Lo han sacado completamente open source. ¿Open source? Sí. Y la verdad que la interfaz de código la han sacado en Python y tiene muy buena pinta. Realmente parece súper fácil de usar por casi cualquiera, sea developer o no. Es Genesis con Y, ¿no? Es Genesis con Y latina. ¿Con Y latina?",
+    "speaker": "SPEAKER_00",
+    "start": 3509.089,
+    "end": 3535.984
+  },
+  {
+    "text": "Sí. La otra es una participada del fondo de Ethnic. Sí, pero sin la S. Todo se parece mucho. Bueno, ya lo encontraremos. Muy bien. Ah, sí, sí, tienes razón.",
+    "speaker": "SPEAKER_01",
+    "start": 3536.004,
+    "end": 3547.893
+  },
+  {
+    "text": "Genesis-world.readthedocs.io. Buen dominio, ¿eh? Grupos de research. No les daba para un .com. Despaciaos. Ya lo hemos encontrado.",
+    "speaker": "SPEAKER_02",
+    "start": 3548.053,
+    "end": 3560.202
+  },
+  {
+    "text": "Oye, otra novedad. Y última, ya, porque nos alargamos. Es... Enron. ¡Ribam! A ver, esto es un poco de salseo. Más que una gran novedad tecnológica. Son ideas de regalos de Navidad para nuestro día. Es que a mí me ha hecho ilusión esto.",
+    "speaker": "SPEAKER_00",
+    "start": 3561.592,
+    "end": 3579.759
+  },
+  {
+    "text": "De hecho, antes de explicar lo que... Bueno, antes de poner el vídeo, explico en cinco segundos qué es Enron, por si hay gente joven, como nosotros, que no sabe lo que es Enron. Enron fue una de las compañías más grandes del mundo de energía que también es conocida, sobre todo es conocida por ser uno de los fraudes corporativos más grandes de la historia, donde básicamente con contabilidad creativa falseaban un motor de revenue infinito que iba creciendo, creciendo, creciendo y eran trampas. Movían de una fila del Excel a la otra y se iban sumando. Y esto se acabó descubriendo a principios de los 2000. De hecho, justo ahora hace 23 años. Y se llevó por delante no solo 70 mil millones de dólares de capitalización, de valor bursátil, sino también a Arthur Andersen, que era una de las compañías de auditoría y consultoría más grandes del mundo, también se la vio por delante y chapó. Entonces Enron está muerto y enterrado desde hace un montón de años. Hablamos un montón de ella durante lo de FTX y Sanban Manfred, porque, de hecho, el mismo que sacó a Enron de la bancarrota fue el que fue a FTX. O sea, hemos hablado varias veces.",
+    "speaker": "SPEAKER_02",
+    "start": 3579.879,
+    "end": 3646.511
+  },
+  {
+    "text": "Hay una película o varias. Bueno, sí, sí.",
+    "speaker": "SPEAKER_01",
+    "start": 3646.531,
+    "end": 3649.233
+  },
+  {
+    "text": "Y libros, un montón de libros. Es una historia que, por alguna razón, alguna filia extraña a mí me fascina. Y, de repente, el otro día, vi este vídeo. Que a ver si lo podéis ver. Os enseñamos los primeros segundos. Este video lo vi en twitter.com barra Enron. Y también está en enron.com. Muy apelero, ¿no? Es como un vídeo donde el CEO de Enron habla que claramente parece que se está cachondeando porque es demasiado meme, ¿no? Dice las típicas cosas que una corporación dice, pero sin humor. O sea, es tan malo como cualquier vídeo de una corporación que quiere hacer un vídeo corporativo. Pero claramente la gente es muy joven y la empresa está muerta, ¿no? Entonces te empiezas a preguntar, ¿esto es sátira? ¿Sátira, Anadela? ¿Esto qué es? Entonces me puse a investigar y primero hubo un rumor de que esto era una nueva cryptocurrency que había comprado el dominio y el trademark de Enron, parece ser que no, que es todavía más freaky, que son unos emprendedores que tienen un e-commerce de camisetas que compraron la marca registrada Enron por 275 dólares. ¿En serio? Yo pensaba que eran mil. Y digo… Vaya chollo. Porque, joder, Enron es una marca archiconocida. Totalmente. No sé si para mí. 275 dólares. Qué pasada. Mierda. Oportunidad perdida. Pero es brutal, o sea… Por eso lo quería compartir, porque me ha decido una historia que tiene bastante cachondeo. Pues compraron esta… Es el mismo. Es el mismo.",
+    "speaker": "SPEAKER_02",
+    "start": 3649.273,
+    "end": 3753.237
+  },
+  {
+    "text": "Tiene la marca registrada.",
+    "speaker": "SPEAKER_00",
+    "start": 3753.257,
+    "end": 3754.237
+  },
+  {
+    "text": "Y luego el dominio no estaba incluido. Luego he estado rascando un poco más y se ve que en 2024 el dominio se caducó, se perdió y alguien lo pilló y esta misma gente lo compró. No se ha publicado el importe, pero no creo que sea muchísimo. Y ahora es una web corporativa que parece de verdad, pero es un poco de cachondeo, Y hay una tienda. De hecho, si vamos a Enron.com, podemos ver que se pueden comprar camisetas, sudaderas y chalecos guapísimos. César y yo hemos estado a punto de comprarnos uno antes de empezar el podcast. ¿En serio? ¿Qué tal el texto? Ojalá no hubiera comprado el tren. ¿Ves a Company Store arriba en el centro? Pone Company Store. Mira, mira, aquí una camiseta. Esa sudadera negra de 118 dólares con el logo de Enron Clásico Ro. Esto es un poco… Qué fuerte. Esto muela, ¿eh? Esto no puede salir. La parte de atrás no mola tanto.",
+    "speaker": "SPEAKER_02",
+    "start": 3755.098,
+    "end": 3806.543
+  },
+  {
+    "text": "Eso, mira, sí que es embroidado. Es bordado, sí, sí, ya ves.",
+    "speaker": "SPEAKER_00",
+    "start": 3806.663,
+    "end": 3809.403
+  },
+  {
+    "text": "Bueno, pues la fricada del mundo. Esta gente…",
+    "speaker": "SPEAKER_02",
+    "start": 3809.423,
+    "end": 3812.384
+  },
+  {
+    "text": "No sponsoriza el podcast tampoco, ¿eh?",
+    "speaker": "SPEAKER_01",
+    "start": 3812.524,
+    "end": 3815.565
+  },
+  {
+    "text": "No. Estos son unos cachondos que se merecen que hablemos de ellos. The College Company, se llaman estos frikis, que colla para cerrar, hicieron otra campaña viral que es que hace un par de años hicieron una campaña que por alguna razón les dio por esto, se llamaba Birds Aren't Real. Ah, ¿son estos? Son estos. ¡Hola! Una campaña viral que decían los pájaros no existen. Se convirtió en un meme brutal. Se hizo un meme brutal. Los pájaros son drones del gobierno para espiarnos a todos. Hicieron como un documental y una página web.",
+    "speaker": "SPEAKER_02",
+    "start": 3815.645,
+    "end": 3845.091
+  },
+  {
+    "text": "Había manifestaciones, gente con carteles y tal.",
+    "speaker": "SPEAKER_00",
+    "start": 3845.111,
+    "end": 3847.992
+  },
+  {
+    "text": "Me suena, me suena. Pues fueron los mismos drones.",
+    "speaker": "SPEAKER_01",
+    "start": 3848.312,
+    "end": 3850.532
+  },
+  {
+    "text": "que ha dicho esto. O sea, que estamos un poco ese… La cultura esta del meme, o sea, mola realmente, ¿no? Gente con narices y haciendo movimientos porque… No sé, me ha gustado, la verdad. Chapo para los chavales de… Este, el Corner Gaydos, que es el chaval del vídeo, es el CEO de Enron. Y este señor de la derecha está muy enfadado. Pero bueno, esta gente…",
+    "speaker": "SPEAKER_02",
+    "start": 3850.692,
+    "end": 3873.344
+  },
+  {
+    "text": "Oye, voy a pedirle a una gente que monitorice marcas épicas. Las típicas marcas épicas. ¿Sabes cuándo caduca Factorio mientras estamos hablando?",
+    "speaker": "SPEAKER_01",
+    "start": 3874.464,
+    "end": 3884.128
+  },
+  {
+    "text": "No hablemos que ya hemos tenido sustos. Tienen Core Values, que cada uno empieza por las letras de Enron. Nurture, Repentance, no sé qué significan esas palabras. Es que es muy cachondo y muy bien hecho.",
+    "speaker": "SPEAKER_02",
+    "start": 3884.488,
+    "end": 3897.373
+  },
+  {
+    "text": "Muy bien. Oye, pues yo creo que con esto podemos cerrar el año. Muy bien. El año que viene vendremos con más y mejor. De hecho, mañana tenemos una sesión de brainstorming para hablar de los formatos. ¿Qué más contamos? Transparencia. Que lo sepa todo el mundo. Todo. Transparencia absoluta. Y nada, os deseamos a todos muchísimas buenas fiestas y feliz año nuevo. ¿Algo más añadir?",
+    "speaker": "SPEAKER_01",
+    "start": 3898.013,
+    "end": 3926.5
+  },
+  {
+    "text": "Descansar, comed con responsabilidad y pasaros lo bien. Y bebéis sin responsabilidad. Y bebéis sin responsabilidad y nos vemos en el año nuevo.",
+    "speaker": "SPEAKER_02",
+    "start": 3926.52,
+    "end": 3933.676
+  },
+  {
+    "text": "Muy bien. Hasta el año que viene.",
+    "speaker": "SPEAKER_01",
+    "start": 3934.317,
+    "end": 3935.419
+  }
+]
