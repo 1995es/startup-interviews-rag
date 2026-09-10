@@ -4,9 +4,8 @@ Transcripción completa de 10 vídeos del canal [Itnig](https://www.youtube.com/
 este repositorio:
 
 ```bash
-.venv\Scripts\python.exe video_to_text.py "<url>" --language es --diarize --min-speakers 2
+.venv\Scripts\python.exe youtube_to_json.py "<url>" --language es --min-speakers 2
 .venv\Scripts\python.exe json_to_script.py output/<id>.json --timestamps
-.venv\Scripts\python.exe json_to_simple.py output/<id>.json
 ```
 
 ## Cómo se eligieron
@@ -33,10 +32,15 @@ El detalle completo, en [`seleccion.json`](seleccion.json).
 
 ## Qué hay en cada fichero
 
-- `NN-titulo.md` — el guion: una línea por intervención, con marca de tiempo e
-  interlocutor (`` `00:12:34` **SPEAKER_01** — … ``). Es la salida de
-  `json_to_script.py`, que corta los turnos **por palabra** y no por segmento.
-- `NN-titulo.json` — lo mismo en `[{text, speaker, start, end}]`, para procesar.
+- `NN-titulo.json` — la salida del pipeline: `[{text, speaker, start, end}]`,
+  un elemento por intervención, con los turnos cortados **por palabra** y no
+  por segmento.
+- `NN-titulo.md` — el mismo contenido maquetado con `json_to_script.py`: una
+  línea por intervención, con marca de tiempo e interlocutor
+  (`` `00:12:34` **SPEAKER_01** — … ``). La cabecera con el enlace al vídeo, la
+  fecha y la duración se añadió a mano a partir de
+  [`seleccion.json`](seleccion.json); el resto del fichero sale tal cual del
+  script.
 
 ## Avisos
 
@@ -44,7 +48,7 @@ El detalle completo, en [`seleccion.json`](seleccion.json).
   se come nombres propios y puntúa a su manera.
 - `SPEAKER_XX` es una etiqueta, no una persona. La diarización agrupa voces por
   parecido acústico; no sabe quién es quién y a veces parte o fusiona hablantes.
-- El JSON completo de WhisperX (con `words`, `score`…) pesa ~5 MB por vídeo y no
-  está en el repositorio: se regenera con `video_to_text.py`.
+- El JSON crudo de WhisperX (con `words`, `score`…, ~5 MB por vídeo) no se
+  guarda: el pipeline agrupa los turnos y escribe directamente la lista plana.
 - El contenido de los vídeos es de Itnig; esto es una transcripción con fines de
   análisis y búsqueda.

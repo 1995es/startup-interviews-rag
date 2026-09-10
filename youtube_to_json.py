@@ -14,6 +14,7 @@ import argparse
 import json
 import os
 import re
+import shutil
 import subprocess
 import sys
 import time
@@ -44,8 +45,21 @@ def log(msg: str) -> None:
     print(f"[{time.strftime('%H:%M:%S')}] {msg}", flush=True)
 
 
+def require_ffmpeg() -> None:
+    """yt-dlp, the local conversion and whisperx.load_audio all shell out to
+    the ffmpeg CLI."""
+    if shutil.which("ffmpeg") is None:
+        sys.exit(
+            "ERROR: 'ffmpeg' is not on the PATH.\n"
+            "  winget install Gyan.FFmpeg   (Windows)\n"
+            "  brew install ffmpeg          (macOS)\n"
+            "  sudo apt install ffmpeg      (Linux)"
+        )
+
+
 def get_audio(source: str, audio_dir: Path) -> Path:
     """Download or extract the audio as a 16 kHz mono wav."""
+    require_ffmpeg()
     if re.match(r"^https?://", source, re.IGNORECASE):
         import yt_dlp
 
@@ -217,8 +231,16 @@ def main() -> None:
     audio = whisperx.load_audio(str(audio_path))
 
     log(f"Transcribing '{audio_path.name}' with {args.model} on {device} ...")
-    model = whisperx.load_model(args.model, device, compute_type=compute_type,
-                                language=args.language)
+    try:
+        model = whisperx.load_model(args.model, device, compute_type=compute_type,
+                                    language=args.language)
+    except Exception as exc:  # e.g. a GPU without float16 or missing cuDNN DLLs
+        if device == "cpu":
+            raise
+        log(f"GPU load failed ({exc}). Falling back to CPU/int8 (slower) ...")
+        device, compute_type = "cpu", "int8"
+        model = whisperx.load_model(args.model, device, compute_type=compute_type,
+                                    language=args.language)
     result = model.transcribe(audio, batch_size=16, language=args.language)
 
     log(f"Aligning words (language: {result['language']}) ...")
