@@ -1,0 +1,83 @@
+[project]
+name = "video-rag"
+version = "0.1.0"
+description = "Local video -> text pipeline with WhisperX, plus LLM-based ingestion for RAG"
+readme = "README.md"
+# ctranslate2 4.5.0 only ships wheels up to cp312.
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "whisperx (==3.8.6)",
+    # Keep yt-dlp current: with 2026.7.4 YouTube answered 403 on *any* full
+    # download (every player_client and every format string). 2026.8.19 fixed
+    # it without touching anything else.
+    "yt-dlp (>=2026.8.19)",
+    # ctranslate2 4.8.1 (the one faster-whisper pulls in) segfaults on the
+    # Windows box when loading any model, on CPU and GPU. 4.5.0 works.
+    "ctranslate2 (==4.5.0)",
+    # Pinned here (whisperx asks for ~=2.8.0) so the Windows build can be
+    # forced to the CUDA wheels below.
+    "torch (==2.8.0)",
+    "torchaudio (==2.8.0)",
+    "torchvision (==0.23.0)",
+    # cuDNN 9 / cuBLAS 12 DLLs that CTranslate2 needs on Windows (registered
+    # at runtime by the WhisperX adapter). On Linux torch brings its own.
+    "nvidia-cublas-cu12 (==12.6.4.1) ; platform_system == 'Windows'",
+    "nvidia-cudnn-cu12 (==9.5.1.17) ; platform_system == 'Windows'",
+    # LLM providers behind the LLMProvider port (step 2 of docs/ingesta-llm.md)
+    "anthropic (>=1.11.0)",
+    "python-dotenv",
+    "pyyaml",
+    # OpenRouter adapter (OpenAI-compatible API)
+    "openai (>=3.24.0,<4.0.0)",
+]
+
+[tool.poetry]
+packages = [{ include = "video_rag" }]
+
+# On Windows the CUDA build is mandatory: plain torch==2.8.0 lets the installer
+# pick the +cpu wheel and torch.cuda.is_available() turns False. torch 2.13
+# fails to import there (WinError 1114 loading c10.dll), hence the exact pin.
+[tool.poetry.dependencies]
+torch = [
+    { version = "2.8.0+cu126", source = "pytorch-cu126", markers = "platform_system == 'Windows'" },
+    { version = "2.8.0", source = "PyPI", markers = "platform_system != 'Windows'" },
+]
+torchaudio = [
+    { version = "2.8.0+cu126", source = "pytorch-cu126", markers = "platform_system == 'Windows'" },
+    { version = "2.8.0", source = "PyPI", markers = "platform_system != 'Windows'" },
+]
+torchvision = [
+    { version = "0.23.0+cu126", source = "pytorch-cu126", markers = "platform_system == 'Windows'" },
+    { version = "0.23.0", source = "PyPI", markers = "platform_system != 'Windows'" },
+]
+
+[[tool.poetry.source]]
+name = "pytorch-cu126"
+url = "https://download.pytorch.org/whl/cu126"
+priority = "explicit"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "pytest (>=9.1.1,<10.0.0)",
+    "ruff (>=0.16.10,<0.17.0)"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["tests"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+extend-exclude = ["guiones"]
+
+[tool.ruff.lint]
+# pycodestyle, pyflakes, isort, bugbear, pyupgrade, simplify
+select = ["E", "W", "F", "I", "B", "UP", "SIM"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["video_rag", "fakes"]

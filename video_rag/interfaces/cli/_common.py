@@ -1,0 +1,60 @@
+import argparse
+import functools
+import logging
+import sys
+from collections.abc import Callable
+
+from video_rag.application.ports.transcription import TranscriptionOptions
+from video_rag.domain.errors import VideoRagError
+
+
+def configure_logging() -> None:
+    """`[HH:MM:SS] message` on stdout, one line per record."""
+    handler = logging.StreamHandler(sys.stdout)
+    handler.setFormatter(logging.Formatter("[%(asctime)s] %(message)s", "%H:%M:%S"))
+    root = logging.getLogger("video_rag")
+    root.handlers[:] = [handler]
+    root.setLevel(logging.INFO)
+    root.propagate = False
+
+
+def cli_entrypoint(func: Callable[[], None]) -> Callable[[], None]:
+    """Decorates a command's `main`: configures logging when the command
+    runs (not on import) and turns expected failures into a one-line error
+    instead of a traceback."""
+
+    @functools.wraps(func)
+    def wrapper() -> None:
+        configure_logging()
+        try:
+            func()
+        except VideoRagError as exc:
+            sys.exit(f"ERROR: {exc}")
+
+    return wrapper
+
+
+def add_transcription_args(ap: argparse.ArgumentParser) -> None:
+    """The WhisperX flags shared by every command that transcribes."""
+    ap.add_argument(
+        "--model", default=TranscriptionOptions.model, help="Whisper model (tiny..large-v3)"
+    )
+    ap.add_argument("--language", help="language code, e.g. en (auto-detected if omitted)")
+    ap.add_argument("--min-speakers", type=int)
+    ap.add_argument("--max-speakers", type=int)
+    ap.add_argument(
+        "--min-words",
+        type=int,
+        default=TranscriptionOptions.min_words,
+        help="shorter turns are merged into their neighbour",
+    )
+
+
+def transcription_options(args: argparse.Namespace) -> TranscriptionOptions:
+    return TranscriptionOptions(
+        model=args.model,
+        language=args.language,
+        min_speakers=args.min_speakers,
+        max_speakers=args.max_speakers,
+        min_words=args.min_words,
+    )

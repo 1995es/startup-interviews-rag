@@ -4,8 +4,8 @@ Transcripción completa de 10 vídeos del canal [Itnig](https://www.youtube.com/
 este repositorio:
 
 ```bash
-.venv\Scripts\python.exe youtube_to_json.py "<url>" --language es --min-speakers 2
-.venv\Scripts\python.exe json_to_script.py output/<id>.json --timestamps
+poetry run python video_rag/interfaces/cli/transcribe.py "<url>" --language es --min-speakers 2
+poetry run python video_rag/interfaces/cli/script.py output/<id>.json --timestamps
 ```
 
 ## Cómo se eligieron
@@ -35,7 +35,7 @@ El detalle completo, en [`seleccion.json`](seleccion.json).
 - `NN-titulo.json` — la salida del pipeline: `[{text, speaker, start, end}]`,
   un elemento por intervención, con los turnos cortados **por palabra** y no
   por segmento.
-- `NN-titulo.md` — el mismo contenido maquetado con `json_to_script.py`: una
+- `NN-titulo.md` — el mismo contenido maquetado con `script.py`: una
   línea por intervención, con marca de tiempo e interlocutor
   (`` `00:12:34` **SPEAKER_01** — … ``). La cabecera con el enlace al vídeo, la
   fecha y la duración se añadió a mano a partir de
