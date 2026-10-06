@@ -7,7 +7,7 @@ Es gratis, reproducible bit a bit y depurable, pero depende por completo de la d
 
 ```mermaid
 flowchart TD
-    A["transcribe.py<br/>output/{id}.json<br/>[{text, speaker, start, end}]"] --> C
+    A["transcripción (prepare.py)<br/>output/{id}.json<br/>[{text, speaker, start, end}]"] --> C
     B["yt-dlp --dump-json<br/>meta/{id}.json<br/>título, descripción, fecha"] --> C
 
     C["1. Clasificar episodio<br/>entrevista / tertulia / otro"] -->|tertulia| X["Excluir o ventana<br/>de turnos (fallback)"]
@@ -26,7 +26,7 @@ flowchart TD
 
 ### 1. Clasificar el episodio
 
-- **Entrada:** turnos y metadatos. `transcribe.py` no guarda título ni descripción, así que se obtienen aparte con `yt-dlp --dump-json <url>`, igual que en `guiones/seleccion.json`.
+- **Entrada:** turnos y metadatos. La transcripción no guarda título ni descripción, así que se obtienen aparte con `yt-dlp --dump-json <url>` (`meta/{id}.json`), igual que en `guiones/seleccion.json`.
 - **Reglas, en este orden:**
   1. El título contiene `Tertulia` → `tertulia`.
   2. El hablante principal supera el 70 % de las palabras → `entrevista`.

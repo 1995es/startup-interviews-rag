@@ -43,8 +43,7 @@ class JsonTranscriptRepository(TranscriptRepository):
             return None
         if not isinstance(data, list):
             raise StorageError(
-                f"{path}: expected the list [{{text, speaker, start, end}}] "
-                "written by transcribe.py."
+                f"{path}: expected the list [{{text, speaker, start, end}}] written by prepare.py."
             )
         return [Turn.from_dict(row) for row in data]
 

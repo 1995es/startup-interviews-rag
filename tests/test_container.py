@@ -34,3 +34,12 @@ def test_segment_episode_gets_the_configured_provider():
 def test_bad_configuration_raises(settings):
     with pytest.raises(ConfigError):
         container.build_llm(settings)
+
+
+def test_prepare_llm_input_does_not_load_whisperx_until_needed(monkeypatch):
+    import sys
+
+    module = "video_rag.infrastructure.transcription.whisperx_recognizer"
+    monkeypatch.delitem(sys.modules, module, raising=False)  # other tests import it
+    container.prepare_llm_input(Settings())
+    assert module not in sys.modules

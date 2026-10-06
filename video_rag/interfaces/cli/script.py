@@ -31,7 +31,7 @@ def parse_args() -> argparse.Namespace:
     ap = argparse.ArgumentParser(
         description="Turns the pipeline's flat JSON into a Markdown script."
     )
-    ap.add_argument("json_path", help=".json file written by transcribe.py")
+    ap.add_argument("json_path", help=".json transcript written by prepare.py (output/<id>.json)")
     ap.add_argument("-o", "--output", default=None, help="output file (default: <name>.guion.md)")
     ap.add_argument("--title", default=None, help="document title")
     ap.add_argument("--timestamps", action="store_true", help="add timestamps")

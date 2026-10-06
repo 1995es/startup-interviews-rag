@@ -7,10 +7,10 @@ factories, so building one use case does not load the others' stacks.
 """
 
 from video_rag.application.ports.llm import LLMProvider
+from video_rag.application.ports.transcription import SpeechRecognizer
 from video_rag.application.use_cases.prepare_llm_input import PrepareLLMInput
 from video_rag.application.use_cases.render_script import RenderScript
 from video_rag.application.use_cases.segment_episode import SegmentEpisode
-from video_rag.application.use_cases.transcribe_video import TranscribeVideo
 from video_rag.config import ConfigError, Settings
 from video_rag.infrastructure.persistence.json_repositories import (
     FileLLMInputRepository,
@@ -52,29 +52,27 @@ def build_llm(settings: Settings) -> LLMProvider:
     )
 
 
-def transcribe_video(settings: Settings) -> TranscribeVideo:
-    from video_rag.infrastructure.audio.ytdlp_audio_source import YtDlpAudioSource
-    from video_rag.infrastructure.transcription.whisperx_recognizer import WhisperXRecognizer
-
-    return TranscribeVideo(
-        audio=YtDlpAudioSource(settings.audio_dir),
-        recognizer=WhisperXRecognizer(hf_token=settings.hf_token),
-        transcripts=JsonTranscriptRepository(settings.transcripts_dir),
-    )
-
-
 def render_script(settings: Settings) -> RenderScript:
     return RenderScript(JsonTranscriptRepository(settings.transcripts_dir))
 
 
+def _whisperx(settings: Settings) -> SpeechRecognizer:
+    from video_rag.infrastructure.transcription.whisperx_recognizer import WhisperXRecognizer
+
+    return WhisperXRecognizer(hf_token=settings.hf_token)
+
+
 def prepare_llm_input(settings: Settings) -> PrepareLLMInput:
+    from video_rag.infrastructure.audio.ytdlp_audio_source import YtDlpAudioSource
     from video_rag.infrastructure.metadata.ytdlp_metadata_source import YtDlpMetadataSource
-    from video_rag.infrastructure.transcription.subprocess_transcriber import SubprocessTranscriber
+    from video_rag.infrastructure.transcription.lazy_recognizer import LazyRecognizer
 
     return PrepareLLMInput(
         metadata_source=YtDlpMetadataSource(),
         metadata=JsonMetadataRepository(settings.meta_dir),
-        transcriber=SubprocessTranscriber(),
+        audio=YtDlpAudioSource(settings.audio_dir),
+        # WhisperX is only imported if there is something to transcribe
+        recognizer=LazyRecognizer(lambda: _whisperx(settings)),
         transcripts=JsonTranscriptRepository(settings.transcripts_dir),
         llm_inputs=FileLLMInputRepository(settings.llm_input_dir),
     )

@@ -15,14 +15,13 @@ entrada (URL de YouTube | vídeo/audio local)
 ```
 
 Encima de eso va la ingesta con LLM para un RAG
-([`docs/ingesta-llm.md`](docs/ingesta-llm.md)). Hay cuatro scripts, en
+([`docs/ingesta-llm.md`](docs/ingesta-llm.md)). Hay tres scripts, en
 [`video_rag/interfaces/cli/`](video_rag/interfaces/cli/):
 
 | Script | Qué hace |
 |---|---|
-| `transcribe.py` | el pipeline de transcripción: URL o fichero → `output/<id>.json` |
-| `script.py` | ese JSON → guion en Markdown, una fila por intervención |
-| `prepare.py` | paso 1 de la ingesta: metadatos + transcripción → `llm_input/<id>.txt` numerado |
+| `prepare.py` | paso 1 de la ingesta: URL → metadatos + transcripción (`output/<id>.json`) → `llm_input/<id>.txt` numerado |
+| `script.py` | el `output/<id>.json` → guion en Markdown, una fila por intervención |
 | `segment.py` | paso 2: una llamada al LLM por episodio → `segments/<id>.json` |
 
 ## Arquitectura
@@ -34,7 +33,7 @@ hexagonal (puertos y adaptadores):
 domain/          lógica pura (turnos, numeración, guion, prompt de segmentación)
 application/     casos de uso + puertos (clases abstractas) que necesitan
 infrastructure/  adaptadores: WhisperX, yt-dlp, Anthropic, OpenRouter, ficheros JSON
-interfaces/cli/  los cuatro scripts (más adelante, interfaces/api/)
+interfaces/cli/  los tres scripts (más adelante, interfaces/api/)
 container.py     composition root: elige los adaptadores e inyecta dependencias
 ```
 
@@ -74,8 +73,10 @@ video_rag/interfaces/cli/<script>.py`. Los tests, con
 ## Uso
 
 ```bash
-poetry run python video_rag/interfaces/cli/transcribe.py "https://www.youtube.com/watch?v=2vv4hHAvqnE" --language es --min-speakers 2
+poetry run python video_rag/interfaces/cli/prepare.py "https://www.youtube.com/watch?v=2vv4hHAvqnE" --language es --min-speakers 2
 ```
+
+Además de `llm_input/`, deja la transcripción en `output/2vv4hHAvqnE.json`:
 
 ```json
 [
@@ -88,12 +89,14 @@ poetry run python video_rag/interfaces/cli/transcribe.py "https://www.youtube.co
 ]
 ```
 
-Acepta también rutas locales (`.mp4`, `.mkv`, `.mp3`, `.wav`…). El wav
-intermedio se guarda en `audio/` y el JSON en `output/<id>.json`; volver a
-lanzarlo sobre el `.wav` ya descargado ahorra la descarga y la conversión.
+El wav intermedio se guarda en `audio/<id>.wav` y los metadatos en
+`meta/<id>.json`. Si ya existen `meta/<id>.json` y `output/<id>.json`, se
+reutilizan sin red ni WhisperX; `--force` los rehace. El wav se reutiliza
+siempre, también con `--force`, así que nunca se descarga dos veces.
 
-Opciones: `--model` (`tiny`…`large-v3`, por defecto `large-v2`), `--language`,
-`--min-speakers` / `--max-speakers`, `--min-words` y `-o`. El dispositivo se
+Opciones de transcripción: `--model` (`tiny`…`large-v3`, por defecto
+`large-v2`), `--language`, `--min-speakers` / `--max-speakers` y
+`--min-words`. El dispositivo se
 autodetecta (CUDA si la hay, y si el modelo no carga en GPU se reintenta en
 CPU/int8).
 

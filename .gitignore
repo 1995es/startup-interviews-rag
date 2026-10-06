@@ -8,13 +8,14 @@ __pycache__/
 .env
 *.token
 
-# Ficheros generados
-audio/
-output/
-output_test/
-meta/
-llm_input/
-segments/
+# Ficheros generados (anclados a la raiz: sin la barra, audio/ ignoraba
+# tambien video_rag/infrastructure/audio/)
+/audio/
+/output/
+/output_test/
+/meta/
+/llm_input/
+/segments/
 
 # Token de HuggingFace suelto
 .hftoken

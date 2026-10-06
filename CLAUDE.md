@@ -14,7 +14,7 @@ video_rag/
 ├── domain/          lógica pura: sin E/S ni dependencias de terceros
 ├── application/
 │   ├── ports/       clases abstractas que necesitan los casos de uso
-│   └── use_cases/   TranscribeVideo, RenderScript, PrepareLLMInput, SegmentEpisode
+│   └── use_cases/   PrepareLLMInput, SegmentEpisode, RenderScript
 ├── infrastructure/  adaptadores de salida: WhisperX, yt-dlp, Anthropic, OpenRouter, JSON
 ├── interfaces/
 │   └── cli/         adaptadores de entrada (más adelante, api/)
@@ -29,28 +29,37 @@ terceros. Las interfaces piden el caso de uso a `container` y nunca importan
 `infrastructure` por su cuenta. La inyección es por constructor, a mano y sin
 framework.
 
-Los cuatro scripts de `video_rag/interfaces/cli/`. No hay comandos instalados
+Los tres scripts de `video_rag/interfaces/cli/`. No hay comandos instalados
 (`[project.scripts]`): se lanzan por ruta, `poetry run python
 video_rag/interfaces/cli/<script>.py`. Los imports `video_rag.*` resuelven
 porque `poetry install` instala el propio paquete en el venv en modo editable.
 
-- `transcribe.py`: URL o fichero local → wav 16 kHz
-  mono → transcripción → alineación por palabra → diarización → JSON
-  `[{text, speaker, start, end}]` agrupado por turnos. La diarización se
-  activa sola si hay `HF_TOKEN` (entorno o `.env`) y GPU/CPU se autodetectan.
-- `script.py`: ese JSON plano → guion Markdown tipo
-  entrevista, una fila por intervención. **Solo maqueta**: no toca los turnos.
-- `prepare.py`: paso 1 de `docs/ingesta-llm.md`.
-  URL → metadatos (`meta/<id>.json`) + transcripción → `llm_input/<id>.txt`
+- `prepare.py`: paso 1 de `docs/ingesta-llm.md` y la única puerta de entrada
+  de un vídeo (solo URLs). Un único caso de uso, `PrepareLLMInput`:
+  metadatos (`meta/<id>.json`) → wav 16 kHz mono (`audio/<id>.wav`) →
+  transcripción → alineación por palabra → diarización → turnos
+  (`output/<id>.json`, `[{text, speaker, start, end}]`) → `llm_input/<id>.txt`
   con turnos numerados (`t020`, y `t020.s1`… en los de más de 150 palabras) y
-  `llm_input/<id>.json` con el texto original de cada ID. La transcripción va
-  en un **proceso hijo** (`SubprocessTranscriber`); si ya existen
-  `meta/<id>.json` y `output/<id>.json`, los reutiliza sin red ni WhisperX.
+  `llm_input/<id>.json` con el texto original de cada ID. Reutiliza lo que ya
+  existe: `meta/<id>.json` y `output/<id>.json` (sin red ni WhisperX; `--force`
+  los rehace) y `audio/<id>.wav` (sin descargar, también con `--force`). La
+  diarización se activa sola si hay `HF_TOKEN` (entorno o `.env`) y GPU/CPU se
+  autodetectan.
+- `script.py`: el `output/<id>.json` → guion Markdown tipo
+  entrevista, una fila por intervención. **Solo maqueta**: no toca los turnos.
 - `segment.py`: paso 2. `llm_input/<id>.txt` → una
   llamada al LLM con salida con esquema JSON → `segments/<id>.json` (speakers,
   units, glossary, episode_summary). La caché va por `model` +
   `PROMPT_VERSION` (`domain/segmentation.py`). Las `raw_tags` son libres, sin
   taxonomía cerrada (ver el paso 9 del doc).
+
+La transcripción corre **en el mismo proceso** que `prepare.py`. Antes había
+un `transcribe.py` aparte que `prepare.py` lanzaba como proceso hijo para aislar
+el *segfault* de CTranslate2; se fusionó a cambio de perder ese aislamiento.
+Hay dos mitigaciones: `cli_entrypoint` activa `faulthandler`, así que un crash
+nativo imprime la pila de Python en vez de morir en silencio, y el
+reconocedor va envuelto en `LazyRecognizer`, así que WhisperX/torch solo se
+importan si de verdad hay que transcribir.
 
 ### LLM: puerto `LLMProvider`
 
@@ -81,6 +90,21 @@ guiones de vídeos de Itnig (`.md` anotado + `.json` plano) más su índice. Se
 regenera con el pipeline normal; `audio/`, `output/`, `meta/`, `llm_input/` y
 `segments/` siguen ignorados.
 
+`notebooks/h1_diarization_check.ipynb` es un cuaderno de Colab **autónomo**
+(no clona el repo, que es privado) para validar la hipótesis H1: comparar la
+diarización con solapes y la exclusiva de pyannote. Está documentado en inglés
+para quien lo vea desde fuera. Instala con `pip` en el Python del propio Colab,
+como cualquier demo de WhisperX: **sin venv ni lock**. Solo fija `whisperx` a
+la versión de `poetry.lock`; yt-dlp va sin fijar, porque uno viejo es lo que
+rompe las descargas de YouTube. Un venv aparte heredaba el entorno del kernel
+(`MPLBACKEND=module://matplotlib_inline.backend_inline`) sin sus paquetes, y
+las versiones del lock (pensadas para Windows: `ctranslate2 4.5.0`, `nltk
+3.10.3`) no aportaban nada en Colab y rompían cosas. Lleva `video_rag/`
+embebido como tar.gz en base64 y `h1_check.py` tal cual; también descarga
+`punkt_tab` de NLTK, porque las versiones recientes de NLTK rechazan descargas a
+través de un proxy y Colab usa uno. Lo genera `notebooks/build_h1_notebook.py`:
+no editar el `.ipynb` a mano, `tests/test_notebook.py` falla si está desfasado.
+
 Las dependencias se gestionan con **Poetry** (`pyproject.toml` +
 `poetry.lock`; no hay `requirements.txt`). `poetry.toml` fija el venv dentro
 del proyecto, en `.venv/`. Todo se ejecuta con `poetry run`. Un script
@@ -92,18 +116,16 @@ dependencia, `poetry add <paquete>`, nunca `pip install`. Python 3.11–3.12:
 ## Comandos
 
 ```bash
-# URL -> output/<id>.json con {text, speaker, start, end}
-poetry run python video_rag/interfaces/cli/transcribe.py "https://www.youtube.com/watch?v=..." --language es --min-speakers 2
-
-# Iteracion rapida sobre cambios de codigo: modelo pequeno + audio corto
-poetry run python video_rag/interfaces/cli/transcribe.py "audio/foo.wav" --model tiny --language es -o output_test/foo.json
-
-# JSON -> guion Markdown
-poetry run python video_rag/interfaces/cli/script.py output/<id>.json --timestamps
-
-# Ingesta con LLM (pasos 1 y 2)
+# Ingesta con LLM (pasos 1 y 2). El paso 1 deja tambien output/<id>.json
 poetry run python video_rag/interfaces/cli/prepare.py "https://www.youtube.com/watch?v=..." --language es --min-speakers 2
 poetry run python video_rag/interfaces/cli/segment.py <id> [--provider openrouter] [--model ...] [--force]
+
+# output/<id>.json -> guion Markdown
+poetry run python video_rag/interfaces/cli/script.py output/<id>.json --timestamps
+
+# Iteracion rapida sobre la transcripcion: modelo pequeno, rehace output/<id>.json
+# (el wav de audio/ se reutiliza, no se vuelve a descargar)
+poetry run python video_rag/interfaces/cli/prepare.py "https://www.youtube.com/watch?v=..." --model tiny --language es --force
 
 # Tests (dominio, casos de uso con fakes, adaptadores LLM con clientes stub)
 poetry run pytest
@@ -112,9 +134,6 @@ poetry run pytest
 poetry run ruff format .
 poetry run ruff check . --fix
 ```
-
-Reejecutar sobre un `.wav` ya descargado en `audio/` ahorra la descarga; el
-adaptador detecta que la entrada ya es wav y no vuelve a pasar por ffmpeg.
 
 Los tests no tocan red ni modelos: `tests/fakes.py` tiene adaptadores en
 memoria de los puertos, y los adaptadores LLM se prueban con clientes stub
@@ -155,7 +174,8 @@ Sin eso CTranslate2 no encuentra cuDNN/cuBLAS en Windows. No mover esa llamada
 por debajo de los imports de whisperx, que por eso mismo son locales, dentro
 de `recognize()`. Por la misma razón, `container.py` importa los adaptadores
 pesados (WhisperX, los SDK de LLM) dentro de cada factoría y no arriba del
-módulo.
+módulo, y el de WhisperX además detrás de `LazyRecognizer`: en Windows ese
+import ya carga torch.
 
 **Los turnos de hablante se cortan por palabra, no por segmento.** Un segmento
 de Whisper dura ~20 s y suele contener pregunta y respuesta, así que agrupar

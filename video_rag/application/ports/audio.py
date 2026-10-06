@@ -9,8 +9,8 @@ class AudioError(VideoRagError):
 
 
 class AudioSource(ABC):
-    """URL or local video/audio file -> 16 kHz mono wav on disk."""
+    """Video URL -> 16 kHz mono wav on disk."""
 
     @abstractmethod
-    def fetch(self, source: str) -> Path:
+    def fetch(self, url: str) -> Path:
         """Raises AudioError if the audio cannot be obtained."""

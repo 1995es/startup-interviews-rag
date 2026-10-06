@@ -4,7 +4,7 @@ Transcripción completa de 10 vídeos del canal [Itnig](https://www.youtube.com/
 este repositorio:
 
 ```bash
-poetry run python video_rag/interfaces/cli/transcribe.py "<url>" --language es --min-speakers 2
+poetry run python video_rag/interfaces/cli/prepare.py "<url>" --language es --min-speakers 2
 poetry run python video_rag/interfaces/cli/script.py output/<id>.json --timestamps
 ```
 

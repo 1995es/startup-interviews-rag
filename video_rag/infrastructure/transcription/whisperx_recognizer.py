@@ -51,9 +51,13 @@ class WhisperXRecognizer(SpeechRecognizer):
 
         device = "cuda" if torch.cuda.is_available() else "cpu"
         compute_type = "float16" if device == "cuda" else "int8"
-        audio = whisperx.load_audio(str(audio))
+        waveform = whisperx.load_audio(str(audio))
 
         log.info(f"Transcribing '{audio.name}' with {options.model} on {device} ...")
+        # whisperx.load_model imports whisperx.asr lazily. Importing it here, outside
+        # the try, keeps an import error from passing for a GPU failure.
+        import whisperx.asr  # noqa: F401
+
         try:
             model = whisperx.load_model(
                 options.model, device, compute_type=compute_type, language=options.language
@@ -66,14 +70,14 @@ class WhisperXRecognizer(SpeechRecognizer):
             model = whisperx.load_model(
                 options.model, device, compute_type=compute_type, language=options.language
             )
-        result = model.transcribe(audio, batch_size=self._batch_size, language=options.language)
+        result = model.transcribe(waveform, batch_size=self._batch_size, language=options.language)
 
         log.info(f"Aligning words (language: {result['language']}) ...")
         model_a, metadata = whisperx.load_align_model(
             language_code=result["language"], device=device
         )
         result = whisperx.align(
-            result["segments"], model_a, metadata, audio, device, return_char_alignments=False
+            result["segments"], model_a, metadata, waveform, device, return_char_alignments=False
         )
 
         if self._hf_token:
@@ -89,7 +93,7 @@ class WhisperXRecognizer(SpeechRecognizer):
                 if v
             }
             pipeline = DiarizationPipeline(token=self._hf_token, device=device)
-            result = whisperx.assign_word_speakers(pipeline(audio, **kwargs), result)
+            result = whisperx.assign_word_speakers(pipeline(waveform, **kwargs), result)
         else:
             log.info("WARNING: HF_TOKEN not set, skipping diarization (single speaker).")
 

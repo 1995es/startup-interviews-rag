@@ -1,4 +1,5 @@
 import argparse
+import faulthandler
 import functools
 import logging
 import sys
@@ -21,10 +22,12 @@ def configure_logging() -> None:
 def cli_entrypoint(func: Callable[[], None]) -> Callable[[], None]:
     """Decorates a command's `main`: configures logging when the command
     runs (not on import) and turns expected failures into a one-line error
-    instead of a traceback."""
+    instead of a traceback. faulthandler makes a native crash (CTranslate2
+    segfault) print the Python stack instead of dying silently."""
 
     @functools.wraps(func)
     def wrapper() -> None:
+        faulthandler.enable()
         configure_logging()
         try:
             func()

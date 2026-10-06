@@ -7,7 +7,7 @@ Los chunks se cortan siempre del texto original. Si la respuesta del LLM no pasa
 
 ```mermaid
 flowchart TD
-    A["transcribe.py<br/>output/{id}.json<br/>[{text, speaker, start, end}]"] --> C
+    A["transcripción (prepare.py)<br/>output/{id}.json<br/>[{text, speaker, start, end}]"] --> C
     B["yt-dlp --dump-json<br/>meta/{id}.json<br/>título, descripción, fecha"] --> C
 
     C["1. Preparar entrada<br/>numerar turnos t042 y frases t042.s03"] --> D
@@ -30,7 +30,7 @@ flowchart TD
 
 ### 1. Preparar la entrada
 
-- **Cabecera:** título, fecha y descripción del vídeo, obtenidos con `yt-dlp --dump-json` porque `transcribe.py` no los guarda.
+- **Cabecera:** título, fecha y descripción del vídeo, obtenidos con `yt-dlp --dump-json` (`meta/{id}.json`), porque la transcripción no los guarda.
 - **Numeración:** cada turno recibe un ID con su timestamp y su etiqueta de hablante:
   ```
   [t020 00:07:15 SPEAKER_01] Sí, sí, claro. Como digo, está fragmentado...

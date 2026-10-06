@@ -3,7 +3,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from video_rag.domain.errors import VideoRagError
-from video_rag.domain.transcript import TranscriptSegment, Turn
+from video_rag.domain.transcript import TranscriptSegment
 
 
 class TranscriptionError(VideoRagError):
@@ -25,12 +25,3 @@ class SpeechRecognizer(ABC):
 
     @abstractmethod
     def recognize(self, audio: Path, options: TranscriptionOptions) -> list[TranscriptSegment]: ...
-
-
-class Transcriber(ABC):
-    """Source (URL or file) -> speaker turns, end to end. For use cases that
-    need a transcript without loading the speech models themselves."""
-
-    @abstractmethod
-    def transcribe(self, source: str, options: TranscriptionOptions) -> list[Turn]:
-        """Raises TranscriptionError on failure."""

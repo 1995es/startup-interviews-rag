@@ -2,14 +2,19 @@
 
 1. Video metadata (as `yt-dlp --dump-json`, without downloading) into
    `meta/<id>.json`.
-2. Turn-level transcript into `output/<id>.json`, transcribed in a child
-   process. Both are reused if they already exist (no network, no WhisperX);
-   `--force` redoes them.
+2. Audio into `audio/<id>.wav` (16 kHz mono), transcribed with WhisperX,
+   aligned word by word and diarized into speaker turns: `output/<id>.json`,
+   a list of {text, speaker, start, end}. Metadata and transcript are reused
+   if they already exist (no network, no WhisperX); `--force` redoes them.
 3. Turn and sentence numbering into `llm_input/<id>.txt`, plus
    `llm_input/<id>.json` with every cuttable ID and its original text.
 
     poetry run python video_rag/interfaces/cli/prepare.py \
         "https://www.youtube.com/watch?v=..." --language es --min-speakers 2
+
+Speaker diarization needs HF_TOKEN (environment or .env) and accepted terms
+for pyannote/speaker-diarization-3.1 on huggingface.co. Without it the audio
+is still transcribed, but every turn comes out as SPEAKER_00.
 """
 
 import argparse
@@ -30,7 +35,7 @@ def parse_args() -> argparse.Namespace:
     ap = argparse.ArgumentParser(description="YouTube URL -> numbered LLM input (step 1)")
     ap.add_argument("url", help="video URL")
     ap.add_argument(
-        "-o", "--out-dir", default="llm_input", help="output folder (default: llm_input/)"
+        "-o", "--out-dir", default="llm_input", help="LLM input folder (default: llm_input/)"
     )
     ap.add_argument(
         "--max-turn-words",
