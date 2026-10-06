@@ -1,10 +1,10 @@
 import pytest
 
-from video_rag.application.ports.repositories import StorageError
-from video_rag.domain.numbering import build_llm_input
-from video_rag.domain.transcript import Turn
-from video_rag.domain.video import VideoMeta
-from video_rag.infrastructure.persistence.json_repositories import (
+from startup_interviews_rag.application.ports.repositories import StorageError
+from startup_interviews_rag.domain.numbering import build_llm_input
+from startup_interviews_rag.domain.transcript import Turn
+from startup_interviews_rag.domain.video import VideoMeta
+from startup_interviews_rag.infrastructure.persistence.json_repositories import (
     FileLLMInputRepository,
     JsonMetadataRepository,
     JsonSegmentationRepository,

@@ -2,25 +2,28 @@
 
 from pathlib import Path
 
-from video_rag.application.ports.audio import AudioSource
-from video_rag.application.ports.llm import (
+from startup_interviews_rag.application.ports.audio import AudioSource
+from startup_interviews_rag.application.ports.llm import (
     LLMError,
     LLMProvider,
     StructuredRequest,
     StructuredResponse,
     TokenUsage,
 )
-from video_rag.application.ports.metadata import VideoMetadataSource
-from video_rag.application.ports.repositories import (
+from startup_interviews_rag.application.ports.metadata import VideoMetadataSource
+from startup_interviews_rag.application.ports.repositories import (
     LLMInputRepository,
     MetadataRepository,
     SegmentationRepository,
     TranscriptRepository,
 )
-from video_rag.application.ports.transcription import SpeechRecognizer, TranscriptionOptions
-from video_rag.domain.numbering import LLMInput
-from video_rag.domain.transcript import TranscriptSegment, Turn
-from video_rag.domain.video import VideoMeta, video_id
+from startup_interviews_rag.application.ports.transcription import (
+    SpeechRecognizer,
+    TranscriptionOptions,
+)
+from startup_interviews_rag.domain.numbering import LLMInput
+from startup_interviews_rag.domain.transcript import TranscriptSegment, Turn
+from startup_interviews_rag.domain.video import VideoMeta, video_id
 
 
 class FakeLLMProvider(LLMProvider):

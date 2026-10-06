@@ -21,9 +21,9 @@ import torch
 import whisperx
 from whisperx.diarize import DiarizationPipeline
 
-from video_rag.config import Settings
-from video_rag.domain.turns import build_turns
-from video_rag.infrastructure.transcription.whisperx_recognizer import _segment
+from startup_interviews_rag.config import Settings
+from startup_interviews_rag.domain.turns import build_turns
+from startup_interviews_rag.infrastructure.transcription.whisperx_recognizer import _segment
 
 
 def to_df(annotation) -> pd.DataFrame:

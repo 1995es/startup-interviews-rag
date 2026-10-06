@@ -15,7 +15,7 @@ __pycache__/
 .hftoken
 
 # Generated files (anchored to the root: without the slash, audio/ would
-# also ignore video_rag/infrastructure/audio/)
+# also ignore startup_interviews_rag/infrastructure/audio/)
 /audio/
 /output/
 /output_test/

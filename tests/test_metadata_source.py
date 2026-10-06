@@ -1,7 +1,7 @@
 import sys
 import types
 
-from video_rag.infrastructure.metadata.ytdlp_metadata_source import YtDlpMetadataSource
+from startup_interviews_rag.infrastructure.metadata.ytdlp_metadata_source import YtDlpMetadataSource
 
 INFO = {
     "id": "yOLw6ncCJwY",

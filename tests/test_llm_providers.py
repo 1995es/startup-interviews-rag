@@ -6,9 +6,9 @@ from types import SimpleNamespace as NS
 
 import pytest
 
-from video_rag.application.ports.llm import LLMError, StructuredRequest
-from video_rag.infrastructure.llm.anthropic_provider import AnthropicProvider
-from video_rag.infrastructure.llm.openrouter_provider import OpenRouterProvider
+from startup_interviews_rag.application.ports.llm import LLMError, StructuredRequest
+from startup_interviews_rag.infrastructure.llm.anthropic_provider import AnthropicProvider
+from startup_interviews_rag.infrastructure.llm.openrouter_provider import OpenRouterProvider
 
 REQUEST = StructuredRequest(
     system="sys",

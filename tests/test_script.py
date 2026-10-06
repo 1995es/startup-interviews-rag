@@ -1,6 +1,6 @@
-from video_rag.domain.script import ScriptOptions, clean_turns, render_script
-from video_rag.domain.transcript import Turn
-from video_rag.interfaces.cli.script import parse_names
+from startup_interviews_rag.domain.script import ScriptOptions, clean_turns, render_script
+from startup_interviews_rag.domain.transcript import Turn
+from startup_interviews_rag.interfaces.cli.script import parse_names
 
 TURNS = clean_turns(
     [

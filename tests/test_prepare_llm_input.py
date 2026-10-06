@@ -8,11 +8,14 @@ from fakes import (
     MemoryMetadataRepository,
     MemoryTranscriptRepository,
 )
-from video_rag.application.ports.transcription import TranscriptionError, TranscriptionOptions
-from video_rag.application.use_cases.prepare_llm_input import PrepareLLMInput
-from video_rag.domain.transcript import TranscriptSegment, Turn, Word
-from video_rag.domain.video import VideoMeta
-from video_rag.infrastructure.transcription.lazy_recognizer import LazyRecognizer
+from startup_interviews_rag.application.ports.transcription import (
+    TranscriptionError,
+    TranscriptionOptions,
+)
+from startup_interviews_rag.application.use_cases.prepare_llm_input import PrepareLLMInput
+from startup_interviews_rag.domain.transcript import TranscriptSegment, Turn, Word
+from startup_interviews_rag.domain.video import VideoMeta
+from startup_interviews_rag.infrastructure.transcription.lazy_recognizer import LazyRecognizer
 
 URL = "https://www.youtube.com/watch?v=yOLw6ncCJwY"
 VID = "yOLw6ncCJwY"

@@ -43,7 +43,7 @@ def test_embedded_package_is_the_repository_package(notebook):
 
     expected = {
         p.relative_to(ROOT).as_posix(): p.read_bytes()
-        for p in (ROOT / "video_rag").rglob("*.py")
+        for p in (ROOT / "startup_interviews_rag").rglob("*.py")
         if "__pycache__" not in p.parts
     }
     assert embedded == expected

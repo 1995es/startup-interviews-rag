@@ -5,8 +5,8 @@ picked at random (10.2 h of audio · 104,233 words) and produced with this repos
 pipeline:
 
 ```bash
-poetry run python video_rag/interfaces/cli/prepare.py "<url>" --language es --min-speakers 2
-poetry run python video_rag/interfaces/cli/script.py output/<id>.json --timestamps
+poetry run python startup_interviews_rag/interfaces/cli/prepare.py "<url>" --language es --min-speakers 2
+poetry run python startup_interviews_rag/interfaces/cli/script.py output/<id>.json --timestamps
 ```
 
 The episodes are in Spanish, and so are the transcripts. They are the sample corpus

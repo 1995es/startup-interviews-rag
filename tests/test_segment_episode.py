@@ -1,13 +1,13 @@
 import pytest
 
 from fakes import FakeLLMProvider, MemoryLLMInputRepository, MemorySegmentationRepository
-from video_rag.application.ports.llm import LLMError
-from video_rag.application.ports.repositories import StorageError
-from video_rag.application.use_cases.segment_episode import SegmentEpisode
-from video_rag.domain.numbering import build_llm_input
-from video_rag.domain.segmentation import PROMPT_VERSION, SYSTEM_PROMPT
-from video_rag.domain.transcript import Turn
-from video_rag.domain.video import VideoMeta
+from startup_interviews_rag.application.ports.llm import LLMError
+from startup_interviews_rag.application.ports.repositories import StorageError
+from startup_interviews_rag.application.use_cases.segment_episode import SegmentEpisode
+from startup_interviews_rag.domain.numbering import build_llm_input
+from startup_interviews_rag.domain.segmentation import PROMPT_VERSION, SYSTEM_PROMPT
+from startup_interviews_rag.domain.transcript import Turn
+from startup_interviews_rag.domain.video import VideoMeta
 
 LLM_INPUT = build_llm_input(
     VideoMeta(id="vid"),

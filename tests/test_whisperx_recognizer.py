@@ -6,8 +6,10 @@ from pathlib import Path
 
 import pytest
 
-from video_rag.application.ports.transcription import TranscriptionOptions
-from video_rag.infrastructure.transcription.whisperx_recognizer import WhisperXRecognizer
+from startup_interviews_rag.application.ports.transcription import TranscriptionOptions
+from startup_interviews_rag.infrastructure.transcription.whisperx_recognizer import (
+    WhisperXRecognizer,
+)
 
 AUDIO = Path("audio/yOLw6ncCJwY.wav")
 WAVEFORM = object()  # what load_audio returns: must reach every model, not the path

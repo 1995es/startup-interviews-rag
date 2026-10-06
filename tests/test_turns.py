@@ -1,5 +1,5 @@
-from video_rag.domain.transcript import TranscriptSegment, Turn, Word
-from video_rag.domain.turns import build_turns
+from startup_interviews_rag.domain.transcript import TranscriptSegment, Turn, Word
+from startup_interviews_rag.domain.turns import build_turns
 
 
 def words(*specs: tuple[str, str]) -> list[Word]:

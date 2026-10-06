@@ -1,6 +1,6 @@
-from video_rag.domain.numbering import build_llm_input, number_turns
-from video_rag.domain.transcript import Turn
-from video_rag.domain.video import VideoMeta, video_id
+from startup_interviews_rag.domain.numbering import build_llm_input, number_turns
+from startup_interviews_rag.domain.transcript import Turn
+from startup_interviews_rag.domain.video import VideoMeta, video_id
 
 
 def test_short_turns_keep_one_id_and_long_ones_split_into_sentences():

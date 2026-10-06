@@ -3,9 +3,9 @@ from types import SimpleNamespace
 
 import pytest
 
-from video_rag.application.ports.audio import AudioError
-from video_rag.infrastructure.audio import ytdlp_audio_source
-from video_rag.infrastructure.audio.ytdlp_audio_source import YtDlpAudioSource
+from startup_interviews_rag.application.ports.audio import AudioError
+from startup_interviews_rag.infrastructure.audio import ytdlp_audio_source
+from startup_interviews_rag.infrastructure.audio.ytdlp_audio_source import YtDlpAudioSource
 
 URL = "https://www.youtube.com/watch?v=yOLw6ncCJwY"
 

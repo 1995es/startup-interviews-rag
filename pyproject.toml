@@ -1,5 +1,5 @@
 [project]
-name = "video-rag"
+name = "startup-interviews-rag"
 version = "0.1.0"
 description = "RAG over the Itnig startup podcast: WhisperX transcription, LLM segmentation and retrieval"
 authors = [{ name = "1995es" }, { name = "Francisco Andreo" }]
@@ -34,7 +34,7 @@ dependencies = [
 ]
 
 [tool.poetry]
-packages = [{ include = "video_rag" }]
+packages = [{ include = "startup_interviews_rag" }]
 
 # On Windows the CUDA build is mandatory: plain torch==2.8.0 lets the installer
 # pick the +cpu wheel and torch.cuda.is_available() turns False. torch 2.13
@@ -82,4 +82,4 @@ extend-exclude = ["transcripts"]
 select = ["E", "W", "F", "I", "B", "UP", "SIM"]
 
 [tool.ruff.lint.isort]
-known-first-party = ["video_rag", "fakes"]
+known-first-party = ["startup_interviews_rag", "fakes"]

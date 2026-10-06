@@ -4,7 +4,7 @@ that runs h1_check.py on a free T4 GPU without cloning the repo.
 It installs into Colab's own Python with pip, like any WhisperX demo: no
 venv, no lock file. Only whisperx is pinned (to the poetry.lock version,
 the API h1_check.py is written against); yt-dlp is left unpinned because an
-old one is what breaks YouTube downloads. The video_rag package goes inside
+old one is what breaks YouTube downloads. The startup_interviews_rag package goes inside
 the notebook as a base64 tar.gz, so rerun this after changing it:
 
     poetry run python notebooks/build_h1_notebook.py
@@ -32,13 +32,13 @@ def whisperx_version() -> str:
 
 
 def package_b64() -> str:
-    """video_rag/ as a reproducible tar.gz: same sources, same bytes."""
+    """startup_interviews_rag/ as a reproducible tar.gz: same sources, same bytes."""
     buf = io.BytesIO()
     with (
         gzip.GzipFile(fileobj=buf, mode="wb", mtime=0) as gz,
         tarfile.open(fileobj=gz, mode="w") as tar,
     ):
-        for path in sorted((ROOT / "video_rag").rglob("*.py")):
+        for path in sorted((ROOT / "startup_interviews_rag").rglob("*.py")):
             if "__pycache__" in path.parts:
                 continue
             data = path.read_bytes()
@@ -73,9 +73,9 @@ def cells() -> list[dict]:
         md(f"""
             # H1 check: overlapping vs. exclusive speaker diarization
 
-            Part of **video-rag**, a local pipeline that turns long-form interview videos
-            (the Spanish startup podcast by Itnig) into speaker-attributed transcripts and
-            then into chunks for a RAG system. Transcription and diarization run on
+            Part of **startup-interviews-rag**, a pipeline that turns long-form interview
+            videos (the Spanish startup podcast by Itnig) into speaker-attributed transcripts
+            and then into chunks for a RAG system. Transcription and diarization run on
             [WhisperX](https://github.com/m-bain/whisperX) +
             [pyannote](https://github.com/pyannote/pyannote-audio).
 
@@ -125,17 +125,17 @@ def cells() -> list[dict]:
         md("""
             ## 2. Project code
 
-            The `video_rag` package, embedded as a compressed archive because the repository
-            is not cloned. The check uses its turn-building logic (`build_turns`), so the
+            The `startup_interviews_rag` package, embedded as a compressed archive because the
+            repository is not cloned. The check uses its turn-building logic (`build_turns`), so the
             turns printed below are exactly what the pipeline would produce.
             """),
         code(
-            '# @title Embedded video_rag package { display-mode: "form" }\n'
+            '# @title Embedded startup_interviews_rag package { display-mode: "form" }\n'
             "import base64\n"
             "import io\n"
             "import os\n"
             "import tarfile\n\n"
-            'WORKDIR = "/content/video-rag"\n'
+            'WORKDIR = "/content/startup-interviews-rag"\n'
             f"PACKAGE = (\n{chunks}\n)\n"
             "os.makedirs(WORKDIR, exist_ok=True)\n"
             "archive = io.BytesIO(base64.b64decode(PACKAGE))\n"
@@ -178,8 +178,8 @@ def cells() -> list[dict]:
             context clusters voices much worse, and the error showed up on the full video.
 
             If YouTube blocks the download from Colab (*"Sign in to confirm you're not a
-            bot"*), upload `{VIDEO_ID}.wav` (16 kHz mono) to `/content/video-rag/audio/`
-            and run the next cells.
+            bot"*), upload `{VIDEO_ID}.wav` (16 kHz mono) to
+            `/content/startup-interviews-rag/audio/` and run the next cells.
             """),
         code(f"""
             import yt_dlp

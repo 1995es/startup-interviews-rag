@@ -1,9 +1,9 @@
 import pytest
 
-from video_rag import container
-from video_rag.config import ConfigError, Settings
-from video_rag.infrastructure.llm.anthropic_provider import AnthropicProvider
-from video_rag.infrastructure.llm.openrouter_provider import OpenRouterProvider
+from startup_interviews_rag import container
+from startup_interviews_rag.config import ConfigError, Settings
+from startup_interviews_rag.infrastructure.llm.anthropic_provider import AnthropicProvider
+from startup_interviews_rag.infrastructure.llm.openrouter_provider import OpenRouterProvider
 
 
 def test_provider_is_chosen_by_settings():
@@ -39,7 +39,7 @@ def test_bad_configuration_raises(settings):
 def test_prepare_llm_input_does_not_load_whisperx_until_needed(monkeypatch):
     import sys
 
-    module = "video_rag.infrastructure.transcription.whisperx_recognizer"
+    module = "startup_interviews_rag.infrastructure.transcription.whisperx_recognizer"
     monkeypatch.delitem(sys.modules, module, raising=False)  # other tests import it
     container.prepare_llm_input(Settings())
     assert module not in sys.modules

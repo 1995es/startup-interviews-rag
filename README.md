@@ -1,4 +1,4 @@
-# video-rag
+# startup-interviews-rag
 
 A retrieval-augmented generation (RAG) system over the interviews of
 [Itnig](https://www.youtube.com/@itnig), a Spanish podcast about startups and
@@ -50,12 +50,12 @@ said. The full design is in [`docs/llm-ingestion.md`](docs/llm-ingestion.md).
 
 ## Architecture
 
-The code is a Python package, [`video_rag/`](video_rag/), with a hexagonal (ports and
+The code is a Python package, [`startup_interviews_rag/`](startup_interviews_rag/), with a hexagonal (ports and
 adapters) architecture, so the API and the frontend can be added later without touching
 the pipeline logic:
 
 ```
-video_rag/
+startup_interviews_rag/
 ├── domain/          pure logic: turn building, numbering, segmentation prompt and schema
 ├── application/
 │   ├── ports/       abstract classes the use cases depend on
@@ -106,18 +106,18 @@ transcription and diarization part on a free T4.
 
 ## Usage
 
-The scripts live in [`video_rag/interfaces/cli/`](video_rag/interfaces/cli/) and run
+The scripts live in [`startup_interviews_rag/interfaces/cli/`](startup_interviews_rag/interfaces/cli/) and run
 by path:
 
 ```bash
 # Step 1: URL -> metadata, transcript and numbered LLM input
-poetry run python video_rag/interfaces/cli/prepare.py "https://www.youtube.com/watch?v=yOLw6ncCJwY" --language es --min-speakers 2
+poetry run python startup_interviews_rag/interfaces/cli/prepare.py "https://www.youtube.com/watch?v=yOLw6ncCJwY" --language es --min-speakers 2
 
 # Step 2: LLM segmentation of one episode (or of every prepared one, without an id)
-poetry run python video_rag/interfaces/cli/segment.py yOLw6ncCJwY [--provider openrouter] [--model ...] [--force]
+poetry run python startup_interviews_rag/interfaces/cli/segment.py yOLw6ncCJwY [--provider openrouter] [--model ...] [--force]
 
 # Transcript -> readable Markdown script
-poetry run python video_rag/interfaces/cli/script.py output/yOLw6ncCJwY.json --timestamps
+poetry run python startup_interviews_rag/interfaces/cli/script.py output/yOLw6ncCJwY.json --timestamps
 ```
 
 `prepare.py` writes `meta/<id>.json` (title, date, description), `audio/<id>.wav`,
@@ -153,7 +153,7 @@ poetry run ruff check . --fix
 **Speaker turns are cut per word, not per segment.** A Whisper segment lasts about
 20 s and often holds both a question and its answer, so grouping by segment speaker
 destroys the dialogue (643 fake turns vs. 547 real ones in the sample video).
-[`domain/turns.py`](video_rag/domain/turns.py) rebuilds turns from each word's speaker
+[`domain/turns.py`](startup_interviews_rag/domain/turns.py) rebuilds turns from each word's speaker
 and applies two fixes: `smooth_runs` absorbs runs shorter than `--min-words` (diarization
 flips speaker on isolated words) and `snap_to_sentences` moves each boundary to the
 nearest sentence end within ±3 words.
