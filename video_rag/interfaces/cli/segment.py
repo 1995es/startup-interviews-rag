@@ -1,4 +1,4 @@
-"""Numbered transcript -> LLM segmentation (step 2 of docs/ingesta-llm.md).
+"""Numbered transcript -> LLM segmentation (step 2 of docs/llm-ingestion.md).
 
 Reads `llm_input/<id>.txt` + `.json` and writes `segments/<id>.json`, one
 LLM call per episode, skipped when a cached record matches the model and

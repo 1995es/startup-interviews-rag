@@ -54,6 +54,7 @@ class YtDlpAudioSource(AudioSource):
             "no_warnings": True,
             "noprogress": True,
         }
+        last_error: Exception | None = None
         for fmt in FORMATS:
             try:
                 with yt_dlp.YoutubeDL({**opts, "format": fmt}) as ydl:
@@ -62,5 +63,9 @@ class YtDlpAudioSource(AudioSource):
                 if path.exists():
                     return path
             except Exception as exc:
+                last_error = exc
                 log.info(f"format='{fmt}' failed ({exc}). Retrying ...")
-        raise AudioError("could not download the audio.")
+        cause = f" Last error: {last_error}" if last_error else ""
+        raise AudioError(
+            f"could not download the audio with any of the formats {', '.join(FORMATS)}.{cause}"
+        ) from last_error

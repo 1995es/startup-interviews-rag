@@ -1,182 +1,201 @@
-# Vídeo → texto con WhisperX (local)
+# video-rag
 
-Transcribe un vídeo de YouTube (o un fichero local) en tu máquina, con
-timestamps por palabra y separación de interlocutores, y escupe un JSON plano
-listo para procesar:
+A retrieval-augmented generation (RAG) system over the interviews of
+[Itnig](https://www.youtube.com/@itnig), a Spanish podcast about startups and
+entrepreneurship. Ask *"how do I find my first customers?"* or *"how do I validate an
+idea?"* and get back what the founders who were interviewed actually did, with a link
+to the exact minute of the video where they tell it.
 
-```
-entrada (URL de YouTube | vídeo/audio local)
-   → audio wav 16 kHz mono           (yt-dlp / ffmpeg)
-   → transcripción                   (Whisper large-v2 vía faster-whisper)
-   → alineación de timestamps        (por palabra)
-   → diarización opcional            (pyannote: quién habla y cuándo)
-   → turnos                          (corte por palabra, no por segmento)
-   → output/<id>.json                [{text, speaker, start, end}]
-```
+> **Status: work in progress.** The ingestion pipeline (video → transcript → LLM
+> segmentation) works; chunking, embeddings, the vector store and the query frontend
+> are next. See [Roadmap](#roadmap).
 
-Encima de eso va la ingesta con LLM para un RAG
-([`docs/ingesta-llm.md`](docs/ingesta-llm.md)). Hay tres scripts, en
-[`video_rag/interfaces/cli/`](video_rag/interfaces/cli/):
-
-| Script | Qué hace |
-|---|---|
-| `prepare.py` | paso 1 de la ingesta: URL → metadatos + transcripción (`output/<id>.json`) → `llm_input/<id>.txt` numerado |
-| `script.py` | el `output/<id>.json` → guion en Markdown, una fila por intervención |
-| `segment.py` | paso 2: una llamada al LLM por episodio → `segments/<id>.json` |
-
-## Arquitectura
-
-El código es un paquete, [`video_rag/`](video_rag/), con arquitectura
-hexagonal (puertos y adaptadores):
+## How it works
 
 ```
-domain/          lógica pura (turnos, numeración, guion, prompt de segmentación)
-application/     casos de uso + puertos (clases abstractas) que necesitan
-infrastructure/  adaptadores: WhisperX, yt-dlp, Anthropic, OpenRouter, ficheros JSON
-interfaces/cli/  los tres scripts (más adelante, interfaces/api/)
-container.py     composition root: elige los adaptadores e inyecta dependencias
+YouTube URL
+  → audio (yt-dlp, 16 kHz mono wav)
+  → transcript with word timings (WhisperX: Whisper large-v2 + forced alignment)
+  → who speaks when (pyannote diarization)
+  → speaker turns, cut per word                         output/<id>.json
+  → numbered turns and sentences for the LLM            llm_input/<id>.txt     ✅ done
+  → one LLM call per episode: thematic units, speakers,
+    summaries, tags, questions each unit answers        segments/<id>.json     ✅ done
+  → validate, build chunks, contextual headers                                 🚧 next
+  → embeddings (BGE-M3: dense + sparse + multi-vector)                         ⏳ planned
+  → Qdrant                                                                     ⏳ planned
+  → API + web frontend for questions                                           ⏳ planned
 ```
 
-El LLM está detrás del puerto `LLMProvider`, con dos implementaciones:
-`AnthropicProvider` (por defecto) y `OpenRouterProvider`. Para cambiar de
-proveedor no se toca código, basta con el `.env`:
+The core idea: an LLM reads each full episode **once** and returns *where to cut it*
+(only turn and sentence IDs, never text), who each speaker is and metadata for each
+unit: type (anecdote, advice, opinion, fact, filler), a summary, free topic tags such as
+*first customers* or *fundraising*, and the questions the unit answers. Chunks are
+always cut from the original transcript, so the LLM cannot alter what the interviewee
+said. The full design is in [`docs/llm-ingestion.md`](docs/llm-ingestion.md).
 
-```bash
-LLM_PROVIDER=openrouter          # anthropic (por defecto) | openrouter
-LLM_MODEL=anthropic/claude-opus-5-5   # opcional; por defecto, el del proveedor
-ANTHROPIC_API_KEY=sk-ant-...
-OPENROUTER_API_KEY=sk-or-...
+## Roadmap
+
+| Phase | What | Status |
+|---|---|---|
+| Transcription | WhisperX + word alignment + diarization, speaker turns cut per word | ✅ Done |
+| Corpus sample | 10 random Itnig episodes transcribed (10.2 h, 104k words) in [`transcripts/`](transcripts/) | ✅ Done |
+| Ingestion, step 1 | Numbered LLM input with turn and sentence IDs | ✅ Done |
+| Ingestion, step 2 | LLM segmentation with a JSON schema, cached on disk, two providers | ✅ Done |
+| Diarization quality | Check whether pyannote's exclusive diarization fixes misattributed interjections ([notebook](notebooks/h1_diarization_check.ipynb)) | 🚧 In progress |
+| Ingestion, steps 3–6 | Validation with retry, chunk building, timestamps, contextual headers | ⏳ Planned |
+| Indexing | BGE-M3 embeddings into Qdrant (`docker-compose.yml` is ready) | ⏳ Planned |
+| Querying | Retrieval + answer generation, evaluation on a golden set | ⏳ Planned |
+| Interface | API and web frontend | ⏳ Planned |
+
+## Architecture
+
+The code is a Python package, [`video_rag/`](video_rag/), with a hexagonal (ports and
+adapters) architecture, so the API and the frontend can be added later without touching
+the pipeline logic:
+
+```
+video_rag/
+├── domain/          pure logic: turn building, numbering, segmentation prompt and schema
+├── application/
+│   ├── ports/       abstract classes the use cases depend on
+│   └── use_cases/   PrepareLLMInput, SegmentEpisode, RenderScript
+├── infrastructure/  adapters: WhisperX, yt-dlp, Anthropic, OpenRouter, JSON files
+├── interfaces/cli/  the command-line scripts (an api/ will sit next to it)
+├── config.py        settings from the environment and .env
+└── container.py     composition root: the only module that picks adapters
 ```
 
-o con `poetry run python video_rag/interfaces/cli/segment.py <id> --provider openrouter --model ...`.
+`domain` and `application` never import third-party SDKs or infrastructure;
+dependencies are injected by hand through constructors. That is what lets the test
+suite run without network or models, using in-memory fakes of the ports.
 
-## Instalación
+The LLM sits behind an `LLMProvider` port with two adapters, `AnthropicProvider`
+(default, `claude-opus-5-5`) and `OpenRouterProvider`. Switching provider is a matter of
+configuration, not code.
 
-Requisitos: Python 3.11–3.12, [Poetry](https://python-poetry.org/) 2.x y
-`ffmpeg` en el PATH (`winget install Gyan.FFmpeg` / `brew install ffmpeg` /
-`apt install ffmpeg`).
+## Getting started
+
+Requirements: Python 3.11–3.12, [Poetry](https://python-poetry.org/) 2.x and `ffmpeg`
+on the PATH (`brew install ffmpeg` / `apt install ffmpeg` / `winget install Gyan.FFmpeg`).
+An NVIDIA GPU is recommended; without one the pipeline falls back to CPU/int8, which is
+much slower.
 
 ```bash
 poetry install
-cp .env.template .env   # y rellenar las claves que hagan falta
+cp .env.template .env   # fill in the keys you need
 ```
 
-Crea el venv en `.venv/` e instala las dependencias fijadas en `poetry.lock`.
-En Windows, `torch`/`torchaudio`/`torchvision` salen del índice CUDA 12.6 de
-PyTorch (`+cu126`); en macOS y Linux, de PyPI. Sin GPU NVIDIA el pipeline detecta
-que no hay CUDA y tira de CPU/int8 (bastante más lento).
-
-Cada script se lanza por su ruta, con `poetry run python
-video_rag/interfaces/cli/<script>.py`. Los tests, con
-`poetry run pytest`: no usan red ni modelos.
-
-## Uso
+`.env` holds:
 
 ```bash
-poetry run python video_rag/interfaces/cli/prepare.py "https://www.youtube.com/watch?v=2vv4hHAvqnE" --language es --min-speakers 2
+HF_TOKEN=hf_...                  # optional: speaker diarization
+LLM_PROVIDER=anthropic           # anthropic (default) | openrouter
+LLM_MODEL=                       # optional: defaults to the provider's model
+ANTHROPIC_API_KEY=sk-ant-...     # only the chosen provider's key is required
+OPENROUTER_API_KEY=sk-or-...
 ```
 
-Además de `llm_input/`, deja la transcripción en `output/2vv4hHAvqnE.json`:
+Diarization needs a [Hugging Face](https://huggingface.co/) token and the terms of
+[`pyannote/speaker-diarization-3.1`](https://huggingface.co/pyannote/speaker-diarization-3.1)
+accepted with the same account. Without it, the audio is still transcribed but every
+turn comes out as `SPEAKER_00`.
+
+No GPU? The [Colab notebook](notebooks/h1_diarization_check.ipynb) runs the
+transcription and diarization part on a free T4.
+
+## Usage
+
+The scripts live in [`video_rag/interfaces/cli/`](video_rag/interfaces/cli/) and run
+by path:
+
+```bash
+# Step 1: URL -> metadata, transcript and numbered LLM input
+poetry run python video_rag/interfaces/cli/prepare.py "https://www.youtube.com/watch?v=yOLw6ncCJwY" --language es --min-speakers 2
+
+# Step 2: LLM segmentation of one episode (or of every prepared one, without an id)
+poetry run python video_rag/interfaces/cli/segment.py yOLw6ncCJwY [--provider openrouter] [--model ...] [--force]
+
+# Transcript -> readable Markdown script
+poetry run python video_rag/interfaces/cli/script.py output/yOLw6ncCJwY.json --timestamps
+```
+
+`prepare.py` writes `meta/<id>.json` (title, date, description), `audio/<id>.wav`,
+`output/<id>.json` and `llm_input/<id>.txt`. Stored metadata and transcripts are reused
+without network or WhisperX; `--force` redoes them (the wav is always reused). Options:
+`--model` (`tiny`…`large-v3`, default `large-v2`), `--language`, `--min-speakers` /
+`--max-speakers` and `--min-words`.
+
+The transcript is a flat list of speaker turns:
 
 ```json
 [
-  {
-    "text": "para ver si me abren.",
-    "speaker": "SPEAKER_02",
-    "start": 3.284,
-    "end": 4.045
-  }
+  {"text": "para ver si me abren.", "speaker": "SPEAKER_02", "start": 3.284, "end": 4.045}
 ]
 ```
 
-El wav intermedio se guarda en `audio/<id>.wav` y los metadatos en
-`meta/<id>.json`. Si ya existen `meta/<id>.json` y `output/<id>.json`, se
-reutilizan sin red ni WhisperX; `--force` los rehace. El wav se reutiliza
-siempre, también con `--force`, así que nunca se descarga dos veces.
+`segment.py` caches its result in `segments/<id>.json`, keyed by model and prompt
+version, so a rerun does not call the LLM again.
 
-Opciones de transcripción: `--model` (`tiny`…`large-v3`, por defecto
-`large-v2`), `--language`, `--min-speakers` / `--max-speakers` y
-`--min-words`. El dispositivo se
-autodetecta (CUDA si la hay, y si el modelo no carga en GPU se reintenta en
-CPU/int8).
+`script.py` turns a transcript into Markdown, one line per turn
+(`--names SPEAKER_00=Jordi,SPEAKER_01=Bernat` for real names, `--table` for a table).
 
-### Diarización: quién habla
-
-Se activa sola si hay un `HF_TOKEN` en el entorno o en `.env`; si no lo hay, avisa y sigue
-adelante con un solo hablante. Hace falta además aceptar las condiciones de
-[`pyannote/speaker-diarization-3.1`](https://huggingface.co/pyannote/speaker-diarization-3.1)
-en Hugging Face con esa misma cuenta.
+## Development
 
 ```bash
-set HF_TOKEN=hf_xxx           # Windows (cmd)
-$env:HF_TOKEN="hf_xxx"        # Windows (PowerShell)
-export HF_TOKEN=hf_xxx        # macOS / Linux
+poetry run pytest                 # no network, no models
+poetry run ruff format .
+poetry run ruff check . --fix
 ```
 
-`SPEAKER_00`, `SPEAKER_01`… son etiquetas automáticas: la diarización agrupa
-voces por parecido acústico, no sabe quién es quién.
+## Design notes
 
-## Del JSON al guion en Markdown
+**Speaker turns are cut per word, not per segment.** A Whisper segment lasts about
+20 s and often holds both a question and its answer, so grouping by segment speaker
+destroys the dialogue (643 fake turns vs. 547 real ones in the sample video).
+[`domain/turns.py`](video_rag/domain/turns.py) rebuilds turns from each word's speaker
+and applies two fixes: `smooth_runs` absorbs runs shorter than `--min-words` (diarization
+flips speaker on isolated words) and `snap_to_sentences` moves each boundary to the
+nearest sentence end within ±3 words.
 
-```bash
-poetry run python video_rag/interfaces/cli/script.py output/2vv4hHAvqnE.json --timestamps
-```
+**Long turns are split into sentences for the LLM.** Only 10 % of the turns are longer
+than 150 words, but they hold 46 % of the words: that is where guests tell their
+stories. Giving each sentence its own ID lets the LLM cut a multi-topic monologue into
+separate units.
 
-```markdown
-`00:01:11` **SPEAKER_02** — Más 140 de coeficiente intelectual. ¿Quién tiene más 140?
+**The LLM never writes the text that gets indexed.** It returns ID ranges and
+metadata; chunks are cut from the original transcript. The response follows a strict
+JSON schema and is cached by model and prompt version.
 
-`00:01:18` **SPEAKER_01** — Y solo pueden usarlas estas personas, ¿no?
-```
+**Graceful degradation.** If the model fails to load on the GPU it retries on CPU/int8;
+without `HF_TOKEN` it skips diarization with a warning instead of aborting.
 
-Con `--names SPEAKER_00=Jordi,SPEAKER_01=Bernat` se ponen nombres reales,
-`--table` saca una tabla Markdown, `--title` cambia el encabezado y `-o` elige
-la salida (por defecto `<id>.guion.md`).
+## Sample corpus
 
-## Por qué los turnos se cortan por palabra
+[`transcripts/`](transcripts/) holds the transcripts of ten Itnig episodes picked at
+random (reproducible seed, 10.2 h of audio, 104,233 words), as Markdown scripts and flat
+JSON.
+The selection criteria and the caveats about transcription quality are in
+[`transcripts/README.md`](transcripts/README.md).
 
-Un segmento de Whisper dura ~20 s y suele contener la pregunta *y* la
-respuesta, así que agrupar por el hablante del segmento se come el diálogo (643
-turnos falsos frente a 547 reales en el vídeo de ejemplo). El pipeline
-reconstruye los turnos desde el speaker de cada palabra y aplica dos
-correcciones (en [`domain/turns.py`](video_rag/domain/turns.py)):
+## Pinned versions
 
-- **`smooth_runs`** — la diarización salta de hablante en palabras sueltas; las
-  rachas de menos de `--min-words` (4 por defecto) se absorben en el turno
-  vecino más largo.
-- **`snap_to_sentences`** — el corte entre hablantes cae a menudo a mitad de
-  frase; si hay un final de frase a ±3 palabras, el límite se mueve ahí.
+These pins were verified on Windows 11 with an RTX 4070; check with a real model load
+before upgrading them:
 
-## Corpus de ejemplo: 10 vídeos de Itnig
+- **`torch 2.8.0+cu126`** on Windows (2.13 fails to import there). The `+cu126` suffix
+  matters: plain `2.8.0` lets the installer pick the CPU wheel. macOS and Linux get
+  `2.8.0` from PyPI.
+- **`ctranslate2 4.5.0`**: 4.8.1, the one `faster-whisper` pulls in, segfaults when
+  loading any model.
+- **`nvidia-cublas-cu12` / `nvidia-cudnn-cu12`** on Windows: CTranslate2 needs those
+  DLLs, registered at import time before WhisperX loads.
+- **`yt-dlp`** has to be kept up to date: an outdated one gets HTTP 403 from YouTube on
+  every full download.
 
-[`guiones/`](guiones/) contiene el resultado de pasar el pipeline por diez
-vídeos del canal [Itnig](https://www.youtube.com/@itnig) elegidos al azar
-(10,2 h de audio, 104.233 palabras): el guion en Markdown con marca de tiempo e
-interlocutor y el mismo contenido en JSON plano. El índice, el criterio del
-sorteo y los avisos sobre la calidad de la transcripción están en
-[`guiones/README.md`](guiones/README.md).
+## License
 
-Es la única carpeta de salida versionada: `audio/` y `output/` se regeneran.
-
-## Versiones fijadas y por qué
-
-Comprobado en este equipo (Windows 11, RTX 4070). Antes de "actualizar
-dependencias", verificar con una carga de modelo real:
-
-- **`torch 2.8.0+cu126`**: la 2.13 falla al importar (`WinError 1114` cargando
-  `c10.dll`), también en la instalación de Anaconda del sistema.
-- El sufijo **`+cu126`** es imprescindible: con `torch==2.8.0` a secas pip da
-  por buena la rueda `+cpu` y `torch.cuda.is_available()` pasa a `False`.
-- **`ctranslate2 4.5.0`**: la 4.8.1 que arrastra `faster-whisper` provoca un
-  *segfault* (exit 139) al cargar cualquier modelo, incluso en CPU.
-- **`nvidia-cublas-cu12` / `nvidia-cudnn-cu12`**: CTranslate2 necesita esas DLL
-  en Windows; `_register_cuda_dlls()` las registra al arrancar, antes de
-  importar whisperx.
-- **`yt-dlp`** hay que mantenerlo al día: con la 2026.7.4 YouTube devolvía 403
-  en cualquier descarga completa (todos los `player_client`, todas las cadenas
-  de formato). Síntoma característico: `--list-formats` funciona y hasta un
-  `--test` de 10 kB pasa, pero la descarga entera muere con 403.
-
-## Licencia y contenido
-
-El código es de este repositorio; las transcripciones de `guiones/` provienen de
-vídeos de Itnig y están ahí con fines de análisis y búsqueda.
+The code is released under the [MIT License](LICENSE). The transcripts in
+`transcripts/` are not covered by it: they come from Itnig's public videos and are
+included for analysis and search purposes only; all rights to the original content
+belong to Itnig.

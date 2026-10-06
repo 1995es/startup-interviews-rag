@@ -1,7 +1,10 @@
 [project]
 name = "video-rag"
 version = "0.1.0"
-description = "Local video -> text pipeline with WhisperX, plus LLM-based ingestion for RAG"
+description = "RAG over the Itnig startup podcast: WhisperX transcription, LLM segmentation and retrieval"
+authors = [{ name = "1995es" }, { name = "Francisco Andreo" }]
+license = "MIT"
+license-files = ["LICENSE"]
 readme = "README.md"
 # ctranslate2 4.5.0 only ships wheels up to cp312.
 requires-python = ">=3.11,<3.13"
@@ -23,10 +26,9 @@ dependencies = [
     # at runtime by the WhisperX adapter). On Linux torch brings its own.
     "nvidia-cublas-cu12 (==12.6.4.1) ; platform_system == 'Windows'",
     "nvidia-cudnn-cu12 (==9.5.1.17) ; platform_system == 'Windows'",
-    # LLM providers behind the LLMProvider port (step 2 of docs/ingesta-llm.md)
+    # LLM providers behind the LLMProvider port (step 2 of docs/llm-ingestion.md)
     "anthropic (>=1.11.0)",
     "python-dotenv",
-    "pyyaml",
     # OpenRouter adapter (OpenAI-compatible API)
     "openai (>=3.24.0,<4.0.0)",
 ]
@@ -73,7 +75,7 @@ pythonpath = ["tests"]
 [tool.ruff]
 target-version = "py311"
 line-length = 100
-extend-exclude = ["guiones"]
+extend-exclude = ["transcripts"]
 
 [tool.ruff.lint]
 # pycodestyle, pyflakes, isort, bugbear, pyupgrade, simplify

@@ -1,5 +1,5 @@
 """Turn and sentence numbering for the segmentation LLM (step 1 of
-docs/ingesta-llm.md).
+docs/llm-ingestion.md).
 
     [t020 00:07:15 SPEAKER_01] Yes, yes, of course. As I said, it is fragmented...
 

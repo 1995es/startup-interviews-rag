@@ -1,6 +1,6 @@
 {
-  "criterio": "10 videos elegidos al azar entre los 683 del canal Itnig (https://www.youtube.com/@itnig/videos), filtrando a los 525 de duracion entre 10 y 90 minutos para dejar fuera shorts y clips. random.seed(20260910) + random.sample(candidatos, 10).",
-  "listado_canal": "yt-dlp --flat-playlist, 683 videos, consultado 2026-09-10",
+  "criteria": "10 videos picked at random among the 683 of the Itnig channel (https://www.youtube.com/@itnig/videos), filtered to the 525 lasting between 10 and 90 minutes to leave out shorts and clips. random.seed(20260910) + random.sample(candidates, 10).",
+  "channel_listing": "yt-dlp --flat-playlist, 683 videos, fetched 2026-09-10",
   "videos": [
     {
       "n": 1,

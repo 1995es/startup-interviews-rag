@@ -1,23 +1,28 @@
-# Guiones — 10 vídeos de Itnig
+# Transcripts: 10 Itnig episodes
 
-Transcripción completa de 10 vídeos del canal [Itnig](https://www.youtube.com/@itnig) elegidos al azar (10,2 h de audio · 104.233 palabras), generada con el pipeline de
-este repositorio:
+Full transcripts of 10 videos from the [Itnig](https://www.youtube.com/@itnig) channel,
+picked at random (10.2 h of audio · 104,233 words) and produced with this repository's
+pipeline:
 
 ```bash
 poetry run python video_rag/interfaces/cli/prepare.py "<url>" --language es --min-speakers 2
 poetry run python video_rag/interfaces/cli/script.py output/<id>.json --timestamps
 ```
 
-## Cómo se eligieron
+The episodes are in Spanish, and so are the transcripts. They are the sample corpus
+used to design and test the ingestion pipeline.
 
-Sorteo reproducible sobre el listado del canal (`yt-dlp --flat-playlist`, 683 vídeos,
-consultado el 2026-09-10), restringido a los 525 de entre 10 y 90 minutos para dejar
-fuera *shorts* y clips sueltos: `random.seed(20260910)` + `random.sample(candidatos, 10)`.
-El detalle completo, en [`seleccion.json`](seleccion.json).
+## How they were picked
 
-## Los diez
+A reproducible draw over the channel's video list (`yt-dlp --flat-playlist`, 683
+videos, fetched on 2026-09-10), restricted to the 525 lasting between 10 and 90 minutes
+to leave out shorts and loose clips: `random.seed(20260910)` +
+`random.sample(candidates, 10)`. The full details are in
+[`selection.json`](selection.json).
 
-| # | Vídeo | Publicado | Duración | Intervenciones | Voces | Guion | JSON |
+## The ten episodes
+
+| # | Video | Published | Duration | Turns | Voices | Script | JSON |
 |---|---|---|---|---|---|---|---|
 | 1 | [Debate sobre la IA con ingenieros de Factorial \| Tertulia de itnig](https://www.youtube.com/watch?v=i-ZOzESUG4U) | 2026-04-03 | 1 h 30 min | 301 | 10 | [md](01-debate-sobre-la-ia-con-ingenieros-de-factorial-tertulia.md) | [json](01-debate-sobre-la-ia-con-ingenieros-de-factorial-tertulia.json) |
 | 2 | [Wallbox, líder en carga de vehículos eléctricos - Podcast 203](https://www.youtube.com/watch?v=O86d0vLhZ8o) | 2021-08-30 | 1 h 19 min | 130 | 4 | [md](02-wallbox-lider-en-carga-de-vehiculos-electricos-podcast.md) | [json](02-wallbox-lider-en-carga-de-vehiculos-electricos-podcast.json) |
@@ -30,25 +35,24 @@ El detalle completo, en [`seleccion.json`](seleccion.json).
 | 9 | [ChatGPT y su futuro con Microsoft - Tertulia #41](https://www.youtube.com/watch?v=ByUPHrcSoEA) | 2023-01-13 | 43 min | 138 | 5 | [md](09-chatgpt-y-su-futuro-con-microsoft-tertulia-41.md) | [json](09-chatgpt-y-su-futuro-con-microsoft-tertulia-41.json) |
 | 10 | [El fiasco de Bard y la guerra de los chatbots - Tertulia #45](https://www.youtube.com/watch?v=csYm72OZNuM) | 2023-02-10 | 43 min | 175 | 6 | [md](10-el-fiasco-de-bard-y-la-guerra-de-los-chatbots-tertulia.md) | [json](10-el-fiasco-de-bard-y-la-guerra-de-los-chatbots-tertulia.json) |
 
-## Qué hay en cada fichero
+## What each file holds
 
-- `NN-titulo.json` — la salida del pipeline: `[{text, speaker, start, end}]`,
-  un elemento por intervención, con los turnos cortados **por palabra** y no
-  por segmento.
-- `NN-titulo.md` — el mismo contenido maquetado con `script.py`: una
-  línea por intervención, con marca de tiempo e interlocutor
-  (`` `00:12:34` **SPEAKER_01** — … ``). La cabecera con el enlace al vídeo, la
-  fecha y la duración se añadió a mano a partir de
-  [`seleccion.json`](seleccion.json); el resto del fichero sale tal cual del
-  script.
+- `NN-title.json`: the pipeline output, `[{text, speaker, start, end}]`, one element
+  per turn, with turns cut **per word** rather than per segment.
+- `NN-title.md`: the same content laid out with `script.py`, one line per turn with a
+  timestamp and a speaker (`` `00:12:34` **SPEAKER_01** — … ``). The header with the
+  video link, date and duration was added by hand from
+  [`selection.json`](selection.json); the rest of the file comes straight from the
+  script. These files were generated with an earlier version of `script.py`, so their
+  fixed labels are still in Spanish (*intervenciones*, *interlocutores*).
 
-## Avisos
+## Caveats
 
-- Todo es **automático y sin revisar**: Whisper se inventa palabras con audio malo,
-  se come nombres propios y puntúa a su manera.
-- `SPEAKER_XX` es una etiqueta, no una persona. La diarización agrupa voces por
-  parecido acústico; no sabe quién es quién y a veces parte o fusiona hablantes.
-- El JSON crudo de WhisperX (con `words`, `score`…, ~5 MB por vídeo) no se
-  guarda: el pipeline agrupa los turnos y escribe directamente la lista plana.
-- El contenido de los vídeos es de Itnig; esto es una transcripción con fines de
-  análisis y búsqueda.
+- Everything is **automatic and unreviewed**: Whisper invents words on bad audio, mangles
+  proper names and punctuates its own way.
+- `SPEAKER_XX` is a label, not a person. Diarization groups voices by acoustic
+  similarity; it does not know who is who, and sometimes splits or merges speakers.
+- WhisperX's raw JSON (with `words`, `score`…, ~5 MB per video) is not kept: the
+  pipeline groups the turns and writes the flat list directly.
+- The content of the videos belongs to Itnig; these transcripts are here for analysis
+  and search purposes only.

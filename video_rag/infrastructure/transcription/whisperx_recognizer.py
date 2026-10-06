@@ -95,7 +95,7 @@ class WhisperXRecognizer(SpeechRecognizer):
             pipeline = DiarizationPipeline(token=self._hf_token, device=device)
             result = whisperx.assign_word_speakers(pipeline(waveform, **kwargs), result)
         else:
-            log.info("WARNING: HF_TOKEN not set, skipping diarization (single speaker).")
+            log.warning("HF_TOKEN not set, skipping diarization (single speaker).")
 
         return [_segment(s) for s in result["segments"]]
 

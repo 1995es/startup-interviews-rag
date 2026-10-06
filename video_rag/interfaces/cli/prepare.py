@@ -1,4 +1,4 @@
-"""YouTube URL -> input for the segmentation LLM (step 1 of docs/ingesta-llm.md).
+"""YouTube URL -> input for the segmentation LLM (step 1 of docs/llm-ingestion.md).
 
 1. Video metadata (as `yt-dlp --dump-json`, without downloading) into
    `meta/<id>.json`.

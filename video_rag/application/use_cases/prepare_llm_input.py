@@ -29,7 +29,7 @@ class PreparedInput:
 
 
 class PrepareLLMInput:
-    """Step 1 of docs/ingesta-llm.md: video URL -> metadata + transcript ->
+    """Step 1 of docs/llm-ingestion.md: video URL -> metadata + transcript ->
     numbered LLM input.
 
     Steps of `execute()`:

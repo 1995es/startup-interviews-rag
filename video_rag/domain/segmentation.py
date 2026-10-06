@@ -1,4 +1,4 @@
-"""Episode segmentation by an LLM (step 2 of docs/ingesta-llm.md): the
+"""Episode segmentation by an LLM (step 2 of docs/llm-ingestion.md): the
 prompt, the response schema and the retry feedback. Provider-neutral: the
 LLM call itself goes through the `LLMProvider` port.
 

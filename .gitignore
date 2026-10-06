@@ -1,21 +1,24 @@
-# Entorno
+# Environment
 .venv/
 __pycache__/
 *.py[cod]
 .pytest_cache/
+.ruff_cache/
 
-# Secretos (HF_TOKEN va en el entorno, nunca en el repo)
+# IDEs
+.idea/
+.vscode/
+
+# Secrets (keys go in .env, never in the repo)
 .env
 *.token
+.hftoken
 
-# Ficheros generados (anclados a la raiz: sin la barra, audio/ ignoraba
-# tambien video_rag/infrastructure/audio/)
+# Generated files (anchored to the root: without the slash, audio/ would
+# also ignore video_rag/infrastructure/audio/)
 /audio/
 /output/
 /output_test/
 /meta/
 /llm_input/
 /segments/
-
-# Token de HuggingFace suelto
-.hftoken

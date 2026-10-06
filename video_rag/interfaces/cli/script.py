@@ -32,7 +32,7 @@ def parse_args() -> argparse.Namespace:
         description="Turns the pipeline's flat JSON into a Markdown script."
     )
     ap.add_argument("json_path", help=".json transcript written by prepare.py (output/<id>.json)")
-    ap.add_argument("-o", "--output", default=None, help="output file (default: <name>.guion.md)")
+    ap.add_argument("-o", "--output", default=None, help="output file (default: <name>.script.md)")
     ap.add_argument("--title", default=None, help="document title")
     ap.add_argument("--timestamps", action="store_true", help="add timestamps")
     ap.add_argument("--table", action="store_true", help="output as a Markdown table")
@@ -61,7 +61,7 @@ def main() -> None:
             "HF_TOKEN set to separate speakers."
         )
 
-    out_path = Path(args.output) if args.output else src.with_suffix(".guion.md")
+    out_path = Path(args.output) if args.output else src.with_suffix(".script.md")
     out_path.write_text(script.markdown, encoding="utf-8")
     print(f"{script.turns} turns -> {out_path}")
 

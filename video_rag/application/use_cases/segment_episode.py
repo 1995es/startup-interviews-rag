@@ -26,7 +26,7 @@ MAX_TOKENS = 64_000
 
 
 class SegmentEpisode:
-    """Step 2 of docs/ingesta-llm.md: one LLM call per episode that returns
+    """Step 2 of docs/llm-ingestion.md: one LLM call per episode that returns
     where to cut it and the metadata of each unit.
 
     The record is cached with `model` and `prompt_version`: if both match,

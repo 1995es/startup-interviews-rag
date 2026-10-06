@@ -9,10 +9,21 @@ from video_rag.application.ports.transcription import TranscriptionOptions
 from video_rag.domain.errors import VideoRagError
 
 
+class _Formatter(logging.Formatter):
+    """`[HH:MM:SS] message`, with the level in front of warnings and errors."""
+
+    def format(self, record: logging.LogRecord) -> str:
+        line = super().format(record)
+        if record.levelno < logging.WARNING:
+            return line
+        stamp, _, message = line.partition(" ")
+        return f"{stamp} {record.levelname}: {message}"
+
+
 def configure_logging() -> None:
     """`[HH:MM:SS] message` on stdout, one line per record."""
     handler = logging.StreamHandler(sys.stdout)
-    handler.setFormatter(logging.Formatter("[%(asctime)s] %(message)s", "%H:%M:%S"))
+    handler.setFormatter(_Formatter("[%(asctime)s] %(message)s", "%H:%M:%S"))
     root = logging.getLogger("video_rag")
     root.handlers[:] = [handler]
     root.setLevel(logging.INFO)
