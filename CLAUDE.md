@@ -101,9 +101,9 @@ its exclusive one. It installs with `pip` into Colab's own Python, like any Whis
 demo: **no venv, no lock**. Only `whisperx` is pinned, to the `poetry.lock` version;
 yt-dlp is left unpinned, because an old one is what breaks YouTube downloads. `numpy<2.3`
 and `opentelemetry-{api,sdk}<=1.42.1` are ceilings, not pins: without them pip upgrades
-both past what Colab's preinstalled numba and google-adk accept. pip still warns that
-gradio and diffusers want `huggingface-hub>=1`; WhisperX needs `<1`, and neither package
-is used, so that warning is expected. A separate
+both past what Colab's preinstalled numba and google-adk accept. gradio and diffusers are
+uninstalled first: they need `huggingface-hub>=1`, WhisperX needs `<1`, and the notebook
+uses neither. A separate
 venv inherited the kernel's environment
 (`MPLBACKEND=module://matplotlib_inline.backend_inline`) without its packages, and the
 lock's versions (meant for Windows: `ctranslate2 4.5.0`, `nltk 3.10.3`) added nothing on

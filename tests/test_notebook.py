@@ -77,6 +77,9 @@ def test_install_keeps_colab_packages_working(notebook):
     assert '"numpy<2.3"' in cell
     assert '"opentelemetry-api<=1.42.1"' in cell
     assert '"opentelemetry-sdk<=1.42.1"' in cell
+    # gradio and diffusers need huggingface-hub>=1, whisperx <1: no version fits both.
+    uninstall = cell.index("pip uninstall -q -y gradio diffusers")
+    assert uninstall < cell.index("pip install")
 
 
 def test_nltk_punkt_tab_is_provisioned_before_running(notebook):

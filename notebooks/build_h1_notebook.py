@@ -6,7 +6,8 @@ venv, no lock file. Only whisperx is pinned (to the poetry.lock version,
 the API h1_check.py is written against); yt-dlp is left unpinned because an
 old one is what breaks YouTube downloads. numpy and opentelemetry get
 ceilings so pip does not upgrade them past what Colab's numba and
-google-adk accept. The startup_interviews_rag package goes inside
+google-adk accept, and gradio and diffusers are uninstalled because they
+need a huggingface-hub that whisperx rejects. The startup_interviews_rag package goes inside
 the notebook as a base64 tar.gz, so rerun this after changing it:
 
     poetry run python notebooks/build_h1_notebook.py
@@ -126,12 +127,13 @@ def cells() -> list[dict]:
             ships: `numpy<2.3` for numba, and `opentelemetry-*<=1.42.1` for google-adk
             (pyannote pulls both in, and pip would otherwise take the latest).
 
-            pip still reports that gradio and diffusers want `huggingface-hub>=1`: WhisperX
-            requires `<1`, so that one cannot be reconciled. Neither is used here, so it is
-            safe to ignore.
+            gradio and diffusers are uninstalled first: they need `huggingface-hub>=1` and
+            WhisperX needs `<1`, so no version satisfies both. Neither is used here, and the
+            runtime is thrown away afterwards.
             """),
         code(f"""
             !nvidia-smi -L
+            !pip uninstall -q -y gradio diffusers
             !pip install -q whisperx=={whisperx_version()} yt-dlp python-dotenv \\
                 "numpy<2.3" "opentelemetry-api<=1.42.1" "opentelemetry-sdk<=1.42.1"
             """),
