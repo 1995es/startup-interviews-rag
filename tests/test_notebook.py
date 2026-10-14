@@ -70,6 +70,18 @@ def test_installs_into_colab_python_with_whisperx_from_the_lock(notebook):
     assert re.search(r"\byt-dlp(\s|$)", install)
 
 
+def test_install_keeps_colab_packages_working(notebook):
+    # Unbounded, pip upgrades numpy past numba's ceiling and opentelemetry
+    # past google-adk's, both preinstalled on Colab.
+    cell = next(s for s in sources(notebook) if "pip install" in s)
+    assert '"numpy<2.3"' in cell
+    assert '"opentelemetry-api<=1.42.1"' in cell
+    assert '"opentelemetry-sdk<=1.42.1"' in cell
+    # gradio and diffusers need huggingface-hub>=1, whisperx <1: no version fits both.
+    uninstall = cell.index("pip uninstall -q -y gradio diffusers")
+    assert uninstall < cell.index("pip install")
+
+
 def test_nltk_punkt_tab_is_provisioned_before_running(notebook):
     # whisperx fetches punkt_tab at alignment time, and nltk refuses fetches
     # through a proxy (Colab has one): the notebook must ship it beforehand.

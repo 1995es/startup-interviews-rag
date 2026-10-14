@@ -97,9 +97,16 @@ ignored. Not to be confused with `Settings.transcripts_dir`, which is `output/`.
 
 `notebooks/h1_diarization_check.ipynb` is a **standalone** Colab notebook (it does not
 clone the repo) to test hypothesis H1: compare pyannote's overlapping diarization with
-its exclusive one. It installs with `pip` into Colab's own Python, like any WhisperX
+its exclusive one. Per variant it saves the turns and the segments with each word's
+speaker before turn building (`<id>.<variant>.segments.json`);
+`notebooks/min_words_diff.py` replays those segments locally, with no GPU, to compare
+`--min-words` values. It installs with `pip` into Colab's own Python, like any WhisperX
 demo: **no venv, no lock**. Only `whisperx` is pinned, to the `poetry.lock` version;
-yt-dlp is left unpinned, because an old one is what breaks YouTube downloads. A separate
+yt-dlp is left unpinned, because an old one is what breaks YouTube downloads. `numpy<2.3`
+and `opentelemetry-{api,sdk}<=1.42.1` are ceilings, not pins: without them pip upgrades
+both past what Colab's preinstalled numba and google-adk accept. gradio and diffusers are
+uninstalled first: they need `huggingface-hub>=1`, WhisperX needs `<1`, and the notebook
+uses neither. A separate
 venv inherited the kernel's environment
 (`MPLBACKEND=module://matplotlib_inline.backend_inline`) without its packages, and the
 lock's versions (meant for Windows: `ctranslate2 4.5.0`, `nltk 3.10.3`) added nothing on
@@ -133,6 +140,9 @@ poetry run python startup_interviews_rag/interfaces/cli/prepare.py "https://www.
 
 # Rebuild the Colab notebook after changing startup_interviews_rag/ or h1_check.py
 poetry run python notebooks/build_h1_notebook.py
+
+# Where turns change with another --min-words (segments saved by the Colab notebook)
+poetry run python notebooks/min_words_diff.py output/<id>.overlapping.segments.json
 
 # Tests (domain, use cases with fakes, LLM adapters with stub clients)
 poetry run pytest

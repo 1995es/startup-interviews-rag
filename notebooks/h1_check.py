@@ -4,7 +4,10 @@ Transcribes and aligns once, diarizes once, then assigns word speakers with
 both pyannote outputs (`speaker_diarization`, the one WhisperX uses, and
 `exclusive_speaker_diarization`) and prints, for the [start, end] window:
 the raw pyannote intervals, the words with their speaker and the resulting
-turns. Both full transcripts are saved to output/ for a wider comparison.
+turns. For a wider comparison it saves to output/, per variant, the full
+turns (<id>.<variant>.json) and the segments with each word's speaker before
+turn building (<id>.<variant>.segments.json), which min_words_diff.py
+replays with other --min-words values.
 
     PYTHONPATH=. python notebooks/h1_check.py audio/yOLw6ncCJwY.wav 144 152
 
@@ -14,6 +17,7 @@ It is embedded in the Colab notebook built by build_h1_notebook.py.
 import copy
 import json
 import sys
+from dataclasses import asdict
 from pathlib import Path
 
 import pandas as pd
@@ -95,13 +99,15 @@ def main() -> None:
             if in_window(t.start, t.end, t0, t1):
                 print(f"  {t.start:8.3f}-{t.end:8.3f} {t.speaker}: {t.text}")
 
-        out = Path("output") / f"{stem}.{name}.json"
-        out.parent.mkdir(exist_ok=True)
-        out.write_text(
-            json.dumps([t.to_dict() for t in turns], indent=2, ensure_ascii=False) + "\n",
-            encoding="utf-8",
-        )
-        print(f"  -> {out}")
+        outputs = {
+            f"{stem}.{name}.json": [t.to_dict() for t in turns],
+            f"{stem}.{name}.segments.json": [asdict(s) for s in segments],
+        }
+        for filename, data in outputs.items():
+            out = Path("output") / filename
+            out.parent.mkdir(exist_ok=True)
+            out.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+            print(f"  -> {out}")
 
 
 if __name__ == "__main__":

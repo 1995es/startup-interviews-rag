@@ -4,7 +4,10 @@ that runs h1_check.py on a free T4 GPU without cloning the repo.
 It installs into Colab's own Python with pip, like any WhisperX demo: no
 venv, no lock file. Only whisperx is pinned (to the poetry.lock version,
 the API h1_check.py is written against); yt-dlp is left unpinned because an
-old one is what breaks YouTube downloads. The startup_interviews_rag package goes inside
+old one is what breaks YouTube downloads. numpy and opentelemetry get
+ceilings so pip does not upgrade them past what Colab's numba and
+google-adk accept, and gradio and diffusers are uninstalled because they
+need a huggingface-hub that whisperx rejects. The startup_interviews_rag package goes inside
 the notebook as a base64 tar.gz, so rerun this after changing it:
 
     poetry run python notebooks/build_h1_notebook.py
@@ -117,10 +120,22 @@ def cells() -> list[dict]:
 
             Then *Runtime → Run all*.
             """),
-        md("## 1. Install"),
+        md("""
+            ## 1. Install
+
+            Into Colab's own Python. Two ceilings keep pip from breaking packages Colab
+            ships: `numpy<2.3` for numba, and `opentelemetry-*<=1.42.1` for google-adk
+            (pyannote pulls both in, and pip would otherwise take the latest).
+
+            gradio and diffusers are uninstalled first: they need `huggingface-hub>=1` and
+            WhisperX needs `<1`, so no version satisfies both. Neither is used here, and the
+            runtime is thrown away afterwards.
+            """),
         code(f"""
             !nvidia-smi -L
-            !pip install -q whisperx=={whisperx_version()} yt-dlp python-dotenv
+            !pip uninstall -q -y gradio diffusers
+            !pip install -q whisperx=={whisperx_version()} yt-dlp python-dotenv \\
+                "numpy<2.3" "opentelemetry-api<=1.42.1" "opentelemetry-sdk<=1.42.1"
             """),
         md("""
             ## 2. Project code
@@ -177,26 +192,47 @@ def cells() -> list[dict]:
             The whole episode (47 min), not a clip: diarization with only a minute of
             context clusters voices much worse, and the error showed up on the full video.
 
-            If YouTube blocks the download from Colab (*"Sign in to confirm you're not a
-            bot"*), upload `{VIDEO_ID}.wav` (16 kHz mono) to
-            `/content/startup-interviews-rag/audio/` and run the next cells.
+            YouTube often blocks downloads from Colab's machines (*"Sign in to confirm
+            you're not a bot"*). When it does, this cell shows an upload button instead:
+            download the audio on your own computer, where YouTube does not block it, and
+            upload it. Any format works (it is converted to 16 kHz mono wav here):
+
+                poetry run yt-dlp -f "bestaudio/251/140" -o "audio/%(id)s.%(ext)s" "https://www.youtube.com/watch?v={VIDEO_ID}"
             """),
         code(f"""
+            import subprocess
+
             import yt_dlp
+            from google.colab import files
 
             VIDEO_ID = "{VIDEO_ID}"
             AUDIO = f"audio/{{VIDEO_ID}}.wav"
+            Path("audio").mkdir(exist_ok=True)
 
+
+            def source_audio():
+                # Anything but the wav itself or a download yt-dlp left half-done
+                skip = (".wav", ".part")
+                found = (p for p in Path("audio").glob(f"{{VIDEO_ID}}.*") if p.suffix not in skip)
+                return next(found, None)
+
+
+            if not Path(AUDIO).exists() and source_audio() is None:
+                try:
+                    opts = {{
+                        "format": "bestaudio/best",
+                        "outtmpl": "audio/%(id)s.%(ext)s",
+                        "quiet": True,
+                    }}
+                    with yt_dlp.YoutubeDL(opts) as ydl:
+                        ydl.download([f"https://www.youtube.com/watch?v={{VIDEO_ID}}"])
+                except yt_dlp.utils.DownloadError:
+                    print("YouTube blocked the download from Colab: upload the audio file instead.")
+                    for name, data in files.upload().items():
+                        Path(f"audio/{{VIDEO_ID}}{{Path(name).suffix}}").write_bytes(data)
             if not Path(AUDIO).exists():
-                opts = {{
-                    "format": "bestaudio/best",
-                    "outtmpl": "audio/%(id)s.%(ext)s",
-                    "postprocessors": [{{"key": "FFmpegExtractAudio", "preferredcodec": "wav"}}],
-                    "postprocessor_args": ["-ar", "16000", "-ac", "1"],
-                    "quiet": True,
-                }}
-                with yt_dlp.YoutubeDL(opts) as ydl:
-                    ydl.download([f"https://www.youtube.com/watch?v={{VIDEO_ID}}"])
+                cmd = ["ffmpeg", "-loglevel", "error", "-y", "-i", str(source_audio())]
+                subprocess.run([*cmd, "-ar", "16000", "-ac", "1", AUDIO], check=True)
             print(AUDIO, Path(AUDIO).stat().st_size // 1_000_000, "MB")
             """),
         md("""
@@ -212,7 +248,18 @@ def cells() -> list[dict]:
             T0, T1 = 144, 152
             !python h1_check.py {AUDIO} {T0} {T1}
             """),
-        md("## 6. Summary and downloads"),
+        md("""
+            ## 6. Summary and downloads
+
+            Four files: per variant, the turns (`<id>.<variant>.json`) and the segments with
+            each word's speaker before turns are built (`<id>.<variant>.segments.json`). Put
+            them in the repository's `output/` and replay the segments locally, without a
+            GPU, with other `--min-words` values:
+
+                poetry run python notebooks/min_words_diff.py output/<id>.overlapping.segments.json
+
+            If the browser asks whether to allow multiple downloads, allow it.
+            """),
         code("""
             import json
 
@@ -224,6 +271,7 @@ def cells() -> list[dict]:
                 speakers = sorted({t["speaker"] for t in turns})
                 print(f"{name:12} {len(turns):4} turns  {', '.join(speakers)}")
                 files.download(path)
+                files.download(f"output/{VIDEO_ID}.{name}.segments.json")
             """),
         md("""
             ## How to read the results
