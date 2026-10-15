@@ -7,8 +7,8 @@ idea?"* and get back what the founders who were interviewed actually did, with a
 to the exact minute of the video where they tell it.
 
 > **Status: work in progress.** The ingestion pipeline (video → transcript → LLM
-> segmentation) works; chunking, embeddings, the vector store and the query frontend
-> are next. See [Roadmap](#roadmap).
+> segmentation → validation) works; chunking, embeddings, the vector store and the query
+> frontend are next. See [Roadmap](#roadmap).
 
 ## How it works
 
@@ -21,7 +21,8 @@ YouTube URL
   → numbered turns and sentences for the LLM            llm_input/<id>.txt     ✅ done
   → one LLM call per episode: thematic units, speakers,
     summaries, tags, questions each unit answers        segments/<id>.json     ✅ done
-  → validate, build chunks, contextual headers                                 🚧 next
+  → validate the segmentation, one retry with the errors                       ✅ done
+  → build chunks, timestamps, contextual headers                               🚧 next
   → embeddings (BGE-M3: dense + sparse + multi-vector)                         ⏳ planned
   → Qdrant                                                                     ⏳ planned
   → API + web frontend for questions                                           ⏳ planned
@@ -42,8 +43,9 @@ said. The full design is in [`docs/llm-ingestion.md`](docs/llm-ingestion.md).
 | Corpus sample | 10 random Itnig episodes transcribed (10.2 h, 104k words) in [`transcripts/`](transcripts/) | ✅ Done |
 | Ingestion, step 1 | Numbered LLM input with turn and sentence IDs | ✅ Done |
 | Ingestion, step 2 | LLM segmentation with a JSON schema, cached on disk, two providers | ✅ Done |
-| Diarization quality | Check whether pyannote's exclusive diarization fixes misattributed interjections ([notebook](notebooks/h1_diarization_check.ipynb)) | 🚧 In progress |
-| Ingestion, steps 3–6 | Validation with retry, chunk building, timestamps, contextual headers | ⏳ Planned |
+| Diarization quality | Check whether pyannote's exclusive diarization fixes misattributed interjections ([notebook](notebooks/h1_diarization_check.ipynb)); closed, the pipeline keeps the current diarization | ✅ Closed |
+| Ingestion, step 3 | Deterministic validation of the segmentation, one retry with the errors, fallback marking | ✅ Done |
+| Ingestion, steps 4–6 | Chunk building, timestamps, contextual headers | ⏳ Planned |
 | Indexing | BGE-M3 embeddings into Qdrant (`docker-compose.yml` is ready) | ⏳ Planned |
 | Querying | Retrieval + answer generation, evaluation on a golden set | ⏳ Planned |
 | Interface | API and web frontend | ⏳ Planned |
@@ -56,7 +58,7 @@ the pipeline logic:
 
 ```
 startup_interviews_rag/
-├── domain/          pure logic: turn building, numbering, segmentation prompt and schema
+├── domain/          pure logic: turn building, numbering, segmentation prompt, schema and validation
 ├── application/
 │   ├── ports/       abstract classes the use cases depend on
 │   └── use_cases/   PrepareLLMInput, SegmentEpisode, RenderScript

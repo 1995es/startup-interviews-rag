@@ -27,10 +27,17 @@ from startup_interviews_rag.domain.video import VideoMeta, video_id
 
 
 class FakeLLMProvider(LLMProvider):
+    """Answers with `data`, or with each of a list of responses in turn
+    (the last one repeats). An exception in that list is raised on its call."""
+
     def __init__(
-        self, data: dict | None = None, model: str = "fake-model", error: str | None = None
+        self,
+        data: dict | list[dict | Exception] | None = None,
+        model: str = "fake-model",
+        error: str | None = None,
     ) -> None:
-        self._data = data or {"speakers": [], "units": [], "glossary": [], "episode_summary": ""}
+        data = data or {"speakers": [], "units": [], "glossary": [], "episode_summary": ""}
+        self._responses = data if isinstance(data, list) else [data]
         self._model = model
         self._error = error
         self.requests: list[StructuredRequest] = []
@@ -47,8 +54,11 @@ class FakeLLMProvider(LLMProvider):
         self.requests.append(request)
         if self._error:
             raise LLMError(self._error)
+        data = self._responses[min(len(self.requests), len(self._responses)) - 1]
+        if isinstance(data, Exception):
+            raise data
         return StructuredResponse(
-            data=self._data,
+            data=data,
             model=self._model,
             served_by=self._model,
             request_id="req_1",

@@ -1,10 +1,13 @@
-"""Numbered transcript -> LLM segmentation (step 2 of docs/llm-ingestion.md).
+"""Numbered transcript -> validated LLM segmentation (steps 2 and 3 of
+docs/llm-ingestion.md).
 
 Reads `llm_input/<id>.txt` + `.json` and writes `segments/<id>.json`, one
 LLM call per episode, skipped when a cached record matches the model and
-prompt version. The provider comes from LLM_PROVIDER in .env (default
-anthropic) or --provider; its API key from ANTHROPIC_API_KEY or
-OPENROUTER_API_KEY.
+prompt version. A response that fails validation is retried once; if it
+fails again, the record is marked `segmenter: "deterministic"`.
+
+The provider comes from LLM_PROVIDER in .env (default anthropic) or
+--provider; its API key from ANTHROPIC_API_KEY or OPENROUTER_API_KEY.
 
     # one episode; all of llm_input/ without an id; --force ignores the cache
     poetry run python startup_interviews_rag/interfaces/cli/segment.py yOLw6ncCJwY
@@ -31,7 +34,7 @@ log = logging.getLogger("startup_interviews_rag.cli.segment")
 
 def parse_args() -> argparse.Namespace:
     ap = argparse.ArgumentParser(
-        description="llm_input/<id>.txt -> segments/<id>.json with an LLM (step 2)"
+        description="llm_input/<id>.txt -> segments/<id>.json with an LLM (steps 2-3)"
     )
     ap.add_argument("video_ids", nargs="*", help="video IDs (default: every episode in llm_input/)")
     ap.add_argument("--in-dir", default="llm_input")
@@ -70,14 +73,22 @@ def main() -> None:
         if vid not in available:
             sys.exit(f"ERROR: {settings.llm_input_dir / vid}.txt is missing")
 
-    failed = []
+    failed, fallback = [], []
     for vid in vids:
         try:
-            use_case.execute(vid, effort=args.effort, force=args.force)
+            record = use_case.execute(vid, effort=args.effort, force=args.force)
         except StartupInterviewsRagError as exc:
             log.info(f"{vid}: ERROR {exc}")
             failed.append(vid)
+            continue
+        if record["segmenter"] == "deterministic":
+            fallback.append(vid)
 
+    if fallback:
+        log.info(
+            f"{len(fallback)} of {len(vids)} failed validation twice and need the "
+            f"deterministic ingestion (not implemented yet): {', '.join(fallback)}"
+        )
     if failed:
         sys.exit(f"{len(failed)} of {len(vids)} failed: {', '.join(failed)}")
 

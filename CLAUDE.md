@@ -11,9 +11,9 @@ talked about it, with a link to the minute in the video. The repository is publi
 work in progress, so code and docs should read well to an outside reviewer.
 
 **Current phase: ingestion.** Done: transcription with diarization (`prepare.py`),
-numbered LLM input (step 1 of `docs/llm-ingestion.md`) and LLM segmentation (step 2,
-`segment.py`). Next: validation (step 3), chunk building, timestamps and contextual
-headers (steps 4–6). Later: BGE-M3 embeddings, Qdrant (`docker-compose.yml` is ready),
+numbered LLM input (step 1 of `docs/llm-ingestion.md`), LLM segmentation (step 2,
+`segment.py`) and its validation with one retry (step 3, also `segment.py`). Next:
+chunk building, timestamps and contextual headers (steps 4–6). Later: BGE-M3 embeddings, Qdrant (`docker-compose.yml` is ready),
 retrieval, an API and the web frontend. Keep the Roadmap table in `README.md` and the
 Status table in `docs/llm-ingestion.md` in sync when a step lands.
 
@@ -56,10 +56,15 @@ startup_interviews_rag/interfaces/cli/<script>.py`. The `startup_interviews_rag.
   GPU/CPU are auto-detected.
 - `script.py`: `output/<id>.json` → interview-style Markdown script, one line per turn.
   **Layout only**: it does not touch the turns.
-- `segment.py`: step 2. `llm_input/<id>.txt` → one LLM call with JSON schema output →
-  `segments/<id>.json` (speakers, units, glossary, episode_summary). The cache is keyed
-  by `model` + `PROMPT_VERSION` (`domain/segmentation.py`). `raw_tags` are free, with no
-  closed taxonomy (see step 9 of the doc).
+- `segment.py`: steps 2 and 3. `llm_input/<id>.txt` → one LLM call with JSON schema
+  output → `segments/<id>.json` (speakers, units, glossary, episode_summary). The cache
+  is keyed by `model` + `PROMPT_VERSION` (`domain/segmentation.py`). `raw_tags` are free,
+  with no closed taxonomy (see step 9 of the doc). Every response, cached or new, goes
+  through `validate_segmentation()` (`domain/validation.py`); a failed first attempt is
+  retried once with its errors, and a failed retry is stored with `segmenter:
+  "deterministic"` and its `validation_errors`, without further LLM calls. The
+  deterministic pipeline it falls back to is not implemented yet
+  (`docs/deterministic-ingestion.md`).
 
 Transcription runs **in the same process** as `prepare.py`. There used to be a separate
 `transcribe.py` that `prepare.py` launched as a child process to isolate the
@@ -97,8 +102,9 @@ ignored. Not to be confused with `Settings.transcripts_dir`, which is `output/`.
 
 `notebooks/h1_diarization_check.ipynb` is a **standalone** Colab notebook (it does not
 clone the repo) to test hypothesis H1: compare pyannote's overlapping diarization with
-its exclusive one. Per variant it saves the turns and the segments with each word's
-speaker before turn building (`<id>.<variant>.segments.json`);
+its exclusive one. H1 is closed: the pipeline keeps the current (overlapping)
+diarization, and the notebook stays for running transcription on a free GPU. Per variant
+it saves the turns and the segments with each word's speaker before turn building (`<id>.<variant>.segments.json`);
 `notebooks/min_words_diff.py` replays those segments locally, with no GPU, to compare
 `--min-words` values. It installs with `pip` into Colab's own Python, like any WhisperX
 demo: **no venv, no lock**. Only `whisperx` is pinned, to the `poetry.lock` version;

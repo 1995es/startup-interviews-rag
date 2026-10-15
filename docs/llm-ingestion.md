@@ -13,7 +13,7 @@ validation, that episode falls back to the deterministic pipeline
 |---|---|---|
 | 1 | Prepare the input | ✅ Implemented: `prepare.py`, `PrepareLLMInput` |
 | 2 | Call the LLM | ✅ Implemented: `segment.py`, `SegmentEpisode` |
-| 3 | Validate the response | ⏳ Planned (`SegmentEpisode` already accepts the retry feedback) |
+| 3 | Validate the response | ✅ Implemented: `validate_segmentation`, retry in `SegmentEpisode` (the fallback is only marked) |
 | 4 | Build the chunks | ⏳ Planned |
 | 5 | Timestamps | ⏳ Planned |
 | 6 | Contextual header | ⏳ Planned |
@@ -137,6 +137,21 @@ All checks are deterministic:
 If anything fails, the call is retried once with the concrete errors appended to the
 prompt. If it fails again, the episode goes through the deterministic pipeline and is
 tagged `segmenter: "deterministic"` in the payload.
+
+**As implemented** (`domain/validation.py`, `SegmentEpisode`):
+
+- Units must also follow the transcript order, which steps 4 and 8 rely on for
+  `prev_id` and `next_id`.
+- Every error names the unit and the exact IDs (`not covered by any unit:
+  t020-t025`), and an ID of a turn split into sentences says which sentence IDs to use
+  instead, because the errors are what the LLM reads on the retry.
+- Cached records are validated too. A first attempt that failed gets its retry on the
+  next run; a retry that failed is final and is not sent to the LLM again (`--force`
+  starts over).
+- `segments/<id>.json` stores `attempt`, `validation_errors`, `segmenter` and, after a
+  retry, `first_attempt_errors`.
+- The deterministic pipeline is not implemented yet, so a fallback episode is only
+  marked, and `segment.py` lists those episodes at the end.
 
 ### 4. Build the chunks
 
